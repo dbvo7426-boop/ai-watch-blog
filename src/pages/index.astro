@@ -1,0 +1,83 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MonitorStrip from '../components/MonitorStrip.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { SITE_DESCRIPTION, CATEGORIES, TYPES, formatDate } from '../consts';
+
+// 本番ビルドでは draft: true の記事を除外。devでは表示(DRAFTバッジ付き)
+const posts = (
+  await getCollection('posts', ({ data }) =>
+    import.meta.env.PROD ? !data.draft : true
+  )
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const [featured, ...rest] = posts;
+const featuredCat = featured
+  ? CATEGORIES[featured.data.category] ?? CATEGORIES.other
+  : null;
+---
+
+<BaseLayout>
+  <MonitorStrip />
+
+  {
+    featured && (
+      <a href={`/posts/${featured.id}/`} class="featured">
+        <div class="meta">
+          <span class="badge" style={`background:${featuredCat.color}`}>
+            {featuredCat.label}
+          </span>
+          <span class="type-label">{TYPES[featured.data.type]}</span>
+          <span class="date">{formatDate(featured.data.pubDate)}</span>
+          {featured.data.draft && <span class="draft-flag">DRAFT</span>}
+        </div>
+        <h1>{featured.data.title}</h1>
+        <p>{featured.data.description}</p>
+      </a>
+    )
+  }
+
+  <div class="section-head">
+    <h2>最新記事</h2>
+    <span class="count">{posts.length} 件</span>
+  </div>
+
+  <div class="grid">
+    {rest.map((post) => <ArticleCard post={post} />)}
+  </div>
+
+  {posts.length === 0 && <p>まだ記事がありません。パイプラインの観測をお待ちください。</p>}
+</BaseLayout>
+
+<style>
+  .featured {
+    display: block;
+    margin-top: 26px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 30px 34px;
+    transition: border-color 0.15s ease;
+  }
+  .featured:hover {
+    border-color: var(--accent);
+  }
+  .featured .meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .featured h1 {
+    margin: 0 0 10px;
+    font-size: 26px;
+  }
+  .featured p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 15px;
+  }
+</style>

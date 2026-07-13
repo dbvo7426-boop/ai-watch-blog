@@ -1,0 +1,87 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { CATEGORIES, TYPES, formatDate } from '../../consts';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) =>
+    import.meta.env.PROD ? !data.draft : true
+  );
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const cat = CATEGORIES[post.data.category] ?? CATEGORIES.other;
+---
+
+<BaseLayout title={post.data.title} description={post.data.description}>
+  <article>
+    <div class="head">
+      <div class="meta">
+        <a href={`/category/${post.data.category}/`} class="badge" style={`background:${cat.color}`}>
+          {cat.label}
+        </a>
+        <span class="type-label">{TYPES[post.data.type]}</span>
+        <span class="date">{formatDate(post.data.pubDate)}</span>
+        {post.data.draft && <span class="draft-flag">DRAFT</span>}
+      </div>
+      <h1>{post.data.title}</h1>
+      {
+        post.data.tags.length > 0 && (
+          <p class="tags">
+            {post.data.tags.map((tag) => (
+              <span class="tag">#{tag}</span>
+            ))}
+          </p>
+        )
+      }
+    </div>
+
+    <div class="prose">
+      <Content />
+
+      {
+        post.data.source && (
+          <div class="source-box">
+            <span class="src-label">一次情報</span>
+            <a href={post.data.source} target="_blank" rel="noopener noreferrer">
+              {post.data.source}
+            </a>
+          </div>
+        )
+      }
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .head {
+    margin-bottom: 26px;
+  }
+  .meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  .tags {
+    margin: 12px 0 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .tag {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--muted);
+  }
+</style>

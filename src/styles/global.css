@@ -1,0 +1,263 @@
+/* ============================================
+   デザイントークン
+   コンセプト: 「AI定点観測所」
+   - 明るいクールグレー地に濃紺インク、シグナルオレンジをアクセント
+   - 日時・観測情報は等幅フォントで"計器"らしさを出す
+   ============================================ */
+:root {
+  --ink: #182238;
+  --muted: #5b6478;
+  --paper: #f4f6f9;
+  --card: #ffffff;
+  --line: #dde3ec;
+  --accent: #e8590c;
+  --accent-soft: #fdeee3;
+
+  --font-display: 'Zen Kaku Gothic New', 'Noto Sans JP', sans-serif;
+  --font-body: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  --maxw: 1080px;
+  --radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.8;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* --- 見出し --- */
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+/* --- バッジ類 --- */
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 999px;
+  color: #fff;
+  letter-spacing: 0.04em;
+}
+
+.type-label {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1px 8px;
+}
+
+.date {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.draft-flag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent);
+  border: 1px dashed var(--accent);
+  border-radius: 4px;
+  padding: 1px 8px;
+}
+
+/* --- 記事カード --- */
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.card .meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+/* --- 記事グリッド --- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 18px;
+}
+
+/* --- セクション見出し --- */
+.section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin: 48px 0 20px;
+}
+
+.section-head h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.section-head .count {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* --- 記事ページ本文 --- */
+.prose {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 40px 44px;
+}
+
+.prose h2 {
+  font-size: 21px;
+  margin-top: 2.2em;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--line);
+}
+
+.prose h3 {
+  font-size: 17.5px;
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1px 6px;
+}
+
+.prose pre {
+  background: var(--ink);
+  color: #e8ecf4;
+  border-radius: 8px;
+  padding: 18px 20px;
+  overflow-x: auto;
+  line-height: 1.6;
+}
+
+.prose pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+}
+
+.prose blockquote {
+  margin: 1.4em 0;
+  padding: 4px 20px;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 8px 8px 0;
+}
+
+/* --- 一次情報リンク --- */
+.source-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 36px;
+  padding: 14px 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  font-size: 14px;
+}
+
+.source-box .src-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.source-box a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  word-break: break-all;
+}
+
+/* --- フォーカス・モーション設定 --- */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .prose {
+    padding: 26px 20px;
+  }
+}

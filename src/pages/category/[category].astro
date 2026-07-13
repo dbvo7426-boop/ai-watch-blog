@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { CATEGORIES } from '../../consts';
+
+export async function getStaticPaths() {
+  return Object.keys(CATEGORIES).map((category) => ({ params: { category } }));
+}
+
+const { category } = Astro.params;
+const cat = CATEGORIES[category];
+
+const posts = (
+  await getCollection(
+    'posts',
+    ({ data }) =>
+      data.category === category && (import.meta.env.PROD ? !data.draft : true)
+  )
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title={`${cat.label}の記事一覧`}>
+  <div class="section-head" style="margin-top: 8px;">
+    <h2>
+      <span class="badge" style={`background:${cat.color}; font-size: 14px; vertical-align: 3px; margin-right: 10px;`}>
+        {cat.label}
+      </span>
+      の記事一覧
+    </h2>
+    <span class="count">{posts.length} 件</span>
+  </div>
+
+  <div class="grid">
+    {posts.map((post) => <ArticleCard post={post} />)}
+  </div>
+
+  {posts.length === 0 && <p>このカテゴリの記事はまだありません。</p>}
+</BaseLayout>

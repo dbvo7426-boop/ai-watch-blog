@@ -1,0 +1,75 @@
+---
+// サイトの"シグネチャ"要素: 観測ステータスバー
+// ビルド時刻 = パイプラインが最後に動いた時刻(サイトは更新の度に再ビルドされるため)
+import { CATEGORIES } from '../consts';
+
+const built = new Date().toLocaleString('ja-JP', {
+  timeZone: 'Asia/Tokyo',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+  hour: '2-digit',
+  minute: '2-digit',
+});
+
+const watched = Object.entries(CATEGORIES).filter(([key]) => key !== 'other');
+---
+
+<div class="monitor" role="status">
+  <span class="label">観測中</span>
+  {
+    watched.map(([key, cat]) => (
+      <span class="target">
+        <span class="pulse" style={`background:${cat.color}`} aria-hidden="true" />
+        {cat.label}
+      </span>
+    ))
+  }
+  <span class="built">最終観測: {built} JST</span>
+</div>
+
+<style>
+  .monitor {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 10px 22px;
+    color: var(--muted);
+  }
+  .label {
+    color: var(--accent);
+    font-weight: 600;
+    letter-spacing: 0.08em;
+  }
+  .target {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--ink);
+  }
+  .pulse {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    animation: blink 2.4s ease-in-out infinite;
+  }
+  .built {
+    margin-left: auto;
+  }
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+  }
+  @media (max-width: 640px) {
+    .built {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+</style>

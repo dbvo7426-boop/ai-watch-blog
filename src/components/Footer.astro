@@ -1,0 +1,42 @@
+---
+import { SITE_TITLE } from '../consts';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container inner">
+    <p class="note">
+      当サイトのニュース記事はAIによる自動生成をベースに、公開前に人間が内容を確認しています。
+      情報の正確性は一次情報(公式発表)をご確認ください。
+    </p>
+    <p class="copy">
+      &copy; {year} {SITE_TITLE} · <a href="/rss.xml">RSS</a>
+    </p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--ink);
+    color: #b8c0d0;
+    margin-top: 40px;
+  }
+  .inner {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+  .note {
+    font-size: 12.5px;
+    line-height: 1.8;
+    margin: 0 0 10px;
+  }
+  .copy {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    margin: 0;
+  }
+  .copy a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+</style>
