@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import Pagination from '../../../components/Pagination.astro';
+import { PAGE_SIZE } from '../../../consts';
+
+export async function getStaticPaths({ paginate }) {
+  const posts = await getCollection(
+    'posts',
+    ({ data }) => (import.meta.env.PROD ? !data.draft : true)
+  );
+
+  const tags = new Set();
+  posts.forEach((post) => post.data.tags.forEach((tag) => tags.add(tag)));
+
+  return Array.from(tags).flatMap((tag) => {
+    const tagPosts = posts
+      .filter((post) => post.data.tags.includes(tag))
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+    return paginate(tagPosts, { params: { tag }, pageSize: PAGE_SIZE });
+  });
+}
+
+const { tag } = Astro.params;
+const { page } = Astro.props;
+---
+
+<BaseLayout title={`#${tag} の記事一覧`}>
+  <div class="section-head" style="margin-top: 8px;">
+    <h2>#{tag} の記事一覧</h2>
+    <span class="count">{page.total} 件</span>
+  </div>
+
+  <div class="grid">
+    {page.data.map((post) => <ArticleCard post={post} />)}
+  </div>
+
+  <Pagination page={page} />
+</BaseLayout>

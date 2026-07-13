@@ -19,6 +19,9 @@ export const TYPES: Record<string, string> = {
   review: '比較・レビュー',
 };
 
+// 1ページあたりの記事数(トップ・カテゴリ別・タグ別ページ共通)
+export const PAGE_SIZE = 9;
+
 export function formatDate(d: Date): string {
   return d.toLocaleDateString('ja-JP', {
     year: 'numeric',

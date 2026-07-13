@@ -3,23 +3,34 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import MonitorStrip from '../components/MonitorStrip.astro';
 import ArticleCard from '../components/ArticleCard.astro';
-import { SITE_DESCRIPTION, CATEGORIES, TYPES, formatDate } from '../consts';
+import Pagination from '../components/Pagination.astro';
+import { CATEGORIES, TYPES, formatDate, PAGE_SIZE } from '../consts';
 
-// 本番ビルドでは draft: true の記事を除外。devでは表示(DRAFTバッジ付き)
-const posts = (
-  await getCollection('posts', ({ data }) =>
-    import.meta.env.PROD ? !data.draft : true
-  )
-).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+export async function getStaticPaths({ paginate }) {
+  // 本番ビルドでは draft: true の記事を除外。devでは表示(DRAFTバッジ付き)
+  const posts = (
+    await getCollection('posts', ({ data }) =>
+      import.meta.env.PROD ? !data.draft : true
+    )
+  ).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const [featured, ...rest] = posts;
+  return paginate(posts, { pageSize: PAGE_SIZE });
+}
+
+const { page } = Astro.props;
+const isFirstPage = page.currentPage === 1;
+
+// 1ページ目だけ先頭記事を「注目記事」として大きく表示する
+const featured = isFirstPage ? page.data[0] : null;
+const rest = isFirstPage ? page.data.slice(1) : page.data;
+
 const featuredCat = featured
   ? CATEGORIES[featured.data.category] ?? CATEGORIES.other
   : null;
 ---
 
 <BaseLayout>
-  <MonitorStrip />
+  {isFirstPage && <MonitorStrip />}
 
   {
     featured && (
@@ -39,15 +50,17 @@ const featuredCat = featured
   }
 
   <div class="section-head">
-    <h2>最新記事</h2>
-    <span class="count">{posts.length} 件</span>
+    <h2>{isFirstPage ? '最新記事' : `記事一覧`}</h2>
+    <span class="count">{page.total} 件</span>
   </div>
 
   <div class="grid">
     {rest.map((post) => <ArticleCard post={post} />)}
   </div>
 
-  {posts.length === 0 && <p>まだ記事がありません。パイプラインの観測をお待ちください。</p>}
+  {page.total === 0 && <p>まだ記事がありません。パイプラインの観測をお待ちください。</p>}
+
+  <Pagination page={page} />
 </BaseLayout>
 
 <style>

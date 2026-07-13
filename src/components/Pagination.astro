@@ -1,0 +1,64 @@
+---
+// Astroのpaginate()が生成するpageオブジェクトをそのまま渡す
+interface Props {
+  page: {
+    currentPage: number;
+    lastPage: number;
+    url: { prev?: string; next?: string };
+  };
+}
+
+const { page } = Astro.props;
+---
+
+{
+  page.lastPage > 1 && (
+    <nav class="pagination" aria-label="ページ送り">
+      {page.url.prev ? (
+        <a href={page.url.prev} class="page-link">
+          ← 前へ
+        </a>
+      ) : (
+        <span class="page-link disabled">← 前へ</span>
+      )}
+      <span class="page-count">
+        {page.currentPage} / {page.lastPage}
+      </span>
+      {page.url.next ? (
+        <a href={page.url.next} class="page-link">
+          次へ →
+        </a>
+      ) : (
+        <span class="page-link disabled">次へ →</span>
+      )}
+    </nav>
+  )
+}
+
+<style>
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 44px;
+  }
+  .page-link {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--ink);
+  }
+  .page-link:hover {
+    color: var(--accent);
+  }
+  .page-link.disabled {
+    color: var(--muted);
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  .page-count {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>
