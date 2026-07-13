@@ -75,7 +75,7 @@ draft: true        # 生成直後はtrue。人間が確認後falseで公開
 
 - [x] `.github/workflows/watch.yml` — 1日2回の自動観測ワークフロー
 - [x] `scripts/watch.mjs` — 公式ブログ/リリースノートの差分検知
-- [ ] `scripts/generate.mjs` — Claude APIによる重要度判定+記事生成
+- [x] `scripts/generate.mjs` — Claude APIによる重要度判定+記事生成
 - [ ] タグページ・ページネーション
 - [ ] OGP画像の自動生成
 
@@ -97,3 +97,26 @@ draft: true        # 生成直後はtrue。人間が確認後falseで公開
 - ソースの追加・変更は `scripts/watch.mjs` 内の `SOURCES` 配列を編集
 - ローカルで試す場合: `node scripts/watch.mjs`
 - GitHub Actions (`.github/workflows/watch.yml`) が1日2回(9:00/21:00 JST)自動実行し、新着があればコミット+push(追加のAPIキーは不要)
+
+## 本文の自動生成(scripts/generate.mjs)
+
+`watch.mjs` が作った下書きスタブ(タイトル・sourceのみで本文がない状態)を見つけて、
+Claude API(`claude-opus-4-8`)で以下を生成し、ファイルに書き戻します:
+
+- **重要度判定**: 些細な修正・内容の薄い告知は「低重要度」としてタグ・注記を付ける(削除はしない。最終判断は人間)
+- 記事タイトル・概要・タグ(2〜4個)
+- 本文(Markdown、一次情報の内容だけを根拠に執筆)
+
+`draft: true` は維持されるので、`watch.mjs`と同様に人間の確認後に`false`へ変更して公開する運用のままです。
+
+**準備:**
+
+1. [console.anthropic.com](https://console.anthropic.com) でAPIキーを発行
+2. GitHubリポジトリの `Settings → Secrets and variables → Actions → New repository secret` で
+   `ANTHROPIC_API_KEY` として登録
+
+`ANTHROPIC_API_KEY` が未設定の場合、`generate.mjs` はエラーにせず何もせず終了します
+(watch.mjsだけの運用でも壊れません)。API呼び出しには**費用が発生します**。
+
+- ローカルで試す場合: `ANTHROPIC_API_KEY=sk-ant-... node scripts/generate.mjs`
+- GitHub Actionsでは `watch.mjs` の直後、コミットの前に自動実行されます
