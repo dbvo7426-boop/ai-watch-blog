@@ -47,6 +47,12 @@ const SOURCES = [
     kind: 'rss',
     url: 'https://github.blog/changelog/label/copilot/feed/',
   },
+  {
+    category: 'stablediffusion',
+    label: 'Stable Diffusion (Stability AI)',
+    kind: 'rss',
+    url: 'https://stability.ai/news-updates/rss.xml',
+  },
 ];
 
 function decodeEntities(str) {

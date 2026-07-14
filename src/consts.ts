@@ -9,6 +9,17 @@ export const CATEGORIES: Record<string, { label: string; color: string }> = {
   chatgpt: { label: 'ChatGPT', color: '#10A37F' },
   gemini: { label: 'Gemini', color: '#4285F4' },
   copilot: { label: 'Copilot', color: '#0078D4' },
+  perplexity: { label: 'Perplexity', color: '#06B6D4' },
+  midjourney: { label: 'Midjourney', color: '#8B5CF6' },
+  stablediffusion: { label: 'Stable Diffusion', color: '#EC4899' },
+  dalle: { label: 'DALL-E', color: '#F97316' },
+  grok: { label: 'Grok', color: '#18181B' },
+  deepseek: { label: 'DeepSeek', color: '#3B82F6' },
+  notebooklm: { label: 'NotebookLM', color: '#FBBF24' },
+  manus: { label: 'Manus', color: '#DC2626' },
+  skywork: { label: 'Skywork', color: '#10B981' },
+  devin: { label: 'Devin', color: '#6366F1' },
+  genspark: { label: 'Genspark', color: '#84CC16' },
   other: { label: 'その他', color: '#5B6478' },
 };
 
