@@ -1,5 +1,5 @@
 // サイト全体の設定。サイト名が決まったらここを変更するだけでOK
-export const SITE_TITLE = 'AI Watch';
+export const SITE_TITLE = 'AI観測所';
 export const SITE_DESCRIPTION =
   '主要AIツールの新機能・アップデートを毎日定点観測。使い方・比較情報もまとめてお届け。';
 

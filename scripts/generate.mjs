@@ -54,7 +54,7 @@ const RESULT_SCHEMA = {
   additionalProperties: false,
 };
 
-const SYSTEM_PROMPT = `あなたは「AI Watch」という、主要AIツール(Claude / ChatGPT / Gemini / GitHub Copilot)の
+const SYSTEM_PROMPT = `あなたは「AI観測所」という、主要AIツール(Claude / ChatGPT / Gemini / GitHub Copilot)の
 新機能・アップデートを定点観測して記事化するブログの編集アシスタントです。
 
 与えられた一次情報(公式発表ページの本文抜粋)だけを根拠に、日本語の読者向けニュース記事を書いてください。

@@ -1,4 +1,4 @@
-# AI Watch — AIニュース・使い方まとめサイト(雛形 v0.1)
+# AI観測所 — AIニュース・使い方まとめサイト(雛形 v0.1)
 
 主要AIツール(Claude / ChatGPT / Gemini / Copilot)の新機能を自動観測して記事化するブログの雛形です。
 Astro製の静的サイトで、Vercel または GitHub Pages で無料運用できます。
