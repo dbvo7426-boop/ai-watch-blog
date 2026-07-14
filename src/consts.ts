@@ -5,21 +5,21 @@ export const SITE_DESCRIPTION =
 
 // カテゴリ定義(色は各サービスのブランドカラーに寄せています)
 export const CATEGORIES: Record<string, { label: string; color: string }> = {
-  claude: { label: 'Claude', color: '#C15F3C' },
   chatgpt: { label: 'ChatGPT', color: '#10A37F' },
-  gemini: { label: 'Gemini', color: '#4285F4' },
+  claude: { label: 'Claude', color: '#C15F3C' },
   copilot: { label: 'Copilot', color: '#0078D4' },
-  perplexity: { label: 'Perplexity', color: '#06B6D4' },
-  midjourney: { label: 'Midjourney', color: '#8B5CF6' },
-  stablediffusion: { label: 'Stable Diffusion', color: '#EC4899' },
   dalle: { label: 'DALL-E', color: '#F97316' },
-  grok: { label: 'Grok', color: '#18181B' },
   deepseek: { label: 'DeepSeek', color: '#3B82F6' },
-  notebooklm: { label: 'NotebookLM', color: '#FBBF24' },
-  manus: { label: 'Manus', color: '#DC2626' },
-  skywork: { label: 'Skywork', color: '#10B981' },
   devin: { label: 'Devin', color: '#6366F1' },
+  gemini: { label: 'Gemini', color: '#4285F4' },
   genspark: { label: 'Genspark', color: '#84CC16' },
+  grok: { label: 'Grok', color: '#18181B' },
+  manus: { label: 'Manus', color: '#DC2626' },
+  midjourney: { label: 'Midjourney', color: '#8B5CF6' },
+  notebooklm: { label: 'NotebookLM', color: '#FBBF24' },
+  perplexity: { label: 'Perplexity', color: '#06B6D4' },
+  skywork: { label: 'Skywork', color: '#10B981' },
+  stablediffusion: { label: 'Stable Diffusion', color: '#EC4899' },
   other: { label: 'その他', color: '#5B6478' },
 };
 
