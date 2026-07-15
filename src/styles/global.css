@@ -213,6 +213,44 @@ h1, h2, h3 {
   border-radius: 0 8px 8px 0;
 }
 
+/* --- 表(プラン・料金比較など) --- */
+.prose table {
+  display: block;
+  max-width: fit-content;
+  overflow-x: auto;
+  margin: 1.6em 0;
+  border-collapse: collapse;
+  border-radius: 8px;
+  font-size: 14.5px;
+}
+
+.prose table th,
+.prose table td {
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.prose table thead th {
+  background: var(--ink);
+  color: #fff;
+  font-weight: 700;
+}
+
+.prose table tbody th,
+.prose table tbody td:first-child {
+  background: var(--ink);
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+}
+
+.prose table tbody td:not(:first-child) {
+  background: var(--card);
+  color: var(--ink);
+}
+
 /* --- 一次情報リンク --- */
 .source-box {
   display: flex;
