@@ -11,6 +11,9 @@ interface Props {
 
 const { title, description = SITE_DESCRIPTION } = Astro.props;
 const pageTitle = title ? `${title} | ${SITE_TITLE}` : SITE_TITLE;
+
+// GA4計測ID。未設定の間はタグを埋め込まない(ビルド環境変数 PUBLIC_GA_MEASUREMENT_ID で設定)
+const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 ---
 
 <!doctype html>
@@ -31,6 +34,17 @@ const pageTitle = title ? `${title} | ${SITE_TITLE}` : SITE_TITLE;
       href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@700;900&family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    {gaMeasurementId && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}></script>
+        <script define:vars={{ gaMeasurementId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag() { dataLayer.push(arguments); }
+          gtag('js', new Date());
+          gtag('config', gaMeasurementId);
+        </script>
+      </>
+    )}
   </head>
   <body>
     <Header />
