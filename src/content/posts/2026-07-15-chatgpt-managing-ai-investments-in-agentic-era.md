@@ -1,14 +1,26 @@
 ---
-title: "How to manage AI investments in the agentic era"
-description: "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving effici"
+title: OpenAIが提唱、エージェント時代のAI投資管理「5つの原則」
+description: OpenAIが企業向けに、エージェント化が進む時代のAI投資の考え方を解説する記事を公開。トークン単価ではなく「1ドルあたりの有用な成果」で評価すべきと提言しています。
 pubDate: 2026-07-14
 category: chatgpt
-type: news
-tags: []
+type: howto
+tags: [ChatGPT, エンタープライズ, ROI]
 source: https://openai.com/index/managing-ai-investments-in-agentic-era
-draft: true
+draft: false
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIが、ワークフローが長時間・複雑化する「エージェント時代」において、企業がAI投資をどう管理すべきかを解説する記事を公開しました。トークン単価だけでは価値は測れず、「1ドルあたりの有用な成果」に着目すべきだと提言しています。
 
-一次情報: https://openai.com/index/managing-ai-investments-in-agentic-era
+## 詳細
+
+企業のリーダー・IT管理者向けに、5つの原則が示されています。
+
+- **可視性の強化**: 「誰が」「どのモデル・製品を」「何のために」使っているかを把握する。刷新されたAdmin Consoleでユーザー・チーム・製品・モデル別の分析が可能になり、無駄・試験導入・重要業務を区別できる
+- **成果ベースのROI評価**: 最安モデルを選ぶのではなく、失敗・リトライ・レビューにかかる総コストを含めて評価。「承認された成果あたりのコスト」(解決したサポート件数、テスト済みのコード変更など)と、削減できた時間やリスクといった事業指標を組み合わせて追跡する
+- **ガバナンスを土台にする**: スケール前にガバナンスを整備。ChatGPTがアクセスできるデータ、使用可能なツール、承認要件、リソース配分を定義する(プラグイン・コネクタ・Computer Use機能を使う場合は特に重要)
+- **ポートフォリオ的な投資配分**: 「日常業務の生産性向上」「特定業務向けの反復可能なワークフロー」「独自データを活かす戦略的投資」の3階層に分けて投資し、探索→検証→本番運用という成熟度の進行を支援する
+- **キャパシティのマッチング**: 各チームが独自にインフラを構築するのではなく、実証済みのワークフローをChatGPT Work・OpenAI Frontier・Deployment Companyなど適切な製品でスケールさせる
+
+## 使ってみるには
+
+刷新された**Admin Console**(支出管理機能付き)、**OpenAI Deployment Engineers**、**ゼロデータリテンション**オプションなどが紹介されています。エンタープライズ管理者は既存のAdmin Consoleから利用状況の可視化に着手できます。

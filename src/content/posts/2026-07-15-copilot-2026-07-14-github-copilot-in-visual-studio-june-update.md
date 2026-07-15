@@ -1,14 +1,25 @@
 ---
-title: "GitHub Copilot in Visual Studio — June update"
-description: "<p>June 2026 is about visibility and trust with a clearer view of your GitHub Copilot usage, a new trust layer for MCP s"
-pubDate: 2026-07-15
+title: Visual Studio版Copilot 6月アップデート、利用状況の可視化とMCPの信頼レイヤーを追加
+description: GitHub CopilotのVisual Studio版が6月アップデートを公開。使用量アラート、MCPサーバーの信頼性検証、C++モダナイゼーションエージェントの正式版移行などが含まれます。
+pubDate: 2026-07-14
 category: copilot
 type: news
-tags: []
+tags: [Copilot, Visual Studio, MCP]
 source: https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update
-draft: true
+draft: false
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubがVisual Studio版Copilotの2026年6月アップデートを公開しました。可視性・信頼性の向上と機能拡張が中心です。
 
-一次情報: https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update
+## 詳細
+
+- **利用状況モニタリング**: 刷新されたCopilot Usageウィンドウでリアルタイムの課金情報を表示し、利用上限に近づいた・到達した・超過した際に「プロアクティブアラート」を通知
+- **セキュリティ強化**: Visual Studio起動時にMCPサーバーの設定を信頼済みの基準と照合して検証し、変更があればユーザーの承認を求める
+- **C++モダナイゼーションエージェント**: プレビューから正式版(GA)に移行。MSVCシナリオ向けに自動・ガイド付きの両アップグレードモードに対応
+- **編集提案の拡張**: これまでカーソル付近に限定されていた追従編集の提案を、アクティブなファイル内のどこでも提示できるように
+- **プルリクエスト連携**: プルリクエストをCopilot Chatに追加してコンテキストを踏まえた支援を受けられるほか、IDE内で直接コードレビューが可能に
+
+## 使ってみるには
+
+- Free・Student・Pro・Pro+・Max・Business・Enterpriseの全サブスクリプション階層で利用可能
+- Visual Studio 2026で即日利用可能。最新機能はInsidersチャンネルから先行して利用できます
