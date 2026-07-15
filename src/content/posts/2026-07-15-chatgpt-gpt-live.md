@@ -1,7 +1,7 @@
 ---
 title: 「GPT-Live」登場、割り込み可能な全二重音声対話をChatGPTに実装
 description: OpenAIが新世代音声モデル「GPT-Live」を発表。相槌や割り込みに自然に対応する全二重会話が可能になり、無料ユーザーも含め全世界で利用開始しています。
-pubDate: 2026-07-15
+pubDate: 2026-07-08
 category: chatgpt
 type: news
 tags: [ChatGPT, 音声, GPT-Live]

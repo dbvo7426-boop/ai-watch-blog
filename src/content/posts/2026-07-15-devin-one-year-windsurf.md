@@ -1,7 +1,7 @@
 ---
 title: Cognition、Windsurf買収から1年を振り返る──DevinはSWE-1.7で1000トークン/秒へ
 description: CognitionがWindsurf買収から1年の節目に、両社の統合とDevinの進化を振り返る記事を公開。最新モデルSWE-1.7や音声モード、プランニングモードなど1年間の主要機能を総括しています。
-pubDate: 2026-07-15
+pubDate: 2026-07-14
 category: devin
 type: news
 tags: [Devin, Cognition, Windsurf]

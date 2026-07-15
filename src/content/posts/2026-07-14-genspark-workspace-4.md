@@ -1,7 +1,7 @@
 ---
 title: Genspark AI Workspace 4.0、デスクトップ操作からOffice統合まで一体化
 description: Gensparkが「AI Workspace 4.0」を発表。デスクトップ操作の自動化、Office(PowerPoint/Excel/Word)へのネイティブ統合、会議のリアルタイム翻訳・議事録作成までを1つのプラットフォームで提供します。
-pubDate: 2026-07-14
+pubDate: 2026-04-08
 category: genspark
 type: news
 tags: [Genspark, AIエージェント, Office統合]

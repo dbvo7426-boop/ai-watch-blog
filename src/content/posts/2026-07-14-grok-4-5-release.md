@@ -1,7 +1,7 @@
 ---
 title: xAIが「Grok 4.5」公開、コーディング・エージェント特化で高速・低コスト
 description: xAIがコーディングとエージェントタスクに特化した新モデル「Grok 4.5」を発表。Opus 4.8比で約4.2倍のトークン効率を謳っています。
-pubDate: 2026-07-14
+pubDate: 2026-07-08
 category: grok
 type: news
 tags: [Grok, xAI, コーディング]

@@ -1,7 +1,7 @@
 ---
 title: Manusがネイティブ「.pptx」生成に対応、編集可能なグラフ・表もそのまま出力
 description: Manusにパワーポイント形式(.pptx)のネイティブ生成機能が追加されました。編集可能なグラフや表を保持したまま、PowerPointやGoogleスライドで開けるファイルを直接出力できます。
-pubDate: 2026-07-15
+pubDate: 2026-07-14
 category: manus
 type: news
 tags: [Manus, PowerPoint, 資料作成]

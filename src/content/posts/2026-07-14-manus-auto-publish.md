@@ -1,7 +1,7 @@
 ---
 title: Manus「Auto-Publish」機能を追加、ビルド完了で即座に公開URLへ反映
 description: AIエージェント「Manus」に、ビルド成功のたびに自動でサイトを公開する「Auto-Publish」機能が追加されました。手動での公開操作が不要になります。
-pubDate: 2026-07-14
+pubDate: 2026-07-13
 category: manus
 type: news
 tags: [Manus, 自動化, デプロイ]

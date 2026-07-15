@@ -1,7 +1,7 @@
 ---
 title: NotebookLMがコード実行・多様な出力形式に対応、リサーチ能力を強化
 description: GoogleがNotebookLMを大幅アップデート。コード実行機能や、Excel・PowerPoint・PDFなど多様な出力形式に対応し、複雑なリサーチ業務に強くなりました。
-pubDate: 2026-07-14
+pubDate: 2026-06-08
 category: notebooklm
 type: news
 tags: [NotebookLM, Google, リサーチ]

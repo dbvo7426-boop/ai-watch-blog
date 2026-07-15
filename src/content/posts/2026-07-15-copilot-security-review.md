@@ -1,7 +1,7 @@
 ---
 title: GitHub Copilotに「/security-review」コマンド、変更中コードを即座に脆弱性チェック
 description: GitHub Copilotアプリで「/security-review」スラッシュコマンドがパブリックプレビュー公開。作業中のコード変更をその場でAIが脆弱性スキャンし、修正案まで提示します。
-pubDate: 2026-07-15
+pubDate: 2026-07-14
 category: copilot
 type: howto
 tags: [Copilot, セキュリティ, GitHub]

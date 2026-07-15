@@ -1,7 +1,7 @@
 ---
 title: GitHub Copilotが初見リポジトリを自動要約、READMEもAIで生成
 description: GitHub.com上でCopilotに「リポジトリ概要を教えて」と頼むだけで、目的・技術構成・貢献方法をまとめてくれる新機能が追加されました。全プランで利用可能です。
-pubDate: 2026-07-14
+pubDate: 2026-07-09
 category: copilot
 type: howto
 tags: [Copilot, GitHub, ドキュメント生成]

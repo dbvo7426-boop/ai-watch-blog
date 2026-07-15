@@ -1,7 +1,7 @@
 ---
 title: Perplexityが「Personal Computer」発表、Macをまるごと自動操作
 description: Perplexityがローカル環境向けの新機能「Personal Computer」を発表。ファイル・アプリ・Webを横断してタスクを自動実行します。現時点ではMax会員限定です。
-pubDate: 2026-07-14
+pubDate: 2026-06-24
 category: perplexity
 type: news
 tags: [Perplexity, エージェント, Mac]

@@ -1,7 +1,7 @@
 ---
 title: OpenAIが「GPT-5.6」ファミリーを正式リリース、3段階のモデル展開
 description: OpenAIが最上位「Sol」・バランス型「Terra」・低コスト「Luna」の3モデルからなるGPT-5.6ファミリーを一般提供開始。コーディング性能で新記録を更新しています。
-pubDate: 2026-07-14
+pubDate: 2026-07-09
 category: chatgpt
 type: news
 tags: [ChatGPT, GPT-5.6, 新モデル]

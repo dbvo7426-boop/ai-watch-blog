@@ -1,7 +1,7 @@
 ---
 title: 「ChatGPT Images 2.0」登場、多言語テキスト描画と構図精度が大幅向上
 description: OpenAIの画像生成モデル(旧DALL-E系統)が「ChatGPT Images 2.0」にアップデート。日本語を含む多言語のテキスト描画品質が大きく改善しています。
-pubDate: 2026-07-14
+pubDate: 2026-04-21
 category: dalle
 type: news
 tags: [DALL-E, 画像生成, ChatGPT]

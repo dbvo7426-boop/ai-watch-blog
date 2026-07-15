@@ -1,7 +1,7 @@
 ---
 title: 「Claude for Teachers」登場、米国の教員向けに2027年6月まで無料提供
 description: Anthropicが米国のK-12教員向け専用プラン「Claude for Teachers」を発表。授業計画から生徒別の教材作成まで、州の学習基準に沿って支援します。
-pubDate: 2026-07-15
+pubDate: 2026-07-14
 category: claude
 type: news
 tags: [Claude, 教育, K-12]

@@ -1,7 +1,7 @@
 ---
 title: Stability AIが「Stable Audio 3.0」公開、6分間のオープンウェイト音楽生成
 description: Stable Diffusionの開発元Stability AIが音楽・効果音生成モデル「Stable Audio 3.0」を発表。4モデル中3つがオープンウェイトで無料公開されています。
-pubDate: 2026-07-14
+pubDate: 2026-05-20
 category: stablediffusion
 type: news
 tags: [Stability AI, 音声生成, オープンウェイト]

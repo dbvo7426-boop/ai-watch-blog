@@ -1,7 +1,7 @@
 ---
 title: DeepSeek-V4登場、100万トークンのコンテキストとオープンソース最高水準のコーディング性能
 description: DeepSeekが新モデル「DeepSeek-V4-Pro」「V4-Flash」を発表。オープンソースモデルとしてエージェント型コーディングで最高水準の性能を実現しています。
-pubDate: 2026-07-14
+pubDate: 2026-04-24
 category: deepseek
 type: news
 tags: [DeepSeek, オープンソース, コーディング]

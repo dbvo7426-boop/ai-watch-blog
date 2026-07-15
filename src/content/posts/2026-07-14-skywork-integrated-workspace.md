@@ -1,7 +1,7 @@
 ---
 title: Skywork、資料作成・動画要約・ポッドキャスト制作を一体化したAIワークスペース
 description: Skywork.aiが、文書作成からスライド、動画要約、ポッドキャスト制作までを1つの環境でこなす統合型AIワークスペース「Skywork」を発表しました。
-pubDate: 2026-07-14
+pubDate: 2025-12-22
 category: skywork
 type: news
 tags: [Skywork, AIエージェント, 業務効率化]

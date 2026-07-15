@@ -1,7 +1,7 @@
 ---
 title: Claude Sonnet 5登場、Opus級の性能をSonnet価格で
 description: Anthropicが新モデル「Claude Sonnet 5」を発表。コーディングや自律的なタスク遂行でOpus 4.8に迫る性能を、より低コストで実現しています。
-pubDate: 2026-07-14
+pubDate: 2026-06-30
 category: claude
 type: news
 tags: [Claude, Sonnet, 新モデル]

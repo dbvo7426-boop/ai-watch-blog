@@ -1,7 +1,7 @@
 ---
 title: Geminiアプリに学習支援機能「Study Notebooks」、進捗ダッシュボード付き
 description: Googleがテスト対策・新分野の学習に特化した「Study Notebooks」機能をGeminiアプリに追加。個別最適化されたレッスンとクイズ、進捗ダッシュボードを提供します。
-pubDate: 2026-07-15
+pubDate: 2026-07-10
 category: gemini
 type: news
 tags: [Gemini, 教育, 学習支援]

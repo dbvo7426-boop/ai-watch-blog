@@ -1,7 +1,7 @@
 ---
 title: 自律型AIエンジニア「Devin」、米連邦政府向けFedRAMP High認証取得へ
 description: CognitionのAIエンジニア「Devin」のクラウド版がFedRAMP High認証プロセスに入り、米政府機関での正式利用に道が開かれました。レガシーシステムの近代化などで実績があります。
-pubDate: 2026-07-14
+pubDate: 2026-07-13
 category: devin
 type: news
 tags: [Devin, Cognition, エンタープライズ]
