@@ -1284,7 +1284,8 @@
     "https://openai.com/index/welcome-pieter-and-shivon",
     "https://openai.com/index/team-plus-plus",
     "https://openai.com/index/weight-normalization",
-    "https://openai.com/index/introducing-openai"
+    "https://openai.com/index/introducing-openai",
+    "https://openai.com/index/managing-ai-investments-in-agentic-era"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1321,7 +1322,9 @@
     "https://github.blog/changelog/2026-07-07-per-user-budgets-for-cost-centers-in-the-billing-ui",
     "https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all",
     "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
-    "https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview"
+    "https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview",
+    "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
+    "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
