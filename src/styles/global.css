@@ -279,6 +279,35 @@ h1, h2, h3 {
   word-break: break-all;
 }
 
+/* --- 広告バナー(アフィリエイト) --- */
+.prose .ad-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 1.6em 0;
+  padding: 14px 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  flex-wrap: wrap;
+}
+
+.prose .ad-banner .ad-pr-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  padding: 1px 8px;
+  flex-shrink: 0;
+}
+
+.prose .ad-banner img {
+  border-radius: 6px;
+  vertical-align: middle;
+}
+
 /* --- フォーカス・モーション設定 --- */
 a:focus-visible,
 button:focus-visible {

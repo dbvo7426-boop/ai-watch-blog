@@ -23,6 +23,11 @@ Stability AIが、オープンウェイトモデルの最新版「Stable Diffusi
 
 SD3.5の公開により、Stability AIはSDXLからSD3系統への移行を完了させ、オープンウェイト画像生成モデルの選択肢を大きく広げました。この後も同社は動画・音声生成分野へと事業領域を拡大していくことになります。
 
-手元のPCに十分なGPUがない場合は、[ConoHa VPSのGPUサーバー](https://px.a8.net/svt/ejp?a8mat=4B81T6+AF33W2+50+4ZG9G1)ならAutomatic1111(Stable Diffusion web UI)のテンプレートが用意されており、環境構築なしですぐに動かせます。
+手元のPCに十分なGPUがない場合は、ConoHa VPSのGPUサーバーならAutomatic1111(Stable Diffusion web UI)のテンプレートが用意されており、環境構築なしですぐに動かせます。
 
-> 本記事のリンクにはアフィリエイトリンクを含みます。
+<div class="ad-banner">
+<span class="ad-pr-label">PR</span>
+<a href="https://px.a8.net/svt/ejp?a8mat=4B81T6+AF33W2+50+4ZG9G1" rel="nofollow">
+<img border="0" width="250" height="250" alt="" src="https://www22.a8.net/svt/bgt?aid=260716074630&wid=001&eno=01&mid=s00000000018030141000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4B81T6+AF33W2+50+4ZG9G1" alt="">
+</div>
