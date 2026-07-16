@@ -308,6 +308,54 @@ h1, h2, h3 {
   vertical-align: middle;
 }
 
+/* --- 広告バナー(自作・画像素材が無い場合) --- */
+.prose .ad-banner-custom {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 1.6em 0;
+  padding: 18px 22px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--ad-accent, var(--accent));
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.prose .ad-banner-custom:hover {
+  transform: translateY(-1px);
+}
+
+.prose .ad-banner-custom .ad-custom-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.prose .ad-banner-custom .ad-custom-body strong {
+  font-family: var(--font-display);
+  font-size: 16px;
+  color: var(--ink);
+}
+
+.prose .ad-banner-custom .ad-custom-body span {
+  font-size: 13.5px;
+  color: var(--muted);
+}
+
+.prose .ad-banner-custom .ad-custom-cta {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ad-accent, var(--accent));
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 /* --- フォーカス・モーション設定 --- */
 a:focus-visible,
 button:focus-visible {

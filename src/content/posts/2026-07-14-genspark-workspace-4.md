@@ -20,6 +20,13 @@ Gensparkが「AI Workspace 4.0」を発表しました。「あなたのAI社員
 
 ## 使ってみるには
 
-既存のツール(Office、デスクトップ、会議アプリ)にAIエージェントを直接組み込む設計のため、ワークフローを変更する必要がありません。ファイル管理・Web調査・データ分析・議事録作成といった機械的作業をAIに任せられます。具体的な料金プランの明記はありませんが、[公式サイトから試用できます](https://www.genspark.ai/?via=taka102)。
+既存のツール(Office、デスクトップ、会議アプリ)にAIエージェントを直接組み込む設計のため、ワークフローを変更する必要がありません。ファイル管理・Web調査・データ分析・議事録作成といった機械的作業をAIに任せられます。具体的な料金プランの明記はありませんが、公式サイトから試用できます。
 
-> 本記事のリンクにはアフィリエイトリンクを含みます。
+<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
+<span class="ad-pr-label">PR</span>
+<div class="ad-custom-body">
+<strong>Genspark</strong>
+<span>「あなたのAI社員」を今すぐ試す</span>
+</div>
+<span class="ad-custom-cta">公式サイトへ →</span>
+</a>
