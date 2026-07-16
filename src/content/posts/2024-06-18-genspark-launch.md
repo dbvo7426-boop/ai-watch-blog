@@ -21,3 +21,12 @@ draft: false
 ## その後
 
 Gensparkはその後、検索エンジンから自律型AIエージェントへと軸足を移していきます。2025年3月にはシリーズAで1億ドルを調達しiOSアプリを投入、4月には自律実行型の「Super Agent」を発表するなど、単なる検索サービスから統合ワークスペースへと急速に姿を変えていきました。
+
+<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
+<span class="ad-pr-label">PR</span>
+<div class="ad-custom-body">
+<strong>Genspark</strong>
+<span>「あなたのAI社員」を今すぐ試す</span>
+</div>
+<span class="ad-custom-cta">公式サイトへ →</span>
+</a>
