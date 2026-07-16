@@ -1,14 +1,27 @@
 ---
-title: "The US is advancing AI safety through state and federal action"
-description: "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for s"
+title: "OpenAI、「逆邦制」による州・連邦一体のAIガバナンス構想を提言"
+description: "OpenAIのChris Lehane氏(チーフ・グローバル渉外責任者)が、州法と連邦法を組み合わせた「逆邦制」によるAIガバナンス構想を提言する記事を公開。カリフォルニアなど主要州の安全法制を土台に、連邦レベルでの整合を図るべきだと主張しています。"
 pubDate: 2026-07-15
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, AI政策, 安全性, ガバナンス]
 source: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
-draft: true
+draft: false
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIのチーフ・グローバル渉外責任者Chris Lehane氏が、州法と連邦法を組み合わせた「逆邦制(reverse federalism)」というAIガバナンス構想を提言する記事を公開しました。連邦議会の停滞を待つのではなく、主要州が足並みを揃えた安全法制を敷くことで事実上の全国基準を形成し、連邦レベルではCAISI(Center for AI Standards and Innovation)の強化と州・連邦の整合を図るべきだと主張しています。
 
-一次情報: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
+## 詳細
+
+- **逆邦制とは**: 連邦法の整備を待たず、主要な州が共通の枠組みで歩調を合わせて法制化することで、企業を事実上の全国標準へと導くアプローチ。カリフォルニア・ニューヨーク・イリノイの3州が同種の法制を先行して整備
+- **州レベルの安全法制、共通する3つの柱**:
+  - フロンティアモデルのリスク評価を含む安全フレームワークの文書化と公開
+  - 重大な安全インシデントの報告義務
+  - 独立した第三者による監査・ガバナンス
+- **連邦への提言**: フロンティアAIの試験・評価においてCAISIを強化し、連邦政府が主導的役割を果たすべきと主張。トランプ政権は8月上旬までにサイバー分野のテスト基準整備を目指しており、OpenAIは州・連邦双方の枠組みの整合を支持
+- **規制の分断への懸念**: 各州がばらばらに規制を進める「policy creep(規制の際限ない拡大)」や、規制当局が執行しづらいパッチワーク状の州法乱立を避けるべきだと指摘。国家安全保障に関わる領域は、連邦の専門機関が担うべきだとも述べている
+- **将来像**: これら国内の取り組みを土台に、G7をはじめとする各国政府と連携し、民主主義的な価値観に基づく「米国主導の国際的なAIガバナンス枠組み」の構築を目指す
+
+## 使ってみるには
+
+本記事は製品発表ではなく、OpenAIの政策提言です。ChatGPTなどの利用方法が変わるものではありませんが、AI規制の今後の方向性に関心がある方は、OpenAI公式サイトで公開されている全文を参照してください。

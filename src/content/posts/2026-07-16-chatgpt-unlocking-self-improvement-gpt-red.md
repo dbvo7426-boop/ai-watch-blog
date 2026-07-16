@@ -1,14 +1,24 @@
 ---
-title: "GPT-Red: Unlocking Self-Improvement for Robustness"
-description: "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt i"
+title: "OpenAIが自動レッドチーミングAI「GPT-Red」を発表、自己対戦でプロンプト攻撃への耐性を強化"
+description: "OpenAIが、自己対戦によってプロンプトインジェクションなどの脆弱性を自動的に発見する内部専用のレッドチーミングAI「GPT-Red」を発表。最新モデルGPT-5.6 Solの学習に組み込まれ、攻撃成功率を大幅に低減させています。"
 pubDate: 2026-07-15
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, 安全性, レッドチーミング, GPT-Red]
 source: https://openai.com/index/unlocking-self-improvement-gpt-red
-draft: true
+draft: false
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIが、自己対戦(セルフプレイ)を用いてモデルの脆弱性を自動的に発見・修正する内部専用のレッドチーミングAI「GPT-Red」を発表しました。人間のレッドチーマーの作業を模した攻撃を大規模・自動で繰り返し、本番モデルの学習プロセスに直接組み込むことで、プロンプトインジェクションへの耐性を大きく向上させています。
 
-一次情報: https://openai.com/index/unlocking-self-improvement-gpt-red
+## 詳細
+
+- **自己対戦による訓練**: GPT-Redと、多様な防御役(ディフェンダー)のLLM群を同時に訓練。攻撃が成功するとGPT-Redに、防御が成功するとディフェンダーに報酬が与えられ、双方のレベルが競い合うように引き上がっていく
+- **人間的な攻撃プロセスを自動化**: 人間のレッドチーマーと同様に、プロンプトを送信し、GPTモデルの応答を観察し、それを踏まえて次の一手を改善するというサイクルを、大規模かつ自動で反復する
+- **本番モデルへの直接反映**: GPT-Redが発見した攻撃パターンを、防御用モデルの訓練プロセスに直接組み込むことで、実際に配布されるモデルの堅牢性を継続的に強化する
+- **具体的な成果**: 最新モデル「GPT-5.6 Sol」は、最も難易度の高い直接的プロンプトインジェクションのベンチマークにおいて、従来モデル比で失敗数が6分の1に減少し、攻撃成功率は0.05%まで低下
+- **GPT-Red自体は非公開**: GPT-Redは配布用モデルとは切り離された内部専用のツールであり、一般ユーザーや開発者が直接利用することはできない
+
+## 使ってみるには
+
+GPT-Redそのものは内部専用の非公開ツールのため、一般公開や外部提供の予定はありません。ただし、その成果はChatGPTやAPIで現在提供されているGPT-5.6 Solなどのモデルにすでに反映されており、日常的な利用の中でプロンプトインジェクション耐性の向上という形で実感できます。技術的な詳細は、近日公開予定のプレプリント論文で確認できるとのことです。
