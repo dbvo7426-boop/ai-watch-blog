@@ -16,7 +16,7 @@ export const CATEGORIES: Record<string, { label: string; color: string }> = {
   grok: { label: 'Grok', color: '#18181B' },
   manus: { label: 'Manus', color: '#DC2626' },
   midjourney: { label: 'Midjourney', color: '#8B5CF6' },
-  notebooklm: { label: 'NotebookLM', color: '#FBBF24' },
+  notebooklm: { label: 'NotebookLM (Gemini Notebook)', color: '#FBBF24' },
   perplexity: { label: 'Perplexity', color: '#06B6D4' },
   skywork: { label: 'Skywork', color: '#10B981' },
   stablediffusion: { label: 'Stable Diffusion', color: '#EC4899' },

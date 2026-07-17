@@ -1,14 +1,26 @@
 ---
-title: "How Cars24 scales conversations and builds faster with OpenAI"
-description: "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, "
+title: "Cars24、OpenAIの音声・チャットエージェントで月100万分超の顧客対応を自動化"
+description: "インドの中古車マーケットプレイスCars24が、OpenAIの音声・チャットエージェントを活用し月間100万分超の会話を自動処理していることを紹介するOpenAIの顧客事例記事。離脱リードの12%再獲得や、全社的なChatGPT Enterprise・Codex導入の成果も紹介されています。"
 pubDate: 2026-07-16
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, エンタープライズ, 音声AI, 事例]
 source: https://openai.com/index/cars24
-draft: true
+draft: false
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+インドの中古車マーケットプレイスCars24が、OpenAIの音声・チャットエージェントを活用して月間100万分を超える顧客対応を自動化していることを、OpenAIが顧客事例として公開しました。離脱していたリードの12%を再獲得できているほか、全社的にChatGPT EnterpriseやCodexを導入し、85〜90%という高い日次利用率を達成しています。
 
-一次情報: https://openai.com/index/cars24
+## 詳細
+
+- **音声・チャットエージェントによる顧客対応**: 車の購入・売却・ローン契約・フォローアップ・サポートまで、顧客とのやり取りをOpenAIのAPIを使った音声・チャットエージェントが担当し、月間100万分超の会話を処理
+- **離脱リードの再獲得**: これまで10日ほどで追客を打ち切っていたリードに対して再エンゲージメントのワークフローを構築し、失注していたリードの12%を回復
+- **売り手向けワークフローの自動化**: 車両情報の収集、査定予約、来店リマインダー、リードの再エンゲージメントなど、売り手側の体験も自動化
+- **全社的なChatGPT Enterprise・Codex導入**: 中央組織の従業員約600名にChatGPT Enterpriseを展開し、85〜90%という高い日次アクティブ利用率を記録。Codexはソフトウェア開発のライフサイクル全体に組み込まれている
+- **エンジニア以外にも広がるCodexの活用**: プロダクト・デザイン・エンジニアリングの各チームがチケット作成から実装までCodexを利用するほか、財務チームも投資家向けレポートや購買発注のレビューを自動化するなど、全社的な業務変革が進行
+- **部門横断の「chief of staff」エージェント**: Slack・Gmail・WhatsAppを連携させ、社内コミュニケーションの管理を担うエージェントを複数チームが構築
+- Cars24共同創業者Vikram Chopra氏のコメント: 「インドで車を買うことは取引ではなく一つの旅だ。AIはそれを変える。今では月に100万分以上の会話をAIで処理している」
+
+## 使ってみるには
+
+Cars24が活用しているのは、音声・チャットエージェントの構築に使われるOpenAIのAPI群(Realtime APIやAgents SDKなど)、社内向けのChatGPT Enterprise、そしてコーディングエージェントのCodexです。いずれもOpenAIの開発者プラットフォームやビジネス向けプランを通じて、企業や開発者が自社のワークフローにすぐ組み込むことができます。
