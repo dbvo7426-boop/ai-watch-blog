@@ -2,19 +2,48 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BookmarkButton from '../../components/BookmarkButton.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
 import { CATEGORIES, TYPES, formatDate } from '../../consts';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) =>
     import.meta.env.PROD ? !data.draft : true
   );
-  return posts.map((post) => ({
-    params: { slug: post.id },
-    props: { post },
-  }));
+
+  return posts.map((post) => {
+    const others = posts.filter((p) => p.id !== post.id);
+
+    // 同カテゴリの記事を、タグの一致数→新しさの順に並べる
+    const sameCategory = others
+      .filter((p) => p.data.category === post.data.category)
+      .map((p) => ({
+        post: p,
+        tagOverlap: p.data.tags.filter((t) => post.data.tags.includes(t)).length,
+      }))
+      .sort(
+        (a, b) =>
+          b.tagOverlap - a.tagOverlap || b.post.data.pubDate.valueOf() - a.post.data.pubDate.valueOf()
+      )
+      .map((r) => r.post);
+
+    // 同カテゴリだけで4件に満たない場合は、他カテゴリの新着で補う
+    const related = [...sameCategory];
+    if (related.length < 4) {
+      const usedIds = new Set([post.id, ...related.map((p) => p.id)]);
+      const fallback = others
+        .filter((p) => !usedIds.has(p.id))
+        .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+      related.push(...fallback.slice(0, 4 - related.length));
+    }
+
+    return {
+      params: { slug: post.id },
+      props: { post, related: related.slice(0, 4) },
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, related } = Astro.props;
 const { Content } = await render(post);
 const cat = CATEGORIES[post.data.category] ?? CATEGORIES.other;
 ---
@@ -57,6 +86,22 @@ const cat = CATEGORIES[post.data.category] ?? CATEGORIES.other;
         )
       }
     </div>
+
+    {
+      related.length > 0 && (
+        <div class="related">
+          <div class="section-head">
+            <h2>関連記事</h2>
+            <a href={`/category/${post.data.category}/`} class="more-link">
+              他の{cat.label}の記事を見る →
+            </a>
+          </div>
+          <div class="grid">
+            {related.map((r) => <ArticleCard post={r} />)}
+          </div>
+        </div>
+      )
+    }
   </article>
 </BaseLayout>
 
@@ -87,6 +132,18 @@ const cat = CATEGORIES[post.data.category] ?? CATEGORIES.other;
     color: var(--muted);
   }
   .tag:hover {
+    color: var(--accent);
+  }
+  .related {
+    margin-top: 48px;
+  }
+  .more-link {
+    margin-left: auto;
+    font-size: 13.5px;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .more-link:hover {
     color: var(--accent);
   }
 </style>
