@@ -1329,7 +1329,10 @@
     "https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app",
     "https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview",
     "https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update",
-    "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities"
+    "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
+    "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
+    "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
+    "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
