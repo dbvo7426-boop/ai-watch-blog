@@ -1,5 +1,6 @@
 ---
 import { CATEGORIES, TYPES, formatDate } from '../consts';
+import BookmarkButton from './BookmarkButton.astro';
 
 interface Props {
   post: any;
@@ -9,13 +10,17 @@ const { post } = Astro.props;
 const cat = CATEGORIES[post.data.category] ?? CATEGORIES.other;
 ---
 
-<a href={`/posts/${post.id}/`} class="card">
-  <div class="meta">
-    <span class="badge" style={`background:${cat.color}`}>{cat.label}</span>
-    <span class="type-label">{TYPES[post.data.type]}</span>
-    <span class="date">{formatDate(post.data.pubDate)}</span>
-    {post.data.draft && <span class="draft-flag">DRAFT</span>}
-  </div>
-  <h3>{post.data.title}</h3>
-  <p>{post.data.description}</p>
-</a>
+<div class="card-wrap" data-slug={post.id}>
+  <a href={`/posts/${post.id}/`} class="card">
+    <div class="meta">
+      <span class="badge" style={`background:${cat.color}`}>{cat.label}</span>
+      <span class="type-label">{TYPES[post.data.type]}</span>
+      <span class="date">{formatDate(post.data.pubDate)}</span>
+      {post.data.draft && <span class="draft-flag">DRAFT</span>}
+      <span class="read-flag">既読</span>
+    </div>
+    <h3>{post.data.title}</h3>
+    <p>{post.data.description}</p>
+  </a>
+  <BookmarkButton post={post} />
+</div>

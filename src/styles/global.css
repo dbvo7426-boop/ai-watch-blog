@@ -356,6 +356,72 @@ h1, h2, h3 {
   flex-shrink: 0;
 }
 
+/* --- 既読・ブックマーク --- */
+.card-wrap {
+  position: relative;
+}
+
+.card-wrap.is-read .card {
+  opacity: 0.55;
+}
+
+.read-flag {
+  display: none;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1px 6px;
+}
+
+.card-wrap.is-read .read-flag {
+  display: inline-block;
+}
+
+.bookmark-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.bookmark-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.bookmark-btn.is-active {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.bookmark-btn.is-active svg {
+  fill: var(--accent);
+}
+
+.bookmark-btn.inline {
+  position: static;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.empty-note {
+  display: none;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 /* --- フォーカス・モーション設定 --- */
 a:focus-visible,
 button:focus-visible {

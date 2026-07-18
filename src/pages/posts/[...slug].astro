@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import BookmarkButton from '../../components/BookmarkButton.astro';
 import { CATEGORIES, TYPES, formatDate } from '../../consts';
 
 export async function getStaticPaths() {
@@ -19,7 +20,7 @@ const cat = CATEGORIES[post.data.category] ?? CATEGORIES.other;
 ---
 
 <BaseLayout title={post.data.title} description={post.data.description}>
-  <article>
+  <article data-current-slug={post.id}>
     <div class="head">
       <div class="meta">
         <a href={`/category/${post.data.category}/`} class="badge" style={`background:${cat.color}`}>
@@ -28,6 +29,7 @@ const cat = CATEGORIES[post.data.category] ?? CATEGORIES.other;
         <span class="type-label">{TYPES[post.data.type]}</span>
         <span class="date">{formatDate(post.data.pubDate)}</span>
         {post.data.draft && <span class="draft-flag">DRAFT</span>}
+        <BookmarkButton post={post} inline />
       </div>
       <h1>{post.data.title}</h1>
       {

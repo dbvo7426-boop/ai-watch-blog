@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import MonitorStrip from '../components/MonitorStrip.astro';
 import ArticleCard from '../components/ArticleCard.astro';
+import BookmarkButton from '../components/BookmarkButton.astro';
 import Pagination from '../components/Pagination.astro';
 import { CATEGORIES, TYPES, formatDate, PAGE_SIZE } from '../consts';
 
@@ -34,18 +35,22 @@ const featuredCat = featured
 
   {
     featured && (
-      <a href={`/posts/${featured.id}/`} class="featured">
-        <div class="meta">
-          <span class="badge" style={`background:${featuredCat.color}`}>
-            {featuredCat.label}
-          </span>
-          <span class="type-label">{TYPES[featured.data.type]}</span>
-          <span class="date">{formatDate(featured.data.pubDate)}</span>
-          {featured.data.draft && <span class="draft-flag">DRAFT</span>}
-        </div>
-        <h1>{featured.data.title}</h1>
-        <p>{featured.data.description}</p>
-      </a>
+      <div class="card-wrap" data-slug={featured.id}>
+        <a href={`/posts/${featured.id}/`} class="featured">
+          <div class="meta">
+            <span class="badge" style={`background:${featuredCat.color}`}>
+              {featuredCat.label}
+            </span>
+            <span class="type-label">{TYPES[featured.data.type]}</span>
+            <span class="date">{formatDate(featured.data.pubDate)}</span>
+            {featured.data.draft && <span class="draft-flag">DRAFT</span>}
+            <span class="read-flag">既読</span>
+          </div>
+          <h1>{featured.data.title}</h1>
+          <p>{featured.data.description}</p>
+        </a>
+        <BookmarkButton post={featured} />
+      </div>
     )
   }
 

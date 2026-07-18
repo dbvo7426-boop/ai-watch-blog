@@ -1,0 +1,26 @@
+---
+interface Props {
+  post: any;
+  inline?: boolean;
+}
+
+const { post, inline = false } = Astro.props;
+---
+
+<button
+  type="button"
+  class:list={['bookmark-btn', { inline }]}
+  data-bookmark-btn
+  data-slug={post.id}
+  data-title={post.data.title}
+  data-description={post.data.description}
+  data-category={post.data.category}
+  data-type={post.data.type}
+  data-pubdate={post.data.pubDate.toISOString()}
+  aria-label="ブックマークする"
+  aria-pressed="false"
+>
+  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+    <path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1Z" />
+  </svg>
+</button>
