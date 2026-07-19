@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import MonitorStrip from '../components/MonitorStrip.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import BookmarkButton from '../components/BookmarkButton.astro';
+import ImportanceFilter from '../components/ImportanceFilter.astro';
 import Pagination from '../components/Pagination.astro';
 import { CATEGORIES, TYPES, IMPORTANCE, formatDate, PAGE_SIZE } from '../consts';
 
@@ -33,6 +34,7 @@ const featuredImportance = featured ? IMPORTANCE[featured.data.importance] : nul
 
 <BaseLayout>
   {isFirstPage && <MonitorStrip />}
+  {isFirstPage && <ImportanceFilter />}
 
   {
     featured && (

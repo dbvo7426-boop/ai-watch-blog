@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import ArticleCard from '../../../components/ArticleCard.astro';
 import Pagination from '../../../components/Pagination.astro';
+import ImportanceFilter from '../../../components/ImportanceFilter.astro';
 import { CATEGORIES, PAGE_SIZE } from '../../../consts';
 
 export async function getStaticPaths({ paginate }) {
@@ -34,6 +35,8 @@ const cat = CATEGORIES[category];
     </h2>
     <span class="count">{page.total} 件</span>
   </div>
+
+  <ImportanceFilter />
 
   <div class="grid">
     {page.data.map((post) => <ArticleCard post={post} />)}

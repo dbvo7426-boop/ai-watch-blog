@@ -1,0 +1,47 @@
+---
+import { IMPORTANCE } from '../consts';
+
+interface Props {
+  active?: string;
+}
+
+const { active } = Astro.props;
+---
+
+<div class="importance-filter">
+  <span class="filter-label">重要度で絞り込み:</span>
+  {
+    Object.entries(IMPORTANCE).map(([level, label]) => (
+      <a
+        href={`/importance/${level}/`}
+        class:list={[`importance-badge importance-${level}`, { 'is-active': active === level }]}
+      >
+        {label}
+      </a>
+    ))
+  }
+</div>
+
+<style>
+  .importance-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 16px 0 0;
+  }
+  .importance-filter .filter-label {
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .importance-filter a.importance-badge {
+    text-decoration: none;
+  }
+  .importance-filter a.importance-badge:hover {
+    opacity: 0.75;
+  }
+  .importance-filter a.importance-badge.is-active {
+    outline: 2px solid var(--ink);
+    outline-offset: 1px;
+  }
+</style>

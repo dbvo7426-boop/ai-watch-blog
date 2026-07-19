@@ -4,7 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import ArticleCard from '../../../components/ArticleCard.astro';
 import Pagination from '../../../components/Pagination.astro';
 import ImportanceFilter from '../../../components/ImportanceFilter.astro';
-import { PAGE_SIZE } from '../../../consts';
+import { IMPORTANCE, PAGE_SIZE } from '../../../consts';
 
 export async function getStaticPaths({ paginate }) {
   const posts = await getCollection(
@@ -12,32 +12,37 @@ export async function getStaticPaths({ paginate }) {
     ({ data }) => (import.meta.env.PROD ? !data.draft : true)
   );
 
-  const tags = new Set();
-  posts.forEach((post) => post.data.tags.forEach((tag) => tags.add(tag)));
-
-  return Array.from(tags).flatMap((tag) => {
-    const tagPosts = posts
-      .filter((post) => post.data.tags.includes(tag))
+  return Object.keys(IMPORTANCE).flatMap((level) => {
+    const levelPosts = posts
+      .filter((post) => post.data.importance === level)
       .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-    return paginate(tagPosts, { params: { tag }, pageSize: PAGE_SIZE });
+    return paginate(levelPosts, { params: { level }, pageSize: PAGE_SIZE });
   });
 }
 
-const { tag } = Astro.params;
+const { level } = Astro.params;
 const { page } = Astro.props;
+const label = IMPORTANCE[level];
 ---
 
-<BaseLayout title={`#${tag} の記事一覧`}>
+<BaseLayout title={`${label}の記事一覧`}>
   <div class="section-head" style="margin-top: 8px;">
-    <h2>#{tag} の記事一覧</h2>
+    <h2>
+      <span class={`importance-badge importance-${level}`} style="font-size: 14px; vertical-align: 3px; margin-right: 10px;">
+        {label}
+      </span>
+      の記事一覧
+    </h2>
     <span class="count">{page.total} 件</span>
   </div>
 
-  <ImportanceFilter />
+  <ImportanceFilter active={level} />
 
   <div class="grid">
     {page.data.map((post) => <ArticleCard post={post} />)}
   </div>
+
+  {page.data.length === 0 && <p>該当する記事はまだありません。</p>}
 
   <Pagination page={page} />
 </BaseLayout>
