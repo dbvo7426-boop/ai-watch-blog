@@ -7,6 +7,7 @@ type: news
 tags: [Gemini CLI, Google, Antigravity CLI, オープンソース]
 source: https://www.techtimes.com/articles/318660/20260618/gemini-cli-shutdown-takes-effect-ci-cd-pipelines-break-go-based-antigravity-cli-arrives.htm
 draft: false
+importance: high
 ---
 
 2026年5月19日の予告通り、Gemini CLIの無料・Google AI Pro/Ultra個人ユーザー向け提供が2026年6月18日に実際に停止しました。認証エンドポイントはHTTP 410(Gone)を返すようになり、GitHub Actionsやcronジョブ、Dockerコンテナなど、`gemini`コマンドに依存していた自動化基盤が各所で機能停止に陥っています。

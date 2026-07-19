@@ -7,6 +7,7 @@ type: news
 tags: [Lovable, OSS, "AI史"]
 source: https://x.com/antonosika/status/1667641038104674306
 draft: false
+importance: low
 ---
 
 スウェーデン人エンジニアのAnton Osika氏が、オープンソースのコード生成プロジェクト「gpt-engineer」をGitHubで公開しました。1つのプロンプトからコードベース全体を生成するというコンセプトが注目を集め、後に商用プロダクト「Lovable」へと発展していく最初の一歩となりました。

@@ -7,6 +7,7 @@ type: news
 tags: [Claude, Anthropic, "AI史"]
 source: https://www.anthropic.com/news/introducing-claude
 draft: false
+importance: high
 ---
 
 Anthropicが2023年3月14日、AIアシスタント「Claude」を発表しました。前年11月のChatGPT登場から数か月というタイミングで、「役に立ち、正直で、無害(helpful, honest, harmless)」を掲げるAnthropicが自社モデルを世に送り出した、いわば同社の実質的なデビュー作です。

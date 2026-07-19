@@ -7,6 +7,7 @@ type: news
 tags: [Copilot, Code Review, GitHub]
 source: https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements
 draft: false
+importance: low
 ---
 
 GitHubが、AIによるコードレビュー機能「Copilot Code Review」に4つの設定改善を加えました。カスタム指示がマージ前のブランチから読み込まれるようになったほか、リポジトリ独自のセットアップ手順の定義、ネットワークアクセスを制限するファイアウォールの標準有効化など、より細かい制御が可能になっています。

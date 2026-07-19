@@ -7,6 +7,7 @@ type: news
 tags: [Gemini CLI, Gemini Code Assist, Google, Antigravity CLI]
 source: https://developers.google.com/gemini-code-assist/docs/deprecations/consumer-code-review
 draft: false
+importance: medium
 ---
 
 Googleが2025年2月に始めたGitHub向けの無料コードレビューbot「Gemini Code Assist for GitHub」の個人(コンシューマー)版が、2026年7月17日をもって完全に終了しました。学生・個人開発者・フリーランス・スタートアップ向けに無料でプルリクエストの自動レビューを提供してきたツールで、約1年5か月の運用に幕を下ろした形です。Gemini CLIの個人向け提供終了(2026年6月18日)に続く、Antigravity注力に伴う関連ツール整理の第2弾となりました。

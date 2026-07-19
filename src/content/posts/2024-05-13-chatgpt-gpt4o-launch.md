@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, GPT-4o, OpenAI, "AI史"]
 source: https://openai.com/index/hello-gpt-4o/
 draft: false
+importance: high
 ---
 
 OpenAIが2024年5月13日、新フラッグシップモデル「GPT-4o」を発表しました。「o」はomni(全て)を意味し、テキスト・音声・画像・映像を組み合わせて入力・出力できるのが特徴。音声入力への応答は最短232ミリ秒と人間同士の会話に近い速度を実現し、無料ユーザーにも提供された点が大きな話題となりました。

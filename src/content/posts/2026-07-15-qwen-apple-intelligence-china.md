@@ -7,6 +7,7 @@ type: news
 tags: [Qwen, Alibaba, Apple]
 source: https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/
 draft: false
+importance: high
 ---
 
 中国のサイバースペース管理局(CAC)が2026年7月15日、AppleのAIサービス「Apple Intelligence」の中国国内での提供を承認したと報じられました。長らく噂されてきたAlibabaとの提携が実現し、AlibabaのQwen AIモデルがiOS・iPadOS・macOS・visionOSといったAppleのOS群にApple Intelligenceの一部として統合されることになります。

@@ -7,6 +7,7 @@ type: news
 tags: [NotebookLM, Google, リサーチ]
 source: https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm/
 draft: false
+importance: medium
 ---
 
 GoogleがNotebookLMを大幅にアップデートしました。最新のGeminiモデル(Gemini 3.5・Antigravity)を活用し、高度な推論・コード実行・多様な出力形式への対応を実現しています。

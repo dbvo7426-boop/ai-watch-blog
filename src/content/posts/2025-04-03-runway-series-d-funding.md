@@ -7,6 +7,7 @@ type: news
 tags: [Runway, 資金調達, "AI史"]
 source: https://techcrunch.com/2025/04/03/runway-best-known-for-its-video-generating-models-raises-308m/
 draft: false
+importance: medium
 ---
 
 動画生成AIのRunwayが、General Atlanticを主導とするシリーズDラウンドで3億800万ドルを調達したと発表しました。Fidelity Management & Research、Baillie Gifford、Nvidia、SoftBankなどが参加し、これまでの累計調達額は5億3,650万ドルに達しています。

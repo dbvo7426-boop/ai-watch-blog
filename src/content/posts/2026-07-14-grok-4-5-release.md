@@ -7,6 +7,7 @@ type: news
 tags: [Grok, xAI, コーディング]
 source: https://x.ai/news/grok-4-5
 draft: false
+importance: high
 ---
 
 xAIが新モデル「Grok 4.5」を公開しました。コーディング・エージェントタスク・知識労働に特化したモデルで、Cursorとの共同開発によりコーディング・科学・工学・数学分野の大規模データで学習されています。

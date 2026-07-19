@@ -7,6 +7,7 @@ type: news
 tags: [Codex, OpenAI, GitHub Copilot, GPT-3, "AI史"]
 source: https://openai.com/blog/openai-codex/
 draft: false
+importance: medium
 ---
 
 OpenAIが2021年8月10日、自然言語の指示を実行可能なコードに変換するAI「OpenAI Codex」をAPIの限定プライベートベータとして公開しました。GPT-3をベースに大量のソースコードで追加学習したモデルで、その約1カ月半前にGitHubが発表した「GitHub Copilot」技術プレビューの頭脳としてもすでに採用されていました。プログラミングの参入障壁を下げる存在として位置づけられたこの初代Codexは、2025年に生まれ変わる「OpenAI Codex」ブランドの出発点になります。

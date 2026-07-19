@@ -7,6 +7,7 @@ type: news
 tags: [Codex, OpenAI, codex-1, ChatGPT, "AI史"]
 source: https://openai.com/index/introducing-codex/
 draft: false
+importance: high
 ---
 
 OpenAIが2025年5月16日、ChatGPT上で動くクラウド型のソフトウェアエンジニアリングエージェント「Codex」を研究プレビューとして発表しました。前月公開したローカル向けの「Codex CLI」に続く展開で、コード生成に最適化した新モデル「codex-1」を搭載し、複数のコーディングタスクを並列のクラウドサンドボックス環境で同時にこなせるのが特徴です。これにより「Codex」は単なるモデル名から、機能追加やPR提案までこなす本格的なエージェント製品へと生まれ変わりました。

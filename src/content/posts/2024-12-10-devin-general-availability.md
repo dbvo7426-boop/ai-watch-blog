@@ -7,6 +7,7 @@ type: news
 tags: [Devin, Cognition, "AI史"]
 source: https://cognition.com/blog/devin-generally-available
 draft: false
+importance: medium
 ---
 
 Cognitionが、2024年3月に発表していたAIソフトウェアエンジニア「Devin」の一般提供(GA)を開始したと発表しました。同年を通じたアーリーアクセス期間を経て、企業のエンジニアリングチームが月額500ドルから座席数制限なしに利用できる体制になりました。

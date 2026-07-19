@@ -7,6 +7,7 @@ type: news
 tags: [DALL-E, OpenAI, "AI史"]
 source: https://openai.com/index/dall-e-2/
 draft: false
+importance: high
 ---
 
 OpenAIが、テキストの説明文から写実的な画像やアートを生成するAIシステム「DALL-E 2」を発表しました。2021年1月発表の初代DALL-Eから解像度が4倍に向上し、評価者による比較でも写実性で88.8%という高い支持を得るなど、画像生成AIの実用性を一気に引き上げるモデルとして注目を集めました。

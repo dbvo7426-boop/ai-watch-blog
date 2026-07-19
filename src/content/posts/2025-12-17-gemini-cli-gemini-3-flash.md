@@ -7,6 +7,7 @@ type: news
 tags: [Gemini CLI, Google, Gemini 3, "AI史"]
 source: https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/
 draft: false
+importance: medium
 ---
 
 Googleが2025年12月17日、「Gemini CLI」で新モデル「Gemini 3 Flash」を利用可能にしたと発表しました。エージェント型コーディングの指標であるSWE-bench Verifiedで78%を記録し、上位モデルのGemini 3 Proや従来の2.5系列を上回りながら、2.5 Proと比べて3倍速く、コストは4分の1未満というバランスの良さが特徴です。

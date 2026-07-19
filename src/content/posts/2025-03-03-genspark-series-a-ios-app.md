@@ -7,6 +7,7 @@ type: news
 tags: [Genspark, AIエージェント, 資金調達, "AI史"]
 source: https://www.genspark.ai/blog/genspark-series-a-funding-and-ios-app
 draft: false
+importance: medium
 ---
 
 Gensparkが、シリーズA資金調達ラウンドで1億ドルを調達したと同時に、iOSアプリの正式投入を発表しました。「世界初のAI検索+ブラウザ+エージェントのスーパーアプリ」と位置づけ、社内で52回の反復を経て仕上げたとしています。

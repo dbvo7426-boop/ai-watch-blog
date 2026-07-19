@@ -7,6 +7,7 @@ type: news
 tags: [Midjourney, 画像生成AI, "AI史"]
 source: https://petapixel.com/2024/08/23/midjourney-launches-website-interface-for-its-ai-image-generator/
 draft: false
+importance: medium
 ---
 
 Midjourneyが、これまでDiscordのボット経由でしか利用できなかった画像生成機能を、ブラウザから直接使えるウェブサイトとして一般公開しました。2024年8月時点で1万枚以上の生成実績を持つユーザーに限定していたアルファ版を、全ユーザーへ開放する形での展開です。

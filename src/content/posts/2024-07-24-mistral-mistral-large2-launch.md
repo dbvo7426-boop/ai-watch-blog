@@ -7,6 +7,7 @@ type: news
 tags: [Mistral, Mistral AI, "AI史"]
 source: https://mistral.ai/news/mistral-large-2407/
 draft: false
+importance: medium
 ---
 
 Mistral AIが2024年7月24日、フラッグシップモデルの第2世代「Mistral Large 2」を発表しました。同年2月の初代Mistral Largeを「大幅に上回る」とし、GPT-4o・Claude 3 Opus・Llama 3 405Bなど当時の最先端モデルに匹敵する性能を、単一ノードで動作可能なサイズで実現したと説明しています。

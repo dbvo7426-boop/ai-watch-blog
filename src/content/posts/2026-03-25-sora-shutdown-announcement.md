@@ -7,6 +7,7 @@ type: news
 tags: [Sora, OpenAI]
 source: https://www.npr.org/2026/03/25/g-s1-115055/openai-pulls-the-plug-on-sora-the-viral-ai-video-app-that-sparked-deepfake-concerns
 draft: false
+importance: high
 ---
 
 OpenAIが2026年3月25日、動画生成ソーシャルアプリ「Sora」を終了すると発表しました。「Soraで作ったものには意味があった。この知らせが残念なものであることは分かっている」と自ら述べる一方、具体的な終了スケジュールは「追って共有する」とし、詳細は後日発表される形になりました。

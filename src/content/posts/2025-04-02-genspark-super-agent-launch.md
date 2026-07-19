@@ -7,6 +7,7 @@ type: news
 tags: [Genspark, AIエージェント, "AI史"]
 source: https://www.genspark.ai/blog/genspark-super-agent
 draft: false
+importance: medium
 ---
 
 Gensparkが、自律型AIアシスタント「Genspark Super Agent」を発表しました。単に会話に応じるだけでなく、計画・電話発信・作成・分析・自動化までを自ら実行するとうたっており、2024年6月にAI検索エンジンとして出発した同社にとって、事業の軸足を大きく転換する発表となりました。

@@ -7,6 +7,7 @@ type: news
 tags: [DeepSeek, "AI史"]
 source: https://techcrunch.com/2024/12/26/deepseeks-new-ai-model-appears-to-be-one-of-the-best-open-challengers-yet/
 draft: false
+importance: high
 ---
 
 DeepSeekが、6710億パラメータのMixture-of-Expertsモデル「DeepSeek-V3」を公開しました。商用利用も可能な寛容なライセンスのもとで公開されたオープンモデルとして、GPT-4oやLlama 3.1 405B、Qwen 2.5 72Bなどを上回るとする自社ベンチマーク結果を示し、開発コミュニティに大きな驚きをもたらしました。

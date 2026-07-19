@@ -7,6 +7,7 @@ type: news
 tags: [Runway, 動画生成AI, "AI史"]
 source: https://runwayml.com/research/introducing-runway-gen-4
 draft: false
+importance: medium
 ---
 
 Runwayが最新の動画生成モデル「Gen-4」を発表しました。最大の特徴は参照画像を使った条件付け(reference conditioning)により、追加のファインチューニングなしにキャラクター・オブジェクト・環境を複数の動画生成間で視覚的に一貫させられる点です。

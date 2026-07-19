@@ -7,6 +7,7 @@ type: news
 tags: [Skywork, AIエージェント, 業務効率化]
 source: https://prtimes.jp/main/html/rd/p/000000001.000174262.html
 draft: false
+importance: low
 ---
 
 Skywork.aiが、複数の専門AIエージェントを1つの環境に統合した「Skywork」を発表しました。文書作成・スライド・データ可視化・Webサイト制作・動画要約・ポッドキャスト制作までを、アプリを切り替えることなく一貫して行える点が特徴です。

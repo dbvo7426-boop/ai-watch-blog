@@ -7,6 +7,7 @@ type: news
 tags: [NotebookLM, Google, "AI史"]
 source: https://blog.google/technology/ai/notebooklm-google-ai/
 draft: false
+importance: low
 ---
 
 Googleが、実験的なAIノートアプリ「NotebookLM」の提供を開始しました。2023年5月のGoogle I/Oで「Project Tailwind」として発表されていたプロジェクトが、名称を変えて米国の一部ユーザーにロールアウトされた形です。

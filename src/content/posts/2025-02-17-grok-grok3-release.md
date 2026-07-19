@@ -7,6 +7,7 @@ type: news
 tags: [Grok, xAI, "AI史"]
 source: https://x.ai/news/grok-3
 draft: false
+importance: high
 ---
 
 xAIが、最新フラッグシップモデル「Grok-3」を発表しました。Elon Musk氏はGrok-2の10倍の計算資源で学習したと説明しており、OpenAIやDeepSeekへの対抗モデルとして大きな注目を集めました。

@@ -7,6 +7,7 @@ type: news
 tags: [DeepSeek, オープンソース, コーディング]
 source: https://api-docs.deepseek.com/news/news260424
 draft: false
+importance: high
 ---
 
 DeepSeekが新モデル「DeepSeek-V4-Pro」「DeepSeek-V4-Flash」のプレビューを公開しました。いずれも100万トークンのコンテキスト長を標準搭載し、APIから即日利用できます。

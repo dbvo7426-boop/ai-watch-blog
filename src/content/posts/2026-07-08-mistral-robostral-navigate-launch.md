@@ -7,6 +7,7 @@ type: news
 tags: [Mistral, Mistral AI, ロボティクス]
 source: https://mistral.ai/news/robostral-navigate/
 draft: false
+importance: medium
 ---
 
 Mistral AIが2026年7月8日、ロボット向けの自律航行モデル「Robostral Navigate」を発表しました。深度センサーやLiDARを使わず、通常のRGBカメラ1台と自然言語による指示だけで複雑な環境をロボットが自律的に移動できるようにするモデルで、同社がフィジカルAI分野に本格参入したことを示す発表です。

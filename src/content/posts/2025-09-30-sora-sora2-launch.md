@@ -7,6 +7,7 @@ type: news
 tags: [Sora, OpenAI, "AI史"]
 source: https://openai.com/index/sora-2/
 draft: false
+importance: high
 ---
 
 OpenAIが2025年9月30日、動画・音声生成モデル「Sora 2」を発表するとともに、それを使ったTikTok型のソーシャルアプリ「Sora」をiOS向けに公開しました。ユーザー同士が互いの生成物をリミックスしたり、「キャラクター」機能で自分や友人を動画に登場させたりできる、動画生成AIの新たな使い方を提示した発表です。

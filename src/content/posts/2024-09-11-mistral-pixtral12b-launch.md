@@ -7,6 +7,7 @@ type: news
 tags: [Mistral, Mistral AI, "AI史"]
 source: https://mistral.ai/news/pixtral-12b/
 draft: false
+importance: medium
 ---
 
 Mistral AIが2024年9月11日、同社初となるマルチモーダルモデル「Pixtral 12B」を公開しました。テキストモデル「Nemo 12B」をベースに構築され、任意の枚数・サイズの画像(URLまたはbase64エンコード)を扱える点が特徴で、Apache 2.0ライセンスの下で誰でも自由に利用・改変できる形で提供されました。

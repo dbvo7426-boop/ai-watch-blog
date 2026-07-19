@@ -7,6 +7,7 @@ type: news
 tags: [Adept, ACT-1, AIエージェント, "AI史"]
 source: https://www.adept.ai/blog/act-1
 draft: false
+importance: medium
 ---
 
 Adeptが、デジタルツールを操作するために訓練された大規模Transformerモデル「ACT-1(Action Transformer)」を発表しました。Chrome拡張機能を通じて画面上の状態を観察し、クリック・入力・スクロールといった操作を自然言語の指示だけで実行できる点が特徴です。

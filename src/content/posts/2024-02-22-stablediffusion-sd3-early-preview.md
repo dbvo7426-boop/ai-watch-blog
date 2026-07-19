@@ -7,6 +7,7 @@ type: news
 tags: [StableDiffusion, StabilityAI, "AI史"]
 source: https://stability.ai/news/stable-diffusion-3
 draft: false
+importance: low
 ---
 
 Stability AIが、次世代フラッグシップモデル「Stable Diffusion 3」の早期プレビューを発表しました。SoraやGeminiなど他社の画像・動画生成AIが存在感を増すなか、画質・プロンプト追従性に加えて、AI画像生成の長年の弱点だった文字のスペル表現の精度向上を前面に打ち出しています。

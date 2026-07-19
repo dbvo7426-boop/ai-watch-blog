@@ -7,6 +7,7 @@ type: news
 tags: [Runway, 動画生成AI, "AI史"]
 source: https://runwayml.com/research/introducing-gen-3-alpha
 draft: false
+importance: medium
 ---
 
 Runwayが、新世代の動画生成モデル「Gen-3 Alpha」を発表しました。同社は「忠実度(fidelity)」「一貫性(consistency)」「モーション(motion)」の3点でGen-2から大きく進化したと説明し、フォトリアルな人物表現や自然な質感表現が可能になったことをアピールしています。

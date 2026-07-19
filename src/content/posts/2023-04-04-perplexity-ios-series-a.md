@@ -7,6 +7,7 @@ type: news
 tags: [Perplexity, iOS, AI史]
 source: https://techcrunch.com/2023/04/04/ai-powered-search-engine-perplexity-ai-lands-26m-launches-ios-app/
 draft: false
+importance: medium
 ---
 
 Perplexity AIが2023年4月、New Enterprise Associates(NEA)主導のSeries Aラウンドで2560万ドルを調達したと同時に、初のiOSアプリを公開しました。公開から約4カ月というタイミングで、Web版のみだったサービスがモバイルへと本格展開を始めた節目です。

@@ -7,6 +7,7 @@ type: news
 tags: [StableDiffusion, StabilityAI, "AI史"]
 source: https://stability.ai/news-updates/stable-diffusion-3-medium
 draft: false
+importance: medium
 ---
 
 Stability AIが、台湾で開催されたComputex Taipeiの壇上で、Stable Diffusion 3シリーズのオープンウェイト版「SD3 Medium」を公開しました。共同CEO兼CTOのChristian Laforte氏がAMDのLisa Su CEOとともに登壇し、6月12日の公開を発表。2月に予告されていたSD3の一般提供がようやく実現した形です。

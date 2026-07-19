@@ -7,6 +7,7 @@ type: news
 tags: [Claude, 研究支援, カナダ]
 source: https://www.anthropic.com/news/canadian-ai-research
 draft: false
+importance: low
 ---
 
 Anthropicが、カナダの研究機関・大学8か所に対して総額1000万カナダドルを拠出すると発表しました。有益で責任あるAI活用に向けた研究を幅広く支援します。

@@ -7,6 +7,7 @@ type: news
 tags: [Gemini, 東南アジア, レポート]
 source: https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/
 draft: false
+importance: low
 ---
 
 Googleが「Gemini Southeast Asia Report 2026」を公表しました。東南アジア地域でのGeminiアプリのアクティブユーザー数がこの1年で倍増したと発表。あわせて、Gemini Advanced加入者向けに現地語対応の「Gemini Spark」を展開すると明らかにしています。

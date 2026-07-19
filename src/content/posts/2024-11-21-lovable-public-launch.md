@@ -7,6 +7,7 @@ type: news
 tags: [Lovable, バイブコーディング, "AI史"]
 source: https://lovable.dev/gpt-engineer
 draft: false
+importance: high
 ---
 
 Anton Osika氏らのチームが、自然言語での対話だけでウェブアプリを構築できる新サービス「Lovable」を正式にローンチしました。Product HuntとHacker Newsの両方で同時に1位を獲得する好スタートを切り、公開から数週間で急速にユーザーを獲得しました。

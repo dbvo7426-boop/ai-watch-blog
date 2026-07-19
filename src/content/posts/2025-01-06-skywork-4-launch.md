@@ -7,6 +7,7 @@ type: news
 tags: [Skywork, Kunlun Tech, 天工, "AI史"]
 source: https://www.aibase.com/news/14480
 draft: false
+importance: low
 ---
 
 Kunlun Wanwei(昆仑万维)が、大規模言語モデル「天工大模型4.0」のo1版・4o版を天工Webサイト・アプリ上で正式に無料公開したと発表しました。前月から招待制テストが進められていたモデルが、一般ユーザーにも開放された形です。

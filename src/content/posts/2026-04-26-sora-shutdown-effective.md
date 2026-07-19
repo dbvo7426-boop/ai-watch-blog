@@ -7,6 +7,7 @@ type: news
 tags: [Sora, OpenAI]
 source: https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation
 draft: false
+importance: medium
 ---
 
 OpenAIのSoraが2026年4月26日、ウェブ版・アプリ版の提供を正式に終了しました。3月に発表されていた終了方針が実行に移された形で、ユーザーはこれまでに作成したコンテンツをエクスポートできる期間が設けられ、APIについては同年9月24日まで別途提供が続けられます。

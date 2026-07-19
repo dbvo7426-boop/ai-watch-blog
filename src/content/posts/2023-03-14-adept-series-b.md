@@ -7,6 +7,7 @@ type: news
 tags: [Adept, 資金調達, "AI史"]
 source: https://www.adept.ai/blog/series-b
 draft: false
+importance: medium
 ---
 
 Adeptが、General CatalystとSpark Capitalが共同で主導するシリーズBラウンドで3.5億ドルを調達したと発表しました。Microsoft・NVIDIA・Atlassian Venturesなども参加し、報道では評価額が約10億ドル規模に達したとされています。

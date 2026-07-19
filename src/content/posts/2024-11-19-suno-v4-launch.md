@@ -7,6 +7,7 @@ type: news
 tags: [Suno, 音楽生成AI, "AI史"]
 source: https://suno.com/blog/v4
 draft: false
+importance: medium
 ---
 
 Sunoが新しい音楽生成モデル「v4」を発表しました。よりクリアな音質、聞き取りやすい歌詞、ダイナミックな楽曲構成を特徴とし、既存の楽曲をv4の品質にアップグレードできる「Remaster」機能も同時に投入されました。

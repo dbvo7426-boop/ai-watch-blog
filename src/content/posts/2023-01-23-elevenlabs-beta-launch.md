@@ -7,6 +7,7 @@ type: news
 tags: [ElevenLabs, 音声AI, "AI史"]
 source: https://elevenlabs.io/blog/elevenlabs-raises-2m-pre-seed-and-announces-ai-speech-platform-promising-to-revolutionize-audio-storytelling
 draft: false
+importance: medium
 ---
 
 ポーランド出身のPiotr DąbkowskiとMati Staniszewskiが2022年に立ち上げたElevenLabsが、AI音声合成プラットフォームのベータ版を公開しました。同時にCredo Venturesが主導する200万ドルのプレシード資金調達も発表し、本格的な事業展開に動き出しました。

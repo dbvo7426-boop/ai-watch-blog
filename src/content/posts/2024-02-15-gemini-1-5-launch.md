@@ -7,6 +7,7 @@ type: news
 tags: [Gemini, Google, "AI史"]
 source: https://blog.google/innovation-and-ai/products/google-gemini-next-generation-model-february-2024/
 draft: false
+importance: high
 ---
 
 Googleが次世代モデル「Gemini 1.5」を発表しました。目玉はコンテキストウィンドウの大幅拡張で、最大100万トークンという当時としては破格の長さを実現。Gemini 1.0 Ultraに匹敵する性能を、より少ない計算資源で達成したモデルとしても注目されました。

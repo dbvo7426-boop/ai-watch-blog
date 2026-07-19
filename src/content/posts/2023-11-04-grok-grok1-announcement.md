@@ -7,6 +7,7 @@ type: news
 tags: [Grok, xAI, "AI史"]
 source: https://x.ai/news/grok
 draft: false
+importance: high
 ---
 
 Elon Musk氏が設立したxAIが、独自の大規模言語モデル「Grok-1」と、それを搭載したチャットボット「Grok」を発表しました。X(旧Twitter)のPremium+加入者向けに早期アクセスという形でまず提供が始まり、xAIにとって初の一般提供プロダクトとなりました。

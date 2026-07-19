@@ -7,6 +7,7 @@ type: news
 tags: [Claude, 教育, K-12]
 source: https://anthropic.com/news/claude-for-teachers
 draft: false
+importance: medium
 ---
 
 Anthropicが米国のK-12教員向け専用プラン「Claude for Teachers」を発表しました。全米50州の学習基準に対応した教材とセットで、Claudeの上位機能を教育現場向けに提供します。

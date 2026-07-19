@@ -7,6 +7,7 @@ type: news
 tags: [Claude Code, Anthropic, Claude Cowork, 政府, FedRAMP]
 source: https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government
 draft: false
+importance: medium
 ---
 
 Anthropicが2026年7月7日、FedRAMP High認証済み環境「Claude for Government Desktop」上でClaude CodeとClaude Cowork(ナレッジワーク向けエージェント)の公開ベータ提供を開始したと発表しました。公共部門のソフトウェアチームがコーディングエージェントを使えるようになったほか、部署単位の管理やスペンド管理といった政府機関向けの統制機能も同時に提供されます。

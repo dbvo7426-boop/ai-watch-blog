@@ -7,6 +7,7 @@ type: news
 tags: [Grok Build, xAI, コーディング, CLI, AI史]
 source: https://x.ai/news/grok-build-cli
 draft: false
+importance: medium
 ---
 
 xAIがターミナルから直接使えるコーディングエージェント「Grok Build」の早期ベータを公開しました。SuperGrokおよびX Premium Plusの全加入者が利用可能で、プロ向けの複雑なソフトウェア開発タスクを自動化する位置づけです。Anthropic「Claude Code」やOpenAI「Codex」に1年以上遅れての参入となります。

@@ -7,6 +7,7 @@ type: news
 tags: [Qwen, Alibaba, "AI史"]
 source: https://qwenlm.github.io/blog/qwen2.5/
 draft: false
+importance: high
 ---
 
 Alibaba Cloudが2024年9月19日、年次イベント「Apsara Conference」で新モデル群「Qwen2.5」を発表しました。汎用モデルに加えコード特化の「Qwen2.5-Coder」、数学特化の「Qwen2.5-Math」を含め、量子化版まで合わせて100種類超のモデルを一挙に世界のオープンソースコミュニティへ公開。「史上最大級のオープンソースリリースかもしれない」と自ら位置づけました。

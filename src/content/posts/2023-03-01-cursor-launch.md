@@ -7,6 +7,7 @@ type: news
 tags: [Cursor, Anysphere, "AI史"]
 source: https://www.cursor.com/
 draft: false
+importance: medium
 ---
 
 MIT出身のMichael Truell氏・Sualeh Asif氏・Arvid Lunnemark氏・Aman Sanger氏の4人が2022年に設立したAnysphereが、AIを前提に設計したコードエディタ「Cursor」を公開しました。VS Codeをベースにしつつ、AIをあらゆる操作に深く組み込む設計を打ち出しています。なお、公式の発表日として特定の「日付」を明示した一次情報は確認できておらず、複数の報道・関係者の証言から2023年3月の公開であることは確認できるものの、正確な日にちまでは公式には明らかにされていません。

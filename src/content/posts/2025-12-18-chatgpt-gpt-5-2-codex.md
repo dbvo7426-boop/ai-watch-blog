@@ -7,6 +7,7 @@ type: news
 tags: [Codex, GPT-5.2-Codex, OpenAI, サイバーセキュリティ, "AI史"]
 source: https://openai.com/index/introducing-gpt-5-2-codex/
 draft: false
+importance: medium
 ---
 
 OpenAIが2025年12月18日、GPT-5.2をエージェント型コーディング向けに最適化した新モデル「GPT-5.2-Codex」を発表しました。長時間にわたる大規模タスクを最後までやり切る継続力や、Windows環境での実行性能、サイバーセキュリティ関連の能力を大きく強化したのが特徴で、現実的なソフトウェアエンジニアリングタスクを評価するベンチマーク「SWE-Bench Pro」と「Terminal-Bench 2.0」の両方で最高水準の成績を記録しました。

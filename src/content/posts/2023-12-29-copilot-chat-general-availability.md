@@ -7,6 +7,7 @@ type: news
 tags: [GitHub Copilot, GitHub Copilot Chat, "AI史"]
 source: https://github.blog/news-insights/product-news/github-copilot-chat-now-generally-available-for-organizations-and-individuals/
 draft: false
+importance: medium
 ---
 
 GitHubが2023年12月29日、2023年3月のCopilot Xで発表されたチャット機能「GitHub Copilot Chat」をベータから一般提供(GA)へ移行しました。VS CodeとVisual Studio向けに、追加料金なしで全てのGitHub Copilotプランに含まれる形で提供され、コード補完中心だった製品が対話型AIアシスタントとして本格的に定着した節目です。

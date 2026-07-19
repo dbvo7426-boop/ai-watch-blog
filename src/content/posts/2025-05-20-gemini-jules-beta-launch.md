@@ -7,6 +7,7 @@ type: news
 tags: [Jules, Google, Gemini, "AI史"]
 source: https://blog.google/innovation-and-ai/models-and-research/google-labs/jules/
 draft: false
+importance: medium
 ---
 
 Googleが2025年5月20日、Google I/O 2025に合わせて非同期AIコーディングエージェント「Jules」を公開ベータとして提供開始しました。2024年12月にGoogle Labsの実験的プロジェクトとして限定テスターに公開されて以来、約5か月を経ての世界同時ベータ入りで、Gemini 2.5 Proを基盤にクラウド上の仮想マシンで自律的にコードを処理する点が特徴です。

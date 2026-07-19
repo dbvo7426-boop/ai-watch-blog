@@ -7,6 +7,7 @@ type: news
 tags: [Gemini, Google, "AI史"]
 source: https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/
 draft: false
+importance: high
 ---
 
 Googleが新世代の大規模AIモデル「Gemini 1.0」を発表しました。同社が「これまでで最大かつ最も高性能」と位置付けるモデルで、テキストだけでなく画像・音声・動画・コードを最初から統合的に扱えるよう設計されたマルチモーダル構成が特徴です。Bardの基盤モデルとしても採用され、Googleの対話型AI戦略の転換点となりました。

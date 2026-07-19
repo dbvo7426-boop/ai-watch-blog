@@ -7,6 +7,7 @@ type: news
 tags: [Claude Code, Anthropic, クラウド, "AI史"]
 source: https://claude.com/blog/claude-code-on-the-web
 draft: false
+importance: medium
 ---
 
 Anthropicが2025年10月20日、ブラウザからClaude Codeにコーディングタスクを委任できる「Claude Code on the web」を研究プレビューとして公開しました。ローカルのターミナルを開かなくても、Anthropicのクラウドインフラ上で複数のコーディングタスクを並行して走らせ、進捗を確認しながら管理できるのが特徴です。

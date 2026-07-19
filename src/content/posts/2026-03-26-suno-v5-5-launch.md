@@ -7,6 +7,7 @@ type: news
 tags: [Suno, 音楽生成AI]
 source: https://suno.com/blog/v5-5
 draft: false
+importance: medium
 ---
 
 Sunoが新モデル「v5.5」を公開しました。同社が「最もパーソナルなモデル」と位置づける通り、ユーザー自身の声や好みの傾向を反映して楽曲を作れる新機能「Voices」「Custom Models」「My Taste」を同時に投入しています。

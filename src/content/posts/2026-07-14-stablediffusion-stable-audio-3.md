@@ -7,6 +7,7 @@ type: news
 tags: [Stability AI, 音声生成, オープンウェイト]
 source: https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models
 draft: false
+importance: medium
 ---
 
 Stable Diffusionの開発元Stability AIが、音楽・効果音生成の新モデル「Stable Audio 3.0」を発表しました。4モデルからなるファミリー構成で、うち3モデルはオープンウェイトとして無料公開されています。

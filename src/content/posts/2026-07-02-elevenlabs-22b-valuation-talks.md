@@ -7,6 +7,7 @@ type: news
 tags: [ElevenLabs, 資金調達]
 source: https://www.bloomberg.com/news/articles/2026-07-02/elevenlabs-in-talks-for-tender-offer-at-22-billion-valuation
 draft: false
+importance: low
 ---
 
 Bloombergの報道によると、ElevenLabsが従業員や既存株主が保有株式を売却できるテンダーオファー(公開買付け)について投資家と初期協議を行っており、実現すれば評価額は220億ドルに達する見通しです。これは2026年2月に完了したシリーズD(評価額110億ドル)からわずか5か月での倍増となります。

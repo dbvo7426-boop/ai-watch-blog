@@ -7,6 +7,7 @@ type: news
 tags: [Codex, OpenAI, GPT-3.5, GPT-4, "AI史"]
 source: https://developers.openai.com/api/docs/deprecations
 draft: false
+importance: low
 ---
 
 OpenAIが2023年3月23日、2021年から無料ベータで提供してきた初代Codex系モデル(code-davinci-002、code-davinci-001、code-cushman-002、code-cushman-001)のAPI提供を終了しました。理由として、後継の汎用モデルであるGPT-3.5・GPT-4がコード生成タスクでもCodexを上回るようになったことを挙げましたが、開発者への告知からわずか3日というあまりに短い移行期間が「プラットフォームとしての信頼性を揺るがした」と批判を集めました。

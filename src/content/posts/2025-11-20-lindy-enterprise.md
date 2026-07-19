@@ -7,6 +7,7 @@ type: news
 tags: [Lindy, AIエージェント, エンタープライズ]
 source: https://www.lindy.ai/blog/lindy-enterprise-announcement
 draft: false
+importance: medium
 ---
 
 Lindyが、企業がAIエージェントを組織全体で安全に導入・統制するためのガバナンス機能一式「Lindy Enterprise」を発表しました。「AIを既存の業務やシステムに急いで組み込む動きは、IT・コンプライアンス上の悪夢になりかねない」という課題認識のもと、構造・安全性・組織的な監督機能を提供します。

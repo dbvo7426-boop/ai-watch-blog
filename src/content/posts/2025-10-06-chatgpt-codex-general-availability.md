@@ -7,6 +7,7 @@ type: news
 tags: [Codex, OpenAI, DevDay, GPT-5-Codex, Slack, "AI史"]
 source: https://openai.com/index/codex-now-generally-available/
 draft: false
+importance: medium
 ---
 
 OpenAIが2025年10月6日、サンフランシスコで開いた年次開発者会議「DevDay 2025」で、コーディングエージェント「Codex」を同年5月の研究プレビューから正式に一般提供(GA)へ移行したと発表しました。Slackから直接タスクを依頼できる連携機能、Codexのエージェントループを組み込める「Codex SDK」、組織向けの管理ツールが新たに加わり、個人の実験的ツールから企業導入を見据えた製品へと立場を固めた節目です。

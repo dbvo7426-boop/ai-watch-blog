@@ -7,6 +7,7 @@ type: news
 tags: [Skywork, Kunlun Tech, 天工, Tiangong]
 source: https://news.aibase.com/news/29331
 draft: false
+importance: low
 ---
 
 Kunlun Wanwei(昆仑万维)が、「天工大模型3.2(Tiangong 3.2)」のリリースに合わせて新機能「Skywork Tags」を発表しました。個人向けアシスタントとしてではなく、チームのグループチャットに直接参加できるAIエージェントという新しい形を提示しています。

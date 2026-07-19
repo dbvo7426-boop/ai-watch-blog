@@ -7,6 +7,7 @@ type: news
 tags: [Lindy, DeepSeek, Anthropic]
 source: https://www.lindy.ai/blog/migrating-from-claude-to-deepseek
 draft: false
+importance: medium
 ---
 
 Lindyが、マネージドエージェント向けのモデルトラフィックの大部分をAnthropicのClaude/SonnetおよびGoogleのGeminiから、Atlas Cloud上でホストする「DeepSeek v4 Flash」へ移行したと公式ブログで発表しました。移行した経路では推論コストが約90%減少したとしています。

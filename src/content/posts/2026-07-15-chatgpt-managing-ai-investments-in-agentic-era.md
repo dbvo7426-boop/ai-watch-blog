@@ -7,6 +7,7 @@ type: howto
 tags: [ChatGPT, エンタープライズ, ROI]
 source: https://openai.com/index/managing-ai-investments-in-agentic-era
 draft: false
+importance: low
 ---
 
 OpenAIが、ワークフローが長時間・複雑化する「エージェント時代」において、企業がAI投資をどう管理すべきかを解説する記事を公開しました。トークン単価だけでは価値は測れず、「1ドルあたりの有用な成果」に着目すべきだと提言しています。

@@ -7,6 +7,7 @@ type: news
 tags: [Cursor, Anysphere, OpenAI, 資金調達, "AI史"]
 source: https://techcrunch.com/2023/10/11/anysphere-raises-8m-from-openai-to-build-an-ai-powered-ide/
 draft: false
+importance: low
 ---
 
 AIコードエディタ「Cursor」を開発するAnysphereが、OpenAIのStartup Fund主導で800万ドルのシード資金を調達したとTechCrunchが報じました。元GitHub CEOのNat Friedman氏やDropbox共同創業者のArash Ferdowsi氏らエンジェル投資家も参加し、累計調達額は1100万ドルに達しています。

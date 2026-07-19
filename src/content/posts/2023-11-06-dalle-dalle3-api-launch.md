@@ -7,6 +7,7 @@ type: news
 tags: [DALL-E, OpenAI, "AI史"]
 source: https://techcrunch.com/2023/11/06/openai-launches-dall-e-3-api-new-text-to-speech-models/
 draft: false
+importance: low
 ---
 
 OpenAIが、初めて開催した開発者会議「DevDay」で、DALL-E 3を独立したAPIエンドポイントとして公開しました。同日にはGPT-4 Turboや新しいAssistants APIも発表されており、DALL-E 3はChatGPTを介さずに開発者が直接呼び出せるようになった形です。

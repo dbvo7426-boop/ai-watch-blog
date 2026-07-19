@@ -7,6 +7,7 @@ type: news
 tags: [DALL-E, OpenAI, ChatGPT, "AI史"]
 source: https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise/
 draft: false
+importance: medium
 ---
 
 OpenAIが、最新の画像生成モデル「DALL-E 3」をChatGPT Plus・Enterpriseユーザー向けにネイティブ統合しました。ユーザーが短い要望を入力するだけで、ChatGPTがそれを詳細な画像生成プロンプトへ自動的に書き換えてからDALL-E 3に渡す仕組みで、プロンプト作成の専門知識がなくても意図に近い画像を得られるようになった点が大きな転換です。

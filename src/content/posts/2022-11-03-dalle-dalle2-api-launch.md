@@ -7,6 +7,7 @@ type: news
 tags: [DALL-E, OpenAI, "AI史"]
 source: https://techcrunch.com/2022/11/03/now-anyone-can-build-apps-that-use-dall-e-2-to-generate-images/
 draft: false
+importance: medium
 ---
 
 OpenAIが、DALL-E 2をAPIとして公開し、開発者が自社のアプリやウェブサービス、SaaS製品に画像生成機能を直接組み込めるようにしました。OpenAIのAPIアカウントを作成すれば誰でもパブリックベータとして利用開始でき、DALL-E 2の商用展開が本格的に始まった節目です。

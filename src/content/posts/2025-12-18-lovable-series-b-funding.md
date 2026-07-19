@@ -7,6 +7,7 @@ type: news
 tags: [Lovable, 資金調達]
 source: https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/
 draft: false
+importance: medium
 ---
 
 バイブコーディングサービスのLovableが、3億3,000万ドルのシリーズBラウンドを調達したと発表しました。評価額は66億ドルに達し、2025年7月にユニコーン入りしてから半年足らずでさらに評価額を大きく伸ばしています。

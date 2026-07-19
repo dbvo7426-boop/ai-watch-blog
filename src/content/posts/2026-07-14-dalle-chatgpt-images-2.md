@@ -7,6 +7,7 @@ type: news
 tags: [DALL-E, 画像生成, ChatGPT]
 source: https://openai.com/index/introducing-chatgpt-images-2-0
 draft: false
+importance: medium
 ---
 
 OpenAIがChatGPT内蔵の画像生成モデルを「ChatGPT Images 2.0」にアップデートしました。DALL-Eから続く画像生成機能の最新版で、特に多言語でのテキスト描画精度が大きく向上しています。

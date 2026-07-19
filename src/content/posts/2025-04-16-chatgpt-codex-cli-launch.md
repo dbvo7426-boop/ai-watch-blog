@@ -7,6 +7,7 @@ type: news
 tags: [Codex, Codex CLI, OpenAI, o3, o4-mini, "AI史"]
 source: https://openai.com/index/introducing-o3-and-o4-mini/
 draft: false
+importance: medium
 ---
 
 OpenAIが2025年4月16日、新モデル「o3」「o4-mini」の発表と同時に、手元のターミナルで動く軽量なオープンソースコーディングエージェント「Codex CLI」を公開しました。2023年に一度サービス終了した「Codex」の名前を冠した、自律的にコードを書き・編集し・コマンドを実行するエージェントで、後にクラウド型へ拡張される「OpenAI Codex」復活の第一歩となりました。

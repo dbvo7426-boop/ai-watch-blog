@@ -7,6 +7,7 @@ type: news
 tags: [Cursor, Anysphere, 資金調達, "AI史"]
 source: https://cursor.com/blog/series-a
 draft: false
+importance: medium
 ---
 
 Cursorを開発するAnysphereが、Andreessen HorowitzとThrive Capital主導のシリーズAで6000万ドルを調達し、評価額4億ドルに到達したと公式発表しました。スタートアップ・研究機関から大企業まで4万社を超える顧客を抱えるまでに成長したとしています。

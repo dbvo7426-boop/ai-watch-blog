@@ -7,6 +7,7 @@ type: news
 tags: [Manus, Butterfly Effect, AIエージェント, "AI史"]
 source: https://alternativeto.net/news/2025/5/manus-removes-waitlist-and-grants-all-users-free-daily-task-credits/
 draft: false
+importance: medium
 ---
 
 Manusが招待制の待機リストを廃止し、誰でも登録して利用できる体制に移行したと発表しました。2025年3月の発表時から続いていたアクセス制限が撤廃され、あわせて無料クレジットの付与も始まっています。

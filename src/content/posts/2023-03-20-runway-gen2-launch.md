@@ -7,6 +7,7 @@ type: news
 tags: [Runway, 動画生成AI, "AI史"]
 source: https://techcrunch.com/2023/06/09/runways-gen-2-shows-the-limitations-of-todays-text-to-video-tech/
 draft: false
+importance: high
 ---
 
 Runwayが、テキストプロンプトや1枚の画像だけから新しい動画をゼロから生成できる第2世代モデル「Gen-2」を発表しました。前身のGen-1が既存動画のスタイル変換に限られていたのに対し、Gen-2はソースとなる動画を必要とせず、Runwayは「一般公開された初のテキスト→動画生成AI」と位置づけました。

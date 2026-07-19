@@ -7,6 +7,7 @@ type: news
 tags: [Devin, Cognition, Windsurf, "AI史"]
 source: https://cognition.com/blog/windsurf
 draft: false
+importance: high
 ---
 
 Devinを開発するCognitionが、AIコーディングIDE「Windsurf」の買収に関する最終契約を締結したと発表しました。数日前にGoogleがWindsurfのCEOら幹部を24億ドル規模のライセンス契約とともに引き抜いたばかりというタイミングでの発表で、業界に衝撃を与えました。

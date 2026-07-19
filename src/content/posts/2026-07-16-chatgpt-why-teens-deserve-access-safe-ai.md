@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, 安全性, ティーン, 保護者機能]
 source: https://openai.com/index/why-teens-deserve-access-safe-ai
 draft: false
+importance: low
 ---
 
 OpenAIが、ティーンエイジャーがChatGPTを安全に使うための年齢に応じた保護機能や学習支援機能、保護者向けのペアレンタルコントロールについてまとめた記事を公開しました。ティーン利用者の9割近くが毎週ChatGPTを学習目的で使っているとし、AIへのアクセスを制限するのではなく、安全性を確保した上でアクセスを確保すべきだと主張しています。

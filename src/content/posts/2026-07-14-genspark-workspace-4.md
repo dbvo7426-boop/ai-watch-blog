@@ -7,6 +7,7 @@ type: news
 tags: [Genspark, AIエージェント, Office統合]
 source: https://www.genspark.ai/blog/genspark-ai-workspace-4
 draft: false
+importance: medium
 ---
 
 Gensparkが「AI Workspace 4.0」を発表しました。「あなたのAI社員(AI employee)」をコンセプトに、複数の作業環境へAIエージェントを統合しています。

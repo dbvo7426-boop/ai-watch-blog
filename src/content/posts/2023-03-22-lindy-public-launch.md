@@ -7,6 +7,7 @@ type: news
 tags: [Lindy, Flo Crivello, AIエージェント, "AI史"]
 source: https://www.lindy.ai/
 draft: false
+importance: low
 ---
 
 Flo Crivello氏が率いるスタートアップが、ノーコードでAIアシスタント(Lindy社内では「Lindy」と呼ぶ)を作成できるプラットフォーム「Lindy.ai」を一般公開しました。1年以上の開発と6か月の非公開ベータを経ての公開で、デモ動画の反響から短期間で7万人規模の待機リストが形成されました。

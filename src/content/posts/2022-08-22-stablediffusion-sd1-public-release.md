@@ -7,6 +7,7 @@ type: news
 tags: [StableDiffusion, StabilityAI, "AI史"]
 source: https://stability.ai/news-updates/stable-diffusion-public-release
 draft: false
+importance: high
 ---
 
 Stability AIが、テキストから画像を生成するAIモデル「Stable Diffusion」を一般公開しました。DALL-E 2やImagenと並ぶ性能を持ちながら、モデルの重み自体をCreativeML OpenRAIL-Mライセンスのもとで公開した点が最大の特徴で、誰でも手元の環境で動かせる画像生成AIとして大きな注目を集めました。

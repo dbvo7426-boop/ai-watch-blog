@@ -7,6 +7,7 @@ type: news
 tags: [Adept, Amazon, "AI史"]
 source: https://techcrunch.com/2024/06/28/amazon-hires-founders-away-from-ai-startup-adept/
 draft: false
+importance: medium
 ---
 
 Amazonが、AIエージェントスタートアップAdeptの共同創業者兼CEOであるDavid Luan氏をはじめとする中核メンバーを採用し、あわせてAdeptの技術を非独占ライセンスで取得したと明らかになりました。会社そのものを買収するのではなく、人材と技術ライセンスだけを得るという異例の取引形態で、「逆アクハイア(reverse acqui-hire)」として大きな注目を集めました。

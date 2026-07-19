@@ -7,6 +7,7 @@ type: news
 tags: [Lindy, AIエージェント]
 source: https://news.ycombinator.com/item?id=39385343
 draft: false
+importance: low
 ---
 
 Lindyの開発チームがHacker Newsの「Show HN」欄に投稿し、ノーコードでAIエージェントを構築できるプラットフォームとして開発者コミュニティに広く紹介されました。一般公開から約1年、プロダクトはコンシューマー層を超えてエンジニア層にも認知を広げる段階に入っています。

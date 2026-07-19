@@ -7,6 +7,7 @@ type: news
 tags: [Adept, AIエージェント, "AI史"]
 source: https://www.adept.ai/blog/adept-agents/
 draft: false
+importance: low
 ---
 
 共同創業者兼CEOのDavid Luan氏らがAmazonへ移籍してから約2か月後、Adeptが新CEO Zach Brock氏の体制下で独自のワークフロー言語「Adept Workflow Language(AWL)」を紹介する記事を公開しました。会社が消滅したわけではなく、縮小した体制で製品開発を続けていることを示す発信です。

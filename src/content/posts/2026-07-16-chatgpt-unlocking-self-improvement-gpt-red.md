@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, 安全性, レッドチーミング, GPT-Red]
 source: https://openai.com/index/unlocking-self-improvement-gpt-red
 draft: false
+importance: medium
 ---
 
 OpenAIが、自己対戦(セルフプレイ)を用いてモデルの脆弱性を自動的に発見・修正する内部専用のレッドチーミングAI「GPT-Red」を発表しました。人間のレッドチーマーの作業を模した攻撃を大規模・自動で繰り返し、本番モデルの学習プロセスに直接組み込むことで、プロンプトインジェクションへの耐性を大きく向上させています。

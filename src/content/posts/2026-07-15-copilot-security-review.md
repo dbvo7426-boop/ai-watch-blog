@@ -7,6 +7,7 @@ type: howto
 tags: [Copilot, セキュリティ, GitHub]
 source: https://github.blog/changelog/2026-07-14-security-reviews-now-available-in-the-github-copilot-app
 draft: false
+importance: medium
 ---
 
 GitHubがCopilotアプリに「/security-review」スラッシュコマンドをパブリックプレビューとして追加しました。作業中のコード変更をAIがその場でスキャンし、重要度・確信度付きの脆弱性検出と修正提案を行います。

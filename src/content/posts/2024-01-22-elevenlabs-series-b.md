@@ -7,6 +7,7 @@ type: news
 tags: [ElevenLabs, 資金調達, "AI史"]
 source: https://elevenlabs.io/blog/series-b
 draft: false
+importance: medium
 ---
 
 ElevenLabsが、Andreessen Horowitz・Nat Friedman・Daniel Grossが共同主導するシリーズBラウンドで8,000万ドルを調達したと発表しました。評価額は11億ドルに達し、設立からわずか1年強でユニコーン企業入りを果たしました。

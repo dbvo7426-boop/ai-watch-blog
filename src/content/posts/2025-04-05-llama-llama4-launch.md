@@ -7,6 +7,7 @@ type: news
 tags: [Llama, Meta, "AI史"]
 source: https://ai.meta.com/blog/llama-4-multimodal-intelligence/
 draft: false
+importance: high
 ---
 
 Metaが2025年4月5日、新世代モデル「Llama 4」シリーズを発表しました。Llamaファミリーとして初めてMixture-of-Experts(MoE)アーキテクチャを採用し、ネイティブにマルチモーダル対応した「Llama 4 Scout」「Llama 4 Maverick」をオープンウェイトで公開。より大規模な「Behemoth」も予告されました。

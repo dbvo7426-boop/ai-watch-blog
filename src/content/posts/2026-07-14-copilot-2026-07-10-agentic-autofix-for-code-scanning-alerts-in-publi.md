@@ -7,6 +7,7 @@ type: news
 tags: [Copilot, セキュリティ, コードスキャン]
 source: https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview
 draft: false
+importance: medium
 ---
 
 GitHubが、コードスキャンの警告をAIエージェントが自動で修正する「Agentic Autofix」をパブリックプレビューとして公開しました。従来の無料機能「Generate Fix」を置き換える形で、より強力な「Assign to Copilot」機能として提供されます。

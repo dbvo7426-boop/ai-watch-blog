@@ -7,6 +7,7 @@ type: news
 tags: [Gemini CLI, Google, VS Code, "AI史"]
 source: https://developers.googleblog.com/gemini-cli-vs-code-native-diffing-context-aware-workflows/
 draft: false
+importance: medium
 ---
 
 Googleが2025年8月13日、「Gemini CLI」のアップデートを発表し、VS Codeとの連携を大きく強化しました。ターミナルで動くエージェントでありながら、開いているファイルやカーソル位置・選択テキストといったエディタの文脈を認識し、提案した変更をエディタ内でそのまま差分表示・編集できるようにしたのが目玉です。

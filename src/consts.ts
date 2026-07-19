@@ -41,6 +41,13 @@ export const TYPES: Record<string, string> = {
   review: '比較・レビュー',
 };
 
+// AIによる重要度判定のラベル(unratedはバッジを表示しない)
+export const IMPORTANCE: Record<string, string> = {
+  high: 'AI判定 重要度:高',
+  medium: 'AI判定 重要度:中',
+  low: 'AI判定 重要度:低',
+};
+
 // 1ページあたりの記事数(トップ・カテゴリ別・タグ別ページ共通)
 export const PAGE_SIZE = 9;
 

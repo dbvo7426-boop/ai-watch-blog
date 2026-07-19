@@ -7,6 +7,7 @@ type: news
 tags: [Sora, OpenAI, ディズニー, "AI史"]
 source: https://openai.com/index/disney-sora-agreement/
 draft: false
+importance: high
 ---
 
 The Walt Disney CompanyとOpenAIが2025年12月11日、3年間のライセンス契約を締結したと発表しました。ディズニー・マーベル・ピクサー・スター・ウォーズなど傘下ブランドの200を超えるキャラクターを使い、ユーザーがSora上で短いファン向け動画を生成・共有できるようになる大型提携で、ディズニーはOpenAIに10億ドルの出資も行います。

@@ -7,6 +7,7 @@ type: news
 tags: [Claude, "computer use", "AI史"]
 source: https://www.anthropic.com/news/3-5-models-and-computer-use
 draft: false
+importance: high
 ---
 
 Anthropicが2024年10月22日、Claudeがパソコン画面を見てカーソルを動かし、クリックや文字入力を行う新機能「コンピュータ操作(computer use)」をAPIベータで公開しました。フロンティアAIモデルとしてこの種の機能を公開ベータで提供するのは初めてで、強化版のClaude 3.5 Sonnetと新モデルClaude 3.5 Haikuも同時発表されています。

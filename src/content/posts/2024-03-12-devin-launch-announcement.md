@@ -7,6 +7,7 @@ type: news
 tags: [Devin, Cognition, "AI史"]
 source: https://cognition.com/blog/introducing-devin
 draft: false
+importance: high
 ---
 
 AIスタートアップのCognitionが、「世界初のAIソフトウェアエンジニア」と銘打った自律型エージェント「Devin」を発表しました。単なるコーディング補助ツールではなく、シェル・コードエディタ・ブラウザを備えたサンドボックス環境で、開発タスクを最初から最後まで一貫して実行できる点を打ち出しています。

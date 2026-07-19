@@ -7,6 +7,7 @@ type: news
 tags: [Llama, Meta, "AI史"]
 source: https://ai.meta.com/blog/meta-llama-3-1/
 draft: false
+importance: high
 ---
 
 Metaが2024年7月23日、多言語対応モデル群「Llama 3.1」を発表しました。目玉は4050億パラメータの「Llama 3.1 405B」で、Metaはこれを「初のフロンティア級オープンソースAIモデル」と位置づけ、一般知識・数学・ツール利用・多言語翻訳などでトップクラスの独占モデルに匹敵する性能を主張しました。

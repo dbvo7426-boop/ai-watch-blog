@@ -7,6 +7,7 @@ type: news
 tags: [Claude, Opus, "AI史"]
 source: https://www.anthropic.com/news/claude-3-family
 draft: false
+importance: high
 ---
 
 Anthropicが2024年3月4日、新世代モデル群「Claude 3」ファミリーを発表しました。最上位の「Opus」、バランス型の「Sonnet」、軽量高速な「Haiku」という3段階構成を初めて導入し、以降のClaudeシリーズにおける命名・ラインナップの型を確立したリリースです。

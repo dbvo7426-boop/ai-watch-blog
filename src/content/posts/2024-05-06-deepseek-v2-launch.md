@@ -7,6 +7,7 @@ type: news
 tags: [DeepSeek, "AI史"]
 source: https://github.com/deepseek-ai/DeepSeek-V2
 draft: false
+importance: high
 ---
 
 DeepSeekが、Mixture-of-Experts構成の新モデル「DeepSeek-V2」を公開しました。性能面の進化もさることながら、破格に安いAPI価格設定によって中国のAI業界全体を巻き込む「価格戦争」を引き起こしたことで大きな注目を集めた出来事です。

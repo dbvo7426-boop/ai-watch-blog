@@ -7,6 +7,7 @@ type: news
 tags: [Claude Code, Anthropic, Claude 4, VS Code, JetBrains, "AI史"]
 source: https://www.anthropic.com/news/claude-4
 draft: false
+importance: medium
 ---
 
 Anthropicが2025年5月22日、新モデル「Claude Opus 4」「Claude Sonnet 4」の発表と同時に、約3か月間の限定研究プレビューを経た「Claude Code」を一般提供(GA)へ移行しました。VS Code・JetBrains向けのベータ版拡張機能やGitHub Actions連携、開発者向けSDKも同日公開され、ターミナルの外へも活動範囲を広げています。

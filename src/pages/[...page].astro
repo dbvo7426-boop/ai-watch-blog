@@ -5,7 +5,7 @@ import MonitorStrip from '../components/MonitorStrip.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import BookmarkButton from '../components/BookmarkButton.astro';
 import Pagination from '../components/Pagination.astro';
-import { CATEGORIES, TYPES, formatDate, PAGE_SIZE } from '../consts';
+import { CATEGORIES, TYPES, IMPORTANCE, formatDate, PAGE_SIZE } from '../consts';
 
 export async function getStaticPaths({ paginate }) {
   // 本番ビルドでは draft: true の記事を除外。devでは表示(DRAFTバッジ付き)
@@ -28,6 +28,7 @@ const rest = isFirstPage ? page.data.slice(1) : page.data;
 const featuredCat = featured
   ? CATEGORIES[featured.data.category] ?? CATEGORIES.other
   : null;
+const featuredImportance = featured ? IMPORTANCE[featured.data.importance] : null;
 ---
 
 <BaseLayout>
@@ -45,6 +46,11 @@ const featuredCat = featured
             <span class="date">{formatDate(featured.data.pubDate)}</span>
             {featured.data.draft && <span class="draft-flag">DRAFT</span>}
             <span class="read-flag">既読</span>
+            {featuredImportance && (
+              <span class={`importance-badge importance-${featured.data.importance}`}>
+                {featuredImportance}
+              </span>
+            )}
           </div>
           <h1>{featured.data.title}</h1>
           <p>{featured.data.description}</p>

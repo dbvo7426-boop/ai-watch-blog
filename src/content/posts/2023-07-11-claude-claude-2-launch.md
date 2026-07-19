@@ -7,6 +7,7 @@ type: news
 tags: [Claude, Anthropic, "AI史"]
 source: https://www.anthropic.com/news/claude-2
 draft: false
+importance: medium
 ---
 
 Anthropicが2023年7月11日、新モデル「Claude 2」を発表しました。最大の変化はモデル性能そのものより提供方法で、それまでAPI経由やパートナー企業のアプリを通じてしか使えなかったClaudeを、一般ユーザーが直接使えるWebサイト「claude.ai」のベータ版として初めて公開した点にあります(当初は米国・英国限定)。

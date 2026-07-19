@@ -7,6 +7,7 @@ type: news
 tags: [Claude Code, Anthropic, Claude in Chrome, サブエージェント]
 source: https://code.claude.com/docs/en/whats-new/2026-w27
 draft: false
+importance: medium
 ---
 
 Anthropicが2026年7月1日付のClaude Codeアップデート(v2.1.198)で、ブラウザ拡張機能「Claude in Chrome」を正式提供(GA)へ移行しました。Claude Codeが直接Chromeを操作してタブを開き、クリックやフォーム入力、コンソールログの確認までこなせるようになり、あわせてサブエージェントは既定でバックグラウンド実行される仕様に変更されています。

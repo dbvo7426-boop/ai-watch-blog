@@ -7,6 +7,7 @@ type: news
 tags: [Grok, xAI, 自動化, エージェント]
 source: https://x.ai/news/grok-automations
 draft: false
+importance: medium
 ---
 
 xAIがGrokに「Automations」機能を追加しました。「作業内容を一度書いておけば、あとはいつ実行するかを選ぶだけ。実行はGrokに任せられる」という触れ込みで、スケジュール実行やメール受信をトリガーに定型タスクをGrokが自律的に処理できるようになります。

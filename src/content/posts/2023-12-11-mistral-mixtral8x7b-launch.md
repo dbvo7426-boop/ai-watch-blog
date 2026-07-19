@@ -7,6 +7,7 @@ type: news
 tags: [Mistral, Mistral AI, "AI史"]
 source: https://mistral.ai/news/mixtral-of-experts/
 draft: false
+importance: high
 ---
 
 Mistral AIが2023年12月11日、混合エキスパート(Sparse Mixture-of-Experts)構成のモデル「Mixtral 8x7B」を公開しました。Llama 2 70Bをほとんどのベンチマークで上回りながら推論速度は6倍、標準的なベンチマークではGPT-3.5と同等かそれ以上という性能を、Apache 2.0ライセンスのオープンウェイトで実現したことが大きな衝撃を与えました。

@@ -7,6 +7,7 @@ type: news
 tags: [Manus, 自動化, デプロイ]
 source: https://manus.im/blog/manus-auto-publish
 draft: false
+importance: low
 ---
 
 AIエージェント「Manus」に新機能「Auto-Publish」が追加されました。ビルドが成功するたびに自動で公開URLへ反映されるようになり、手動での公開操作が不要になります。

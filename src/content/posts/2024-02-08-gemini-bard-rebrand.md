@@ -7,6 +7,7 @@ type: news
 tags: [Gemini, Bard, "AI史"]
 source: https://blog.google/products-and-platforms/products/gemini/bard-gemini-advanced-app/
 draft: false
+importance: high
 ---
 
 Googleが対話型AI製品の名称を「Bard」から「Gemini」へ完全統一しました。bard.google.comはgemini.google.comへ自動転送されるようになり、Bardという名称は公式には使われなくなりました。同時に、最上位モデル「Gemini Ultra 1.0」を利用できる有料プラン「Gemini Advanced」と、Android向け専用アプリ・iOS版Googleアプリへの統合も発表され、Sundar Pichai CEO自らが発表を行いました。

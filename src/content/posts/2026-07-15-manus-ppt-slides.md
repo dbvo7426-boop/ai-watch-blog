@@ -7,6 +7,7 @@ type: news
 tags: [Manus, PowerPoint, 資料作成]
 source: https://manus.im/blog/manus-ppt-slides
 draft: false
+importance: low
 ---
 
 Manusが、Web形式からの変換ではなく、パワーポイント(.pptx)ネイティブのファイルを直接生成・ダウンロードできる機能を追加しました。編集可能なグラフや表を保持したまま出力できるのが特徴です。

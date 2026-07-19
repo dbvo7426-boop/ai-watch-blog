@@ -7,6 +7,7 @@ type: news
 tags: [GitHub Copilot, 料金プラン, "AI史"]
 source: https://github.blog/news-insights/product-news/github-copilot-is-generally-available-to-all-developers/
 draft: false
+importance: medium
 ---
 
 GitHubが2022年6月21日、約1年間のテクニカルプレビューを経てGitHub Copilotの一般提供(GA)を開始しました。月額10ドル、年払いなら100ドルのサブスクリプションとして全開発者に開放され、AIコーディング支援ツールを初めて本格的な有料製品として世に送り出した節目です。

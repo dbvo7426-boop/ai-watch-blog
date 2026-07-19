@@ -7,6 +7,7 @@ type: news
 tags: [DeepSeek, "AI史"]
 source: https://www.marktechpost.com/2023/12/04/deepseek-open-sources-deepseek-67b-model-the-latest-chatgpt-rival-from-china/
 draft: false
+importance: medium
 ---
 
 中国のAIスタートアップDeepSeekが、初の大規模言語モデル「DeepSeek LLM」をオープンソースで公開しました。7Bと67Bの2サイズで、それぞれBase版・Chat版を用意。英語と中国語を含む2兆トークンのデータセットでゼロから学習したモデルで、当時DeepSeekが「オープンソースLLMの新たなフロンティア」と位置づけた最初の主要プロダクトです。

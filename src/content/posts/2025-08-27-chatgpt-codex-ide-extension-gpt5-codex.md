@@ -7,6 +7,7 @@ type: news
 tags: [Codex, GPT-5-Codex, OpenAI, IDE拡張機能, GitHub, "AI史"]
 source: https://openai.com/index/introducing-upgrades-to-codex/
 draft: false
+importance: high
 ---
 
 OpenAIが2025年8月27日、コードの生成・レビューに最適化した新モデル「GPT-5-Codex」と、VS CodeやCursorなどで使える「Codex IDE拡張機能」を発表しました。ターミナル(Codex CLI)、クラウド、IDE、GitHub、ChatGPTアプリという複数の場所に散らばっていたCodex体験を、ひとつのChatGPTアカウントで繋がる統一プロダクトへとまとめたのが今回のアップデートの核心です。

@@ -7,6 +7,7 @@ type: news
 tags: [ElevenLabs, 音声AI, "AI史"]
 source: https://elevenlabs.io/blog/meet-scribe
 draft: false
+importance: medium
 ---
 
 ElevenLabsが、自社初となる音声認識(ASR)モデル「Scribe」を発表しました。これまで音声合成・吹き替え・対話エージェントを手がけてきた同社が、音声からテキストへの変換という逆方向の領域にも本格参入したことになります。

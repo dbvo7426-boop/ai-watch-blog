@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, GPT-5.6, 新モデル]
 source: https://openai.com/index/gpt-5-6
 draft: false
+importance: high
 ---
 
 OpenAIが「GPT-5.6」モデルファミリーを一般提供開始しました。最上位モデル「Sol」、日常業務向けのバランス型「Terra」、低コストの「Luna」という3段階構成で、ChatGPT・Codex・APIすべてで利用できます。

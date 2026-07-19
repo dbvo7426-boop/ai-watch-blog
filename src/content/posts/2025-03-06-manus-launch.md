@@ -7,6 +7,7 @@ type: news
 tags: [Manus, Butterfly Effect, AIエージェント, "AI史"]
 source: https://global.chinadaily.com.cn/a/202503/06/WS67c9ba2fa310c240449d9276.html
 draft: false
+importance: high
 ---
 
 中国のAIスタートアップButterfly Effect(ブラウザ拡張「Monica」の開発元)が、汎用AIエージェント「Manus」を発表しました。招待制のベータ版としての公開でしたが、デモ動画が公開から20時間で100万回再生を超えるなど、世界的な注目を集めました。

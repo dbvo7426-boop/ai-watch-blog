@@ -7,6 +7,7 @@ type: news
 tags: [Copilot, API, 利用状況]
 source: https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api
 draft: false
+importance: low
 ---
 
 GitHubが、Copilotの利用状況を取得する「usage metrics API」に、独立アプリ版「Copilot app」の利用データを示す新しいフィールドを追加しました。エンタープライズ・組織の管理者は、既存のIDE・チャット・コードレビューなどの指標と同じAPIから、Copilot app単体の利用状況も確認できるようになります。

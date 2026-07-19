@@ -7,6 +7,7 @@ type: news
 tags: [Grok, xAI, "AI史"]
 source: https://x.ai/news/grok-2
 draft: false
+importance: medium
 ---
 
 xAIが、新モデル「Grok-2」をベータ版として発表しました。前モデルのGrok-1.5から、チャット・コーディング・推論の各分野で大きな進化を遂げたとしており、視覚理解機能の追加とX(旧Twitter)のリアルタイム情報へのアクセスを組み合わせた設計が特徴です。

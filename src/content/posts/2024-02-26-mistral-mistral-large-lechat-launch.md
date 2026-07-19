@@ -7,6 +7,7 @@ type: news
 tags: [Mistral, Mistral AI, Microsoft, "AI史"]
 source: https://mistral.ai/news/le-chat-mistral/
 draft: false
+importance: high
 ---
 
 Mistral AIが2024年2月26日、同社最高性能のクローズドモデル「Mistral Large」と、これを利用できる対話型アプリ「Le Chat」を発表しました。同日Microsoftはこの発表に合わせてMistral AIへの約1630万ユーロ相当の出資と、Azureを優先クラウドパートナーとする複数年の提携を発表し、フランスの新興企業とMicrosoftの結びつきが一気に強まった一日となりました。

@@ -7,6 +7,7 @@ type: news
 tags: [Skywork, Kunlun Tech, "AI史"]
 source: https://www.kunlun.com/2023/en_mnews_0608/284.html
 draft: false
+importance: low
 ---
 
 中国のKunlun Tech(昆仑万维)が、SINGULARITY AIと共同開発した大規模言語モデル「Skywork」の招待制テストを2023年4月17日に開始したと明らかにしました。ChatGPTを意識した2,000億パラメータ級のモデルで、後にSkywork/天工ブランドとして展開されるシリーズの出発点にあたります。

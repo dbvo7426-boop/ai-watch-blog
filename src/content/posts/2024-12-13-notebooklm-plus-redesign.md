@@ -7,6 +7,7 @@ type: news
 tags: [NotebookLM, Google, "AI史"]
 source: https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-new-features-december-2024/
 draft: false
+importance: medium
 ---
 
 Googleが、NotebookLMの大型アップデートを発表しました。画面構成を刷新するとともに、Audio Overviewsに音声で割り込める機能を追加し、初の有料プラン「NotebookLM Plus」を投入しています。

@@ -7,6 +7,7 @@ type: news
 tags: [Jules, Google, Gemini, "AI史"]
 source: https://blog.google/technology/google-labs/jules-now-available/
 draft: false
+importance: medium
 ---
 
 Googleが2025年8月6日、非同期AIコーディングエージェント「Jules」の正式提供を開始したと発表しました。2025年5月のGoogle I/Oでの公開ベータ入り からわずか3か月弱でのGA(一般提供)移行で、Gemini 2.5 Proを基盤に据え、無料・Google AI Pro・Google AI Ultraという3段階の利用枠を新たに導入しました。

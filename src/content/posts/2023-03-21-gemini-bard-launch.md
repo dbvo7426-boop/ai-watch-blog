@@ -7,6 +7,7 @@ type: news
 tags: [Bard, Google, "AI史"]
 source: https://blog.google/technology/ai/try-bard/
 draft: false
+importance: high
 ---
 
 Googleが対話型AI「Bard」を米国・英国のユーザー向けにウェイトリスト方式で公開しました。2023年2月6日にSundar Pichai CEOが試験提供を予告してから約1カ月半後の一般公開で、OpenAIのChatGPTが世界的なブームを巻き起こす中、Googleとして初めて一般ユーザーが触れる対話型AI製品となりました。

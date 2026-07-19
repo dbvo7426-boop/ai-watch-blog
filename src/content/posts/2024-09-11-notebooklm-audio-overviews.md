@@ -7,6 +7,7 @@ type: news
 tags: [NotebookLM, Google, Podcast, "AI史"]
 source: https://blog.google/innovation-and-ai/products/notebooklm-audio-overviews/
 draft: false
+importance: high
 ---
 
 Googleが、NotebookLMに新機能「Audio Overviews」を追加したと発表しました。アップロードした資料をもとに、AIホスト2人が掛け合いで解説する音声コンテンツをワンクリックで生成できる機能で、公開後SNSを中心に「まるでポッドキャスト」と大きな話題を呼びました。

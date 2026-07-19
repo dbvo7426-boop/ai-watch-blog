@@ -7,6 +7,7 @@ type: news
 tags: [Codex, OpenAI, 知識労働, デスクトップアプリ]
 source: https://openai.com/index/codex-for-knowledge-work/
 draft: false
+importance: medium
 ---
 
 OpenAIが2026年6月2日、レポート「The Next Era of Knowledge Work」を公開し、コーディングエージェント「Codex」の週間アクティブユーザーが500万人を突破したと発表しました。2026年2月のデスクトップアプリ公開以降、利用者は6倍以上に急増。開発者が依然として最大の利用者層である一方、レポートや資料作成など開発以外の「知識労働」での利用が全体の2割を占め、開発者の利用よりも3倍以上速いペースで伸びていることが明らかになりました。

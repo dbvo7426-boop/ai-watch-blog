@@ -7,6 +7,7 @@ type: news
 tags: [Claude, Sonnet, "AI史"]
 source: https://www.anthropic.com/news/claude-3-5-sonnet
 draft: false
+importance: high
 ---
 
 Anthropicが2024年6月20日、「Claude 3.5 Sonnet」を発表しました。中位モデルという位置づけながら、コーディングをはじめとする多くの評価項目で当時の最上位モデルClaude 3 Opusを上回る性能を、Opusより大幅に低い価格・2倍の速度で実現した点が話題を呼びました。

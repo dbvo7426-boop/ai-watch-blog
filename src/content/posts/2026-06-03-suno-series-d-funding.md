@@ -7,6 +7,7 @@ type: news
 tags: [Suno, 資金調達]
 source: https://www.bloomberg.com/news/articles/2026-06-03/ai-music-startup-suno-raises-capital-at-5-4-billion-valuation
 draft: false
+importance: medium
 ---
 
 AI音楽生成のSunoが、Bond Capitalが主導するシリーズDラウンドで4億ドル超を調達したと発表しました。評価額はポストマネーで54億ドルに達し、2025年11月時点の24億5,000万ドルから半年足らずで倍以上に増加しています。

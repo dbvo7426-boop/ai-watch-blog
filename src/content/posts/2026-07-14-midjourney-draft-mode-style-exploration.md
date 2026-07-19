@@ -7,6 +7,7 @@ type: news
 tags: [Midjourney, 画像生成, V8.1]
 source: https://www.midjourney.com/updates
 draft: false
+importance: low
 ---
 
 Midjourneyが、V8.1のドラフトモードにスタイル探索機能を追加しました。プロンプトに`--sref random`を付けるだけで、異なるスタイルの画像を24枚まとめて生成できます。

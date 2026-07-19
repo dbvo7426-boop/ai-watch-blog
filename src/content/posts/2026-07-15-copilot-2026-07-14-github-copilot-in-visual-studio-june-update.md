@@ -7,6 +7,7 @@ type: news
 tags: [Copilot, Visual Studio, MCP]
 source: https://github.blog/changelog/2026-07-14-github-copilot-in-visual-studio-june-update
 draft: false
+importance: medium
 ---
 
 GitHubがVisual Studio版Copilotの2026年6月アップデートを公開しました。可視性・信頼性の向上と機能拡張が中心です。

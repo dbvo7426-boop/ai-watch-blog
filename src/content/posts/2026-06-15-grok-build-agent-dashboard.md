@@ -7,6 +7,7 @@ type: news
 tags: [Grok Build, xAI, ダッシュボード, コーディング, AI史]
 source: https://x.ai/news/agent-dashboard
 draft: false
+importance: low
 ---
 
 xAIはコーディングエージェント「Grok Build」に、複数の実行セッションを一括管理できる「Agent Dashboard」を追加しました。それぞれのセッションが何をしているかを俯瞰し、並行して走らせつつ、人間の判断が必要な場面だけ介入するという運用を想定した機能です。

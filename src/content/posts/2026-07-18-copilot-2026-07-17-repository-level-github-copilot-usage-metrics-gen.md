@@ -7,6 +7,7 @@ type: news
 tags: [Copilot, API, 利用状況, エンタープライズ]
 source: https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available
 draft: false
+importance: low
 ---
 
 GitHubが、Copilotの利用状況メトリクスAPIにリポジトリ単位の詳細レポート機能を正式公開(GA)しました。これまで組織・ユーザー単位までだった追跡範囲が広がり、「Copilotコーディングエージェントが作成・マージしたプルリクエスト数」「Copilot Code Reviewがレビューしたプルリクエスト数」を、リポジトリごとに日単位で把握できるようになります。

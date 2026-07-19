@@ -7,6 +7,7 @@ type: news
 tags: [Runway, 開発者向け, API]
 source: https://runwayml.com/news/introducing-runway-dev
 draft: false
+importance: medium
 ---
 
 Runwayが、開発者向けのAIメディアプラットフォーム「Runway Dev」を発表しました。画像・動画・音声・リアルタイムキャラクターといった複数のフロンティアモデルを、単一のAPIから統合的に呼び出せるのが特徴です。

@@ -7,6 +7,7 @@ type: news
 tags: [Perplexity, ショッピング, AI史]
 source: https://techcrunch.com/2024/11/18/perplexity-introduces-a-shopping-feature-for-pro-users/
 draft: false
+importance: medium
 ---
 
 Perplexityが2024年11月18日、米国のPro会員向けにAIを使った対話型ショッピング機能を発表しました。商品を自然言語で相談すると、価格・販売元・特徴・長所短所を含む商品カードを提示し、支払い情報を登録しておけばワンクリックで購入まで完結できます。ホリデーシーズン直前というタイミングで、検索エンジンからeコマースへと戦線を広げた発表です。

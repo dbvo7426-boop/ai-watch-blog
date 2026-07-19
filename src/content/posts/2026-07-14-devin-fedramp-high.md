@@ -7,6 +7,7 @@ type: news
 tags: [Devin, Cognition, エンタープライズ]
 source: https://cognition.com/blog/devin-fedramp-high-in-process
 draft: false
+importance: medium
 ---
 
 自律型AIソフトウェアエンジニア「Devin」を開発するCognitionのプラットフォーム全体が、米連邦政府向けセキュリティ基準「FedRAMP Class D(High)」の認証プロセス入り(In-Process)を果たし、FedRAMPマーケットプレイスに掲載されました。これによりDevin Cloudにも、既存のDevin Desktop・Devin CLIと同様の認証が拡大されます。

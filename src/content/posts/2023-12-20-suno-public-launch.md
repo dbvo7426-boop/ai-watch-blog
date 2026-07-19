@@ -7,6 +7,7 @@ type: news
 tags: [Suno, 音楽生成AI, "AI史"]
 source: https://suno.com/blog
 draft: false
+importance: high
 ---
 
 米マサチューセッツ州ケンブリッジ発のSuno, Inc.が、AI音楽生成サービス「Suno」のウェブアプリを一般公開しました。同時にMicrosoft Copilotのプラグインとしても提供が始まり、テキストプロンプトから歌詞付きの楽曲を誰でも生成できるサービスとして注目を集めました。

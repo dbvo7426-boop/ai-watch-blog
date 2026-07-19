@@ -7,6 +7,7 @@ type: news
 tags: [ElevenLabs, 音声AI, "AI史"]
 source: https://elevenlabs.io/conversational-ai
 draft: false
+importance: medium
 ---
 
 ElevenLabsが、対話型の音声エージェントを構築できる開発者向けプラットフォーム「Conversational AI」を発表しました。単に文章を音声に変換するだけでなく、完結した音声エージェントそのものを組み立てられるようになり、同社にとって事業領域を大きく広げる転換点となりました。

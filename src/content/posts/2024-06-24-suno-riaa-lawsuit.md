@@ -7,6 +7,7 @@ type: news
 tags: [Suno, 著作権, "AI史"]
 source: https://www.riaa.com/record-companies-bring-landmark-cases-for-responsible-ai-againstsuno-and-udio-in-boston-and-new-york-federal-courts-respectively/
 draft: false
+importance: high
 ---
 
 米国レコード協会(RIAA)を通じて、Sony Music Entertainment・UMG Recordings・Warner Recordsの大手3レーベルが、SunoとUdioを著作権侵害で提訴したと発表しました。Sunoに対する訴訟はマサチューセッツ州連邦地方裁判所に提起され、AI音楽生成サービスを巡る大規模訴訟の先駆けとなりました。

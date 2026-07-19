@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, エンタープライズ, 音声AI, 事例]
 source: https://openai.com/index/cars24
 draft: false
+importance: low
 ---
 
 インドの中古車マーケットプレイスCars24が、OpenAIの音声・チャットエージェントを活用して月間100万分を超える顧客対応を自動化していることを、OpenAIが顧客事例として公開しました。離脱していたリードの12%を再獲得できているほか、全社的にChatGPT EnterpriseやCodexを導入し、85〜90%という高い日次利用率を達成しています。

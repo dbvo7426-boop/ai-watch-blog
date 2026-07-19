@@ -7,6 +7,7 @@ type: news
 tags: [Perplexity, Pages, AI史]
 source: https://techcrunch.com/2024/05/30/perplexity-ais-new-feature-will-turn-your-searches-into-sharable-pages/
 draft: false
+importance: medium
 ---
 
 Perplexityが2024年5月30日、検索・調査結果を体裁の整った記事形式に変換して公開できる新機能「Perplexity Pages」を発表しました。単発の質問に答えるだけの検索エンジンから、調べた内容をそのままコンテンツとして仕上げて共有できるツールへと踏み出した節目です。

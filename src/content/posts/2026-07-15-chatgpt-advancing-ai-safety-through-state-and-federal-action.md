@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, AI政策, 安全性, ガバナンス]
 source: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
 draft: false
+importance: low
 ---
 
 OpenAIのチーフ・グローバル渉外責任者Chris Lehane氏が、州法と連邦法を組み合わせた「逆邦制(reverse federalism)」というAIガバナンス構想を提言する記事を公開しました。連邦議会の停滞を待つのではなく、主要州が足並みを揃えた安全法制を敷くことで事実上の全国基準を形成し、連邦レベルではCAISI(Center for AI Standards and Innovation)の強化と州・連邦の整合を図るべきだと主張しています。

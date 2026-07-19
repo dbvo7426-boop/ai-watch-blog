@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, o1, OpenAI, "AI史"]
 source: https://openai.com/index/introducing-openai-o1-preview/
 draft: false
+importance: high
 ---
 
 OpenAIが2024年9月12日、応答前に時間をかけて思考する新系統モデル「o1-preview」と、より軽量な「o1-mini」を発表しました。即座に答えを出す従来のGPTシリーズとは異なり、複雑な問題を段階的に考え抜く設計により、数学・科学・コーディングの難問で大幅な精度向上を実現。OpenAIはこれを「新しいパラダイム」と位置づけました。

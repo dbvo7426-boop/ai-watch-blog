@@ -44,6 +44,9 @@ const posts = defineCollection({
     source: z.string().url().optional(),
     // trueの間は本番ビルドに含まれない(下書き)。人間が確認後falseにして公開
     draft: z.boolean().default(false),
+    // AIによる重要度判定。本文執筆時に内容を踏まえて明示的に設定する。
+    // unrated = 未判定(バッジ非表示。過去記事のデフォルト)
+    importance: z.enum(['high', 'medium', 'low', 'unrated']).default('unrated'),
   }),
 });
 

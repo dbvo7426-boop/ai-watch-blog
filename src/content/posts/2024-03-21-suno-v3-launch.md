@@ -7,6 +7,7 @@ type: news
 tags: [Suno, 音楽生成AI, "AI史"]
 source: https://suno.com/blog/v3
 draft: false
+importance: medium
 ---
 
 Sunoが新しい音楽生成モデル「v3」を発表し、全ユーザー向けに提供を開始しました。同社が「ラジオ品質」と表現する音質の向上に加え、無料アカウントでも一定数まで最大4分間の楽曲を生成できるようになった点が大きな変化です。

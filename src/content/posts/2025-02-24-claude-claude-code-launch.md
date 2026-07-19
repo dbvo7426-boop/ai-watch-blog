@@ -7,6 +7,7 @@ type: news
 tags: [Claude Code, Anthropic, "AI史"]
 source: https://www.anthropic.com/news/claude-3-7-sonnet
 draft: false
+importance: high
 ---
 
 Anthropicが2025年2月24日、新モデル「Claude 3.7 Sonnet」の発表と同時に、コマンドラインで動く自律コーディングツール「Claude Code」を限定研究プレビューとして公開しました。開発者のターミナルに常駐し、コードの検索・読解から編集・テスト実行・GitHubへのコミットまでをこなす「積極的な協働者」として売り出されたのが特徴です。

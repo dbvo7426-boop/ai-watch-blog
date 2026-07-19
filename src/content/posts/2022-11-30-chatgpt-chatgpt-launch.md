@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, OpenAI, "AI史"]
 source: https://openai.com/index/chatgpt/
 draft: false
+importance: high
 ---
 
 OpenAIが2022年11月30日、対話型AI「ChatGPT」をリサーチプレビューとして無料公開しました。質問に答えるだけでなく、誤りを認めたり、間違った前提に反論したり、不適切な要求を拒否したりできる会話能力が話題を呼び、公開からわずか5日で登録ユーザーが100万人を突破。生成AIが一般消費者に広く浸透するきっかけとなりました。

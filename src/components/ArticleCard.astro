@@ -1,5 +1,5 @@
 ---
-import { CATEGORIES, TYPES, formatDate } from '../consts';
+import { CATEGORIES, TYPES, IMPORTANCE, formatDate } from '../consts';
 import BookmarkButton from './BookmarkButton.astro';
 
 interface Props {
@@ -8,6 +8,7 @@ interface Props {
 
 const { post } = Astro.props;
 const cat = CATEGORIES[post.data.category] ?? CATEGORIES.other;
+const importanceLabel = IMPORTANCE[post.data.importance];
 ---
 
 <div class="card-wrap" data-slug={post.id}>
@@ -18,6 +19,9 @@ const cat = CATEGORIES[post.data.category] ?? CATEGORIES.other;
       <span class="date">{formatDate(post.data.pubDate)}</span>
       {post.data.draft && <span class="draft-flag">DRAFT</span>}
       <span class="read-flag">既読</span>
+      {importanceLabel && (
+        <span class={`importance-badge importance-${post.data.importance}`}>{importanceLabel}</span>
+      )}
     </div>
     <h3>{post.data.title}</h3>
     <p>{post.data.description}</p>

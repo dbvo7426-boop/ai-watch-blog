@@ -7,6 +7,7 @@ type: news
 tags: [Cursor, Anysphere]
 source: https://cursor.com/changelog
 draft: false
+importance: low
 ---
 
 Cursorの最新バージョン3.11がリリースされました。目玉は、メインのエージェント会話を中断することなく並行して質問や寄り道の調査ができる「サイドチャット」機能です。あわせて、エージェントの会話履歴を横断検索できる機能も追加されています。

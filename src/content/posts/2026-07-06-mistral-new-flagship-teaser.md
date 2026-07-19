@@ -7,6 +7,7 @@ type: news
 tags: [Mistral, Mistral AI]
 source: https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm
 draft: false
+importance: low
 ---
 
 Mistral AIのCEOアーサー・メンシュ氏が2026年7月6日、新しいオープンウェイトのフラッグシップモデルを予告しました。「fat but sparse(大きいがスパース)」なMixture-of-Experts構成の新系統モデル群になるとし、7月中に研究機関・政府機関・産業パートナー向けの早期アクセスを開始するとしています。

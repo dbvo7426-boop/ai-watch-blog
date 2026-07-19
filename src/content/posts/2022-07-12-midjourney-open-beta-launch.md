@@ -7,6 +7,7 @@ type: news
 tags: [Midjourney, 画像生成AI, "AI史"]
 source: https://x.com/midjourney/status/1547108864788553729
 draft: false
+importance: high
 ---
 
 Midjourneyが、招待制だったクローズドベータを終了し、Discordサーバーに参加すれば誰でも利用できるオープンベータへ移行したと発表しました。それまで一部ユーザーに限られていたテキストから画像を生成する体験が、一気に一般開放されることになります。

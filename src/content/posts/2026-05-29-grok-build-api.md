@@ -7,6 +7,7 @@ type: news
 tags: [Grok Build, xAI, API, コーディング, AI史]
 source: https://x.ai/news/grok-build-0-1
 draft: false
+importance: medium
 ---
 
 xAIは、コーディングエージェント「Grok Build」を支える基盤モデル「grok-build-0.1」をxAI APIのパブリックベータとして公開しました。SuperGrokやX Premium Plusへの加入なしに、開発者が同モデルを直接自分のツールやフレームワークに組み込めるようになったのが最大のポイントです。

@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, GPTs, OpenAI, "AI史"]
 source: https://openai.com/index/introducing-gpts/
 draft: false
+importance: high
 ---
 
 OpenAIが2023年11月6日、サンフランシスコで開いた初の開発者会議「DevDay」で、コーディング不要で独自のChatGPTを作れる「GPTs」を発表しました。指示文や参照データ、Web検索・データ分析などの機能を組み合わせるだけで、個人用途から一般公開まで幅広く使えるカスタムAIを誰でも作成できるようになりました。

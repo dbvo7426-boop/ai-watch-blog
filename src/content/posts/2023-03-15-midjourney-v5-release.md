@@ -7,6 +7,7 @@ type: news
 tags: [Midjourney, 画像生成AI, "AI史"]
 source: https://the-decoder.com/midjourney-v5-launching-this-week-see-some-alpha-version-images/
 draft: false
+importance: medium
 ---
 
 Midjourneyが新モデル「V5」をアルファ版として公開しました。創業者David Holz氏が「今週中にリリースする」と予告した通りのタイミングで、V4に比べて解像度が2倍になり、これまで課題とされてきた手の描写など写実性が大きく向上しています。

@@ -7,6 +7,7 @@ type: news
 tags: [Claude Code, Anthropic, サブエージェント, フック, Claude Agent SDK, "AI史"]
 source: https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously
 draft: false
+importance: high
 ---
 
 Anthropicが2025年9月29日、Claude Codeを「より自律的に働かせる」ための大型アップデートを発表しました。専用タスクを任せられる「サブエージェント」、決まった処理を確実に実行する「フック」、作業を巻き戻せる「チェックポイント」を新たに搭載し、VS Code拡張機能は正式版に、SDKは「Claude Agent SDK」へと改称されています。

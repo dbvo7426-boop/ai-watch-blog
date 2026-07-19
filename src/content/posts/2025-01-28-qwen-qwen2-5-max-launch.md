@@ -7,6 +7,7 @@ type: news
 tags: [Qwen, Alibaba, "AI史"]
 source: https://qwenlm.github.io/blog/qwen2.5-max/
 draft: false
+importance: medium
 ---
 
 Alibabaが2025年1月28日、大規模MoEモデル「Qwen2.5-Max」を発表しました。DeepSeekがV3・R1で世界に衝撃を与えた直後というタイミングで投入されたモデルで、Arena-Hard・LiveBench・LiveCodeBench・GPQA-Diamondなどのベンチマークで DeepSeek-V3を上回り、一部指標ではGPT-4o級かそれ以上の性能を示したとAlibabaは説明しています。

@@ -7,6 +7,7 @@ type: news
 tags: [Mistral, Mistral AI, "AI史"]
 source: https://mistral.ai/news/announcing-mistral-7b/
 draft: false
+importance: high
 ---
 
 フランスの新興企業Mistral AIが2023年9月27日、初の自社モデル「Mistral 7B」を発表しました。「これまでで最も強力な、このサイズの言語モデル」を掲げ、Llama 2 13Bを全ベンチマークで上回り、はるかに大きいLlama 1 34Bをも多くの指標で上回る性能を、制限なく使えるApache 2.0ライセンスで公開したことが大きな話題になりました。

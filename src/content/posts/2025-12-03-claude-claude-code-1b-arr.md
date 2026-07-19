@@ -7,6 +7,7 @@ type: news
 tags: [Claude Code, Anthropic, ARR, Bun, 買収, "AI史"]
 source: https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone
 draft: false
+importance: high
 ---
 
 Anthropicが2025年12月3日、Claude Codeの年間経常収益(ARR)が10億ドル規模に到達したことと、JavaScript/TypeScriptランタイム「Bun」の買収を同時に発表しました。2025年5月の一般提供開始からわずか半年での10億ドル到達は、エンタープライズソフトウェアとして異例の速さとされています。

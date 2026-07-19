@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, GPT-4, OpenAI, "AI史"]
 source: https://openai.com/index/gpt-4-research/
 draft: false
+importance: high
 ---
 
 OpenAIが2023年3月14日、新モデル「GPT-4」を発表しました。テキストに加えて画像も入力として受け付けるマルチモーダル対応が最大の特徴で、模擬司法試験では上位10%相当のスコアを記録するなど、前身のGPT-3.5から大きく性能が向上しました。発表と同時にChatGPT Plus利用者向けに提供が始まりました。

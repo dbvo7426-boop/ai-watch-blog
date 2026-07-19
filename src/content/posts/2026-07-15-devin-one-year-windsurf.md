@@ -7,6 +7,7 @@ type: news
 tags: [Devin, Cognition, Windsurf]
 source: https://cognition.com/blog/one-year-of-building-together
 draft: false
+importance: low
 ---
 
 Cognitionが、Windsurf買収から1年の節目に両社の歩みを振り返る記事を公開しました。個別のタスクをこなすツールだった頃から、統合プラットフォームとして進化してきた過程がまとめられています。

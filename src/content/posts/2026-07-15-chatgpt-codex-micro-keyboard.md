@@ -7,6 +7,7 @@ type: news
 tags: [Codex, OpenAI, ハードウェア, キーボード]
 source: https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/
 draft: false
+importance: medium
 ---
 
 OpenAIが2026年7月15日、AIコーディングエージェント「Codex」を操作するための専用ハードウェア「Codex Micro」を230ドルで発売したと、TechCrunchが報じました。専門キーボードメーカーのWork Louderと共同設計した限定生産の物理キーボードで、複数のコーディングエージェントを管理するための「コマンドセンター」と位置づけられています。ハードウェア参入自体が話題を呼ぶ一方、開発に元Apple技術者が関わっているとされ、Appleが起こした企業秘密侵害訴訟のさなかというタイミングも注目されています。

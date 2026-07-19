@@ -7,6 +7,7 @@ type: news
 tags: [Llama, Meta, "AI史"]
 source: https://ai.meta.com/blog/meta-llama-3/
 draft: false
+importance: high
 ---
 
 Metaが2024年4月18日、次世代モデル「Llama 3」を公開しました。「現時点で最も高性能な、オープンに入手可能なLLM」を掲げ、8B・70Bの2サイズを提供。同時に自社アシスタント「Meta AI」もLlama 3ベースへ刷新し、Facebook・Instagram・WhatsApp・Messengerに統合すると発表しました。

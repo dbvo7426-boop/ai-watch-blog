@@ -7,6 +7,7 @@ type: news
 tags: [Qwen, Alibaba, "AI史"]
 source: https://qwenlm.github.io/blog/qwen3/
 draft: false
+importance: high
 ---
 
 Alibabaが2025年4月29日、新世代モデルシリーズ「Qwen3」を発表しました。複雑な問題にじっくり取り組む「思考モード」と、簡単な質問に即答する「非思考モード」を1つのモデルの中でシームレスに切り替えられる、Alibaba初のハイブリッド推論モデルです。オープンソースAIにおける新たな基準を打ち立てたと位置づけられました。

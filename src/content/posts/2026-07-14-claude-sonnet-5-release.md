@@ -7,6 +7,7 @@ type: news
 tags: [Claude, Sonnet, 新モデル]
 source: https://www.anthropic.com/news/claude-sonnet-5
 draft: false
+importance: high
 ---
 
 Anthropicが新モデル「Claude Sonnet 5」を発表しました。コーディングや自律的なタスク遂行において、上位モデルのOpus 4.8に迫る性能を、より低いコストで実現しているのが特徴です。Claude.ai、Claude Code、APIなど全プラットフォームで利用できます。

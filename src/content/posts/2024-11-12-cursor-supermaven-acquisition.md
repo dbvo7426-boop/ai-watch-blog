@@ -7,6 +7,7 @@ type: news
 tags: [Cursor, Anysphere, Supermaven, M&A, "AI史"]
 source: https://cursor.com/blog/supermaven
 draft: false
+importance: medium
 ---
 
 Cursorを開発するAnysphereが、高速でコンテキスト認識に優れたAIコード補完ツール「Supermaven」を開発するチームを買収したと発表しました。Supermaven創業者のJacob Jackson氏が合流し、両社は「AIによってもっと良いソフトウェアの作り方が可能になる」という信念を共有していたとしています。

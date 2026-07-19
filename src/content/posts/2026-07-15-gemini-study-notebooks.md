@@ -7,6 +7,7 @@ type: news
 tags: [Gemini, 教育, 学習支援]
 source: https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/
 draft: false
+importance: medium
 ---
 
 Googleが、Geminiアプリにテスト対策や新分野の学習に特化した機能「Study Notebooks」を追加しました。パーソナライズされた学習空間として、レッスン作成からクイズ、進捗管理までを一貫してサポートします。

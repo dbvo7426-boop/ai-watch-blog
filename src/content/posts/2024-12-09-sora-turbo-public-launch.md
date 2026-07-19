@@ -7,6 +7,7 @@ type: news
 tags: [Sora, OpenAI, "AI史"]
 source: https://openai.com/index/sora-is-here/
 draft: false
+importance: high
 ---
 
 OpenAIが2024年12月9日、2月に研究プレビューとして公開した「Sora」の高速版「Sora Turbo」を、独立した製品sora.comとしてアメリカ・カナダのChatGPT Plus・Pro利用者向けに一般公開しました。ChatGPT Plusプラン(月20ドル)に追加料金なしで含まれる形で提供され、テキストからの動画生成が一気に身近になった出来事です。

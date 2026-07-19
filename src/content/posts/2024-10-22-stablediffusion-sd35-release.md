@@ -7,6 +7,7 @@ type: news
 tags: [StableDiffusion, StabilityAI, "AI史"]
 source: https://stability.ai/news-updates/introducing-stable-diffusion-3-5
 draft: false
+importance: medium
 ---
 
 Stability AIが、オープンウェイトモデルの最新版「Stable Diffusion 3.5」を公開しました。同社が「これまでで最も強力なモデル群」と位置づける通り、用途に応じて選べる3種類のモデルをそろえ、寛容なライセンスのもとでの提供を続けています。

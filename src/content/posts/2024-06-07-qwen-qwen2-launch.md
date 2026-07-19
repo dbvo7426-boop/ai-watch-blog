@@ -7,6 +7,7 @@ type: news
 tags: [Qwen, Alibaba, "AI史"]
 source: https://qwenlm.github.io/blog/qwen2/
 draft: false
+importance: medium
 ---
 
 Alibabaが2024年6月7日、前世代「Qwen1.5」の後継となる「Qwen2」を公開しました。0.5B・1.5B・7B・57B-A14B(MoE)・72Bの5サイズを提供し、対応言語を英語・中国語に加え27言語拡大。「Qwenで、中国国内だけでなく世界中の開発者に、強力で責任あるAIアプリケーションを作れる力を届けたい」とAlibaba Cloud AIのチーフアーキテクトが述べています。

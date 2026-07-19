@@ -7,6 +7,7 @@ type: news
 tags: [Grok, xAI, コーディング, セキュリティ]
 source: https://x.ai/news/grok-build-open-source
 draft: false
+importance: high
 ---
 
 xAIがコーディングエージェント「Grok Build」のソースコードを全面公開しました。直前の7月12日に発覚した「ユーザー設定を無視してリポジトリ全体を無断アップロードしていた」問題への対応という位置づけで、あわせてクラウド側の利用上限も撤廃されています。

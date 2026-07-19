@@ -7,6 +7,7 @@ type: news
 tags: [Grok, xAI, "AI史"]
 source: https://x.ai/news/grok-os
 draft: false
+importance: medium
 ---
 
 xAIが、チャットボット「Grok」を支える基盤モデル「Grok-1」のモデル重みとネットワークアーキテクチャを、Apache 2.0ライセンスのもとでオープンソース公開しました。3140億パラメータのMixture-of-Expertsモデルという大規模な構成を、商用利用も可能な寛容なライセンスで公開した点が注目を集めました。

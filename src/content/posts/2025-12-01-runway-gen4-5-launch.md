@@ -7,6 +7,7 @@ type: news
 tags: [Runway, 動画生成AI]
 source: https://runwayml.com/research/introducing-runway-gen-4.5
 draft: false
+importance: medium
 ---
 
 Runwayが最新の動画生成モデル「Gen-4.5」を発表しました。Artificial Analysisが公開しているテキスト→動画ベンチマークでEloスコア1,247を記録し、GoogleやOpenAIのモデルを上回って1位を獲得したとしています。

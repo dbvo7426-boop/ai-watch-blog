@@ -7,6 +7,7 @@ type: news
 tags: [GitHub Copilot, GitHub Copilot X, "AI史"]
 source: https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience/
 draft: false
+importance: medium
 ---
 
 GitHubが2023年3月22日、GitHub CopilotをGPT-4ベースに刷新し、コード補完だけでなく開発ライフサイクル全体を支援する構想「GitHub Copilot X」を発表しました。GitHub CEOのトーマス・ドムケ氏が「AIによる自動補完はあくまで出発点にすぎない」と述べた通り、単一機能のツールから開発プロセス全体をカバーするプラットフォームへの転換を宣言した節目です。

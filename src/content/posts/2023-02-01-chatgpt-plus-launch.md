@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, OpenAI, "AI史"]
 source: https://openai.com/index/chatgpt-plus/
 draft: false
+importance: high
 ---
 
 OpenAIが2023年2月1日、ChatGPT初の有料サブスクリプションプラン「ChatGPT Plus」を月額20ドルで開始しました。無料版は利用者急増によりアクセス制限がかかることが多かったため、安定した利用環境を求めるユーザー向けの選択肢として登場。まずは米国のウェイトリスト登録者から提供が始まりました。

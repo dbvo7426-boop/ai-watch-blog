@@ -7,6 +7,7 @@ type: news
 tags: [Adept, AIエージェント, "AI史"]
 source: https://techcrunch.com/2022/04/26/2304039/
 draft: false
+importance: medium
 ---
 
 AIスタートアップのAdeptが、Greylock PartnersとAdditionが主導するシリーズAで6500万ドルを調達したと発表し、ステルスモードから正式始動しました。共同創業者には、Transformerアーキテクチャの原論文「Attention Is All You Need」の著者であるAshish Vaswani氏・Niki Parmar氏(ともに元Google Brain)、そして元OpenAIエンジニアリング担当VPのDavid Luan氏が名を連ねています。

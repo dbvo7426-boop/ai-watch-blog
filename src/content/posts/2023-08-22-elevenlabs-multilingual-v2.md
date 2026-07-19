@@ -7,6 +7,7 @@ type: news
 tags: [ElevenLabs, 音声AI, "AI史"]
 source: https://elevenlabs.io/blog/elevenlabs-comes-out-of-beta-and-releases-eleven-multilingual-v2-a-foundational-ai-speech-model-for-nearly-30-languages
 draft: false
+importance: low
 ---
 
 ElevenLabsが正式にベータ版を終了し、約30言語に対応する音声合成モデル「Eleven Multilingual v2」を公開しました。メディア企業やゲーム開発者、出版社、個人クリエイターが世界各地のユーザー向けにコンテンツをローカライズしやすくすることを狙った基盤モデルです。

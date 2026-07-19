@@ -7,6 +7,7 @@ type: news
 tags: [Cursor, Anysphere, SpaceX, M&A]
 source: https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/
 draft: false
+importance: high
 ---
 
 SpaceXが、AIコードエディタ「Cursor」を開発するAnysphereを総額600億ドルの全株式交換で買収すると発表しました。SpaceX自身がナスダックに新規上場したわずか4日後という電撃的なタイミングでの発表で、ベンチャー支援スタートアップの買収としては史上最大級の規模になるとみられています。

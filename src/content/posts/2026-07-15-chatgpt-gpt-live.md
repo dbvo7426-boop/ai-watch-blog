@@ -7,6 +7,7 @@ type: news
 tags: [ChatGPT, 音声, GPT-Live]
 source: https://openai.com/index/introducing-gpt-live
 draft: false
+importance: high
 ---
 
 OpenAIが新世代の音声モデル「GPT-Live」を発表しました。同時に聞き取りと発話ができる全二重(フルデュプレックス)アーキテクチャを採用し、より自然な音声対話を実現しています。ChatGPTの音声機能として全世界で即日利用開始されました。

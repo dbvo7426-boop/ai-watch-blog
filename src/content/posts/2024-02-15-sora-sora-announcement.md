@@ -7,6 +7,7 @@ type: news
 tags: [Sora, OpenAI, "AI史"]
 source: https://openai.com/index/video-generation-models-as-world-simulators/
 draft: false
+importance: high
 ---
 
 OpenAIが2024年2月15日、テキストプロンプトから動画を生成する初のモデル「Sora」を発表しました。雪の東京を歩く2人、山道を走るSUV、キャンドルのそばにいるふわふわの怪物、ゴールドラッシュ時代を模した架空の記録映像など、高精細なサンプル動画を公開し、最長1分の動画を生成できる技術力を示しました。

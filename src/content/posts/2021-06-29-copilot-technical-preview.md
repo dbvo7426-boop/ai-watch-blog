@@ -7,6 +7,7 @@ type: news
 tags: [GitHub Copilot, OpenAI Codex, "AI史"]
 source: https://github.blog/news-insights/product-news/introducing-github-copilot-ai-pair-programmer/
 draft: false
+importance: high
 ---
 
 GitHubが2021年6月29日、AIペアプログラマー「GitHub Copilot」のテクニカルプレビューを発表しました。OpenAIと共同開発した「OpenAI Codex」を使い、書きかけのコードから文脈を読み取って一行、あるいは関数全体を提案するツールで、現在まで続くAIコーディングアシスタント競争の出発点となった製品です。

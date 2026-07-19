@@ -7,6 +7,7 @@ type: news
 tags: [Gemini, Google, "AI史"]
 source: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/
 draft: false
+importance: high
 ---
 
 Googleが新世代モデル「Gemini 2.0」を発表しました。第1弾として実験的に公開された「Gemini 2.0 Flash」は、1.5 Proを主要ベンチマークで上回りながら処理速度は2倍という性能を実現。Googleは今回のアップデートを「エージェントの時代に向けた」モデルと位置付け、AIが自律的にツールを使いこなす方向性を明確に打ち出しました。

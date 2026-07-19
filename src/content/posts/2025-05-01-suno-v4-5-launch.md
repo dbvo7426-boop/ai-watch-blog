@@ -7,6 +7,7 @@ type: news
 tags: [Suno, 音楽生成AI, "AI史"]
 source: https://suno.com/blog/introducing-v4-5
 draft: false
+importance: low
 ---
 
 Sunoが新モデル「v4.5」を発表し、まずPro・Premierユーザー向けに提供を開始しました。1回の生成で作れる楽曲の長さが最大8分まで拡大したほか、プロンプトへの追従性やスタイルの組み合わせの精度も向上しています。

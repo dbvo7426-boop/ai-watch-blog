@@ -7,6 +7,7 @@ type: news
 tags: [Gemini CLI, Google, オープンソース, "AI史"]
 source: https://blog.google/technology/developers/introducing-gemini-cli-open-source-ai-agent/
 draft: false
+importance: medium
 ---
 
 Googleが2025年6月25日、ターミナルで動くオープンソースAIエージェント「Gemini CLI」を発表しました。Apache 2.0ライセンスで全面公開し、個人のGoogleアカウントさえあればGemini 2.5 Proの100万トークンコンテキストウィンドウを無料で使えるようにしたのが最大の特徴で、Claude CodeやOpenAI Codexに対抗するGoogleの回答として登場しました。

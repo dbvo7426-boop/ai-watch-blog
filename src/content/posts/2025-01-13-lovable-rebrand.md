@@ -7,6 +7,7 @@ type: news
 tags: [Lovable, ブランド刷新, "AI史"]
 source: https://lovable.dev/blog/2025-01-13-rebranding-gpt-engineer-to-lovable
 draft: false
+importance: low
 ---
 
 Lovableが、旧サービス名「GPT Engineer」からの正式なブランド移行を発表しました。2024年11月のLovableローンチ後も残っていたgptengineer.appの既存ユーザー向け環境を含め、ブランドを「Lovable」へ一本化する内容です。

@@ -7,6 +7,7 @@ type: news
 tags: [Perplexity, Spaces, AI史]
 source: https://www.perplexity.ai/hub/blog/introducing-internal-knowledge-search-and-spaces
 draft: false
+importance: medium
 ---
 
 Perplexityが2024年10月17日、Web上の情報と組織内部のファイルを同時に検索できる「Internal Knowledge Search」と、チームで調査プロジェクトを共同管理できる「Spaces」を発表しました。個人ユーザー向けの検索ツールだったPerplexityが、企業のワークフローに入り込むプラットフォームへと軸足を広げた転換点です。

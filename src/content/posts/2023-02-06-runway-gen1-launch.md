@@ -7,6 +7,7 @@ type: news
 tags: [Runway, 動画生成AI, "AI史"]
 source: https://www.technologyreview.com/2023/02/06/1067897/runway-stable-diffusion-gen-1-generative-ai-for-video/
 draft: false
+importance: medium
 ---
 
 Stable Diffusionの開発に関わったスタートアップRunwayが、動画生成AIシステム「Gen-1」を発表しました。テキストや画像で指定したスタイル・構図を、既存の動画の構造はそのままに適用できるのが特徴で、招待ユーザーへの提供から数週間後にはウェイトリスト登録者全体へ公開するとされました。

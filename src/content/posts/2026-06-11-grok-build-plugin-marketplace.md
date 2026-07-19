@@ -7,6 +7,7 @@ type: news
 tags: [Grok Build, xAI, プラグイン, コーディング, AI史]
 source: https://x.ai/news/grok-plugin-marketplace
 draft: false
+importance: low
 ---
 
 xAIはコーディングエージェント「Grok Build」に、プラグインマーケットプレイスを追加しました。スキルやスラッシュコマンド、フック、MCPサーバーなどをひとまとめにした「プラグイン」を、ターミナルを離れずに閲覧・インストールできる仕組みで、ローンチ時点でMongoDBやVercelなど6つのプラグインが用意されています。

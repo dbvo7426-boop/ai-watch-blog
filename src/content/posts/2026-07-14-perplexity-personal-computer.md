@@ -7,6 +7,7 @@ type: news
 tags: [Perplexity, エージェント, Mac]
 source: https://www.perplexity.ai/hub/blog/personal-computer-is-here
 draft: false
+importance: medium
 ---
 
 Perplexityが「Personal Computer」を発表しました。従来のクラウド上のオーケストレーション機能「Computer」を、ユーザーのローカルマシンにまで拡張するもので、ファイル・ネイティブアプリ・Webサービスを横断してタスクを自動で実行します。

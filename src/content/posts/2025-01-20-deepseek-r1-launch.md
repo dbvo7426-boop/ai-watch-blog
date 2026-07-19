@@ -7,6 +7,7 @@ type: news
 tags: [DeepSeek, "AI史"]
 source: https://api-docs.deepseek.com/news/news250120/
 draft: false
+importance: high
 ---
 
 DeepSeekが、推論に特化した新モデル「DeepSeek-R1」を公開しました。大規模な強化学習を後段学習に用いることで、数学・コーディング・論理的推論のベンチマークでOpenAIのo1に匹敵する性能を実現したとし、しかもMITライセンスによる完全オープンソースという条件で公開したことが世界中で大きな話題となりました。

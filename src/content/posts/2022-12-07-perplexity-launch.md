@@ -7,6 +7,7 @@ type: news
 tags: [Perplexity, 検索エンジン, AI史]
 source: https://en.wikipedia.org/wiki/Perplexity_AI
 draft: false
+importance: medium
 ---
 
 Aravind Srinivas氏らが創業したPerplexity AIが、2022年12月7日に検索サービスを公開しました。OpenAIのChatGPTが公開されたわずか1週間後というタイミングで、リンク一覧を返す従来の検索とは異なり、質問に対して引用元付きの文章で直接回答する「答えエンジン(answer engine)」というコンセプトを打ち出しました。

@@ -7,6 +7,7 @@ type: news
 tags: [ElevenLabs, 音声AI, 吹き替え]
 source: https://elevenlabs.io/blog/introducing-dubbing-v2
 draft: false
+importance: medium
 ---
 
 ElevenLabsが、新しい吹き替え(ダビング)モデル「Dubbing v2」を発表しました。90以上の言語・アクセントに対応しながら、元のコンテンツが持つ感情・演技・意図を保ったまま自然に翻訳できる点を最大の特徴としています。

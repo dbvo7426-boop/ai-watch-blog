@@ -7,6 +7,7 @@ type: news
 tags: [Qwen, Alibaba, "AI史"]
 source: https://github.com/QwenLM/Qwen
 draft: false
+importance: medium
 ---
 
 Alibaba Cloudが2023年8月3日、70億パラメータの言語モデル「Qwen-7B」と対話向け版「Qwen-7B-Chat」をModelScopeとHugging Face上でオープンソース公開しました。同年4月にベータ提供を始めていた対話アシスタント「通義千問(Tongyi Qianwen)」の基盤モデルを、学術・商用問わず自由に使える形で世に出した、Qwenシリーズの実質的な第一歩です。

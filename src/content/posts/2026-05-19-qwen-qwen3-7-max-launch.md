@@ -7,6 +7,7 @@ type: news
 tags: [Qwen, Alibaba]
 source: https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154
 draft: false
+importance: medium
 ---
 
 Alibabaが2026年5月19日、新フラッグシップモデル「Qwen3.7-Max」を発表しました。Alibaba Cloud Summitでの発表に先立ち、Alibaba Cloud Model Studioでは同日からAPI提供が始まっており、コーディング・オフィス業務の自動化・数百から数千ステップに及ぶ長時間タスクなど「エージェント時代」向けに設計されたモデルです。

@@ -7,6 +7,7 @@ type: news
 tags: [Microsoft 365 Copilot, Microsoft, "AI史"]
 source: https://www.microsoft.com/en-us/microsoft-365/blog/2023/03/16/introducing-microsoft-365-copilot-a-whole-new-way-to-work/
 draft: false
+importance: high
 ---
 
 Microsoftが2023年3月16日、Word・Excel・PowerPoint・Outlook・TeamsなどMicrosoft 365アプリ全体にAIアシスタントを組み込む「Microsoft 365 Copilot」を発表しました。大規模言語モデルと、ユーザーのカレンダー・メール・文書などMicrosoft Graph上のデータを組み合わせる設計で、GitHub Copilotで培った知見をオフィスソフト全体に展開する動きとして注目を集めました。

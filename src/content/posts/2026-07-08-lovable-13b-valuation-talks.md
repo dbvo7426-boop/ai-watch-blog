@@ -7,6 +7,7 @@ type: news
 tags: [Lovable, 資金調達]
 source: https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/
 draft: false
+importance: low
 ---
 
 TechCrunchの報道によると、バイブコーディングサービスのLovableがMenlo Ventures主導で3億ドルの資金調達を協議中とされ、実現すれば評価額は132億ドルに達する見込みです。これは2025年12月のシリーズB時点の評価額66億ドルからちょうど倍増となります。

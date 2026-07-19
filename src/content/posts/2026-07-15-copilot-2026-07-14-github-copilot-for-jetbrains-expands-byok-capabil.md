@@ -7,6 +7,7 @@ type: news
 tags: [Copilot, JetBrains, BYOK]
 source: https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities
 draft: false
+importance: medium
 ---
 
 GitHubがJetBrains向けGitHub Copilotをアップデートし、モデル・プロバイダの柔軟性とカスタマイズ性を大幅に強化しました。

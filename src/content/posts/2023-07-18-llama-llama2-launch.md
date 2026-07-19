@@ -7,6 +7,7 @@ type: news
 tags: [Llama, Meta, Microsoft, "AI史"]
 source: https://ai.meta.com/blog/llama-2/
 draft: false
+importance: high
 ---
 
 Metaが2023年7月18日、Microsoftとの提携のもとで次世代モデル「Llama 2」を発表しました。前年の初代LLaMAは研究限定・非商用ライセンスでしたが、今回は無料で商用利用も可能なライセンスへと転換し、Metaが「オープンなAI」路線を本格的に打ち出した転機となりました。

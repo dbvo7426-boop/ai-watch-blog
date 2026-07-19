@@ -7,6 +7,7 @@ type: news
 tags: [Genspark, AI検索, "AI史"]
 source: https://techcrunch.com/2024/06/18/genspark-is-the-latest-attempt-at-an-ai-powered-search-engine/
 draft: false
+importance: medium
 ---
 
 元Baidu幹部のEric Jing氏・Kay Zhu氏が創業したスタートアップが、生成AIを使った検索エンジン「Genspark」を発表しました。検索結果をリンクの羅列ではなく、Web上の複数情報源をまとめた1枚の要約ページ「Sparkpage」として提示する点が特徴です。

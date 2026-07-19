@@ -7,6 +7,7 @@ type: news
 tags: [Suno, 資金調達, "AI史"]
 source: https://suno.com/blog/fundraising-announcement-may-2024
 draft: false
+importance: medium
 ---
 
 Sunoが、Lightspeed Venture Partnersが主導するシリーズBラウンドで1億2,500万ドルを調達したと発表しました。一般公開からわずか8か月というタイミングでの大型調達で、評価額は約5億ドルに達したと報じられています。

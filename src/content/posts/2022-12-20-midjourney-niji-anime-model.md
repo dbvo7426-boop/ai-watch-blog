@@ -7,6 +7,7 @@ type: news
 tags: [Midjourney, niji, "AI史"]
 source: https://aituts.com/how-to-use-niji-journey/
 draft: false
+importance: low
 ---
 
 Midjourneyが、アニメ制作スタジオSpellbrushと共同開発したアニメ・イラスト特化の画像生成モデル「niji」を公開しました。通常のMidjourneyモデルとは別系統で調整されており、二次元的な線画やアニメ調の構図・配色をより高い精度で再現できるのが特徴です。

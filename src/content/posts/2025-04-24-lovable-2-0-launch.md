@@ -7,6 +7,7 @@ type: news
 tags: [Lovable, バイブコーディング, "AI史"]
 source: https://lovable.dev/blog/lovable-2-0
 draft: false
+importance: medium
 ---
 
 Lovableが大型アップデート「Lovable 2.0」を発表しました。チャット機能自体がエージェント化され、複数ステップにわたって自律的に判断しながらファイル参照やログ確認、データベース照会などをこなせるようになったのが最大の特徴です。

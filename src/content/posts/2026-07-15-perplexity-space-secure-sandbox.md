@@ -7,6 +7,7 @@ type: news
 tags: [Perplexity, エージェント, セキュリティ]
 source: https://www.perplexity.ai/hub/blog/secure-sandboxes-for-agents
 draft: false
+importance: medium
 ---
 
 Perplexityが、エージェント実行基盤「Computer」を支える新しいサンドボックス技術「SPACE」を発表しました。認証情報をサンドボックス内部に一切持ち込まない設計により、安全性と実行速度を同時に高めています。

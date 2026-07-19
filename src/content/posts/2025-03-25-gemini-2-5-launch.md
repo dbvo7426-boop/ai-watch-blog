@@ -7,6 +7,7 @@ type: news
 tags: [Gemini, Google, "AI史"]
 source: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/
 draft: false
+importance: high
 ---
 
 Googleが新モデル「Gemini 2.5 Pro」を発表しました。応答前に内部で「思考(thinking)」プロセスを経ることで精度を高める推論特化型モデルで、公開直後にAIモデル比較サイト「LMArena」で大差をつけて首位に立ち、話題を集めました。

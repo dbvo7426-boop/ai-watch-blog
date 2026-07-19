@@ -7,6 +7,7 @@ type: news
 tags: [Llama, Meta, Muse]
 source: https://ai.meta.com/blog/introducing-muse-spark-msl/
 draft: false
+importance: high
 ---
 
 Meta Superintelligence Labs(MSL)が2026年4月8日、新モデル「Muse Spark」を発表しました。Meta AI部門の再編後初となる主要モデルですが、これまでのLlamaシリーズと異なり非公開のプロプライエタリモデルとして選定パートナー向けAPIプレビューでのみ提供される点が大きな注目を集めています。

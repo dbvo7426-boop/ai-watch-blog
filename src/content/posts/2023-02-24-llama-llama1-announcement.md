@@ -7,6 +7,7 @@ type: news
 tags: [Llama, Meta, "AI史"]
 source: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
 draft: false
+importance: high
 ---
 
 Metaが2023年2月24日、基盤言語モデル「LLaMA(Large Language Model Meta AI)」を発表しました。ChatGPT登場から3か月というタイミングで、Metaが自社の大規模言語モデルを研究コミュニティ向けに公開した最初の一歩であり、後の「Llama」シリーズすべての原点となった発表です。

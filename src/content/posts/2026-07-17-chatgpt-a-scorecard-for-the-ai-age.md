@@ -7,6 +7,7 @@ type: news
 tags: []
 source: https://openai.com/index/a-scorecard-for-the-ai-age
 draft: true
+importance: low
 ---
 
 <!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->

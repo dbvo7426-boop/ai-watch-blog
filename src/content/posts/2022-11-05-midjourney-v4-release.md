@@ -7,6 +7,7 @@ type: news
 tags: [Midjourney, 画像生成AI, "AI史"]
 source: https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version
 draft: false
+importance: medium
 ---
 
 Midjourneyが、新しく構築したAIスーパークラスターで一から学習させた新モデル「V4」をアルファ版として公開しました。従来のV3までとは異なるコードベース・アーキテクチャで開発されており、Midjourneyにとって最初の大きな世代交代となったモデルです。

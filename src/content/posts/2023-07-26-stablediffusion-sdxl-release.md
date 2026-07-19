@@ -7,6 +7,7 @@ type: news
 tags: [StableDiffusion, StabilityAI, "AI史"]
 source: https://stability.ai/news/stable-diffusion-sdxl-1-announcement
 draft: false
+importance: medium
 ---
 
 Stability AIが、Stable Diffusionシリーズの最新フラッグシップモデル「SDXL 1.0」を公開しました。AWS Summit New Yorkで発表されたこのモデルは、オープンアクセスの画像生成モデルとしては最大級のパラメータ数を持ち、色彩・コントラスト・陰影表現が大きく向上しています。

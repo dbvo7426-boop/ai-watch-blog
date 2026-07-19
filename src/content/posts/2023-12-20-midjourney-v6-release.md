@@ -7,6 +7,7 @@ type: news
 tags: [Midjourney, 画像生成AI, "AI史"]
 source: https://venturebeat.com/ai/midjourney-v6-is-here-with-in-image-text-and-completely-overhauled-prompting
 draft: false
+importance: medium
 ---
 
 Midjourneyが、9か月かけてゼロから学習させた新モデル「V6」をアルファ公開しました。最大の目玉は画像内に読める文字を描画できるようになったことで、プロンプトの解釈方法もV5までとは大きく異なる仕様に刷新されています。

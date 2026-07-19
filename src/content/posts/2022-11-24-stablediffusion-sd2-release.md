@@ -7,6 +7,7 @@ type: news
 tags: [StableDiffusion, StabilityAI, "AI史"]
 source: https://stability.ai/news-updates/stable-diffusion-v2-release
 draft: false
+importance: medium
 ---
 
 Stability AIが、Stable Diffusionの大型アップデート「2.0」を公開しました。テキストエンコーダーをOpenCLIPに刷新するなど技術的な進化がある一方、NSFWフィルタの強化によって人物表現の質が落ちたとの声がコミュニティから上がり、公開直後から賛否が分かれる展開になりました。

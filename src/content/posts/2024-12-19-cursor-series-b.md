@@ -7,6 +7,7 @@ type: news
 tags: [Cursor, Anysphere, 資金調達, "AI史"]
 source: https://techcrunch.com/2024/12/19/in-just-4-months-ai-coding-assistant-cursor-raised-another-100m-at-a-2-5b-valuation-led-by-thrive-sources-say/
 draft: false
+importance: medium
 ---
 
 AIコーディングアシスタントを開発するAnysphereが、シリーズAからわずか4か月というスピードでThrive Capital主導のシリーズBを実施し、1億ドルを調達したとTechCrunchが報じました。評価額は約25億ドルに達し、わずか数か月で6倍以上に膨れ上がったことになります。

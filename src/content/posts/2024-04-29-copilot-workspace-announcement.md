@@ -7,6 +7,7 @@ type: news
 tags: [GitHub Copilot, GitHub Copilot Workspace, "AI史"]
 source: https://github.blog/news-insights/product-news/github-copilot-workspace/
 draft: false
+importance: medium
 ---
 
 GitHubが2024年4月29日、「GitHub Copilot Workspace」のテクニカルプレビューを発表しました。GitHubのリポジトリやIssueを起点に、実装計画の立案からコード変更、動作確認、プルリクエスト作成までを自然言語でこなせる、Copilotネイティブな開発環境という新しいコンセプトです。前年のGitHub Universe 2023で示された構想を、実際に触れる形にしたものでした。

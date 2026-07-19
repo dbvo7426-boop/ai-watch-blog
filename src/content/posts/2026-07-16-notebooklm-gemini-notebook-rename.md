@@ -7,6 +7,7 @@ type: news
 tags: [NotebookLM, Google, Gemini, リブランディング]
 source: https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/
 draft: false
+importance: medium
 ---
 
 Googleが「NotebookLM」の名称を「Gemini Notebook」に変更したと発表しました。単独プロダクトとしての立ち位置は維持しつつ、Geminiエコシステム全体との連携を強めるための改称で、あわせて各ノートブックでコードを書いて実行できる新機能も追加されています。

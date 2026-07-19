@@ -7,6 +7,7 @@ type: howto
 tags: [Copilot, GitHub, ドキュメント生成]
 source: https://github.blog/changelog/2026-07-09-ask-copilot-for-a-repository-overview
 draft: false
+importance: low
 ---
 
 GitHubが、初めて訪れたリポジトリの内容をCopilotが自動で要約してくれる新機能を公開しました。目的・使用技術・貢献方法などをまとめて提示してくれるほか、READMEが整備されていないリポジトリでは自動生成も行います。全てのCopilotプランで利用できます。

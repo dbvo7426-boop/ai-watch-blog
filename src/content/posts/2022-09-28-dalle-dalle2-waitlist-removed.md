@@ -7,6 +7,7 @@ type: news
 tags: [DALL-E, OpenAI, "AI史"]
 source: https://openai.com/index/dall-e-now-available-without-waitlist/
 draft: false
+importance: medium
 ---
 
 OpenAIが、それまで招待制だったDALL-E 2の招待リストを廃止し、サインアップするだけで誰でもすぐに利用できるようにしました。同年7月に招待制ベータへ拡大してから約2か月で、待機なしの一般提供へと踏み切った形です。

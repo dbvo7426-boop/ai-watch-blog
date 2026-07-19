@@ -7,6 +7,7 @@ type: news
 tags: [Gemini CLI, Google, Antigravity CLI, オープンソース, "AI史"]
 source: https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/
 draft: false
+importance: high
 ---
 
 Googleが2026年5月19日、Google I/Oに合わせて「Gemini CLI」を新たな統合プラットフォーム「Antigravity CLI」へ移行させると発表しました。2025年6月にオープンソースとして華々しく登場したGemini CLIですが、無料・Google AI Pro/Ultarの個人向け提供は2026年6月18日で終了するとされ、後継のAntigravity CLIがオープンソースではないことも判明し、開発者コミュニティから強い反発が上がりました。

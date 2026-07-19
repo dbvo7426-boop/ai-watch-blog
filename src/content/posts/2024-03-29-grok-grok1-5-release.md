@@ -7,6 +7,7 @@ type: news
 tags: [Grok, xAI, "AI史"]
 source: https://x.ai/news/grok-1.5
 draft: false
+importance: low
 ---
 
 xAIが、Grokの新モデル「Grok-1.5」を発表しました。最大の特徴はコンテキスト長が12.8万トークンまで拡大されたことで、これは従来モデルの約16倍にあたります。あわせてコーディングや数学の推論性能も大きく向上しました。
