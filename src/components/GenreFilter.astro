@@ -1,0 +1,54 @@
+---
+import { GENRES } from '../consts';
+
+interface Props {
+  active?: string;
+}
+
+const { active } = Astro.props;
+---
+
+<div class="genre-filter">
+  <span class="filter-label">得意分野で絞り込み:</span>
+  {
+    Object.entries(GENRES).map(([genre, label]) => (
+      <a href={`/genre/${genre}/`} class:list={['genre-pill', { 'is-active': active === genre }]}>
+        {label}
+      </a>
+    ))
+  }
+</div>
+
+<style>
+  .genre-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px 0 0;
+  }
+  .genre-filter .filter-label {
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .genre-pill {
+    display: inline-block;
+    font-size: 12.5px;
+    font-weight: 500;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 3px 12px;
+    text-decoration: none;
+  }
+  .genre-pill:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .genre-pill.is-active {
+    background: var(--ink);
+    color: #fff;
+    border-color: var(--ink);
+  }
+</style>

@@ -4,6 +4,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import ArticleCard from '../../../components/ArticleCard.astro';
 import Pagination from '../../../components/Pagination.astro';
 import ImportanceFilter from '../../../components/ImportanceFilter.astro';
+import GenreFilter from '../../../components/GenreFilter.astro';
 import { IMPORTANCE, PAGE_SIZE } from '../../../consts';
 
 export async function getStaticPaths({ paginate }) {
@@ -37,6 +38,7 @@ const label = IMPORTANCE[level];
   </div>
 
   <ImportanceFilter active={level} />
+  <GenreFilter />
 
   <div class="grid">
     {page.data.map((post) => <ArticleCard post={post} />)}

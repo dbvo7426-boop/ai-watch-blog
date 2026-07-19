@@ -1,0 +1,74 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import Pagination from '../../../components/Pagination.astro';
+import ImportanceFilter from '../../../components/ImportanceFilter.astro';
+import GenreFilter from '../../../components/GenreFilter.astro';
+import { CATEGORIES, GENRES, PAGE_SIZE } from '../../../consts';
+
+export async function getStaticPaths({ paginate }) {
+  const posts = await getCollection(
+    'posts',
+    ({ data }) => (import.meta.env.PROD ? !data.draft : true)
+  );
+
+  return Object.keys(GENRES).flatMap((genre) => {
+    const categoriesInGenre = Object.entries(CATEGORIES)
+      .filter(([, cat]) => cat.genre === genre)
+      .map(([key]) => key);
+
+    const genrePosts = posts
+      .filter((post) => categoriesInGenre.includes(post.data.category))
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+    return paginate(genrePosts, { params: { genre }, pageSize: PAGE_SIZE });
+  });
+}
+
+const { genre } = Astro.params;
+const { page } = Astro.props;
+const label = GENRES[genre];
+const categoriesInGenre = Object.entries(CATEGORIES).filter(([, cat]) => cat.genre === genre);
+---
+
+<BaseLayout title={`${label}の記事一覧`}>
+  <div class="section-head" style="margin-top: 8px;">
+    <h2>{label}の記事一覧</h2>
+    <span class="count">{page.total} 件</span>
+  </div>
+
+  <p class="genre-members">
+    対象サービス:
+    {
+      categoriesInGenre.map(([key, cat]) => (
+        <a href={`/category/${key}/`} class="badge" style={`background:${cat.color}`}>
+          {cat.label}
+        </a>
+      ))
+    }
+  </p>
+
+  <ImportanceFilter />
+  <GenreFilter active={genre} />
+
+  <div class="grid">
+    {page.data.map((post) => <ArticleCard post={post} />)}
+  </div>
+
+  {page.data.length === 0 && <p>該当する記事はまだありません。</p>}
+
+  <Pagination page={page} />
+</BaseLayout>
+
+<style>
+  .genre-members {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 0 0 24px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>
