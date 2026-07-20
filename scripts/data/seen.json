@@ -242,7 +242,8 @@
     "https://www.anthropic.com/news/zoom-partnership-and-investment",
     "https://www.anthropic.com/news/ust-claude",
     "https://www.anthropic.com/news/canadian-ai-research",
-    "https://www.anthropic.com/news/claude-for-teachers"
+    "https://www.anthropic.com/news/claude-for-teachers",
+    "https://www.anthropic.com/news/rare-disease-research-grants"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1290,7 +1291,8 @@
     "https://openai.com/index/unlocking-self-improvement-gpt-red",
     "https://openai.com/index/why-teens-deserve-access-safe-ai",
     "https://openai.com/index/cars24",
-    "https://openai.com/index/a-scorecard-for-the-ai-age"
+    "https://openai.com/index/a-scorecard-for-the-ai-age",
+    "https://openai.com/index/safety-alignment-long-horizon-models"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1332,7 +1334,8 @@
     "https://github.blog/changelog/2026-07-14-github-copilot-for-jetbrains-expands-byok-capabilities",
     "https://github.blog/changelog/2026-07-17-repository-level-github-copilot-usage-metrics-generally-available",
     "https://github.blog/changelog/2026-07-17-github-copilot-app-now-available-in-the-usage-metrics-api",
-    "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements"
+    "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
+    "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
