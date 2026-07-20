@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import ArticleCard from '../../../../components/ArticleCard.astro';
+import Pagination from '../../../../components/Pagination.astro';
+import ImportanceFilter from '../../../../components/ImportanceFilter.astro';
+import GenreFilter from '../../../../components/GenreFilter.astro';
+import { PAGE_SIZE } from '../../../../consts';
+import { t } from '../../../../i18n';
+
+export async function getStaticPaths({ paginate }) {
+  const posts = await getCollection(
+    'postsEn',
+    ({ data }) => (import.meta.env.PROD ? !data.draft : true)
+  );
+
+  const tags = new Set();
+  posts.forEach((post) => post.data.tags.forEach((tag) => tags.add(tag)));
+
+  return Array.from(tags).flatMap((tag) => {
+    const tagPosts = posts
+      .filter((post) => post.data.tags.includes(tag))
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+    return paginate(tagPosts, { params: { tag }, pageSize: PAGE_SIZE });
+  });
+}
+
+const { tag } = Astro.params;
+const { page } = Astro.props;
+const ui = t('en');
+---
+
+<BaseLayout title={ui.tagArticleList(tag)} lang="en">
+  <div class="section-head" style="margin-top: 8px;">
+    <h2>{ui.tagArticleList(tag)}</h2>
+    <span class="count">{ui.itemsCount(page.total)}</span>
+  </div>
+
+  <ImportanceFilter lang="en" />
+  <GenreFilter lang="en" />
+
+  <div class="grid">
+    {page.data.map((post) => <ArticleCard post={post} lang="en" />)}
+  </div>
+
+  <Pagination page={page} lang="en" />
+</BaseLayout>

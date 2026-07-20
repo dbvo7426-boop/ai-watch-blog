@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import ArticleCard from '../../../../components/ArticleCard.astro';
+import Pagination from '../../../../components/Pagination.astro';
+import ImportanceFilter from '../../../../components/ImportanceFilter.astro';
+import GenreFilter from '../../../../components/GenreFilter.astro';
+import { CATEGORIES_EN, GENRES_EN } from '../../../../consts.en';
+import { PAGE_SIZE } from '../../../../consts';
+import { t } from '../../../../i18n';
+
+export async function getStaticPaths({ paginate }) {
+  const posts = await getCollection(
+    'postsEn',
+    ({ data }) => (import.meta.env.PROD ? !data.draft : true)
+  );
+
+  return Object.keys(GENRES_EN).flatMap((genre) => {
+    const categoriesInGenre = Object.entries(CATEGORIES_EN)
+      .filter(([, cat]) => cat.genre === genre)
+      .map(([key]) => key);
+
+    const genrePosts = posts
+      .filter((post) => categoriesInGenre.includes(post.data.category))
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+    return paginate(genrePosts, { params: { genre }, pageSize: PAGE_SIZE });
+  });
+}
+
+const { genre } = Astro.params;
+const { page } = Astro.props;
+const label = GENRES_EN[genre];
+const categoriesInGenre = Object.entries(CATEGORIES_EN).filter(([, cat]) => cat.genre === genre);
+const ui = t('en');
+---
+
+<BaseLayout title={`${label} Articles`} lang="en">
+  <div class="section-head" style="margin-top: 8px;">
+    <h2>{label} Articles</h2>
+    <span class="count">{ui.itemsCount(page.total)}</span>
+  </div>
+
+  <p class="genre-members">
+    {ui.targetServices}
+    {
+      categoriesInGenre.map(([key, cat]) => (
+        <a href={`/en/category/${key}/`} class="badge" style={`background:${cat.color}`}>
+          {cat.label}
+        </a>
+      ))
+    }
+  </p>
+
+  <ImportanceFilter lang="en" />
+  <GenreFilter active={genre} lang="en" />
+
+  <div class="grid">
+    {page.data.map((post) => <ArticleCard post={post} lang="en" />)}
+  </div>
+
+  {page.data.length === 0 && <p>{ui.noGenreArticles}</p>}
+
+  <Pagination page={page} lang="en" />
+</BaseLayout>
+
+<style>
+  .genre-members {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 0 0 24px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>

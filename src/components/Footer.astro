@@ -1,16 +1,26 @@
 ---
 import { SITE_TITLE } from '../consts';
+import { SITE_TITLE_EN } from '../consts.en';
+import { t, prefix } from '../i18n';
+
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'ja' } = Astro.props;
+const siteTitle = lang === 'en' ? SITE_TITLE_EN : SITE_TITLE;
+const ui = t(lang);
+const base = prefix(lang);
 const year = new Date().getFullYear();
 ---
 
 <footer class="site-footer">
   <div class="container inner">
     <p class="note">
-      当サイトのニュース記事はAIによる自動生成をベースに、公開前に人間が内容を確認しています。
-      情報の正確性は一次情報(公式発表)をご確認ください。
+      {ui.footerNote}
     </p>
     <p class="copy">
-      &copy; {year} {SITE_TITLE} · <a href="/tags/">タグ一覧</a> · <a href="/rss.xml">RSS</a>
+      &copy; {year} {siteTitle} · <a href={`${base}/tags/`}>{ui.tagList}</a> · <a href={`${base}/rss.xml`}>{ui.rss}</a>
     </p>
   </div>
 </footer>

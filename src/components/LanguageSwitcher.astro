@@ -1,0 +1,45 @@
+---
+interface Props {
+  lang?: string;
+  altPath?: string;
+}
+
+const { lang = 'ja', altPath } = Astro.props;
+const currentPath = Astro.url.pathname;
+const computedAltPath =
+  altPath ??
+  (lang === 'en'
+    ? currentPath.replace(/^\/en/, '') || '/'
+    : `/en${currentPath === '/' ? '' : currentPath}`);
+const jaHref = lang === 'en' ? computedAltPath : currentPath;
+const enHref = lang === 'en' ? currentPath : computedAltPath;
+---
+
+<div class="lang-switcher" data-lang-switcher>
+  <a href={jaHref} class:list={['lang-link', { 'is-active': lang === 'ja' }]} data-lang="ja">日本語</a>
+  <span class="lang-sep">/</span>
+  <a href={enHref} class:list={['lang-link', { 'is-active': lang === 'en' }]} data-lang="en">English</a>
+</div>
+
+<style>
+  .lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12.5px;
+    padding-left: 14px;
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+  }
+  .lang-link {
+    opacity: 0.7;
+  }
+  .lang-link:hover,
+  .lang-link.is-active {
+    opacity: 1;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .lang-sep {
+    opacity: 0.4;
+  }
+</style>

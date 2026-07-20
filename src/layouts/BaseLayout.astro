@@ -2,33 +2,48 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { SITE_TITLE_EN, SITE_DESCRIPTION_EN } from '../consts.en';
 import '../styles/global.css';
 
 interface Props {
   title?: string;
   description?: string;
+  lang?: string;
+  /** もう一方の言語での同一ページの相対パス(hreflang用)。未指定ならlangプレフィックスの付け外しで機械的に推測 */
+  altPath?: string;
 }
 
-const { title, description = SITE_DESCRIPTION } = Astro.props;
-const pageTitle = title ? `${title} | ${SITE_TITLE}` : SITE_TITLE;
+const { title, description, lang = 'ja', altPath } = Astro.props;
+const siteTitle = lang === 'en' ? SITE_TITLE_EN : SITE_TITLE;
+const siteDescription = description ?? (lang === 'en' ? SITE_DESCRIPTION_EN : SITE_DESCRIPTION);
+const pageTitle = title ? `${title} | ${siteTitle}` : siteTitle;
+
+const currentPath = Astro.url.pathname;
+const computedAltPath =
+  altPath ??
+  (lang === 'en'
+    ? currentPath.replace(/^\/en/, '') || '/'
+    : `/en${currentPath === '/' ? '' : currentPath}`);
 
 // GA4計測ID。未設定の間はタグを埋め込まない(ビルド環境変数 PUBLIC_GA_MEASUREMENT_ID で設定)
 const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
 ---
 
 <!doctype html>
-<html lang="ja">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
-    <meta name="description" content={description} />
+    <meta name="description" content={siteDescription} />
     <meta name="google-site-verification" content="Q9POcLy7KuqtXkO1MzZTtGW55yW2XLruXLGv6oPEpkA" />
     <meta property="og:title" content={pageTitle} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={siteDescription} />
     <meta property="og:type" content="website" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href="/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title={siteTitle} href={lang === 'en' ? '/en/rss.xml' : '/rss.xml'} />
+    <link rel="alternate" hreflang="ja" href={lang === 'en' ? computedAltPath : currentPath} />
+    <link rel="alternate" hreflang="en" href={lang === 'en' ? currentPath : computedAltPath} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -48,11 +63,12 @@ const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
     )}
   </head>
   <body>
-    <Header />
+    <Header lang={lang} />
     <main class="container" style="padding-top: 36px; padding-bottom: 72px;">
       <slot />
     </main>
-    <Footer />
+    <Footer lang={lang} />
     <script src="/scripts/aiwatch.js" is:inline></script>
+    <script src="/scripts/lang-detect.js" is:inline></script>
   </body>
 </html>

@@ -1,0 +1,64 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { t } from '../../../i18n';
+
+const posts = await getCollection(
+  'postsEn',
+  ({ data }) => (import.meta.env.PROD ? !data.draft : true)
+);
+
+const counts = new Map();
+posts.forEach((post) =>
+  post.data.tags.forEach((tag) => counts.set(tag, (counts.get(tag) ?? 0) + 1))
+);
+
+const tags = Array.from(counts.entries()).sort((a, b) => b[1] - a[1]);
+const ui = t('en');
+---
+
+<BaseLayout title={ui.tagList} lang="en">
+  <div class="section-head" style="margin-top: 8px;">
+    <h2>{ui.tagList}</h2>
+    <span class="count">{ui.itemsCount(tags.length)}</span>
+  </div>
+
+  <div class="tag-cloud">
+    {
+      tags.map(([tag, count]) => (
+        <a href={`/en/tags/${tag}/`} class="tag-pill">
+          #{tag} <span class="tag-count">{count}</span>
+        </a>
+      ))
+    }
+  </div>
+
+  {tags.length === 0 && <p>{ui.noTagsYet}</p>}
+</BaseLayout>
+
+<style>
+  .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .tag-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 13.5px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 6px 14px;
+    transition: border-color 0.15s ease;
+  }
+  .tag-pill:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .tag-count {
+    color: var(--muted);
+  }
+</style>

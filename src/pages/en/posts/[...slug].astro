@@ -1,0 +1,183 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import BookmarkButton from '../../../components/BookmarkButton.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import { CATEGORIES_EN, TYPES_EN, IMPORTANCE_EN, formatDateEn } from '../../../consts.en';
+import { t } from '../../../i18n';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('postsEn', ({ data }) =>
+    import.meta.env.PROD ? !data.draft : true
+  );
+
+  return posts.map((post) => {
+    const others = posts.filter((p) => p.id !== post.id);
+
+    const sameCategory = others
+      .filter((p) => p.data.category === post.data.category)
+      .map((p) => ({
+        post: p,
+        tagOverlap: p.data.tags.filter((tag) => post.data.tags.includes(tag)).length,
+      }))
+      .sort(
+        (a, b) =>
+          b.tagOverlap - a.tagOverlap || b.post.data.pubDate.valueOf() - a.post.data.pubDate.valueOf()
+      )
+      .map((r) => r.post);
+
+    const related = [...sameCategory];
+    if (related.length < 4) {
+      const usedIds = new Set([post.id, ...related.map((p) => p.id)]);
+      const fallback = others
+        .filter((p) => !usedIds.has(p.id))
+        .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+      related.push(...fallback.slice(0, 4 - related.length));
+    }
+
+    return {
+      params: { slug: post.id },
+      props: { post, related: related.slice(0, 4) },
+    };
+  });
+}
+
+const { post, related } = Astro.props;
+const { Content } = await render(post);
+const cat = CATEGORIES_EN[post.data.category] ?? CATEGORIES_EN.other;
+const importanceLabel = IMPORTANCE_EN[post.data.importance];
+const ui = t('en');
+
+const disqusShortname = import.meta.env.PUBLIC_DISQUS_SHORTNAME;
+const pageUrl = new URL(`/en/posts/${post.id}/`, Astro.site).toString();
+---
+
+<BaseLayout title={post.data.title} description={post.data.description} lang="en">
+  <article data-current-slug={post.id}>
+    <div class="head">
+      <div class="meta">
+        <a href={`/en/category/${post.data.category}/`} class="badge" style={`background:${cat.color}`}>
+          {cat.label}
+        </a>
+        <span class="type-label">{TYPES_EN[post.data.type]}</span>
+        <span class="date">{formatDateEn(post.data.pubDate)}</span>
+        {post.data.draft && <span class="draft-flag">DRAFT</span>}
+        {importanceLabel && (
+          <span class={`importance-badge importance-${post.data.importance}`}>{importanceLabel}</span>
+        )}
+        <BookmarkButton post={post} inline lang="en" />
+      </div>
+      <h1>{post.data.title}</h1>
+      {
+        post.data.tags.length > 0 && (
+          <p class="tags">
+            {post.data.tags.map((tag) => (
+              <a href={`/en/tags/${tag}/`} class="tag">#{tag}</a>
+            ))}
+          </p>
+        )
+      }
+    </div>
+
+    <div class="prose">
+      <Content />
+
+      {
+        post.data.source && (
+          <div class="source-box">
+            <span class="src-label">{ui.primarySource}</span>
+            <a href={post.data.source} target="_blank" rel="noopener noreferrer">
+              {post.data.source}
+            </a>
+          </div>
+        )
+      }
+    </div>
+
+    {
+      related.length > 0 && (
+        <div class="related">
+          <div class="section-head">
+            <h2>{ui.relatedArticles}</h2>
+            <a href={`/en/category/${post.data.category}/`} class="more-link">
+              {ui.moreCategoryLink(cat.label)}
+            </a>
+          </div>
+          <div class="grid">
+            {related.map((r) => <ArticleCard post={r} lang="en" />)}
+          </div>
+        </div>
+      )
+    }
+
+    {
+      disqusShortname && (
+        <div class="comments">
+          <div class="section-head">
+            <h2>{ui.comments}</h2>
+          </div>
+          <div id="disqus_thread" />
+          <script define:vars={{ disqusShortname, pageUrl, pageId: `en-${post.id}` }}>
+            var disqus_config = function () {
+              this.page.url = pageUrl;
+              this.page.identifier = pageId;
+            };
+            (function () {
+              var d = document,
+                s = d.createElement('script');
+              s.src = 'https://' + disqusShortname + '.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+            })();
+          </script>
+        </div>
+      )
+    }
+  </article>
+</BaseLayout>
+
+<style>
+  .head {
+    margin-bottom: 26px;
+  }
+  .meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  .tags {
+    margin: 12px 0 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .tag {
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    color: var(--muted);
+  }
+  .tag:hover {
+    color: var(--accent);
+  }
+  .related {
+    margin-top: 48px;
+  }
+  .comments {
+    margin-top: 48px;
+  }
+  .more-link {
+    margin-left: auto;
+    font-size: 13.5px;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .more-link:hover {
+    color: var(--accent);
+  }
+</style>

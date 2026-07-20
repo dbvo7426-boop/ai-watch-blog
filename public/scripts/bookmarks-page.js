@@ -7,18 +7,6 @@
     }
   }
 
-  function formatDate(iso) {
-    try {
-      return new Date(iso).toLocaleDateString('ja-JP', {
-        year: 'numeric',
-        month: '2-digit',
-        day: '2-digit',
-      });
-    } catch (e) {
-      return '';
-    }
-  }
-
   function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, (c) => ({
       '&': '&amp;',
@@ -30,26 +18,49 @@
   }
 
   function render() {
+    const cfg = window.AIWATCH_BOOKMARKS_CONFIG || {
+      lang: 'ja',
+      prefix: '',
+      dateLocale: 'ja-JP',
+      removeLabel: 'Remove bookmark',
+      itemsCount: (n) => `${n} 件`,
+    };
+
+    function formatDate(iso) {
+      try {
+        return new Date(iso).toLocaleDateString(cfg.dateLocale, {
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit',
+        });
+      } catch (e) {
+        return '';
+      }
+    }
+
     const categories = JSON.parse(document.getElementById('categories-data').textContent);
     const types = JSON.parse(document.getElementById('types-data').textContent);
     const bookmarks = getStore('aiwatch:bookmarks');
     const grid = document.getElementById('bookmark-grid');
     const empty = document.getElementById('bookmark-empty');
     const countEl = document.getElementById('bookmark-count');
-    const entries = Object.entries(bookmarks).sort(
-      (a, b) => (b[1].savedAt || 0) - (a[1].savedAt || 0)
-    );
 
-    countEl.textContent = `${entries.length} 件`;
+    // このページの言語に属するブックマークだけを対象にする
+    const entries = Object.entries(bookmarks)
+      .filter(([, meta]) => (meta.lang || 'ja') === cfg.lang)
+      .sort((a, b) => (b[1].savedAt || 0) - (a[1].savedAt || 0));
+
+    countEl.textContent = cfg.itemsCount(entries.length);
     empty.style.display = entries.length === 0 ? 'block' : 'none';
 
     grid.innerHTML = entries
-      .map(([slug, meta]) => {
+      .map(([, meta]) => {
         const cat = categories[meta.category] || categories.other;
         const typeLabel = types[meta.type] || meta.type;
+        const slug = meta.slug;
         return `
           <div class="card-wrap" data-slug="${escapeHtml(slug)}">
-            <a href="/posts/${escapeHtml(slug)}/" class="card">
+            <a href="${cfg.prefix}/posts/${escapeHtml(slug)}/" class="card">
               <div class="meta">
                 <span class="badge" style="background:${cat.color}">${escapeHtml(cat.label)}</span>
                 <span class="type-label">${escapeHtml(typeLabel)}</span>
@@ -68,7 +79,8 @@
               data-category="${escapeHtml(meta.category)}"
               data-type="${escapeHtml(meta.type)}"
               data-pubdate="${escapeHtml(meta.pubDate)}"
-              aria-label="ブックマークを解除"
+              data-lang="${escapeHtml(cfg.lang)}"
+              aria-label="${escapeHtml(cfg.removeLabel)}"
               aria-pressed="true"
             >
               <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">

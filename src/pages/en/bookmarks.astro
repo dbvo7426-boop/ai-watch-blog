@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { CATEGORIES_EN, TYPES_EN } from '../../consts.en';
+import { t } from '../../i18n';
+
+const ui = t('en');
+---
+
+<BaseLayout title={ui.bookmarks} description="Your saved articles." lang="en">
+  <div class="section-head" style="margin-top: 8px;">
+    <h2>{ui.bookmarks}</h2>
+    <span class="count" id="bookmark-count">{ui.itemsCount(0)}</span>
+  </div>
+
+  <div class="grid" id="bookmark-grid"></div>
+
+  <p id="bookmark-empty" class="empty-note">
+    {ui.noBookmarks}
+  </p>
+</BaseLayout>
+
+<script type="application/json" id="categories-data" set:html={JSON.stringify(CATEGORIES_EN)} />
+<script type="application/json" id="types-data" set:html={JSON.stringify(TYPES_EN)} />
+<script>
+  window.AIWATCH_BOOKMARKS_CONFIG = {
+    lang: 'en',
+    prefix: '/en',
+    dateLocale: 'en-US',
+    removeLabel: 'Remove bookmark',
+    itemsCount: (n) => `${n} articles`,
+  };
+</script>
+<script src="/scripts/bookmarks-page.js" is:inline></script>

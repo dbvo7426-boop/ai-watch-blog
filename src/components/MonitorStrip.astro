@@ -1,7 +1,15 @@
 ---
 // サイトの"シグネチャ"要素: 観測ステータスバー
 // ビルド時刻 = パイプラインが最後に動いた時刻(サイトは更新の度に再ビルドされるため)
-const built = new Date().toLocaleString('ja-JP', {
+import { t } from '../i18n';
+
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'ja' } = Astro.props;
+const ui = t(lang);
+const built = new Date().toLocaleString(lang === 'en' ? 'en-US' : 'ja-JP', {
   timeZone: 'Asia/Tokyo',
   year: 'numeric',
   month: '2-digit',
@@ -12,8 +20,8 @@ const built = new Date().toLocaleString('ja-JP', {
 ---
 
 <div class="monitor" role="status">
-  <span class="label">観測中</span>
-  <span class="built">最終観測: {built} JST</span>
+  <span class="label">{ui.observing}</span>
+  <span class="built">{ui.lastObserved(built)}</span>
 </div>
 
 <style>

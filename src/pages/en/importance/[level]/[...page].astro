@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../../layouts/BaseLayout.astro';
+import ArticleCard from '../../../../components/ArticleCard.astro';
+import Pagination from '../../../../components/Pagination.astro';
+import ImportanceFilter from '../../../../components/ImportanceFilter.astro';
+import GenreFilter from '../../../../components/GenreFilter.astro';
+import { IMPORTANCE_EN } from '../../../../consts.en';
+import { PAGE_SIZE } from '../../../../consts';
+import { t } from '../../../../i18n';
+
+export async function getStaticPaths({ paginate }) {
+  const posts = await getCollection(
+    'postsEn',
+    ({ data }) => (import.meta.env.PROD ? !data.draft : true)
+  );
+
+  return Object.keys(IMPORTANCE_EN).flatMap((level) => {
+    const levelPosts = posts
+      .filter((post) => post.data.importance === level)
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+    return paginate(levelPosts, { params: { level }, pageSize: PAGE_SIZE });
+  });
+}
+
+const { level } = Astro.params;
+const { page } = Astro.props;
+const label = IMPORTANCE_EN[level];
+const ui = t('en');
+---
+
+<BaseLayout title={`${label} Articles`} lang="en">
+  <div class="section-head" style="margin-top: 8px;">
+    <h2>
+      <span class={`importance-badge importance-${level}`} style="font-size: 14px; vertical-align: 3px; margin-right: 10px;">
+        {label}
+      </span>
+      Articles
+    </h2>
+    <span class="count">{ui.itemsCount(page.total)}</span>
+  </div>
+
+  <ImportanceFilter active={level} lang="en" />
+  <GenreFilter lang="en" />
+
+  <div class="grid">
+    {page.data.map((post) => <ArticleCard post={post} lang="en" />)}
+  </div>
+
+  {page.data.length === 0 && <p>{ui.noGenreArticles}</p>}
+
+  <Pagination page={page} lang="en" />
+</BaseLayout>

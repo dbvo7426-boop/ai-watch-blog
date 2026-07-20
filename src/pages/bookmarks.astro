@@ -1,21 +1,33 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { CATEGORIES, TYPES } from '../consts';
+import { t } from '../i18n';
+
+const ui = t('ja');
 ---
 
-<BaseLayout title="ブックマーク" description="保存した記事の一覧です。">
+<BaseLayout title={ui.bookmarks} description="保存した記事の一覧です。">
   <div class="section-head" style="margin-top: 8px;">
-    <h2>ブックマーク</h2>
-    <span class="count" id="bookmark-count">0 件</span>
+    <h2>{ui.bookmarks}</h2>
+    <span class="count" id="bookmark-count">{ui.itemsCount(0)}</span>
   </div>
 
   <div class="grid" id="bookmark-grid"></div>
 
   <p id="bookmark-empty" class="empty-note">
-    まだブックマークした記事がありません。記事一覧のカードにある🔖アイコンから追加できます。
+    {ui.noBookmarks}
   </p>
 </BaseLayout>
 
 <script type="application/json" id="categories-data" set:html={JSON.stringify(CATEGORIES)} />
 <script type="application/json" id="types-data" set:html={JSON.stringify(TYPES)} />
+<script>
+  window.AIWATCH_BOOKMARKS_CONFIG = {
+    lang: 'ja',
+    prefix: '',
+    dateLocale: 'ja-JP',
+    removeLabel: 'ブックマークを解除',
+    itemsCount: (n) => `${n} 件`,
+  };
+</script>
 <script src="/scripts/bookmarks-page.js" is:inline></script>

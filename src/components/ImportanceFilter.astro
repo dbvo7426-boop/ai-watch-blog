@@ -1,19 +1,25 @@
 ---
 import { IMPORTANCE } from '../consts';
+import { IMPORTANCE_EN } from '../consts.en';
+import { t, prefix } from '../i18n';
 
 interface Props {
   active?: string;
+  lang?: string;
 }
 
-const { active } = Astro.props;
+const { active, lang = 'ja' } = Astro.props;
+const importance = lang === 'en' ? IMPORTANCE_EN : IMPORTANCE;
+const ui = t(lang);
+const base = prefix(lang);
 ---
 
 <div class="importance-filter">
-  <span class="filter-label">重要度で絞り込み:</span>
+  <span class="filter-label">{ui.filterByImportance}</span>
   {
-    Object.entries(IMPORTANCE).map(([level, label]) => (
+    Object.entries(importance).map(([level, label]) => (
       <a
-        href={`/importance/${level}/`}
+        href={`${base}/importance/${level}/`}
         class:list={[`importance-badge importance-${level}`, { 'is-active': active === level }]}
       >
         {label}

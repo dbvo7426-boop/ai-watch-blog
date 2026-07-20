@@ -1,10 +1,14 @@
 ---
+import { t } from '../i18n';
+
 interface Props {
   post: any;
   inline?: boolean;
+  lang?: string;
 }
 
-const { post, inline = false } = Astro.props;
+const { post, inline = false, lang = 'ja' } = Astro.props;
+const ui = t(lang);
 ---
 
 <button
@@ -17,7 +21,8 @@ const { post, inline = false } = Astro.props;
   data-category={post.data.category}
   data-type={post.data.type}
   data-pubdate={post.data.pubDate.toISOString()}
-  aria-label="ブックマークする"
+  data-lang={lang}
+  aria-label={ui.bookmarkAdd}
   aria-pressed="false"
 >
   <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">

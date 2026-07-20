@@ -18,6 +18,7 @@
     }
   }
 
+  // 既読は言語をまたいで共有(同じ記事を読んだ、という扱い)
   function markRead(slug) {
     const store = getStore(READ_KEY);
     store[slug] = Date.now();
@@ -28,23 +29,29 @@
     return !!getStore(READ_KEY)[slug];
   }
 
-  function isBookmarked(slug) {
-    return !!getStore(BOOKMARK_KEY)[slug];
+  // ブックマークは言語ごとに独立("lang:slug"がキー)
+  function bookmarkKey(lang, slug) {
+    return `${lang || 'ja'}:${slug}`;
+  }
+
+  function isBookmarked(lang, slug) {
+    return !!getStore(BOOKMARK_KEY)[bookmarkKey(lang, slug)];
   }
 
   function getBookmarks() {
     return getStore(BOOKMARK_KEY);
   }
 
-  function toggleBookmark(slug, meta) {
+  function toggleBookmark(lang, slug, meta) {
     const store = getStore(BOOKMARK_KEY);
-    if (store[slug]) {
-      delete store[slug];
+    const key = bookmarkKey(lang, slug);
+    if (store[key]) {
+      delete store[key];
     } else {
-      store[slug] = Object.assign({ savedAt: Date.now() }, meta);
+      store[key] = Object.assign({ savedAt: Date.now(), slug, lang: lang || 'ja' }, meta);
     }
     setStore(BOOKMARK_KEY, store);
-    return !!store[slug];
+    return !!store[key];
   }
 
   function applyCardStates() {
@@ -54,7 +61,8 @@
     });
     document.querySelectorAll('[data-bookmark-btn]').forEach((btn) => {
       const slug = btn.getAttribute('data-slug');
-      const active = isBookmarked(slug);
+      const lang = btn.getAttribute('data-lang') || 'ja';
+      const active = isBookmarked(lang, slug);
       btn.classList.toggle('is-active', active);
       btn.setAttribute('aria-pressed', String(active));
     });
@@ -67,6 +75,7 @@
       e.preventDefault();
       e.stopPropagation();
       const slug = btn.getAttribute('data-slug');
+      const lang = btn.getAttribute('data-lang') || 'ja';
       const meta = {
         title: btn.getAttribute('data-title') || '',
         description: btn.getAttribute('data-description') || '',
@@ -74,11 +83,15 @@
         type: btn.getAttribute('data-type') || 'news',
         pubDate: btn.getAttribute('data-pubdate') || '',
       };
-      const active = toggleBookmark(slug, meta);
-      document.querySelectorAll(`[data-bookmark-btn][data-slug="${CSS.escape(slug)}"]`).forEach((b) => {
-        b.classList.toggle('is-active', active);
-        b.setAttribute('aria-pressed', String(active));
-      });
+      const active = toggleBookmark(lang, slug, meta);
+      document
+        .querySelectorAll(
+          `[data-bookmark-btn][data-slug="${CSS.escape(slug)}"][data-lang="${CSS.escape(lang)}"]`
+        )
+        .forEach((b) => {
+          b.classList.toggle('is-active', active);
+          b.setAttribute('aria-pressed', String(active));
+        });
       document.dispatchEvent(new CustomEvent('aiwatch:bookmarks-changed'));
     });
   }

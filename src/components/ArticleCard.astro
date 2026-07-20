@@ -1,24 +1,33 @@
 ---
 import { CATEGORIES, TYPES, IMPORTANCE, formatDate } from '../consts';
+import { CATEGORIES_EN, TYPES_EN, IMPORTANCE_EN, formatDateEn } from '../consts.en';
+import { t, prefix } from '../i18n';
 import BookmarkButton from './BookmarkButton.astro';
 
 interface Props {
   post: any;
+  lang?: string;
 }
 
-const { post } = Astro.props;
-const cat = CATEGORIES[post.data.category] ?? CATEGORIES.other;
-const importanceLabel = IMPORTANCE[post.data.importance];
+const { post, lang = 'ja' } = Astro.props;
+const categories = lang === 'en' ? CATEGORIES_EN : CATEGORIES;
+const types = lang === 'en' ? TYPES_EN : TYPES;
+const importance = lang === 'en' ? IMPORTANCE_EN : IMPORTANCE;
+const cat = categories[post.data.category] ?? categories.other;
+const importanceLabel = importance[post.data.importance];
+const ui = t(lang);
+const base = prefix(lang);
+const dateLabel = lang === 'en' ? formatDateEn(post.data.pubDate) : formatDate(post.data.pubDate);
 ---
 
 <div class="card-wrap" data-slug={post.id}>
-  <a href={`/posts/${post.id}/`} class="card">
+  <a href={`${base}/posts/${post.id}/`} class="card">
     <div class="meta">
       <span class="badge" style={`background:${cat.color}`}>{cat.label}</span>
-      <span class="type-label">{TYPES[post.data.type]}</span>
-      <span class="date">{formatDate(post.data.pubDate)}</span>
+      <span class="type-label">{types[post.data.type]}</span>
+      <span class="date">{dateLabel}</span>
       {post.data.draft && <span class="draft-flag">DRAFT</span>}
-      <span class="read-flag">既読</span>
+      <span class="read-flag">{ui.read}</span>
       {importanceLabel && (
         <span class={`importance-badge importance-${post.data.importance}`}>{importanceLabel}</span>
       )}
@@ -26,5 +35,5 @@ const importanceLabel = IMPORTANCE[post.data.importance];
     <h3>{post.data.title}</h3>
     <p>{post.data.description}</p>
   </a>
-  <BookmarkButton post={post} />
+  <BookmarkButton post={post} lang={lang} />
 </div>

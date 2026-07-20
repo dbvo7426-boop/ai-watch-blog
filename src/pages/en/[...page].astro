@@ -1,0 +1,112 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import MonitorStrip from '../../components/MonitorStrip.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import BookmarkButton from '../../components/BookmarkButton.astro';
+import ImportanceFilter from '../../components/ImportanceFilter.astro';
+import GenreFilter from '../../components/GenreFilter.astro';
+import Pagination from '../../components/Pagination.astro';
+import { CATEGORIES_EN, TYPES_EN, IMPORTANCE_EN, formatDateEn } from '../../consts.en';
+import { PAGE_SIZE } from '../../consts';
+import { t } from '../../i18n';
+
+export async function getStaticPaths({ paginate }) {
+  const posts = (
+    await getCollection('postsEn', ({ data }) =>
+      import.meta.env.PROD ? !data.draft : true
+    )
+  ).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+  return paginate(posts, { pageSize: PAGE_SIZE });
+}
+
+const { page } = Astro.props;
+const isFirstPage = page.currentPage === 1;
+const ui = t('en');
+
+const featured = isFirstPage ? page.data[0] : null;
+const rest = isFirstPage ? page.data.slice(1) : page.data;
+
+const featuredCat = featured
+  ? CATEGORIES_EN[featured.data.category] ?? CATEGORIES_EN.other
+  : null;
+const featuredImportance = featured ? IMPORTANCE_EN[featured.data.importance] : null;
+---
+
+<BaseLayout lang="en">
+  {isFirstPage && <MonitorStrip lang="en" />}
+  {isFirstPage && <ImportanceFilter lang="en" />}
+  {isFirstPage && <GenreFilter lang="en" />}
+
+  {
+    featured && (
+      <div class="card-wrap" data-slug={featured.id}>
+        <a href={`/en/posts/${featured.id}/`} class="featured">
+          <div class="meta">
+            <span class="badge" style={`background:${featuredCat.color}`}>
+              {featuredCat.label}
+            </span>
+            <span class="type-label">{TYPES_EN[featured.data.type]}</span>
+            <span class="date">{formatDateEn(featured.data.pubDate)}</span>
+            {featured.data.draft && <span class="draft-flag">DRAFT</span>}
+            <span class="read-flag">{ui.read}</span>
+            {featuredImportance && (
+              <span class={`importance-badge importance-${featured.data.importance}`}>
+                {featuredImportance}
+              </span>
+            )}
+          </div>
+          <h1>{featured.data.title}</h1>
+          <p>{featured.data.description}</p>
+        </a>
+        <BookmarkButton post={featured} lang="en" />
+      </div>
+    )
+  }
+
+  <div class="section-head">
+    <h2>{isFirstPage ? ui.latestArticles : ui.articleList}</h2>
+    <span class="count">{ui.itemsCount(page.total)}</span>
+  </div>
+
+  <div class="grid">
+    {rest.map((post) => <ArticleCard post={post} lang="en" />)}
+  </div>
+
+  {page.total === 0 && <p>{ui.noArticlesYet}</p>}
+
+  <Pagination page={page} lang="en" />
+</BaseLayout>
+
+<style>
+  .featured {
+    display: block;
+    margin-top: 26px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 30px 34px;
+    transition: border-color 0.15s ease;
+  }
+  .featured:hover {
+    border-color: var(--accent);
+  }
+  .featured .meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .featured h1 {
+    margin: 0 0 10px;
+    font-size: 26px;
+  }
+  .featured p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 15px;
+  }
+</style>

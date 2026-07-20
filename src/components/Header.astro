@@ -1,25 +1,39 @@
 ---
 import { SITE_TITLE, CATEGORIES } from '../consts';
+import { SITE_TITLE_EN, CATEGORIES_EN } from '../consts.en';
+import { t, prefix } from '../i18n';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'ja' } = Astro.props;
+const siteTitle = lang === 'en' ? SITE_TITLE_EN : SITE_TITLE;
+const categories = lang === 'en' ? CATEGORIES_EN : CATEGORIES;
+const ui = t(lang);
+const base = prefix(lang);
 ---
 
 <header class="site-header">
   <div class="container inner">
-    <a href="/" class="logo">
+    <a href={`${base}/`} class="logo">
       <span class="dot" aria-hidden="true"></span>
-      {SITE_TITLE}
+      {siteTitle}
     </a>
-    <nav aria-label="カテゴリ">
+    <nav aria-label="Category">
       {
-        Object.entries(CATEGORIES)
+        Object.entries(categories)
           .filter(([key]) => key !== 'other')
           .map(([key, cat]) => (
-            <a href={`/category/${key}/`} class="nav-link">
+            <a href={`${base}/category/${key}/`} class="nav-link">
               <span class="cat-dot" style={`background:${cat.color}`} aria-hidden="true" />
               {cat.label}
             </a>
           ))
       }
-      <a href="/bookmarks/" class="nav-link bookmark-link">🔖 ブックマーク</a>
+      <a href={`${base}/bookmarks/`} class="nav-link bookmark-link">🔖 {ui.bookmarks}</a>
+      <LanguageSwitcher lang={lang} />
     </nav>
   </div>
 </header>
