@@ -243,7 +243,9 @@
     "https://www.anthropic.com/news/ust-claude",
     "https://www.anthropic.com/news/canadian-ai-research",
     "https://www.anthropic.com/news/claude-for-teachers",
-    "https://www.anthropic.com/news/rare-disease-research-grants"
+    "https://www.anthropic.com/news/rare-disease-research-grants",
+    "https://www.anthropic.com/news/donation-public-first-action",
+    "https://www.anthropic.com/news/skills"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1292,7 +1294,10 @@
     "https://openai.com/index/why-teens-deserve-access-safe-ai",
     "https://openai.com/index/cars24",
     "https://openai.com/index/a-scorecard-for-the-ai-age",
-    "https://openai.com/index/safety-alignment-long-horizon-models"
+    "https://openai.com/index/safety-alignment-long-horizon-models",
+    "https://openai.com/index/introducing-chatgpt-small-business-program",
+    "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+    "https://openai.com/index/david-velez-robin-vince-join-openai-boards"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1317,7 +1322,8 @@
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
     "https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/",
     "https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini/",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "https://blog.google/products-and-platforms/products/education/summer-productivity-tips-google-ai-tools/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
