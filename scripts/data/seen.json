@@ -1297,7 +1297,10 @@
     "https://openai.com/index/safety-alignment-long-horizon-models",
     "https://openai.com/index/introducing-chatgpt-small-business-program",
     "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-    "https://openai.com/index/david-velez-robin-vince-join-openai-boards"
+    "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+    "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+    "https://openai.com/index/advancing-the-next-era-of-national-science",
+    "https://openai.com/index/introducing-openai-presence"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1323,7 +1326,9 @@
     "https://blog.google/innovation-and-ai/products/gemini-app/gemini-southeast-asia-report-2026/",
     "https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-    "https://blog.google/products-and-platforms/products/education/summer-productivity-tips-google-ai-tools/"
+    "https://blog.google/products-and-platforms/products/education/summer-productivity-tips-google-ai-tools/",
+    "https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/",
+    "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1345,7 +1350,8 @@
     "https://github.blog/changelog/2026-07-17-copilot-code-review-customization-and-configurability-improvements",
     "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
     "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
-    "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot"
+    "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
+    "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
