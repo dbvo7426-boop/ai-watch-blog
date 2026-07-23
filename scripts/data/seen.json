@@ -245,7 +245,9 @@
     "https://www.anthropic.com/news/claude-for-teachers",
     "https://www.anthropic.com/news/rare-disease-research-grants",
     "https://www.anthropic.com/news/donation-public-first-action",
-    "https://www.anthropic.com/news/skills"
+    "https://www.anthropic.com/news/skills",
+    "https://www.anthropic.com/news/anthropic-economic-index-connector",
+    "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1300,7 +1302,9 @@
     "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
     "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
     "https://openai.com/index/advancing-the-next-era-of-national-science",
-    "https://openai.com/index/introducing-openai-presence"
+    "https://openai.com/index/introducing-openai-presence",
+    "https://openai.com/index/how-news-organizations-are-using-ai",
+    "https://openai.com/index/ntt-data"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
