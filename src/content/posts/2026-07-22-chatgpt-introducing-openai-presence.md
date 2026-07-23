@@ -1,14 +1,31 @@
 ---
-title: "Introducing OpenAI Presence"
-description: "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and cha"
+title: "OpenAI、エンタープライズ向けAIエージェント基盤「OpenAI Presence」を発表"
+description: "OpenAIが、企業の基幹業務ワークフローを担うエンタープライズ向けAIエージェント製品「OpenAI Presence」を発表。ポリシー適用やガードレール、有人エスカレーションを組み込み、BBVAやSoftBank、IAGなどでの導入事例も紹介されています。"
 pubDate: 2026-07-22
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, エンタープライズ, AIエージェント, 音声AI]
 source: https://openai.com/index/introducing-openai-presence
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、企業の高価値な基幹業務ワークフローを本番環境で担うエンタープライズ向けAIエージェント製品「OpenAI Presence」を発表しました。大規模言語モデルの推論能力に、ポリシー適用・ガードレール・有人エスカレーションを組み合わせることで、信頼性と制御性を両立させたAIエージェントの本番投入を可能にするとしています。
 
-一次情報: https://openai.com/index/introducing-openai-presence
+## 詳細
+
+- **できること**: 質問への回答や問題解決、社内システムへのアクセス、承認済みアクションの実行、必要に応じた有人スタッフへのエスカレーションまでを担当。各導入案件は、請求対応やITサービス対応など特定の業務に特化し、専用のナレッジとシステムアクセス権を設定する
+- **主な機能**:
+  - シミュレーションとグレーダーによるリリース前テスト
+  - ポリシー定義とガードレールの設定
+  - 品質シグナルを用いた本番運用のモニタリング
+  - Codexによる改善提案
+  - 音声・チャット両インターフェースへの対応
+  - エスカレーション管理と段階的なロールアウト制御
+- **導入事例**: BBVA、SoftBank、IAGに加え、OpenAI自身のサポート窓口でも活用。ある導入事例では「数週間のうちに、有人サポートの品質評価基準と同等かそれを上回る水準に達し、現在は問い合わせの75%を人の手を介さずに解決している」との成果が紹介されている
+- **提供形態**: 現時点では「対象となるエンタープライズ顧客向けの限定的な一般提供プログラム」として提供され、導入にはOpenAIのForward Deployed Engineersまたは選定されたシステムインテグレーターの関与が必要。セルフサーブでの利用は未対応
+- **料金**: 記事内では明らかにされていない
+
+## 使ってみるには
+
+OpenAI Presenceは現時点でセルフサーブでは利用できず、対象となるエンタープライズ顧客向けの限定提供です。導入を検討する企業は、OpenAIの営業担当やForward Deployed Engineers経由での問い合わせが必要になります。詳細はOpenAI公式サイトの発表内容を参照してください。

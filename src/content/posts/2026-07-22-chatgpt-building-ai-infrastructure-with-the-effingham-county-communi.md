@@ -1,14 +1,28 @@
 ---
-title: "Building AI infrastructure with the Effingham County community"
-description: "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community invest"
+title: "OpenAI、米ジョージア州エフィンガム郡にデータセンター「プロジェクト・カメリア」を計画"
+description: "OpenAIが米ジョージア州エフィンガム郡で進めるデータセンター計画「プロジェクト・カメリア」を発表。Georgia Powerとの間で3.2ギガワットの電力契約を結び、地域には8000万ドル規模のコミュニティ投資や学生向けCodex無償枠を提供するとしています。"
 pubDate: 2026-07-22
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, データセンター, インフラ, 地域連携]
 source: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、米ジョージア州エフィンガム郡で計画しているデータセンター施設「プロジェクト・カメリア」の詳細を発表しました。Savannah Gateway Industrial Hub内に立地し、電力会社Georgia Powerとの間で2028〜2032年にかけて段階的に供給される3.2ギガワットの電力契約を締結。地域社会に対しては、プロジェクトの存続期間を通じて8,000万ドル規模のコミュニティ投資を行うとしています。
 
-一次情報: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community
+## 詳細
+
+- **電力契約**: Georgia Powerとの間で3.2ギガワットの電力供給契約を締結し、2028年から2032年にかけて段階的に稼働
+- **立地**: ジョージア州エフィンガム郡、Savannah Gateway Industrial Hub内
+- **コミュニティ投資**: プロジェクトの存続期間全体で8,000万ドル規模の地域貢献策を実施
+- **学生支援**: ジョージア州の大学生を対象に、1人あたり100ドル相当、総額最大7,100万ドルのCodexクレジットを付与
+- **地域経済への影響**: 州・地方自治体への税収は数億ドル規模になると見込まれ、建設・運用フェーズで数千人規模の雇用を創出。資金は全額民間資金でまかなわれる
+- **環境・料金への配慮**: 水使用量を抑えるクローズドループ型の冷却システムを採用し、周辺住民の電気料金引き上げは行わないとしている
+- **地元優先の調達**: 建設・運用にあたり地元の請負業者・事業者を優先的に活用
+- **説明責任の担保**: 独立監査を毎年実施し結果を公開するほか、「Georgia Community Compact」として地域社会への約束を文書化。7月23日には住民向けの公開説明会(open house)を開催予定
+
+## 使ってみるには
+
+本件は一般ユーザー向けの製品発表ではなく、データセンター建設に伴う地域社会向けの取り組みです。エフィンガム郡の住民や関係者は、7月23日の公開説明会やOpenAI公式サイトの発表内容で詳細を確認できます。

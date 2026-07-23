@@ -1,14 +1,30 @@
 ---
-title: "Here’s how to ask Gemini Live for help with anything you see."
-description: "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Gemini_Live_for_help_with_a.max-600x600.fo"
+title: "Gemini Liveのカメラ機能で「今見ているもの」をそのままAIに相談する方法"
+description: "GeminiアプリのLive機能でカメラを起動し、レンズを向けるだけで修理方法の案内や部屋の整理アドバイス、買い物の提案などをリアルタイムで受けられる使い方を紹介するGoogle公式のハウツー記事。"
 pubDate: 2026-07-22
 category: gemini
 type: news
-tags: []
+tags: [Gemini, Gemini Live, カメラ, 使い方]
 source: https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Googleは、Geminiアプリの「Live」機能でカメラを使い、目の前にあるものをそのままAIに見せながら相談する使い方を紹介する記事を公開した。壊れた家電の直し方から部屋の片付け、買い物の提案まで、レンズを向けるだけでリアルタイムのサポートを受けられる。新機能の発表というよりは、既存機能の活用ガイドという位置づけの記事。
 
-一次情報: https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to/
+## 詳細
+
+- **基本的な使い方**: Geminiアプリで「Live」アイコンをタップし、続けてカメラアイコンを押すとGemini Liveが起動する。あとはレンズを困りごとに向けるだけでよい
+- **主な活用例**:
+  - 故障した機器や壊れたものの「ステップバイステップの修理手順」を案内してもらう
+  - 部屋の片付け方についてアドバイスをもらう
+  - 端末の画面を共有し、アプリの操作方法についてサポートを受ける
+  - デザインのアイデア出しや、パーソナライズされた買い物の提案をしてもらう
+- **その他の想定シーン**: エラーコードのトラブルシューティング、説明書の読み解き、正体不明の物の特定など
+- **対応環境**: 記事内ではGeminiアプリでの利用を前提としているが、対応OS・提供地域・必要なサブスクリプションプランなどの詳細は明記されていない
+
+## 使ってみるには
+
+- Geminiアプリを開き、「Live」アイコン→カメラアイコンの順にタップして起動する
+- カメラを困りごとに向けて話しかけるだけで、リアルタイムのサポートが受けられる
+- 対応状況の詳細は一次情報のGoogle公式ブログを参照

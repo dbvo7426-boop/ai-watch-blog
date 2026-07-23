@@ -1,14 +1,30 @@
 ---
-title: "Advancing the next era of national science"
-description: "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national lab"
+title: "OpenAIが米エネルギー省「ジェネシス・ミッション」と連携、国家科学研究を加速へ"
+description: "OpenAIが米エネルギー省(DOE)の科学研究イニシアチブ「ジェネシス・ミッション」と連携し、全米17の国立研究所や大学の研究者にCodexやAPIアクセスを提供すると発表。高温超伝導体研究などの重点分野で、フロンティアAIを科学研究の加速に活用する取り組みです。"
 pubDate: 2026-07-22
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, 政府連携, 科学研究, Codex]
 source: https://openai.com/index/advancing-the-next-era-of-national-science
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、米エネルギー省(DOE)が推進する国家的な科学研究強化策「ジェネシス・ミッション」との連携を発表しました。全米17の国立研究所や大学の研究者にCodexやAPIへのアクセスを提供し、フロンティアAIを研究インフラと組み合わせることで、米国の科学研究とイノベーションの生産性・成果を今後10年で倍増させることを目指すとしています。
 
-一次情報: https://openai.com/index/advancing-the-next-era-of-national-science
+## 詳細
+
+- **ジェネシス・ミッションとは**: 米エネルギー省が主導する国家的な科学研究強化策で、AIと研究インフラ・専門知識・ツールを組み合わせ、数十年分の科学的進歩を数年に圧縮することを目標に掲げる
+- **具体的なコミットメント**:
+  - 国立研究所・大学の研究者約2,000名に対し、総額400万ドル相当のCodexアクセスを提供
+  - 2つの主要科学キャンペーンに対し300万ドル相当のAPI支援を提供
+  - 250万ドルの支出に対し最大1,000万ドル相当のAPI利用枠を付与
+  - 生物学系プロジェクト向けにGPT-Rosalindへのアクセスを提供
+  - 国立研究所のリーダー向けにモデルの早期アクセス、サイバーセキュリティ研究者向けの高度なサイバー機能も提供
+- **重点キャンペーン**: 第一弾として、高温超伝導体の研究と、AIが現時点でどこまで科学に応用可能かをマッピングする取り組みの2つを対象とする
+- **既に進む実績**: ロスアラモス国立研究所のスーパーコンピュータ「Venado」上ですでに高度な推論モデルが稼働しているほか、これまでのAI Jam Sessionには1,000名超の科学者が参加。実験室でのマルチモーダルAI安全性評価などの協業実績もある
+- **狙い**: 政府・国立研究所・大学・産業界が連携し、フロンティアAIを国家的な研究基盤に統合することで、科学的発見のスピードを飛躍的に高めること
+
+## 使ってみるには
+
+本件は一般消費者向けのプロダクト発表ではなく、米エネルギー省の国立研究所や大学の研究者を対象とした支援プログラムです。該当する研究機関の関係者は、OpenAI公式サイトの発表内容で対象範囲や申請方法を確認できます。

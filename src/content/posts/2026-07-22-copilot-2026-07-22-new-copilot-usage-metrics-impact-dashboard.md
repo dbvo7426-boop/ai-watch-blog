@@ -1,14 +1,34 @@
 ---
-title: "New Copilot usage metrics impact dashboard"
-description: "<p>We’ve released a new Copilot metrics impact dashboard for enterprise administrators and organization owners. This das"
+title: "GitHub Copilot、利用状況の「インパクト」を可視化する新ダッシュボードを追加"
+description: "GitHubがCopilotの利用状況分析に、コード優先・エージェント優先・マルチエージェントといった採用フェーズ別のパフォーマンスを可視化する新しいインパクトダッシュボードを追加。エンタープライズ管理者・組織オーナー向けに提供する。"
 pubDate: 2026-07-22
 category: copilot
 type: news
-tags: []
+tags: [Copilot, GitHub, 利用状況分析, エンタープライズ]
 source: https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubは、Copilotの利用状況分析に新しい「インパクトダッシュボード」を追加したと発表した。単に誰がCopilotを使っているかだけでなく、どのように使われているかを可視化し、採用状況のデータを実践的な指標へ落とし込む狙いがある。対象はエンタープライズ管理者・組織オーナー。
 
-一次情報: https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard
+## 詳細
+
+- **目的**: 「誰がアクティブか」だけでなく「どう使われているか」を可視化し、開発者のエンゲージメント度合いを把握できるようにする
+- **対象**: Copilotの利用状況メトリクスにアクセスできるエンタープライズ管理者・組織オーナー
+- **表示される主な指標**:
+  - 「コード優先」「エージェント優先」「マルチエージェント/Copilotアプリ」の3つの採用フェーズ別カード(+非アクティブな「Passive」層)
+  - ユーザー1人あたりの月間マージ済みプルリクエスト数の平均
+  - プルリクエストのマージ速度の中央値
+  - 各フェーズのユーザー数と構成比
+  - ユーザー1人あたりの日次コード行数の平均
+  - 非アクティブユーザーと積極利用者を比較する「採用乗数(adoption multiplier)」
+  - コホートの成長とスループットを示す直近6か月のトレンドチャート
+- **提供開始日**: 2026年7月22日。対象組織であれば即座に利用可能
+- **前提条件**: Copilot利用状況メトリクスへのエンタープライズアクセス権が必要。コホート分類はCopilot利用状況メトリクスAPIと同じ手法(直近28日間のローリングウィンドウ)を用いる
+- **料金・対象プラン**: 対象となるCopilotの契約プランについて公式ページに明記はない
+
+## 使ってみるには
+
+- Copilot利用状況メトリクスへのエンタープライズアクセス権を持つ管理者・組織オーナーであれば、管理画面から新しいインパクトダッシュボードを確認できる
+- 各指標の定義や算出方法など詳細は一次情報のGitHub Changelogを参照

@@ -1,14 +1,26 @@
 ---
-title: "Donating another $20 million to Public First Action"
-description: "Anthropic is contributing an additional $20 million to Public First Action, bringing our total support to $40 million."
+title: "Anthropic、Public First Actionへ追加2000万ドルを寄付 累計4000万ドルに"
+description: "AnthropicがAI政策の教育・啓発を行う超党派の非営利団体Public First Actionへ追加で2000万ドルを寄付し、支援総額は4000万ドルに達した。AIモデルの脆弱性発見能力が急速に高度化している点を踏まえ、安全性に関する政策提言を後押しする狙い。"
 pubDate: 2026-07-22
 category: claude
 type: news
-tags: []
+tags: [Claude, Anthropic, AI政策, 寄付]
 source: https://www.anthropic.com/news/donation-public-first-action
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Anthropicは2026年7月21日、AI政策の教育・啓発に取り組む超党派の非営利団体Public First Actionへ追加で2000万ドルを寄付したと発表した。2026年2月の初回寄付と合わせ、支援総額は4000万ドルに達する。
 
-一次情報: https://www.anthropic.com/news/donation-public-first-action
+## 詳細
+
+- **寄付額と経緯**: 2026年7月21日発表。2026年2月の2000万ドルの寄付に続く追加拠出で、累計4000万ドルとなった
+- **資金使途の制限**: 両寄付とも公教育・政策提言目的に限定され、連邦・州・地方いずれの選挙にも影響を及ぼす用途には使用できないと明記
+- **寄付の背景**: Anthropicは、最新モデル「Claude Mythos Preview」が主要なOSやブラウザから数千件規模の高深刻度脆弱性を発見したことを挙げ、AIモデルの能力が急速に高度化している証左だと説明。こうした能力が悪意ある主体の手に渡れば、病院や電力網などの重要インフラへの脅威になり得ると警鐘を鳴らしている
+- **提言する政策の方向性**: 政府による安全性主張の検証、安全対策を怠った場合の民事罰、独立機関によるモデル評価、必須のセキュリティプログラム整備、先端半導体の輸出管理、不正なモデルアクセスの制限などを挙げる
+- **Public First Actionについて**: 共和党・民主党・無所属の別を問わず超党派で活動し、AIに関する妥当な安全策の啓発と教育を目的とする非営利団体
+
+## 使ってみるには
+
+- 一般ユーザーが直接利用する製品発表ではなく、AI政策に関するAnthropicの立場表明・資金拠出のニュース
+- 詳細な政策提言の内容や寄付の背景は、一次情報のAnthropic公式発表ページで確認できる
