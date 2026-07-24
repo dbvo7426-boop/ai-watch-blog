@@ -1,14 +1,30 @@
 ---
-title: "Supporting ambitious external research through the Anthropic Economic Futures Research Fund"
-description: "We’re committing $200 million to the Anthropic Economic Futures Research Fund to support ambitious external research."
+title: "Anthropic、外部研究を支援する2億ドル規模の「Economic Futures Research Fund」を発表"
+description: "Anthropicが、AIの経済的影響に社会が備えるための外部研究を支援するべく、2億ドル規模の「Anthropic Economic Futures Research Fund」を設立すると発表。労働移行支援や所得保障、公共投資など5つの重点領域を掲げています。"
 pubDate: 2026-07-22
 category: claude
 type: news
-tags: []
+tags: [Claude, Anthropic, AI政策, 研究助成]
 source: https://www.anthropic.com/news/economic-futures-research-fund-agenda
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Anthropicは、AIが経済に与える影響に社会が備えるための外部研究を支援するべく、2億ドル規模の「Anthropic Economic Futures Research Fund」を設立すると発表しました。労働者・企業・政府がAIによる変化に適応できる余地を持てるよう、エビデンスの蓄積を後押しする狙いです。
 
-一次情報: https://www.anthropic.com/news/economic-futures-research-fund-agenda
+## 詳細
+
+- **資金規模**: 2億ドルをコミット。研究1件あたり主に500万〜3,000万ドル、最低100万ドルから支援し、インパクトの大きいプロジェクトにはさらに柔軟に増額する
+- **研究の重点領域(5つ)**:
+  - 企業・職場レベルでのAIの影響: 組織設計や従業員の関与の違いが、AI導入の成果や生産性向上の分配にどう影響するかを検証するフィールド実験
+  - AIによる労働移行への備え: 再訓練プログラム、職業紹介サービス、業種別移行パッケージ、教育モデル、再訓練と結びついた有給休暇などの評価
+  - 所得保障制度の見直し: 失業保険改革、基礎的生活支援、継続的な失業状況を想定した長期の無条件所得給付の試験的実施
+  - 労働者がAI成長の恩恵を受ける仕組み: 事前分配型の資本口座を検証するRCT、株式共有の仕組みの試験導入、収益の調達・分配方法の比較評価
+  - 公共投資に関するエビデンスの創出: 人的・地域向けサービスへの大規模投資、AIを活用した公共サービスへのアクセス、雇用保障プログラム、脆弱なコミュニティ向けの地域密着型施策の大規模実証
+- **応募条件**: 認定された大学や学位授与機関、独立系研究機関、政策系組織、フィールド実験の実績を持つ非営利団体が対象(個人での応募は不可、所属機関を通じて申請)
+- **必須条件**: 主要な節目で研究結果を公開することへの同意
+- **応募方法**: Anthropicの公式サイトに掲載されたGoogleフォームから申請可能
+
+## 使ってみるには
+
+本件は一般ユーザー向けの製品ではなく、研究者・研究機関向けの助成金プログラムです。対象となる研究機関は、Anthropic公式サイトの応募フォームから申請できます。

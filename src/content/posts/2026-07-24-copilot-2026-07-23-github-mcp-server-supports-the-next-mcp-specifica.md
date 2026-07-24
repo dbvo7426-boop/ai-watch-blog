@@ -1,14 +1,29 @@
 ---
-title: "GitHub MCP Server supports the next MCP specification"
-description: "<p>The MCP protocol is going stateless on 28th July 2026, and the GitHub MCP Server supports the latest spec ahead of th"
+title: GitHub MCP Server、次期MCP仕様(ステートレス化)に先行対応
+description: "MCPプロトコルが2026年7月28日に正式リリース予定の「ステートレス」な次期仕様へ移行するのに先立ち、GitHub MCP ServerがRedisセッションの廃止やHTTPヘッダーベースの検査など先行対応を実施したと発表。"
 pubDate: 2026-07-23
 category: copilot
 type: news
-tags: []
+tags: [MCP, GitHub, Copilot, プロトコル]
 source: https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubは、GitHub MCP Serverが2026年7月28日に正式リリース予定の次期MCPプロトコル仕様に、公式リリースに先立って対応済みであると発表した。次期仕様ではセッションと `initialize` ステップが廃止され"ステートレス"になることで、サーバーへの接続がより速く簡単になるとされる。
 
-一次情報: https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification
+## 詳細
+
+- **次期仕様の変更点**: セッションおよび `initialize` が廃止され、クライアントはより高速かつ簡単にサーバーへ接続できるようになる。スケーリングもしやすくなり、クライアント・サーバー間のハンドシェイクを並列に行えるようになる
+- **"ステートレス"の意味**: 接続初期化に紐づく永続的なセッション管理やデータベース処理を排除すること。保存されたセッションへの依存をなくし、デプロイのスケーラビリティと応答性を高める
+- **GitHub MCP Serverでの対応内容**:
+  - Redisセッションを廃止し、データベースの負荷を削減
+  - ペイロード検査の代わりにHTTPヘッダー読み取りでロギング・セキュリティスキャンを実施
+  - Go SDKを通じて新旧両方のクライアントプロトコルに対応する"elicitation"実装を強化
+- **提供状況**: 正式仕様のリリース(2026年7月28日)に先立ち、GitHub MCP Serverは既に最新仕様に対応済み
+- **確認方法**: Copilotに自分のコードベースを指定し、適合性テストスイートやドラフト仕様書、Tier1 SDK実装へのアクセスを与えることで互換性を検証できる
+
+## 使ってみるには
+
+- GitHub MCP Serverを利用している場合、特別な移行作業なしに新しい仕様の恩恵を受けられる(既に対応済みのため)
+- 自身のMCPクライアント・サーバー実装が新仕様に対応しているか確認したい場合は、一次情報記載の適合性テストスイートやドラフト仕様書を参照

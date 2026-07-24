@@ -1,14 +1,26 @@
 ---
-title: "How Codex became a collaborator for OpenAI’s creative team"
-description: "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with con"
+title: OpenAIのクリエイティブチーム、Codexを「共同制作者」として活用する事例を公開
+description: "OpenAIの社内クリエイティブスペシャリストChad Nelson氏が、ブランド向けデモやワークフロー制作にCodexを活用する事例を公開。通常1日5〜10件のキャンペーン案が50件に増えるなど、非エンジニアのクリエイティブ職によるAI活用の広がりを紹介している。"
 pubDate: 2026-07-16
 category: chatgpt
 type: news
-tags: []
+tags: [Codex, OpenAI, クリエイティブ, 事例]
 source: https://openai.com/index/codex-collaborator-creative-team
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIが、社内のクリエイティブスペシャリストChad Nelson氏の事例として、ブランドパートナー向けのデモやクリエイティブワークフローの制作にAIコーディングエージェント「Codex」を活用している様子を公式ブログで紹介した。結論として、Codexは開発者向けツールという枠を超え、非エンジニアのクリエイティブ職にとっても「共同制作者」として機能し始めている、という内容。
 
-一次情報: https://openai.com/index/codex-collaborator-creative-team
+## 詳細
+
+- **キャンペーン案の生成量**: 通常は1日5〜10件のところ、Codexの支援によって1日50件のキャンペーン方向性を生成し、そこから最も強い10件に絞り込んでクライアントへ提案
+- **カスタムUIの構築**: スライダーやコントロールを備えた独自インターフェースを作成し、カメラの構図やライティングの調整をリアルタイムに可視化
+- **ワークフローの自動化**: 自然言語による指示だけでAPI連携をつなぐワークフローを構築し、コード知識がなくてもプロトタイプを作成
+- **コンテキスト理解**: プロジェクトブリーフやブランドブック、構図・トーンといった要件を踏まえた提案ができる点が、通常のクリエイティブツールとの違いとして紹介されている
+- **位置づけ**: 新機能や新プランの発表ではなく、Codexの社内活用事例を紹介するケーススタディという性格の記事
+
+## 使ってみるには
+
+- Codexは、ChatGPTのPlus/Pro/Team/Enterpriseなど既存プランからCLI・IDE拡張機能・クラウドエージェントとして利用可能で、本記事のために新たに提供されるプランや機能はない
+- 具体的なワークフローの作り方や事例の詳細は、一次情報のOpenAI公式ブログを参照

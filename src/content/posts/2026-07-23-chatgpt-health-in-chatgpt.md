@@ -1,14 +1,27 @@
 ---
-title: "Launching Health in ChatGPT"
-description: "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalize"
+title: "OpenAI、ChatGPTに医療情報を連携する新機能「Health in ChatGPT」を発表"
+description: "OpenAIが、米国の対象ユーザー向けにApple Healthや対応医療機関のカルテを安全に連携できる新機能「Health in ChatGPT」を発表。検査結果の比較や健康トレンドの把握など、パーソナライズされた健康相談が可能になります。"
 pubDate: 2026-07-23
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, ヘルスケア, プライバシー, 医療データ]
 source: https://openai.com/index/health-in-chatgpt
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、ChatGPTに医療情報を安全に連携できる新機能「Health in ChatGPT」を発表しました。米国在住で18歳以上のユーザーを対象に、Apple Healthや対応医療機関の電子カルテなどを連携することで、よりパーソナライズされた健康相談が可能になります。
 
-一次情報: https://openai.com/index/health-in-chatgpt
+## 詳細
+
+- **背景**: 毎週3億人以上のユーザーがChatGPTに健康に関する質問をしており、複数のサービスに散らばった健康情報を一元的に扱えるようにする狙いがある
+- **連携できるデータ**: Apple Health、対応する米国内の病院の電子カルテ、One Medical、Function Health、Apple Health経由のウェアラブル・フィットネスアプリ
+- **できること**: 検査結果を過去の数値と比較する、前回受診からの変化を要約する、睡眠・運動・生活習慣の関係を把握する、専用のHealthサイドバーで過去のデータ推移や健康関連の会話履歴を閲覧する
+- **専用モデル**: 無料プランのGPT-5.5 Instantと有料プランのGPT-5.6 Solに医療分野特化の追加学習を実施し、医療知識の評価指標HealthBench Professionalで従来モデルを上回る性能を確認
+- **プライバシー・セキュリティ**: 医療記録やApple Healthのデータはモデルの学習や広告ターゲティングには使用しない。通信は保存時・転送時ともに暗号化し、データアクセスの許可はデフォルトで都度確認する設定。連携を解除した場合、データは30日以内に削除される
+- **提供範囲**: 米国在住で18歳以上のユーザーが対象。web版とiOS版で提供し、Free・Go・Plus・Proの全プランで利用可能。順次展開を開始している
+- **利用者の声**: 早期テスターの一人は「散らばっていた医療情報を、実際に理解できる形にまとめてくれたのが一番役立った」とコメントしている
+
+## 使ってみるには
+
+米国在住で18歳以上のユーザーは、ChatGPTのweb版またはiOSアプリの設定からHealth機能を有効にし、Apple Healthや対応医療機関のポータルと連携することで利用できます。現時点では日本を含む米国外のユーザーは対象外のため、今後の対応地域拡大を待つ必要があります。

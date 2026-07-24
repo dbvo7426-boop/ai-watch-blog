@@ -1,14 +1,27 @@
 ---
-title: "NTT DATA Group cuts incident analysis to 30 minutes with Codex"
-description: "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minu"
+title: "NTT DATA、ChatGPT EnterpriseとCodexでインシデント分析を30分に短縮"
+description: "NTT DATAグループがChatGPT EnterpriseとCodexを全社導入し、約9,000人の従業員が業務を自動化。象徴的な事例として、これまで3日がかりだったインシデント分析をCodexの活用で30分に短縮したと発表しました。"
 pubDate: 2026-07-22
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, Codex, エンタープライズ, 導入事例]
 source: https://openai.com/index/ntt-data
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+NTT DATAグループは、ChatGPT EnterpriseとCodexを全社的に導入し、約9,000人の従業員が業務の自動化にAIを活用していると発表しました。象徴的な事例として、これまでエンジニア5人が3日がかりで行っていたインシデント分析を、Codexの活用によって30分にまで短縮したとしています。
 
-一次情報: https://openai.com/index/ntt-data
+## 詳細
+
+- **背景**: 2025年5月にOpenAIと戦略的パートナーシップを締結し、人員拡大による成長からAIによる価値創出への転換を進めている
+- **展開体制**: 社内に「OpenAI Center of Excellence(CoE)」を設立し、ライセンス配布や技術検証、社内イベント運営、ナレッジ共有を担う
+- **ChatGPT Enterpriseの成果**: 全社導入後、従業員満足度96%、生産性向上を実感した割合95%という結果が出ている
+- **Codexの活用規模**: 技術職・非技術職を含む約9,000人が利用。指示に基づき自律的に調査・実行・テスト・修正まで行うAIエージェントとして活用されている
+- **主な成果**: インシデント分析をエンジニア5人・3日がかりの作業から30分に短縮。研修や資料整備を経て週間アクティブユーザー数は1.4倍に増加
+- **その他の活用例**: クレジットカード明細からの交通費抽出の自動化、非技術職によるExcelデータ分析、BIツールを使わない分析レポートの作成
+- **ガバナンス**: データ利用、システム接続、ネットワーク通信、サンドボックスモード、自動化のレベル、人によるレビュー要件などのガイドラインを整備し、全社的に安心して使える体制を構築
+
+## 使ってみるには
+
+本件はNTT DATAグループにおける導入事例の紹介であり、一般ユーザー向けの製品発表ではありません。ChatGPT EnterpriseやCodexの企業導入を検討する場合は、OpenAI公式サイトの本発表やCodexの製品ページを参照してください。
