@@ -248,7 +248,8 @@
     "https://www.anthropic.com/news/skills",
     "https://www.anthropic.com/news/anthropic-economic-index-connector",
     "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
-    "https://www.anthropic.com/news/claude-for-creative-work-dev"
+    "https://www.anthropic.com/news/claude-for-creative-work-dev",
+    "https://www.anthropic.com/news/claude-opus-5"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1361,7 +1362,8 @@
     "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
     "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
     "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
-    "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview"
+    "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
+    "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
