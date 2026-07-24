@@ -247,7 +247,8 @@
     "https://www.anthropic.com/news/donation-public-first-action",
     "https://www.anthropic.com/news/skills",
     "https://www.anthropic.com/news/anthropic-economic-index-connector",
-    "https://www.anthropic.com/news/economic-futures-research-fund-agenda"
+    "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
+    "https://www.anthropic.com/news/claude-for-creative-work-dev"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1305,7 +1306,8 @@
     "https://openai.com/index/introducing-openai-presence",
     "https://openai.com/index/how-news-organizations-are-using-ai",
     "https://openai.com/index/ntt-data",
-    "https://openai.com/index/health-in-chatgpt"
+    "https://openai.com/index/health-in-chatgpt",
+    "https://openai.com/index/codex-collaborator-creative-team"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1356,7 +1358,10 @@
     "https://github.blog/changelog/2026-07-20-copilot-users-can-now-see-ai-credits-used-per-billing-cycle",
     "https://github.blog/changelog/2026-07-20-ai-credit-pools-for-cost-centers-in-the-billing-ui",
     "https://github.blog/changelog/2026-07-21-gemini-3-6-flash-is-now-available-in-github-copilot",
-    "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard"
+    "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
+    "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
+    "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
+    "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
