@@ -23,6 +23,11 @@ const base = prefix(lang);
       </a>
     ))
   }
+  {active && (
+    <a href={`${base}/`} class="clear-filter">
+      {ui.clearFilter}
+    </a>
+  )}
 </div>
 
 <style>
@@ -56,5 +61,13 @@ const base = prefix(lang);
     background: var(--ink);
     color: #fff;
     border-color: var(--ink);
+  }
+  .genre-filter .clear-filter {
+    font-size: 12.5px;
+    color: var(--muted);
+    text-decoration: underline;
+  }
+  .genre-filter .clear-filter:hover {
+    color: var(--accent);
   }
 </style>

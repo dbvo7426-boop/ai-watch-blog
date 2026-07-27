@@ -34,6 +34,7 @@ export const UI = {
     tryUsingIt: '使ってみるには',
     details: '詳細',
     afterward: 'その後',
+    clearFilter: '✕ 絞り込み解除',
   },
   en: {
     latestArticles: 'Latest Articles',
@@ -69,6 +70,7 @@ export const UI = {
     tryUsingIt: 'How to try it',
     details: 'Details',
     afterward: 'What happened next',
+    clearFilter: '✕ Clear filter',
   },
 };
 
