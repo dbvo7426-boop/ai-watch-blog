@@ -250,7 +250,8 @@
     "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
     "https://www.anthropic.com/news/claude-for-creative-work-dev",
     "https://www.anthropic.com/news/claude-opus-5",
-    "https://www.anthropic.com/news/cognizant-anthropic"
+    "https://www.anthropic.com/news/cognizant-anthropic",
+    "https://www.anthropic.com/news/position-open-weights-models"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1365,7 +1366,10 @@
     "https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available",
     "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification",
     "https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview",
-    "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot"
+    "https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot",
+    "https://github.blog/changelog/2026-07-27-github-copilot-for-jetbrains-adds-improvved-opentelemetry-configuration-and-model-management",
+    "https://github.blog/changelog/2026-07-27-manage-github-copilot-app-access-with-a-dedicated-policy",
+    "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
