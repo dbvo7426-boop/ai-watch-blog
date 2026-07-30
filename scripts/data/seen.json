@@ -1312,7 +1312,10 @@
     "https://openai.com/index/health-in-chatgpt",
     "https://openai.com/index/codex-collaborator-creative-team",
     "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-    "https://openai.com/index/scientific-computing-agentic-ai"
+    "https://openai.com/index/scientific-computing-agentic-ai",
+    "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+    "https://openai.com/index/chatgpt-for-academic-researchers",
+    "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1375,7 +1378,8 @@
     "https://github.blog/changelog/2026-07-27-enterprise-managed-settings-now-apply-to-the-github-copilot-app",
     "https://github.blog/changelog/2026-07-28-github-copilot-app-usage-metrics-now-expand-across-report-rollups",
     "https://github.blog/changelog/2026-07-28-grok-4-5-is-now-available-in-github-copilot",
-    "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise"
+    "https://github.blog/changelog/2026-07-29-default-model-enablement-for-copilot-business-and-enterprise",
+    "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
