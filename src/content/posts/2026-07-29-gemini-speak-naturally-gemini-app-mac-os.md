@@ -1,14 +1,32 @@
 ---
-title: "Gemini for macOS adds new natural language capabilities"
-description: "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_for_macOS_language_capab.max-600x600.fo"
+title: "Gemini for Mac、Fnキー長押しで話しかけるだけの音声操作に対応 ― 文字起こしから要約・画像生成まで"
+description: "GoogleがmacOS版Geminiアプリを更新し、Fnキーを長押しするだけでデスクトップ上のどのウインドウでも自然な音声操作ができるようになった。文字起こしや文章のリライト、要約、画像生成までを声だけで行える。"
 pubDate: 2026-07-29
 category: gemini
 type: news
-tags: []
+tags: [Gemini, macOS, 音声入力, 生産性]
 source: https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Googleは、macOS版Geminiアプリを更新し、Fnキーを長押しするだけでデスクトップ上のどのウインドウに対しても自然に話しかけて操作できる新機能を追加した。文字起こしから文章のリライト、ファイルの要約、画像生成まで、声だけで幅広い作業をこなせるようになる。
 
-一次情報: https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/
+## 詳細
+
+- **起動方法**: Fnキーを長押しするだけで、デスクトップ上の任意のウインドウに向かって自然に話しかけられるようになった
+- **インテリジェント文字起こし**: 話した内容を自動で文字起こし。「あの」「えーと」といったフィラーや、話しながらの言い直しを自動的に除去してくれる
+- **内容の抽出・要約**: 「Gemini reasoning」設定を有効にすると、ファイルを選択して「これらの動物病院の記録を読んで、うちの犬の病歴をまとめて」のように話しかけるだけで要約を生成できる
+- **文章の作成・リライト**: 声で指示するだけで文章の作成や、トーン調整を含むリライトを行い、必要な場所にそのまま挿入できる
+- **画像の生成・編集**: 音声コマンドから画像の生成や既存画像の編集も可能
+- **提供開始日**: 2026年7月29日
+- **対応範囲**: macOS版Geminiアプリの全ユーザーに向けてグローバルに展開中
+- **言語対応**: 現時点では英語のみに対応。他言語は今後追加予定
+- **入手方法**: gemini.google/mac からダウンロード可能
+
+## 使ってみるには
+
+- gemini.google/mac からmacOS版Geminiアプリをダウンロード(またはアップデート)する
+- 任意のウインドウでFnキーを長押しして話しかけると、文字起こしや文章作成などの音声操作が始まる
+- ファイルの要約や画像生成など高度な機能を使う場合は、「Gemini reasoning」設定を有効にしておく
+- 現時点では英語のみの対応のため、日本語での利用は今後の言語追加を待つ必要がある

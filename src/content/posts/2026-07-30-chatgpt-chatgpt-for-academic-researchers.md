@@ -1,14 +1,29 @@
 ---
-title: "Accelerating scientific discovery with ChatGPT for Academic Researchers"
-description: "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific "
+title: "OpenAI、学術研究者10万人にChatGPT最上位モデルを無償提供へ ― 「ChatGPT for Academic Researchers」始動"
+description: "OpenAIが学術研究者向けプログラムを発表。今夏に研究者1万人からスタートし、2027年までに10万人へ拡大する。ChatGPTやCodexの最新モデルを無償提供し、生命科学向けスキルや研究者向けコネクタも用意する。"
 pubDate: 2026-07-29
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, OpenAI, 学術研究, 教育, Codex]
 source: https://openai.com/index/chatgpt-for-academic-researchers
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、学術研究者向けにChatGPT・ChatGPT Work・Codexなど最先端モデルへの無償アクセスを提供する新プログラム「ChatGPT for Academic Researchers」を発表した。今夏に研究者1万人からスタートし、2027年までに10万人規模への拡大を目指す。
 
-一次情報: https://openai.com/index/chatgpt-for-academic-researchers
+## 詳細
+
+- **規模とロードマップ**: 今夏に研究者1万人からスタートし、2027年までに10万人規模への拡大を計画。初期参加機関としてプリンストン高等研究所(IAS)やフランスの高等師範学校(ENS)などが名を連ねる
+- **提供モデル**: 開始時点ではGPT-5.6 Sol Pro(最上位)、日常的な研究用途向けのGPT-5.6 Terra、軽量タスク向けのGPT-5.6 Lunaを提供。SolはFrontierMath Tier4で83%(GPT-5.5は72.5%)、独自ベンチマークのGeneBench Proでは31.5%のタスクを解けると報告されている
+- **研究支援機能**: Deep Researchの強化、利用上限の引き上げ、コンテキストウィンドウの拡張に加え、遺伝学・ゲノミクス・タンパク質モデリング・創薬向けの75以上の専門スキル(life science skills)を用意。学術論文データベースやゲノムデータベース、衛星画像などにアクセスできる研究者向けコネクタも提供する
+- **プライバシーとサポート**: 企業向けと同水準のプライバシー・セキュリティを適用し、デフォルトでデータをモデル学習に利用しない設計。経験レベルに応じたトレーニングやハンズオンサポートも提供する
+- **参加条件**: 研究活動が活発な、学位授与権を持つ大学・研究機関に所属していることが条件。所属機関の確認と現在進行中の研究内容の説明が必要で、承認されると同じ機関から最大4名の共同研究者を招待できる
+- **投資規模**: OpenAIは2027年までに外部の科学研究支援に2億5000万ドル以上を投じる方針で、この中には5000万ドル規模の「NextGenAI」イニシアチブも含まれる
+- **利用実態**: 現在、週間で約130万人が科学・数学分野でChatGPTを利用し、週850万件のメッセージが送られている。AI利用度上位20%の層は、4時間以上かかるとされるタスクをAIに任せる割合が他の利用者のおよそ2倍という調査結果もある
+
+## 使ってみるには
+
+- 学位授与権を持つ研究活動の活発な大学・研究機関に所属する研究者は、OpenAI公式サイトのプログラムページから申請できる
+- 申請時には所属機関の確認と現在の研究内容の説明が必要
+- 承認されると、同じ機関の共同研究者を最大4名まで招待可能
