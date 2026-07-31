@@ -27,7 +27,22 @@ const base = prefix(lang);
           .filter(([key]) => key !== 'other')
           .map(([key, cat]) => (
             <a href={`${base}/category/${key}/`} class="nav-link">
-              <span class="cat-dot" style={`background:${cat.color}`} aria-hidden="true" />
+              {cat.domain ? (
+                <>
+                  <img
+                    src={`https://www.google.com/s2/favicons?domain=${cat.domain}&sz=32`}
+                    alt=""
+                    class="cat-icon"
+                    loading="lazy"
+                    width="16"
+                    height="16"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='inline-block'"
+                  />
+                  <span class="cat-dot" style={`background:${cat.color};display:none`} aria-hidden="true" />
+                </>
+              ) : (
+                <span class="cat-dot" style={`background:${cat.color}`} aria-hidden="true" />
+              )}
               {cat.label}
             </a>
           ))
@@ -88,6 +103,14 @@ const base = prefix(lang);
     height: 8px;
     border-radius: 50%;
     display: inline-block;
+  }
+  .cat-icon {
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    object-fit: contain;
+    flex-shrink: 0;
+    background: #fff;
   }
   .bookmark-link {
     padding-left: 14px;
