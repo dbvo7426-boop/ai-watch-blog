@@ -1,14 +1,33 @@
 ---
-title: "Ten advances in mathematics and theoretical computer science"
-description: "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including adva"
+title: "OpenAI、社内モデル「Astra」で数学・理論計算機科学の未解決問題10件に前進 ― Erdős問題やConnesの剛性予想にも成果"
+description: "OpenAIが、社内で開発した実験的モデル「Astra」を用いて、球充填やRamsey数、Connesの剛性予想の反証など数学・理論計算機科学における10件の未解決問題で新たな成果を得たと発表した。"
 pubDate: 2026-08-01
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, OpenAI, 数学, 理論計算機科学, Astra]
 source: https://openai.com/index/ten-advances-in-mathematics
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、社内開発の実験的モデル「Astra」を用いて、数学および理論計算機科学における長年の未解決問題10件について新たな成果を得たと発表した。高次元の球充填やRamsey数の下界、Connesの剛性予想の反証など、いずれも人間の数学者による従来の到達点を更新する内容で、証明の一部はLeanによる形式化まで行われている。
 
-一次情報: https://openai.com/index/ten-advances-in-mathematics
+## 詳細
+
+- **高次元球充填**: Cohn–Elkiesの下界まで踏み込んだ、高次元における球充填密度の新たな上界を導出
+- **符号理論**: 二値符号の最大サイズに関する上界を大幅に改善し、球面符号についても同様の成果を得た
+- **非sofic群の構成**: 群論における中心的な問いの一つである「非sofic群は存在するか」に対し、具体的な構成による証明を提示
+- **Connesの剛性予想の反証**: フォン・ノイマン環から群が一意に定まるとする長年の予想「Connesの剛性予想」を反証した
+- **算術回路の計算量**: パーマネントを算術回路・論理式で計算する際の新たな下界を証明
+- **量子並列反復定理**: 古典的な複雑性理論の原理を量子ゲームに拡張した、指数的な並列反復定理を確立
+- **最近接ベクトル問題**: 格子暗号の基礎となる最近接ベクトル問題について、多項式係数での近似困難性を証明
+- **Ehrhartの体積予想**: 格子点に関する特定の制約下での凸体の最大体積を決定
+- **多色Ramsey数**: 多色三角形Ramsey数について超指数的な下界を証明し、Erdős問題183を解決
+- **極値数予想**: コンパクト性・退化性に関する予想について成果を得て、Erdős問題146・180を解決
+- **手法**: 各成果に要した計算コストは約2,000ドル程度で、人間の数学者が原稿の整備とLeanによる形式的証明化を担当した
+
+## 使ってみるには
+
+- 一般公開されたプロダクト機能ではなく、社内実験モデルによる研究成果の発表である
+- 各成果の詳細な証明や論文は、今後OpenAIや共同研究者から順次公開される見込み
+- 詳細はOpenAIの公式ブログ記事(https://openai.com/index/ten-advances-in-mathematics)を参照

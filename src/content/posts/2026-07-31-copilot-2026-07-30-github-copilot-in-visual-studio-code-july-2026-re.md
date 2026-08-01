@@ -1,14 +1,32 @@
 ---
-title: "GitHub Copilot in Visual Studio Code, July 2026 releases"
-description: "<p>This changelog covers VS Code v1.127 through v1.131, shipped throughout July 2026. These releases improve how you wor"
-pubDate: 2026-07-30
+title: "GitHub Copilot for VS Code、7月のv1.127-v1.131アップデートでAgentsウインドウ刷新やマルチチャット対応"
+description: "GitHubがVS Code向けGitHub Copilotの2026年7月リリース(v1.127〜v1.131)をまとめて公開。Agentsウインドウの刷新、1セッション内での複数チャット対応、Copilot Visionの一般提供などが追加された。"
+pubDate: 2026-07-31
 category: copilot
 type: news
-tags: []
+tags: [Copilot, VS Code, GitHub, アップデート]
 source: https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubは、VS Code向けGitHub Copilotの2026年7月分リリース(v1.127〜v1.131)をまとめたチェンジログを公開した。Agentsウインドウの刷新、1つのエージェントセッション内で複数チャットを扱える機能、Copilot Visionの一般提供など、多数の変更が含まれている。
 
-一次情報: https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases
+## 詳細
+
+- **Agentsウインドウの刷新**: 会話の隣にファイルや差分を開けるレイアウトに変更し、タブ管理を統合。差分の追加・削除行数の表示、コンパクトな差分表示、インライン/サイドバイサイド表示の切り替えなどでレビュー作業を高速化した
+- **Git worktree対応**: Copilot・Claude・Codexを使った独立セッションを、リポジトリの別コピー上で起動できるように
+- **クイックチャット**: ワークスペースを開かなくても質問できる機能を追加。プロジェクトのセッションとは別に保持される
+- **セッション管理**: 関連する会話をグループ化し、ドラッグ&ドロップで並び替え可能に。サブエージェントの実行中はモデル・経過時間・実行中のツール呼び出しを確認できる
+- **PR対応の効率化**: 失敗したCIチェックや新しいレビューコメントに、バナー通知から直接対応可能に
+- **マルチチャットセッション**: 1つのエージェントセッション内で、それぞれ独立した履歴・タイトルを持つ複数の会話を扱えるように。会話の任意の時点から別アプローチを試す「ピアチャットのフォーク」機能も追加され、元の文脈を保ったまま分岐できる。個々のチャットは非表示・再表示・完全削除が可能で、マウスを使わずキーボードだけでチャット間を移動する操作にも対応した
+- **チャット・モデル関連**: Copilot Visionが一般提供開始し、ファイルの貼り付け・ドラッグ・コンテキストメニューからの取り込みに対応。Business/Enterpriseユーザーは現在の請求サイクルの利用量をステータスメニューで確認可能に。BYOK(自前モデル)対応がAgentsウインドウにも拡大(エディタでは2025年3月から対応済み)。チャットメッセージの先頭に「!」を付けるとターミナルコマンドを直接実行できる
+- **エディタ・ターミナル・ブラウザ**: モダンUIの試験版をStableでプレビュー提供(Insidersではデフォルト)、ターミナルの差分出力からファイルパスを選んで直接開ける機能(Gitの`i/`・`w/`プレフィックスにも対応)、内蔵ブラウザタブの表示位置を設定可能に、バックグラウンドでも有効なVS Code全体のOSレベルショートカットを作成可能に、既存のプロンプトファイルをスキルへ変換する機能、ツールバーからのエディタ種別切り替え、Agentsウインドウ内でエージェントが操作可能なコメント付きMarkdown編集に対応した
+- **アクセシビリティ**: `dictation.enabled`設定でチャット・エディタ・統合ターミナルでの音声入力に対応。実験的な`dictation.experimental.llmCleanup`設定で、話した内容をCopilotが整形・クリーンアップ可能に。ターミナルのアクセシブルビューでは、出力が届いてもカーソル位置を維持し独立して読み上げ可能になった
+
+## 使ってみるには
+
+- VS CodeをStableチャンネルでv1.131以降に更新し、Agentsウインドウの新レイアウトやマルチチャット機能を確認する
+- 設定で`dictation.enabled`を有効にし、音声入力を試す
+- ファイルをCopilot Chatにドラッグ&ドロップし、一般提供されたCopilot Visionを試す
+- チャットメッセージの先頭に「!」を付けてターミナルコマンドを直接実行してみる
