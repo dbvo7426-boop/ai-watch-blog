@@ -1365,7 +1365,8 @@
     "https://openai.com/index/disrupting-malicious-uses-of-ai-zero-zeno",
     "https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger",
     "https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage",
-    "https://openai.com/index/disrupting-malicious-uses-of-ai-bad-grammar"
+    "https://openai.com/index/disrupting-malicious-uses-of-ai-bad-grammar",
+    "https://openai.com/index/ten-advances-in-mathematics"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1398,7 +1399,8 @@
     "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/",
     "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
     "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
-    "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/"
+    "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1435,7 +1437,9 @@
     "https://github.blog/changelog/2026-07-29-copilot-code-review-agent-skills-and-mcp-now-generally-available",
     "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update",
     "https://github.blog/changelog/2026-07-30-limit-remote-control-to-managed-devices",
-    "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases"
+    "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-code-july-2026-releases",
+    "https://github.blog/changelog/2026-07-31-gemini-2-5-pro-and-gemini-3-flash-deprecated",
+    "https://github.blog/changelog/2026-07-31-enterprise-teams-model-policy-targeting-in-public-preview"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
