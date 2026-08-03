@@ -6,6 +6,7 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import BookmarkButton from '../../components/BookmarkButton.astro';
 import ImportanceFilter from '../../components/ImportanceFilter.astro';
 import GenreFilter from '../../components/GenreFilter.astro';
+import SearchBox from '../../components/SearchBox.astro';
 import Pagination from '../../components/Pagination.astro';
 import { CATEGORIES_EN, TYPES_EN, IMPORTANCE_EN, formatDateEn } from '../../consts.en';
 import { PAGE_SIZE } from '../../consts';
@@ -38,6 +39,7 @@ const featuredImportance = featured ? IMPORTANCE_EN[featured.data.importance] : 
   {isFirstPage && <MonitorStrip lang="en" />}
   {isFirstPage && <ImportanceFilter lang="en" />}
   {isFirstPage && <GenreFilter lang="en" />}
+  {isFirstPage && <SearchBox lang="en" />}
 
   {
     featured && (

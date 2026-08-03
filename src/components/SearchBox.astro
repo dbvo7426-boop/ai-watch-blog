@@ -1,0 +1,68 @@
+---
+import { t, prefix } from '../i18n';
+
+interface Props {
+  lang?: string;
+}
+
+const { lang = 'ja' } = Astro.props;
+const ui = t(lang);
+const base = prefix(lang);
+---
+
+<form class="search-box" action={`${base}/search/`} method="get">
+  <span class="search-icon" aria-hidden="true">🔍</span>
+  <input
+    type="search"
+    name="q"
+    class="search-input"
+    placeholder={ui.searchPlaceholder}
+    autocomplete="off"
+  />
+  <button type="submit" class="search-submit">{ui.search}</button>
+</form>
+
+<style>
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px 0 0;
+    max-width: 480px;
+  }
+  .search-icon {
+    font-size: 14px;
+    opacity: 0.6;
+    flex-shrink: 0;
+  }
+  .search-input {
+    flex: 1;
+    min-width: 0;
+    font-size: 14px;
+    padding: 8px 12px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--card);
+    color: var(--ink);
+    font-family: inherit;
+  }
+  .search-input:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .search-submit {
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--card);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .search-submit:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+</style>

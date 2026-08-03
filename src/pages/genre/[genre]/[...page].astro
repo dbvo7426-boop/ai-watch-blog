@@ -5,6 +5,7 @@ import ArticleCard from '../../../components/ArticleCard.astro';
 import Pagination from '../../../components/Pagination.astro';
 import ImportanceFilter from '../../../components/ImportanceFilter.astro';
 import GenreFilter from '../../../components/GenreFilter.astro';
+import SearchBox from '../../../components/SearchBox.astro';
 import { CATEGORIES, GENRES, PAGE_SIZE } from '../../../consts';
 
 export async function getStaticPaths({ paginate }) {
@@ -51,6 +52,7 @@ const categoriesInGenre = Object.entries(CATEGORIES).filter(([, cat]) => cat.gen
 
   <ImportanceFilter />
   <GenreFilter active={genre} />
+  <SearchBox />
 
   <div class="grid">
     {page.data.map((post) => <ArticleCard post={post} />)}

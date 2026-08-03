@@ -5,6 +5,7 @@ import ArticleCard from '../../../../components/ArticleCard.astro';
 import Pagination from '../../../../components/Pagination.astro';
 import ImportanceFilter from '../../../../components/ImportanceFilter.astro';
 import GenreFilter from '../../../../components/GenreFilter.astro';
+import SearchBox from '../../../../components/SearchBox.astro';
 import { CATEGORIES_EN, GENRES_EN } from '../../../../consts.en';
 import { PAGE_SIZE } from '../../../../consts';
 import { t } from '../../../../i18n';
@@ -54,6 +55,7 @@ const ui = t('en');
 
   <ImportanceFilter lang="en" />
   <GenreFilter active={genre} lang="en" />
+  <SearchBox lang="en" />
 
   <div class="grid">
     {page.data.map((post) => <ArticleCard post={post} lang="en" />)}

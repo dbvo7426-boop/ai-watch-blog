@@ -6,6 +6,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import BookmarkButton from '../components/BookmarkButton.astro';
 import ImportanceFilter from '../components/ImportanceFilter.astro';
 import GenreFilter from '../components/GenreFilter.astro';
+import SearchBox from '../components/SearchBox.astro';
 import Pagination from '../components/Pagination.astro';
 import { CATEGORIES, TYPES, IMPORTANCE, formatDate, PAGE_SIZE } from '../consts';
 
@@ -37,6 +38,7 @@ const featuredImportance = featured ? IMPORTANCE[featured.data.importance] : nul
   {isFirstPage && <MonitorStrip />}
   {isFirstPage && <ImportanceFilter />}
   {isFirstPage && <GenreFilter />}
+  {isFirstPage && <SearchBox />}
 
   {
     featured && (
