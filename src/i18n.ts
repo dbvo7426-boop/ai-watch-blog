@@ -35,6 +35,10 @@ export const UI = {
     details: '詳細',
     afterward: 'その後',
     clearFilter: '✕ 絞り込み解除',
+    search: '検索',
+    searchPlaceholder: 'キーワードで検索(例: Claude 値下げ)',
+    searchHint: 'キーワードを入力すると記事を検索できます。',
+    noSearchResults: '該当する記事が見つかりませんでした。',
   },
   en: {
     latestArticles: 'Latest Articles',
@@ -71,6 +75,10 @@ export const UI = {
     details: 'Details',
     afterward: 'What happened next',
     clearFilter: '✕ Clear filter',
+    search: 'Search',
+    searchPlaceholder: 'Search by keyword (e.g. Claude pricing)',
+    searchHint: 'Type a keyword to search articles.',
+    noSearchResults: 'No matching articles found.',
   },
 };
 

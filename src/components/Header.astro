@@ -47,6 +47,7 @@ const base = prefix(lang);
             </a>
           ))
       }
+      <a href={`${base}/search/`} class="nav-link search-link">🔍 {ui.search}</a>
       <a href={`${base}/bookmarks/`} class="nav-link bookmark-link">🔖 {ui.bookmarks}</a>
       <LanguageSwitcher lang={lang} />
     </nav>
@@ -112,8 +113,11 @@ const base = prefix(lang);
     flex-shrink: 0;
     background: #fff;
   }
-  .bookmark-link {
+  .search-link {
     padding-left: 14px;
     border-left: 1px solid rgba(255, 255, 255, 0.25);
+  }
+  .bookmark-link {
+    padding-left: 14px;
   }
 </style>

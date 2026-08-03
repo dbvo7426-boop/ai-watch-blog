@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CATEGORIES, TYPES, IMPORTANCE } from '../consts';
+import { t } from '../i18n';
+
+const ui = t('ja');
+---
+
+<BaseLayout title={ui.search} description="キーワードでAI観測所の記事を検索できます。">
+  <div class="section-head" style="margin-top: 8px;">
+    <h2>{ui.search}</h2>
+    <span class="count" id="search-count">{ui.itemsCount(0)}</span>
+  </div>
+
+  <div class="search-box">
+    <input
+      type="search"
+      id="search-input"
+      class="search-input"
+      placeholder={ui.searchPlaceholder}
+      autocomplete="off"
+    />
+  </div>
+
+  <div class="grid" id="search-grid"></div>
+
+  <p id="search-empty" class="empty-note" style="display:none;">{ui.noSearchResults}</p>
+  <p id="search-hint" class="empty-note">{ui.searchHint}</p>
+</BaseLayout>
+
+<script type="application/json" id="categories-data" set:html={JSON.stringify(CATEGORIES)} />
+<script type="application/json" id="types-data" set:html={JSON.stringify(TYPES)} />
+<script type="application/json" id="importance-data" set:html={JSON.stringify(IMPORTANCE)} />
+<script define:vars={{ readLabel: ui.read }}>
+  window.AIWATCH_SEARCH_CONFIG = {
+    lang: 'ja',
+    prefix: '',
+    dateLocale: 'ja-JP',
+    indexUrl: '/search-index.json',
+    itemsCount: (n) => `${n} 件`,
+    readLabel,
+  };
+</script>
+<script src="/scripts/search-page.js" is:inline></script>
+
+<style>
+  .search-box {
+    margin: 16px 0 24px;
+  }
+  .search-input {
+    width: 100%;
+    max-width: 480px;
+    font-size: 15px;
+    padding: 10px 14px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--card);
+    color: var(--ink);
+    font-family: inherit;
+  }
+  .search-input:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+</style>
