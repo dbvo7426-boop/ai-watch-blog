@@ -1,14 +1,28 @@
 ---
-title: "Apple is getting this wrong"
-description: "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what hap"
+title: "OpenAI、Appleの営業秘密訴訟に対し公式反論を公表"
+description: "Appleが元社員2名による機密情報の不正利用を主張してOpenAIを提訴した件について、OpenAIが経緯を公式ブログで公開反論。両社の言い分が食い違う法廷闘争の内容を紹介します。"
 pubDate: 2026-08-03
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, Apple, 訴訟, 法務, 企業間紛争]
 source: https://openai.com/index/apple-is-getting-this-wrong
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Appleが、元社員のChang Liu氏とTang Tan氏(いずれも現在はOpenAI在籍)について、退職後にApple社の機密情報や営業秘密を不正に取得・利用しようとしたとしてOpenAIを提訴しました。これに対しOpenAIは、事実関係や訴訟提起に至る経緯についてAppleの主張に反論する声明を公式ブログで公開しています。
 
-一次情報: https://openai.com/index/apple-is-getting-this-wrong
+## 詳細
+
+- **Appleの主張**: Chang Liu氏は退職後もApple社の機密情報にアクセスしていた、Tang Tan氏はApple社の営業秘密を取得・利用しようとした、としてそれぞれ知的財産権侵害にあたると主張
+- **手続き面についてのOpenAIの反論**: OpenAIによれば、Apple側の外部弁護士は「アジア系の姓を2人分混同し、間違った相手にメールを送っていた」とし、以前は「問題は解決に向かっている」との説明を受けていたにもかかわらず、その後「5か月間音沙汰がないまま」提訴に至ったと主張
+- **Liu氏のアクセスに関するOpenAIの説明**: 退職後に残っていたシステムアクセス権はApple側の退職手続きの不備によるものであり、Liu氏の不正行為ではないとOpenAIは説明。また、AirDropでのファイル転送依頼などApple社員側からLiu氏に情報提供を求めるメッセージのやり取りがあったとしている
+- **Tan氏に関するOpenAIの説明**: Apple在籍24年のTan氏について、本人はチームに対しApple社の機密情報を一切使用しないよう明確に伝えてきたとし、Appleの主張には根拠がないとの立場を示す
+- **タイムライン**: Liu氏のApple最終出社日は2026年1月22日。Apple側外部弁護士からの最初の連絡は同年2月で、提訴はそこから約5か月後だったとされる
+
+なお、この記事はOpenAI側が自ら公開した一方的な言い分であり、実際に係争中の訴訟であることを踏まえると、Apple側の主張や裁判記録を確認しない限り事実関係を断定することはできない点に留意が必要です。
+
+## その後
+
+- 現在Apple・OpenAI間の訴訟は係争中であり、今後の展開は法廷での提出書類や両社の追加声明を通じて明らかになる見込み
+- 本件は製品発表ではなく企業間の法的紛争であり、ChatGPTやApple製品自体に直接的な変更は生じていない

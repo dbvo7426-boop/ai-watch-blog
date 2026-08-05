@@ -1,14 +1,27 @@
 ---
-title: "Introducing the OpenAI Economic Research Exchange"
-description: "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications"
+title: "OpenAI、経済研究プラットフォーム「Economic Research Exchange」を発表"
+description: "OpenAIが、AIが雇用・生産性・経済に与える影響を独立研究者が調査できるプラットフォーム「Economic Research Exchange」を開設。OpenAIのツールやデータへのアクセスを提供します。"
 pubDate: 2026-06-08
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, 経済研究, AIと雇用, 研究プログラム]
 source: https://openai.com/index/introducing-the-openai-economic-research-exchange
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIが「Economic Research Exchange」という新プラットフォームを立ち上げました。AIが経済・労働市場・社会に与える影響について、独立した研究者がOpenAIのツールやデータを使って調査できるようにする取り組みで、厳格なデータガバナンスの枠組みのもとで運用されます。
 
-一次情報: https://openai.com/index/introducing-the-openai-economic-research-exchange
+## 詳細
+
+- **狙い**: OpenAIは「AIの経済的影響を理解するには、逸話だけでは不十分だ。実際のエビデンスに基づいた厳密な実証研究が必要になる」とし、外部の研究者による調査を後押しする姿勢を示す
+- **想定される研究テーマ**: 労働者の雇用や労働市場への影響、企業活動・生産性、教育面での成果、起業・格差・地域経済、財政や開発分野など、幅広いテーマを想定
+- **アクセスとガバナンス**: 選定された研究者にはOpenAIのツールやデータセットへのアクセスが提供される一方、プライバシー保護と責任あるデータガバナンスの枠組みが各共同研究に組み込まれ、達成目標(マイルストーン)や審査の仕組みも設定される
+- **応募条件**: 労働経済学、因果推論、生産性研究などの分野で高い定量分析スキルを持つ研究者を対象とする
+- **応募方法**: openai.com/form/economic-research-exchange/ の専用フォームから応募を受け付け。応募締め切りは2026年7月5日、結果通知は同年7月31日までとされ、詳細な公募要領(RFP)もOpenAIサイト上で公開されている
+- **問い合わせ先**: econresearch@openai.com
+
+## その後
+
+- 本件は製品発表ではなく研究プログラムの開設案内であり、具体的な成果は今後各研究プロジェクトの発表を通じて明らかになっていく見込み
+- 応募・通知の期限はすでに過ぎているため、今後はOpenAIや参加研究者による続報・研究成果の発表に注目したい
