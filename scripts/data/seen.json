@@ -1371,7 +1371,9 @@
     "https://openai.com/index/apple-is-getting-this-wrong",
     "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
     "https://openai.com/index/circles",
-    "https://openai.com/index/learn-teach-chatgpt-work-codex"
+    "https://openai.com/index/learn-teach-chatgpt-work-codex",
+    "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+    "https://openai.com/index/introducing-the-openai-economic-research-exchange"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1451,7 +1453,8 @@
     "https://github.blog/changelog/2026-08-03-enterprise-team-specialization-for-managed-settings",
     "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
     "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
-    "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com"
+    "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
+    "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
