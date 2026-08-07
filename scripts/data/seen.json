@@ -253,7 +253,8 @@
     "https://www.anthropic.com/news/cognizant-anthropic",
     "https://www.anthropic.com/news/position-open-weights-models",
     "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-    "https://www.anthropic.com/news/tino-cuellar"
+    "https://www.anthropic.com/news/tino-cuellar",
+    "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1373,7 +1374,10 @@
     "https://openai.com/index/circles",
     "https://openai.com/index/learn-teach-chatgpt-work-codex",
     "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-    "https://openai.com/index/introducing-the-openai-economic-research-exchange"
+    "https://openai.com/index/introducing-the-openai-economic-research-exchange",
+    "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+    "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+    "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1409,7 +1413,8 @@
     "https://blog.google/products-and-platforms/products/gemini/gemini-drop-july-2026/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
     "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-    "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/"
+    "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+    "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1454,7 +1459,8 @@
     "https://github.blog/changelog/2026-08-03-trigger-copilot-automations-with-comments",
     "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
     "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
-    "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app"
+    "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
+    "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
