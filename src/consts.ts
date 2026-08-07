@@ -29,6 +29,7 @@ export const CATEGORIES: Record<string, { label: string; color: string; genre?: 
   perplexity: { label: 'Perplexity', color: '#06B6D4', genre: 'agent', domain: 'perplexity.ai' },
   qwen: { label: 'Qwen', color: '#A21CAF', genre: 'chat', domain: 'qwen.ai' },
   runway: { label: 'Runway', color: '#00C2A8', genre: 'video', domain: 'runway.com' },
+  sakana: { label: 'Sakana AI', color: '#FB7185', genre: 'agent', domain: 'sakana.ai' },
   skywork: { label: 'Skywork', color: '#10B981', genre: 'agent', domain: 'skywork.ai' },
   sora: { label: 'Sora', color: '#FF8A65', genre: 'video', domain: 'sora.com' },
   stablediffusion: { label: 'Stable Diffusion', color: '#EC4899', genre: 'image', domain: 'stability.ai' },

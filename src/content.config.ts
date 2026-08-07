@@ -33,6 +33,7 @@ const postSchema = z.object({
     'adept',
     'lindy',
     'cursor',
+    'sakana',
     'other',
   ]),
   type: z.enum(['news', 'howto', 'review']).default('news'),
