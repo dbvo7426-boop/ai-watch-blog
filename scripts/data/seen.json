@@ -1377,7 +1377,8 @@
     "https://openai.com/index/introducing-the-openai-economic-research-exchange",
     "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
     "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-    "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work"
+    "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+    "https://openai.com/index/hsp-gruppe"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1414,7 +1415,8 @@
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
     "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
     "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-    "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/"
+    "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1460,7 +1462,8 @@
     "https://github.blog/changelog/2026-07-31-upcoming-august-2026-model-deprecations-in-github-copilot",
     "https://github.blog/changelog/2026-08-04-upcoming-deprecation-of-github-spark-on-github-com",
     "https://github.blog/changelog/2026-08-04-retiring-the-copilot-billing-preview-app",
-    "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot"
+    "https://github.blog/changelog/2026-08-06-kimi-k3-is-now-available-in-github-copilot",
+    "https://github.blog/changelog/2026-08-07-github-code-quality-no-longer-adds-copilot-as-a-reviewer"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
