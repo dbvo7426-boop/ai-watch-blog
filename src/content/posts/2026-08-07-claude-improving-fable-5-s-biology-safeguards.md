@@ -1,14 +1,26 @@
 ---
-title: "Improving Fable 5 Safeguards"
-description: "We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces fallbacks."
+title: "Anthropic、Claude Fable 5の生物学分野での誤検知フォールバックを約85%削減"
+description: "Anthropicは、Claude Fable 5が生物学関連の質問をより能力の低いOpus 5へ振り分ける判断基準となる安全分類器の「憲法(constitution)」を書き直し、危険な用途は引き続きブロックしつつ、不要なフォールバックを約85%削減した。"
 pubDate: 2026-08-07
 category: claude
 type: news
-tags: []
+tags: [Claude, Anthropic, Fable 5, 安全性, 生物学, 分類器]
 source: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Anthropicが、Claude Fable 5が生物学関連の質問をどう扱うかを決める安全分類器システムを更新した。真に危険なデュアルユース(軍民両用)のリクエストに対する制限は維持しつつ、不要な安全フォールバックを約85%削減したという。
 
-一次情報: https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards
+## 詳細
+
+- **安全機構の仕組み**: Fable 5は自動化されたAI分類器を使って生物学関連の危険な可能性があるリクエストを検知し、該当する場合はFable 5自身で回答する代わりに、より能力の低いモデルであるOpus 5へリクエストを振り分ける
+- **実際に変更した内容**: Anthropicは、どのコンテンツを制限し、どのコンテンツを許可すべきかを分類器が判断するためのルール集である「憲法(constitution)」を、社内外の専門家からの意見を取り入れて書き直した
+- **更新のプロセス**: 分類器のルールの中で無害な利用ケースを明示的に切り分け、多様な情報源から専門家のフィードバックを収集し、改訂した憲法に基づく新しい学習データを作成したうえで再学習を行い、本当に有害なデュアルユースのコンテンツについては引き続き適切に検知されることを再検証した
+- **測定された効果**: 生物学関連のフォールバックは、Anthropicの製品全体で平均して約85%減少。内訳はサービスによって異なり、Claude.aiで約67%、Coworkで55%、Claude Codeで17%、Claude Platform(API)で7%の削減となった
+- **引き続き制限される領域**: ウイルス学・毒性学・分子設計に関わる質問については、依然としてFable 5からOpus 5へブロック・振り分けが行われる。これらの領域固有のデュアルユースリサーチのリスクを踏まえ、慎重な姿勢を継続している
+- **開発期間**: Anthropicによれば、今回の発表に至るまで分類器の改良作業には「数週間」を要したという
+
+## その後
+
+サービスごとの削減幅の差を見ると、誤検知の問題が最も深刻だったのはClaude.aiとCoworkだったことがうかがえる。これらは一般消費者や業務利用が中心のサービスで、学生や研究者、教育関係者による正当な生物学の質問が、不必要にFable 5から他モデルへ振り分けられてしまうケースが多かったとみられる。一方、Claude CodeやClaude Platformでの改善幅が小さいのは、そもそもこれらのサービスでは不要な生物学関連フォールバックが少なかったか、分類器が発動する頻度自体が低い用途が多いことを示唆している。ウイルス学・毒性学・分子設計に関する制限について、今後の更新で見直されるかどうかについてAnthropicは言及していない。

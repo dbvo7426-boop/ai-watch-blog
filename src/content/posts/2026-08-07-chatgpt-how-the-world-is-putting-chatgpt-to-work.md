@@ -1,14 +1,24 @@
 ---
-title: "From asking to doing: How the world is putting ChatGPT to work"
-description: "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, a"
+title: "OpenAIの利用実態データ「Signals」で見る、世界のChatGPT活用のいま"
+description: "OpenAIが公開した新レポート「Signals」は、144カ国のChatGPT利用データを分析。仕事での使い方は「質問する」から「作業をこなす」へとシフトし、ラテンアメリカではマルチメディア利用が急増、35歳以上の利用者層も急速に拡大している。"
 pubDate: 2026-08-06
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, OpenAI, Signals, 利用データ, グローバル普及]
 source: https://openai.com/index/how-the-world-is-putting-chatgpt-to-work
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIが、世界中の人々が実際にどのようにChatGPTを使っているかを分析した新レポート「Signals」を公開した。Free・Go・Plus・Proの個人アカウントを合わせて10億人を超える利用者のデータをもとにした内容で、最大のポイントは「質問する」から「作業をこなす」への利用シフトだ。そしてこの変化の現れ方は、地域や年齢層によってかなり違っている。
 
-一次情報: https://openai.com/index/how-the-world-is-putting-chatgpt-to-work
+## 詳細
+
+- **仕事での利用は「こなす」ためのもの**: 仕事でChatGPTを使う場合、タスクを完了させる目的での利用は、仕事以外の場面と比べて2倍以上多い。仕事関連の利用はコーディング・編集・分析といった成果物の生成に偏っており、仕事以外での利用は依然として調べもの・情報収集が中心
+- **グローバルな普及が拡大中**: OpenAIは144カ国を対象に「一人当たりメッセージ数」の順位を追跡し、2026年第1四半期と第2四半期を比較。ラテンアメリカ、オセアニア、アフリカが他地域より高い成長を見せ、中でもペルー・ウルグアイ・コスタリカの順位上昇が最も大きかった
+- **マルチメディア利用が急増**: マルチメディア(画像など)は2026年第2四半期時点で全世界のメッセージの7.8%を占め、2026年4月のChatGPT Images 2.0リリース以降に成長が加速。ブラジルとコロンビアではマルチメディアメッセージの割合が10件に1件を超えた(マルチメディア推計の対象となった126カ国のデータに基づく)
+- **高年齢層の利用が急速に追い付いている**: 35歳以上の利用者が占めるメッセージ比率は前年比5%増加し、自己申告年齢データが揃っている111カ国のほぼすべてで上昇。フランスとチェコでは10ポイント以上の増加を記録し、欧州諸国の4分の3近くが世界平均を上回る伸びを示した
+
+## その後
+
+OpenAIはこの「Signals」を単発の調査ではなく、ChatGPTの利用実態を継続的に追跡するシリーズの一環と位置付けている。国別の内訳からは、OpenAIが特にラテンアメリカやアフリカなど、既存の主要市場以外での次の成長源に強い関心を寄せていることがうかがえ、今後の製品・価格戦略にも影響しそうだ。全データと調査方法はOpenAIの公式ブログ(https://openai.com/index/how-the-world-is-putting-chatgpt-to-work)で確認できる。

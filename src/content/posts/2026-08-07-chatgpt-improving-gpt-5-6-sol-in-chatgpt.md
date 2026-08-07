@@ -1,14 +1,28 @@
 ---
-title: "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users"
-description: "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and un"
+title: "GPT-5.6 Solの精度が大幅向上、GPT-5.6 Lunaは無料ユーザーにも本格開放へ"
+description: "OpenAIによると、更新版のGPT-5.6 Solは金融・医療・法律分野での事実誤りをGPT-5.5 Instant比で約68%削減。GPT-5.6 LunaはFree/Goユーザーのデフォルトモデルとなり、無制限チャットと新しい「Think」ボタンが来週提供開始予定。"
 pubDate: 2026-08-06
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, OpenAI, GPT-5.6, Sol, Luna]
 source: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIがChatGPT内のGPT-5.6 Solを精度と一貫性を重視した内容にアップデートした。それとは別に、GPT-5.6 Lunaの無料ユーザーへのアクセス拡大も進めており、今週からFree・Goプランのデフォルトモデルとなる。
 
-一次情報: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
+## 詳細
+
+- **事実誤りが大幅減少**: OpenAIによれば、更新版のSolは金融・医療・法律など正確さが求められる分野で、GPT-5.5 Instant比で事実誤りを約68%削減した
+- **より的確で簡潔な回答**: Solはより直接的な回答、引き締まったフォーマット、役に立たない余計な詳細を省く方向にチューニングされており、日付・数値・出典・ルール・前提条件に依存する回答では、参照元の情報をより適切に活用できるようになった
+- **モード間の一貫性向上**: OpenAIによると、Solの即時応答モードと深い推論モードの間での挙動の一貫性が向上し、両モードで回答が大きく食い違うケースが減少した
+- **有料ユーザー向け推論深度スライダー**: Plus・Proの利用者は、Solの推論の深さを調整できる新しいスライダーをWeb・モバイル・デスクトップで利用できるようになった
+- **Lunaが無料版のデフォルトに**: GPT-5.6 Lunaは今週からFree・Goユーザーのデフォルトモデルとなり、来週には無制限のテキストチャットも提供される
+- **新しい「Think」ボタンも登場予定**: 複雑な質問に対応する新しい「Think」ボタンが来週、無料ユーザー向けに提供開始予定。ただし乱用防止のための制限が課される
+- **一部制限は継続**: 無制限テキストチャットが始まった後も、ファイルアップロードや画像生成など他機能のレート制限は引き続き適用される
+- **適用範囲の限定**: ここで説明した対話特化版のSolはChatGPTの通常のチャット体験に限定されており、Work版・Codex版のSolには変更がない
+
+## その後
+
+今回の更新は、少なくともテキスト会話に関しては、無料ユーザーと有料ユーザーがChatGPTのデフォルトチャット体験で得られるものの差を実質的に縮めるものだ。一方で、推論深度スライダーのような有料限定の機能は差別化要素として残されている。OpenAIは無制限チャットと「Think」ボタンの「来週」という提供時期について具体的な日付を示していないため、無料ユーザーは一斉提供ではなく、順次展開になると見ておいた方がよさそうだ。
