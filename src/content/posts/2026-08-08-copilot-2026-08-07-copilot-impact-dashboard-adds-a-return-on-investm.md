@@ -1,14 +1,28 @@
 ---
-title: "Copilot impact dashboard adds a return on investment section"
-description: "<p>The Copilot impact dashboard now includes a “Potential return on investment” section that connects what you spend on "
+title: "Copilotインパクトダッシュボードに「投資対効果」セクションが追加"
+description: "GitHubのCopilotインパクトダッシュボードに、開発者一人あたりのCopilot利用コストとプルリクエスト産出量を比較するROIセクションが追加。給与額を調整できるセレクターでシナリオを試算できる。"
 pubDate: 2026-08-07
 category: copilot
 type: news
-tags: []
+tags: [GitHub Copilot, インパクトダッシュボード, ROI, メトリクス]
 source: https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubが、Copilotインパクトダッシュボードに「投資対効果の可能性(Potential return on investment)」セクションを追加した。組織がCopilotにかけている費用と、開発者が生み出しているプルリクエストの量とを関連付けて把握できるようにするものだ。
 
-一次情報: https://github.blog/changelog/2026-08-07-copilot-impact-dashboard-adds-a-return-on-investment-section
+## 詳細
+
+- **表示内容**: 開発者の導入フェーズごとに2枚の比較カードが表示され、それぞれ実際のAIクレジット利用量に基づく開発者一人あたりの月額コスト、そのコストが給与に占める割合、開発者一人あたりの月間平均プルリクエスト数を示す
+- **給与額の調整セレクター**: 管理者は固定のデフォルト値に頼るのではなく、自組織の給与前提を入力してROIシナリオを試算できる
+- **表示場所**: Copilotインパクトダッシュボードのエンタープライズレベルおよび組織レベルの両方で利用可能
+- **閲覧権限**: エンタープライズオーナー、請求管理者、組織オーナー、および「Copilotメトリクスの閲覧」権限を付与されたカスタムロールを持つユーザーが閲覧可能。Copilot利用状況メトリクスのポリシーが有効になっている必要がある
+- **より正確な導入コホート**: ダッシュボードは、最終日にアクティブだったユーザーだけでなく、28日間のレポート期間全体を通じて一度でもアクティブだった全ユーザーを基準にコホート数を算出するようになった
+- **注意点**: コスト額はAIクレジット消費量から推定した値であり、給与セレクターはあくまで試算用のツールであって実際の給与データではない
+
+## その後
+
+- エンタープライズまたは組織レベルでCopilotインパクトダッシュボードを開き、新しい「投資対効果の可能性」セクションを確認できる
+- 給与セレクターを調整すれば、自チームの報酬前提に基づいたROIを試算できる
+- セクションが表示されない場合は、Copilot利用状況メトリクスのポリシーが有効になっているか確認する

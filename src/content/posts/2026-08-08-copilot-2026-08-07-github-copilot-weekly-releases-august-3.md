@@ -1,14 +1,24 @@
 ---
-title: "GitHub Copilot weekly releases — August 3"
-description: "<p>This week’s updates across GitHub Copilot in the desktop app, CLI, and VS Code help you resume and organize work, rev"
+title: "GitHub Copilot週次アップデート(8月3日週)― CLIのワークツリー機能や多言語ディクテーションなど"
+description: "GitHubが8月3日週のCopilot週次まとめを公開。CLIの/worktreeや/rewindといったセッション管理機能、VS Code 1.132の多言語ディクテーションとハイブリッドMarkdown差分エディター、CopilotアプリのAutoモードでのモデル可視化などを含む。"
 pubDate: 2026-08-07
 category: copilot
 type: news
-tags: []
+tags: [GitHub Copilot, Copilot CLI, VS Code, 週次アップデート]
 source: https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubが、8月3日週のCopilot週次まとめを公開した。Copilotアプリ、Copilot CLI、VS Code 1.132にまたがる細かなアップデート群で、個々の項目はどれも単独で大きなリリースというほどではないが、いくつか触れておく価値のあるものがある。
 
-一次情報: https://github.blog/changelog/2026-08-07-github-copilot-weekly-releases-august-3
+## 詳細
+
+- **Copilot CLIに`/worktree`と`/rewind`が追加**: 実験的な`/worktree`コマンドは、別の会話用に独立したGitワークツリーを立ち上げるもの。`/rewind`はGitに頼らずに以前の会話状態やファイルを復元でき、セッション外で加えた編集を失うことなくエージェントの変更を取り消したい場合に役立つ。CLIにはさらに、複数の同時セッションを管理するSessionsサイドバー(新規は`n`、閉じるは`x`のキーボードショートカット)も追加され、タイムライン上でツールコールの所要時間をリアルタイムに確認できるようになった
+- **VS Code 1.132**: 追加・変更・削除内容をガター表示で示すハイブリッドMarkdown差分エディター、統合ブラウザ内でWebページの特定要素に注釈を付けられる要素単位のフィードバック、オンデバイスモデルによる自動言語検出付きの多言語ディクテーション、主要な会話のコンテキストとキャッシュを保持したまま脇道の質問ができる`/btw`コマンドが追加された
+- **Copilotアプリ**: Autoモードで、完了した各リクエストをどのモデルが処理したかがAIクレジットやキャッシュの詳細とともに表示されるようになった。並行した質問向けに共有セッションへ直接アクセスできる`/side`コマンドが追加され、モバイル向けのImpeccableスキルにデザインレビュー機能が加わり、セッションの開始・切り替えも高速化された
+
+## その後
+
+- 今回はメジャーバージョンアップというより、1週間分の細かな積み重ねであり、多くの機能はまだ実験的またはプレビュー扱い
+- `/worktree`や`/rewind`、新しいディクテーション機能や差分エディターを試すには、VS Code 1.132以降と最新のCopilot CLIビルドへの更新が必要

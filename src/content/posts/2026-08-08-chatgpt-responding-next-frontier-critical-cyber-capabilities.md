@@ -1,14 +1,28 @@
 ---
-title: "Responding to the next frontier of critical cyber capabilities"
-description: "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards an"
+title: "OpenAI、開発中モデル「Astra」がサイバー能力で「Critical」水準に到達と公表"
+description: "OpenAIが開発中モデル「Astra」の予備的な内部サイバーセキュリティ評価結果を公表。Preparedness Frameworkが定める「Critical」水準に達した初のモデルとしており、それに伴い追加する安全対策を説明している。"
 pubDate: 2026-08-07
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, Astra, サイバーセキュリティ, AI安全性, Preparedness Framework]
 source: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIが、開発中のモデル「Astra」に関する予備的な内部サイバーセキュリティ評価結果を公表した。自社のPreparedness Frameworkが定める「Critical(重大)」水準に到達した初のモデルだとしており、これまでGPT-5.6 Solを含む従来モデルが「High(高い)」水準の評価にとどまっていたことと比べて一段上のレベルに達したことになる。この公表と合わせて、OpenAIはAstraの開発・テストの前後で講じる追加の安全対策についても説明している。
 
-一次情報: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities
+## 詳細
+
+- **「Critical」水準の定義**: OpenAIはサイバー分野における「Critical」水準を、「人間の介入なしに、強固に保護された実世界の重要システムの多くに対し、あらゆる深刻度のゼロデイ脆弱性を発見・実装できる」能力、あるいは「高レベルの目標だけを与えられた状態で、強固に保護された標的に対する新規のサイバー攻撃戦略を一から立案・実行できる」能力と定義している
+- **Astraの現状**: Astraは現時点でまだ開発中・未公開のモデル。OpenAIは内部評価によりこのCritical水準に到達したことが示唆されたとしており、これは自社として初めての事例であると同時に、あくまで予備的な評価であって最終的な結論ではないと強調している
+- **従来モデルとの比較**: GPT-5.6 Solを含む従来モデルは「Critical」ではなく「High」水準での評価にとどまっており、今回の飛躍の大きさを裏付けている
+- **追加される安全対策**: Astraに関する作業について、隔離されたテスト環境、ネットワークアクセスの制限、暗号化の強化、監視体制の強化を導入するとしている。また、十分なセキュリティ管理が整っていない状態でのAstra関連の社内活動は一時停止し、自社アプリケーション全体にまたがるリスクの高いエージェント的行動を検知する汎用的な監視の仕組みも構築するという
+- **外部による監督**: 政府機関や一部のAI安全団体と連携して独立した第三者テストを実施するとしており、サードパーティのテストパートナー向けに推奨セキュリティガイドラインも公開する
+- **フレームワークの位置づけ**: 今回の対応は、2023年12月に公表されたPreparedness Frameworkの延長線上にあり、2025年6月に生物学的能力に関するリスク移行の手順を示した際と同様のアプローチを踏襲している
+
+## その後
+
+- 今回はあくまで開発中モデルに関する予防的・予備的な公表であり、実際のインシデントが確認されたわけではない。Astra自体もまだ一般公開されていない
+- 公表の約1週間前には、OpenAIが英国AI Security InstituteおよびIrregularとの第三者サイバーレンジ評価においてGPT-5.6 Solが想定範囲を逸脱していたことを別途公表しており、2026年半ば以降続く、複数のAI開発企業によるサイバー能力・安全性評価の相次ぐ開示という大きな流れの一環でもある
+- OpenAIが予備評価から実際の公開判断へと進む過程で、Astraの能力や公開計画、安全対策の実効性についてさらに詳しい情報が示されると見られる

@@ -1,14 +1,27 @@
 ---
-title: "Copilot code review effort levels are generally available"
-description: "<p>Lite and Balanced effort levels for GitHub Copilot code review are now generally available. They let you match the de"
+title: "Copilotコードレビューの「Lite」「Balanced」が正式提供へ"
+description: "GitHub Copilotコードレビューの効力レベル「Lite」と「Balanced」(プレビュー時のLow/Mediumから改称)が一般提供に。プルリクエストの複雑さに応じてレビューの深さを選べるようになった。"
 pubDate: 2026-08-07
 category: copilot
 type: news
-tags: []
+tags: [GitHub Copilot, コードレビュー, GA]
 source: https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubが、Copilotコードレビューで設定可能な効力レベル「Lite」と「Balanced」を、パブリックプレビューから一般提供(GA)へと移行した。この機能により、チームはすべてのプルリクエストに一律の深さでレビューを受けるのではなく、案件ごとにCopilotがどれだけ踏み込んで確認するかを選べるようになる。
 
-一次情報: https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available
+## 詳細
+
+- **各レベルの内容**: Liteは「単純な変更に対するフィードバック」を提供し、Balancedは複雑または重要なコードに対して「より高い推論能力を持つモデルによる、より深い分析」を提供する。GitHubいわく「すべてのプルリクエストが同じ精査を必要とするわけではない――ドキュメント更新や小さな修正には、的を絞ったフィードバックだけで十分な場合もある」
+- **プレビュー時からの改称**: パブリックプレビュー時に導入された効力レベル「Low」と「Medium」は、それぞれ「Lite」「Balanced」という名称に変わった。既存の設定は自動的に新しい名称に引き継がれる
+- **設定方法は2通り**: デフォルト設定を変えずに個別のレビューごとに効力レベルを選ぶことも、組織管理者が組織設定→Copilot→Copilotコードレビューから組織全体のデフォルトを設定することもできる。リポジトリ側で独自設定をしない限り、そのデフォルトが継承される
+- **可視化**: レビューのタイムラインおよびプルリクエスト概要のコメントに、そのレビューでどの効力レベルが使われたかが表示されるようになり、チームは複数のリポジトリにわたってレビューの深さを把握できる
+- **提供対象**: Copilot Pro、Pro+、Max、Business、Enterpriseの各プランで一般提供
+
+## その後
+
+- 個々のプルリクエストでCopilotコードレビューを要求する際に、LiteかBalancedを選択できる
+- 組織管理者は組織設定→Copilot→Copilotコードレビューからデフォルトの効力レベルを設定できる
+- プルリクエスト概要またはレビューのタイムラインで、どの効力レベルが適用されたかを確認できる
