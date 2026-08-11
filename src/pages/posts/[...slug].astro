@@ -51,9 +51,24 @@ const importanceLabel = IMPORTANCE[post.data.importance];
 // コメント欄(Disqus)。未設定の間は埋め込まない(ビルド環境変数 PUBLIC_DISQUS_SHORTNAME で設定)
 const disqusShortname = import.meta.env.PUBLIC_DISQUS_SHORTNAME;
 const pageUrl = new URL(`/posts/${post.id}/`, Astro.site).toString();
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
+  inLanguage: 'ja',
+  url: pageUrl,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+  author: { '@type': 'Organization', name: 'AI観測所' },
+  publisher: { '@type': 'Organization', name: 'AI観測所' },
+  ...(post.data.tags.length > 0 && { keywords: post.data.tags.join(', ') }),
+};
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description}>
+<BaseLayout title={post.data.title} description={post.data.description} structuredData={structuredData}>
   <article data-current-slug={post.id}>
     <div class="head">
       <div class="meta">

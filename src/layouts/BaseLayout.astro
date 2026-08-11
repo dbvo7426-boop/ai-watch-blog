@@ -11,9 +11,11 @@ interface Props {
   lang?: string;
   /** もう一方の言語での同一ページの相対パス(hreflang用)。未指定ならlangプレフィックスの付け外しで機械的に推測 */
   altPath?: string;
+  /** 記事ページ用のJSON-LD構造化データ(Article)。指定時のみ<head>に埋め込む */
+  structuredData?: Record<string, unknown>;
 }
 
-const { title, description, lang = 'ja', altPath } = Astro.props;
+const { title, description, lang = 'ja', altPath, structuredData } = Astro.props;
 const siteTitle = lang === 'en' ? SITE_TITLE_EN : SITE_TITLE;
 const siteDescription = description ?? (lang === 'en' ? SITE_DESCRIPTION_EN : SITE_DESCRIPTION);
 const pageTitle = title ? `${title} | ${siteTitle}` : siteTitle;
@@ -27,6 +29,9 @@ const computedAltPath =
 
 // GA4計測ID。未設定の間はタグを埋め込まない(ビルド環境変数 PUBLIC_GA_MEASUREMENT_ID で設定)
 const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
+
+// 正規URL。クエリ文字列は除き、パス+末尾スラッシュの表記をそのまま採用(自己参照canonical)
+const canonicalUrl = new URL(currentPath, Astro.site).toString();
 ---
 
 <!doctype html>
@@ -41,6 +46,7 @@ const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
     <meta property="og:description" content={siteDescription} />
     <meta property="og:type" content="website" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonicalUrl} />
     <link rel="alternate" type="application/rss+xml" title={siteTitle} href={lang === 'en' ? '/en/rss.xml' : '/rss.xml'} />
     <link rel="alternate" hreflang="ja" href={lang === 'en' ? computedAltPath : currentPath} />
     <link rel="alternate" hreflang="en" href={lang === 'en' ? currentPath : computedAltPath} />
@@ -50,6 +56,9 @@ const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID;
       href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@700;900&family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    {structuredData && (
+      <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+    )}
     {gaMeasurementId && (
       <>
         <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}></script>

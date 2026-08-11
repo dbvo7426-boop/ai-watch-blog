@@ -50,9 +50,24 @@ const ui = t('en');
 
 const disqusShortname = import.meta.env.PUBLIC_DISQUS_SHORTNAME;
 const pageUrl = new URL(`/en/posts/${post.id}/`, Astro.site).toString();
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
+  inLanguage: 'en',
+  url: pageUrl,
+  mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+  author: { '@type': 'Organization', name: 'AI Watch Station' },
+  publisher: { '@type': 'Organization', name: 'AI Watch Station' },
+  ...(post.data.tags.length > 0 && { keywords: post.data.tags.join(', ') }),
+};
 ---
 
-<BaseLayout title={post.data.title} description={post.data.description} lang="en">
+<BaseLayout title={post.data.title} description={post.data.description} lang="en" structuredData={structuredData}>
   <article data-current-slug={post.id}>
     <div class="head">
       <div class="meta">
