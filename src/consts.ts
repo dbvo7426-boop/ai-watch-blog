@@ -37,6 +37,12 @@ export const CATEGORIES: Record<string, { label: string; color: string; genre?: 
   other: { label: 'その他', color: '#5B6478' },
 };
 
+// アフィリエイトバナー定義。キーはCATEGORIESと同じ。設定されているカテゴリの記事末尾にのみ
+// 自動でバナーが表示される(記事本文への手動貼り付けは不要)。色はCATEGORIESのbrandカラーを流用
+export const AFFILIATE_LINKS: Record<string, { url: string; tagline: string }> = {
+  genspark: { url: 'https://www.genspark.ai/?via=taka102', tagline: '「あなたのAI社員」を今すぐ試す' },
+};
+
 // ジャンル定義(各AIサービスの得意分野)
 export const GENRES: Record<string, string> = {
   chat: '汎用対話・モデル',

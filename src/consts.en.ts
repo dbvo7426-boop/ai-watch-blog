@@ -34,6 +34,13 @@ export const CATEGORIES_EN: Record<string, { label: string; color: string; genre
   other: { label: 'Other', color: '#5B6478' },
 };
 
+// Affiliate banner config. Keys match CATEGORIES_EN. Only categories listed here get an
+// auto-rendered banner at the end of their articles (no manual paste-in needed). Color comes
+// from CATEGORIES_EN's brand color.
+export const AFFILIATE_LINKS_EN: Record<string, { url: string; tagline: string }> = {
+  genspark: { url: 'https://www.genspark.ai/?via=taka102', tagline: 'Try "your AI employee" now' },
+};
+
 export const GENRES_EN: Record<string, string> = {
   chat: 'Chat & General Models',
   image: 'Image Generation',

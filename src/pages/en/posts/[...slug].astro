@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import BookmarkButton from '../../../components/BookmarkButton.astro';
 import ArticleCard from '../../../components/ArticleCard.astro';
+import AffiliateBanner from '../../../components/AffiliateBanner.astro';
 import { CATEGORIES_EN, TYPES_EN, IMPORTANCE_EN, formatDateEn } from '../../../consts.en';
 import { t } from '../../../i18n';
 
@@ -96,6 +97,8 @@ const structuredData = {
 
     <div class="prose">
       <Content />
+
+      <AffiliateBanner category={post.data.category} lang="en" />
 
       {
         post.data.source && (

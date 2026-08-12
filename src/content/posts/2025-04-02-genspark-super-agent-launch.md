@@ -22,12 +22,3 @@ Gensparkが、自律型AIアシスタント「Genspark Super Agent」を発表�
 ## その後
 
 Super Agentの投入によって、Gensparkは検索エンジンからエージェント型ワークスペースへと完全にシフトしました。この路線はその後も強化が続き、2026年4月には「AI Workspace 4.0」としてデスクトップ操作の自動化やOffice統合まで踏み込んだ統合プラットフォームへと発展しています。
-
-<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
-<span class="ad-pr-label">PR</span>
-<div class="ad-custom-body">
-<strong>Genspark</strong>
-<span>「あなたのAI社員」を今すぐ試す</span>
-</div>
-<span class="ad-custom-cta">公式サイトへ →</span>
-</a>

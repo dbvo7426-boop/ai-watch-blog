@@ -22,12 +22,3 @@ Genspark announced its autonomous AI assistant, "Genspark Super Agent." Billed a
 ## What happened next
 
 With the launch of Super Agent, Genspark completed its shift from a search engine to an agent-based workspace. This direction continued to be reinforced afterward, evolving by April 2026 into "AI Workspace 4.0," an integrated platform that extends to automating desktop operations and Office integration.
-
-<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
-<span class="ad-pr-label">PR</span>
-<div class="ad-custom-body">
-<strong>Genspark</strong>
-<span>Try "your AI employee" now</span>
-</div>
-<span class="ad-custom-cta">Visit official site →</span>
-</a>

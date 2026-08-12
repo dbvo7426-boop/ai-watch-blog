@@ -22,12 +22,3 @@ Genspark unveiled "AI Workspace 4.0." Built around the concept of "your AI emplo
 ## How to try it
 
 Because it's designed to embed AI agents directly into the tools you already use — Office, desktop, and meeting apps — there's no need to change your workflow. You can hand off mechanical work like file management, web research, data analysis, and note-taking to AI. No specific pricing plan was stated, but you can try it from the official site.
-
-<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
-<span class="ad-pr-label">PR</span>
-<div class="ad-custom-body">
-<strong>Genspark</strong>
-<span>Try "your AI employee" now</span>
-</div>
-<span class="ad-custom-cta">Visit official site →</span>
-</a>

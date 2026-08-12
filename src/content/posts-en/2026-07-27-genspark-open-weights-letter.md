@@ -23,12 +23,3 @@ Genspark has announced that it co-signed the "Open Weights and American AI Leade
 
 - The letter was published on July 24, 2026, led by NVIDIA, with roughly 25 initial signatories; by July 26 the signatory list had grown to 50, including Google and OpenAI
 - This post is not a new Genspark product or feature announcement, but a stated position in an industry-wide policy debate
-
-<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
-<span class="ad-pr-label">PR</span>
-<div class="ad-custom-body">
-<strong>Genspark</strong>
-<span>Try "your AI employee" now</span>
-</div>
-<span class="ad-custom-cta">Visit official site →</span>
-</a>

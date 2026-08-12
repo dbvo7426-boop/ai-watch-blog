@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BookmarkButton from '../../components/BookmarkButton.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import AffiliateBanner from '../../components/AffiliateBanner.astro';
 import { CATEGORIES, TYPES, IMPORTANCE, formatDate } from '../../consts';
 
 export async function getStaticPaths() {
@@ -97,6 +98,8 @@ const structuredData = {
 
     <div class="prose">
       <Content />
+
+      <AffiliateBanner category={post.data.category} />
 
       {
         post.data.source && (

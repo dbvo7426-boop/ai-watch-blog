@@ -22,12 +22,3 @@ A startup founded by former Baidu executives Eric Jing and Kay Zhu has unveiled 
 ## What happened next
 
 Genspark went on to shift its focus from search engine to autonomous AI agent. In March 2025, it raised $100 million in a Series A round and launched an iOS app, and in April it announced the autonomous "Super Agent" — rapidly transforming from a simple search service into an integrated workspace.
-
-<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
-<span class="ad-pr-label">PR</span>
-<div class="ad-custom-body">
-<strong>Genspark</strong>
-<span>Try "Your AI Employee" now</span>
-</div>
-<span class="ad-custom-cta">Visit official site →</span>
-</a>

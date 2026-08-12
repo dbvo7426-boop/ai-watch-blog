@@ -22,12 +22,3 @@ Gensparkが、シリーズA資金調達ラウンドで1億ドルを調達した�
 ## その後
 
 この発表の1か月後にあたる同年4月には、自律実行型の「Super Agent」が投入され、Gensparkは検索エンジンから本格的なAIエージェントプラットフォームへと舵を切ります。同年11月には2億7,500万ドルのシリーズBを調達しユニコーン入りを果たすなど、急成長が続きました。
-
-<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
-<span class="ad-pr-label">PR</span>
-<div class="ad-custom-body">
-<strong>Genspark</strong>
-<span>「あなたのAI社員」を今すぐ試す</span>
-</div>
-<span class="ad-custom-cta">公式サイトへ →</span>
-</a>

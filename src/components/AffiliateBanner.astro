@@ -1,0 +1,36 @@
+---
+// 記事のcategoryに対応するアフィリエイトリンクが設定されている場合のみ、
+// 記事末尾に自動でPRバナーを表示する。AFFILIATE_LINKS(_EN)に1行足すだけで
+// 該当カテゴリの全記事(過去分も含む)に反映される。
+import { CATEGORIES, AFFILIATE_LINKS } from '../consts';
+import { CATEGORIES_EN, AFFILIATE_LINKS_EN } from '../consts.en';
+
+interface Props {
+  category: string;
+  lang?: string;
+}
+
+const { category, lang = 'ja' } = Astro.props;
+const cats = lang === 'en' ? CATEGORIES_EN : CATEGORIES;
+const links = lang === 'en' ? AFFILIATE_LINKS_EN : AFFILIATE_LINKS;
+const affiliate = links[category];
+const cat = cats[category];
+const ctaLabel = lang === 'en' ? 'Visit official site →' : '公式サイトへ →';
+---
+
+{affiliate && (
+  <a
+    href={affiliate.url}
+    class="ad-banner-custom"
+    style={`--ad-accent:${cat?.color ?? '#5B6478'}`}
+    target="_blank"
+    rel="sponsored noopener noreferrer"
+  >
+    <span class="ad-pr-label">PR</span>
+    <div class="ad-custom-body">
+      <strong>{cat?.label}</strong>
+      <span>{affiliate.tagline}</span>
+    </div>
+    <span class="ad-custom-cta">{ctaLabel}</span>
+  </a>
+)}

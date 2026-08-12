@@ -22,12 +22,3 @@ Genspark announced it had raised $100M in a Series A funding round, alongside th
 ## What happened next
 
 A month after this announcement, in April 2025, Genspark launched its autonomous "Super Agent," pivoting from a search engine into a full-fledged AI agent platform. That November, the company raised a $275M Series B and achieved unicorn status, continuing its rapid growth.
-
-<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
-<span class="ad-pr-label">PR</span>
-<div class="ad-custom-body">
-<strong>Genspark</strong>
-<span>Try "your AI employee" now</span>
-</div>
-<span class="ad-custom-cta">Visit official site →</span>
-</a>

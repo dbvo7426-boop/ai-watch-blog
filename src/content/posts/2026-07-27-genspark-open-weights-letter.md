@@ -23,12 +23,3 @@ Gensparkが、NVIDIAやMicrosoft、Meta、IBM、Palantirなど大手テック企
 
 - 本書簡はNVIDIA主導で7月24日に公開され、当初は約25社が署名。7月26日時点でGoogleやOpenAIを含む50社まで署名企業が拡大しています
 - Genspark自身は新製品や新機能の発表ではなく、業界の政策論争に対する立場表明として本記事を公開しています
-
-<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
-<span class="ad-pr-label">PR</span>
-<div class="ad-custom-body">
-<strong>Genspark</strong>
-<span>「あなたのAI社員」を今すぐ試す</span>
-</div>
-<span class="ad-custom-cta">公式サイトへ →</span>
-</a>

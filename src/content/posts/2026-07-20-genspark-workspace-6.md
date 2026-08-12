@@ -26,12 +26,3 @@ Gensparkが、これまでで最大級のアップデートとなる「AI Worksp
 
 - Genspark公式サイト(genspark.ai)から今すぐ利用開始可能で、具体的な料金プランの明記はありません
 - 2026年4月発表の「AI Workspace 4.0」がデスクトップ操作とOffice統合の一体化にとどまっていたのに対し、6.0は記憶(SecondBrain)を核とした恒久的なコンテキスト管理へと踏み込んでいる点が最大の違いです
-
-<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
-<span class="ad-pr-label">PR</span>
-<div class="ad-custom-body">
-<strong>Genspark</strong>
-<span>「あなたのAI社員」を今すぐ試す</span>
-</div>
-<span class="ad-custom-cta">公式サイトへ →</span>
-</a>

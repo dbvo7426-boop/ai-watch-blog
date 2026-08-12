@@ -26,12 +26,3 @@ Genspark has announced its largest update to date, "AI Workspace 6.0." Built aro
 
 - You can start using it immediately at genspark.ai; no specific pricing plan was disclosed
 - Where April 2026's "AI Workspace 4.0" focused on unifying desktop automation with Office integration, 6.0 goes further by putting persistent context management — via SecondBrain — at the core of the platform
-
-<a href="https://www.genspark.ai/?via=taka102" class="ad-banner-custom" style="--ad-accent:#84CC16;">
-<span class="ad-pr-label">PR</span>
-<div class="ad-custom-body">
-<strong>Genspark</strong>
-<span>Try "your AI employee" now</span>
-</div>
-<span class="ad-custom-cta">Visit official site →</span>
-</a>
