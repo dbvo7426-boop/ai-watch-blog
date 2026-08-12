@@ -1387,7 +1387,8 @@
     "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
     "https://openai.com/index/premium-seats-chatgpt-business",
     "https://openai.com/index/zapier",
-    "https://openai.com/index/virgin-atlantic/chatgpt-work"
+    "https://openai.com/index/virgin-atlantic/chatgpt-work",
+    "https://openai.com/index/daybreak-models-are-now-available-on-aws"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1426,7 +1427,8 @@
     "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
     "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/",
-    "https://blog.google/products-and-platforms/products/gemini/state-fair-tips/"
+    "https://blog.google/products-and-platforms/products/gemini/state-fair-tips/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1479,7 +1481,11 @@
     "https://github.blog/changelog/2026-08-07-copilot-code-review-effort-levels-are-generally-available",
     "https://github.blog/changelog/2026-08-07-copilot-usage-metrics-api-adds-agent-app-activity",
     "https://github.blog/changelog/2026-08-06-mcp-allowlists-in-enterprise-managed-settings",
-    "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls"
+    "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls",
+    "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+    "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
+    "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
+    "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
