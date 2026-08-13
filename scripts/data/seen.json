@@ -1389,7 +1389,11 @@
     "https://openai.com/index/zapier",
     "https://openai.com/index/virgin-atlantic/chatgpt-work",
     "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-    "https://openai.com/index/how-enterprises-put-ai-to-work"
+    "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "https://openai.com/index/ringcentral",
+    "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
+    "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
+    "https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1429,7 +1433,8 @@
     "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-builders/",
     "https://blog.google/products-and-platforms/products/gemini/state-fair-tips/",
-    "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/"
+    "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1486,7 +1491,8 @@
     "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
     "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash",
     "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
-    "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report"
+    "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
+    "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
