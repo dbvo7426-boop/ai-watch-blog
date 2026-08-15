@@ -254,7 +254,8 @@
     "https://www.anthropic.com/news/position-open-weights-models",
     "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
     "https://www.anthropic.com/news/tino-cuellar",
-    "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+    "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+    "https://www.anthropic.com/news/claude-text-watermark"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1498,7 +1499,9 @@
     "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot",
     "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
     "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
-    "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot"
+    "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
+    "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
+    "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
