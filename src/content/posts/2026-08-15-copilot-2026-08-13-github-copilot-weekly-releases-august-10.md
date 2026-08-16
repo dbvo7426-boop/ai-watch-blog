@@ -1,14 +1,23 @@
 ---
-title: "GitHub Copilot weekly releases — August 10"
-description: "<p>From new models and portable plugins to smoother agent workflows, this week’s updates make GitHub Copilot more flexib"
-pubDate: 2026-08-14
+title: "GitHub Copilot週次アップデート(8月10日週)― CLIのタスク管理、アプリのプラグイン管理、VS Code 1.133"
+description: "GitHubが8月10日週のCopilot週次まとめを公開。Copilot CLIへの/tasksコマンドとプロンプトのキュー機能、Copilotアプリのプラグイン管理画面とサイドチャット、VS Code 1.133のモデル切り替えとHTMLライブプレビューなどを含む。"
+pubDate: 2026-08-13
 category: copilot
 type: news
-tags: []
+tags: [GitHub Copilot, Copilot CLI, VS Code, 週次アップデート]
 source: https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubが、8月10日週のCopilot週次まとめを公開した。この週の目玉と言える項目 ― Kimi K3の提供再開、MAI-Code-1.1-Flashのリリース、JetBrains向けのCopilot MemoryとOllama対応、そしてAgent Plugins 1.0 ― はいずれも既に個別の変更履歴として公開済みで、それぞれ別記事で取り上げている。この記事では、同じ週次アップデートに含まれていた、他では取り上げていない小粒の項目をまとめる。
 
-一次情報: https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10
+## 詳細
+
+- **Copilot CLIにタスク管理機能が追加**: 新しい`/tasks`コマンドで、CLIから直接サブエージェントとそのタスクを管理できるようになった。プロンプトやシェルコマンド、スラッシュコマンドは、エージェントのターンが進行中でも完了を待たずにキューに追加できるようになった。ヘッドレスモードでは`--plan`と`--mode autopilot`を組み合わせて、計画立案と実装を一度のパスで行えるようになり、`/rewind`はGitに頼らずに以前の変更を復元できる。`/app`コマンドも、利用のたびにセッションとフォルダーの文脈を引き継ぐようになった
+- **Copilotアプリにプラグイン管理とサイドチャットが追加**: アプリのプラグイン管理画面で、インストール済みプラグインのバージョンを確認し、個別または一括でアップデートできるようになった。新しいサイドチャット機能により、メインの会話を中断することなく、別のチャットでエージェントからの質問についてじっくり検討してから回答できるようになった
+- **VS Code 1.133**: 同じセッション内で、Claude BYOK(自前のAPIキーを持ち込む方式)のモデルとCopilot組み込みモデルを切り替えられるようになった。チャットナビゲーションの改善により、長い会話をスクロールしながら重要なプロンプトをピン留めできるようになり、HTMLのライブリフレッシュ機能により、手動でブラウザを再読み込みせずにマークアップの変更を即座に確認できるようになった
+
+## その後
+
+いずれも単独で大きく取り上げるほどのリリースではなく、CLI・アプリ・VS Code拡張機能への細かな使い勝手向上をGitHubが個別発表せず週次まとめにまとめて盛り込んだものだ。`/tasks`コマンドやキュー機能、プラグイン管理、VS Code 1.133の各機能を試すには、最新のCopilot CLIビルドとVS Code 1.133以降への更新が必要になる。

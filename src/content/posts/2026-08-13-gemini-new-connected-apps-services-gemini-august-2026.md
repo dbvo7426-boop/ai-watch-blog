@@ -1,14 +1,26 @@
 ---
-title: "Now you can connect even more of your favorite apps and services to Gemini."
-description: "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Social_Share_V4.max-600x600.format-webp.webp\">"
+title: "Gemini、連携できるアプリ・サービスをさらに拡充 ― レストラン予約からチケット購入まで"
+description: "Googleが、Geminiアプリと連携できるサードパーティアプリ・サービスを新たに追加。生産性、ローカルサービス、音楽、住まい・健康の各分野にまたがり、レストラン予約からレンタカー、チケット購入、会議メモの取得までGemini経由でこなせるようになる。"
 pubDate: 2026-08-12
 category: gemini
 type: news
-tags: []
+tags: [Gemini, Google, 連携アプリ, インテグレーション, 自動化]
 source: https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Googleが、Geminiアプリに連携できるサードパーティ製アプリ・サービスのラインナップを拡充した。生産性、ローカルサービス、音楽、住まい・健康の各カテゴリーにまたがる新しい連携が、今後数週間かけて順次展開される。
 
-一次情報: https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/
+## 詳細
+
+- **生産性・クリエイティブ系**: GranolaとOtter.aiは会議の要約に、Wixはウェブサイト編集にそれぞれGemini上から直接対応
+- **ローカル・エンタメ系サービス**: Fever、GetYourGuide、Localiza、OpenTable(英国)、Ticketmasterとの連携により、Geminiがアクティビティの検索・予約、レンタカー、レストラン予約、イベントチケットの手配までこなせるようになる
+- **音楽**: iHeartRadioとPandoraが加わり、ラジオ局の発見やプレイリストのストリーミング再生に対応
+- **住まい・健康・ライフスタイル系**: AngiとThumbtackはユーザーを住まいのプロフェッショナルとつなぎ、Zocdocは医師の予約を可能にする
+- **Googleの位置づけ**: 発表文の要点となる一文は「お気に入りのサービスをGeminiでオンにすれば、予定を立てる、何かを作る、やることリストをこなす、といった作業をすべて一箇所で完結できます」というもの
+- **提供条件の詳細は薄い**: 今回の発表では、地域制限やサブスクリプションプランごとの制限、対応デバイスについては明記されておらず、詳細はサポートページを参照するよう案内されている
+
+## 使ってみるには
+
+ユーザーはGeminiの連携アプリ設定画面から、新たに対応した各アプリ・サービスをオンにできる。展開は今後数週間かけて段階的に進むため、それまではアカウントや地域によって利用可否にばらつきが出る可能性がある。

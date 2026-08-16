@@ -1,14 +1,26 @@
 ---
-title: "From assistance to execution: How enterprises put AI to work"
-description: "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pul"
+title: "「使う」から「任せる」へ ― OpenAIの企業導入レポートが示すAI活用の格差"
+description: "OpenAIの新レポートによると、AI活用が進む「フロンティア企業」は一般企業の8.3倍もChatGPT・Codexの出力トークンを生成。法務・営業・採用でのCodex利用が急拡大し、企業間の活用格差が急速に広がっている。"
 pubDate: 2026-08-12
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, OpenAI, Codex, エンタープライズ, エージェントAI]
 source: https://openai.com/index/how-enterprises-put-ai-to-work
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIが、企業におけるAI導入の実態を分析した新しい調査レポートを公開した。ChatGPTとCodexの利用データをもとにした内容で、企業のAI活用は「分析を手伝わせる」段階から「実際の作業を任せる」段階へと移りつつあり、活用が進む「フロンティア企業」とそれ以外の企業との差は急速に広がっているという。
 
-一次情報: https://openai.com/index/how-enterprises-put-ai-to-work
+## 詳細
+
+- **利用量の差が3倍に拡大**: 導入が進んでいる上位10%の「フロンティア企業」は、アクティブユーザー1人当たりの出力トークン数が一般企業の8.3倍に達した。1月時点では2.6倍だったことを踏まえると、この差はわずか半年ほどで大きく開いたことになる
+- **企業内でCodexがChatGPTを上回りつつある**: 6月時点で、企業顧客におけるCodexとChatGPTの合計出力トークンのうち64%をCodexが占めている。エージェント型のコーディング作業へのシフトを反映した数字だ
+- **高度な機能の活用度がリーダー企業を分ける**: フロンティア企業では週間アクティブユーザーの21%がPluginsを、19%がSkillsを利用している(一般企業ではそれぞれ9%、3%)。OpenAI社内では、実に95%の従業員が毎週Pluginsを利用しているという
+- **Codexの利用はエンジニアリング以外にも拡大**: 2月以降、Codexの利用は法務で108倍、営業と採用でそれぞれ41倍、マーケティングで26倍、エンジニアリングで5倍に伸びた。エージェント型コーディングツールが開発チームの枠を大きく超えて広がっていることがうかがえる
+- **若手社員の方がメッセージ数が多い**: 導入から半年が経過した時点で、若手社員は経営層より週に13件多くメッセージを送っている。実務作業に直接AIを使う層ほど利用頻度が高い傾向を示唆している
+- **2つの調査を統合したレポート**: 今回の内容は、エージェントAIの利用パターンを分析した「Enterprise Signals」と、役職・年次別の導入プロセスを追った「How Organizations Use AI: Evidence from ChatGPT」という2つの調査結果を統合したもの
+
+## その後
+
+このレポートは、以前公開された個人ユーザー向けの「Signals」(世界のChatGPT利用実態)とは対になる、企業向けの調査という位置づけだ。あちらが個人の日常的な使い方を追ったものだったのに対し、今回は組織としての導入曲線そのものに焦点を当てている。OpenAIが企業顧客に送るメッセージは明快で、エージェントを適切なガバナンスのもとで実際の業務フローに組み込んでいる企業と、AIを個人の生産性ツールとしてしか使っていない企業との差は、縮まるどころかむしろ拡大し続けているということだ。レポート全文と調査手法はOpenAIの公式ブログ(https://openai.com/index/how-enterprises-put-ai-to-work)で確認できる。
