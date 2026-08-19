@@ -1402,7 +1402,11 @@
     "https://openai.com/index/the-defenders-window",
     "https://openai.com/index/openai-joins-ports-pike-project",
     "https://openai.com/index/partnering-with-codeai",
-    "https://openai.com/index/chatgpt-for-teens"
+    "https://openai.com/index/chatgpt-for-teens",
+    "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+    "https://openai.com/index/pacing-model-development-cyber-capabilities",
+    "https://openai.com/index/nvidia/chatgpt-work",
+    "https://openai.com/index/asana"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1446,7 +1450,9 @@
     "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-experts-roundtable/",
-    "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/"
+    "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/four-new-interactive-bts-experiences/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/how-to-take-practice-sat/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1507,7 +1513,8 @@
     "https://github.blog/changelog/2026-08-12-agent-plugins-1-0-in-vs-code-copilot-cli-and-the-copilot-app",
     "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
     "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
-    "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10"
+    "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
+    "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
@@ -1529,6 +1536,7 @@
     "https://stability.ai/news-updates/introducing-our-new-chief-pipeline-architect-rob-legato",
     "https://stability.ai/news-updates/introducing-stable-virtual-camera-multi-view-video-generation-with-3d-camera-control",
     "https://stability.ai/news-updates/introducing-our-new-svp-head-of-product-ryan-ellis",
-    "https://stability.ai/news-updates/stability-ai-announces-investment-from-wpp-and-new-partnership-to-shape-the-future-of-media-and-entertainment-production"
+    "https://stability.ai/news-updates/stability-ai-announces-investment-from-wpp-and-new-partnership-to-shape-the-future-of-media-and-entertainment-production",
+    "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio"
   ]
 }
