@@ -1,14 +1,26 @@
 ---
-title: "Offering Zero Data Retention for frontier models"
-description: "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI s"
+title: "OpenAI、フロンティアモデルにおけるZero Data Retentionを再確認 「Private Safety Processing」も予告"
+description: "OpenAIが対象API顧客向けのZero Data Retention(ゼロデータ保持)方針を改めて表明。会話内容をOpenAIスタッフに開示することなく複数のやり取りにまたがる不正利用パターンを検知する新システム「Private Safety Processing」も予告し、現在テスト中で9月展開予定としている。"
 pubDate: 2026-08-19
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, API, エンタープライズ, プライバシー, Zero Data Retention]
 source: https://openai.com/index/offering-zero-data-retention-for-frontier-models
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIが、対象となるAPI顧客向けのZero Data Retention(ZDR、ゼロデータ保持)方針を改めて表明するとともに、新たな付随システム「Private Safety Processing」を予告した。これは、内容そのものをOpenAIのスタッフに開示することなく、関連する複数のやり取りにまたがる不正利用のパターンを検知できるよう設計されたものだ。
 
-一次情報: https://openai.com/index/offering-zero-data-retention-for-frontier-models
+## 詳細
+
+- **ZDRの基本的な約束**: OpenAIはリクエスト処理後にプロンプトやモデルの応答を保持せず、顧客のコンテンツはOpenAIの担当者によるレビュー対象にはならない。エンタープライズのデータも、明示的なオプトインなしにモデルの訓練に使われることはない
+- **対象条件**: 発表では、ZDRは「フロンティアモデル」を利用する「対象となるAPI顧客」が利用できるとされているが、具体的にどのモデルが対象か、正確な適格基準がどのようなものかまでは明示されていない
+- **解決しようとしている課題**: OpenAIによれば、これまでのフロンティアモデル展開では、安全性の監視を可能にするために顧客側に一定のコンテンツ保持を許容してもらう必要があり、それが顧客自身のセキュリティ上の義務と相反しかねなかったという。Private Safety Processingはこの緊張関係を解消することを狙いとしている
+- **Private Safety Processingの仕組み**: 関連する複数のやり取りにまたがって顧客のコンテンツを分析し、不正利用のパターンを検知する。コンテンツが顧客管理のインフラに保存されているか、OpenAIのシステムに保存されているかにかかわらず動作し、OpenAIのシステムに保存されるものについては顧客管理の暗号鍵を用いる。OpenAIのスタッフに返されるのは活動の種類に関する「狭く限定されたシグナル」のみで、リスクが検知された場合でもスタッフがフラグ付けされたコンテンツ自体を閲覧することはできない。顧客は自社側のシステム情報を用いて異議申し立てを行うことができ、さらなる詳細をOpenAIと共有するかどうかも選択できる
+- **タイムライン**: Private Safety Processingは現在、早期導入顧客との間でテスト中であり、より幅広い展開と技術的なホワイトペーパーの公開が9月に予定されている
+- **顧客の声**: GleanのCISOであるスニル・アグラワル(Sunil Agrawal)氏は、エンタープライズにおけるAI導入は「顧客によるデータ管理のみに懸かっている」とし、この取り組みは「プライバシーを損なうことなく安全性を高められることを示している」とコメントしている
+
+## その後
+
+今回の発表では、どのフロンティアモデルが対象になるのか、正式な適格基準がどのようなものかといった、エンタープライズの導入担当者が正確な適用範囲を評価する上で必要な詳細には乏しく、その部分は9月に予告されているホワイトペーパーに委ねられている。今回解決しようとしている核心的な緊張関係(安全性の監視と、厳格なデータ非保持の約束との両立)は、エンタープライズ向けAIベンダーにとって繰り返し浮上するテーマであり、Private Safety Processingは、コンテンツへのアクセスを伴わないパターンレベルのシグナルという形でOpenAIなりの技術的な回答を示したものといえる。これは、暗号化されたプラットフォームにおけるコンテンツモデレーションで近年広がりつつある手法と、発想の面で近いものがある。

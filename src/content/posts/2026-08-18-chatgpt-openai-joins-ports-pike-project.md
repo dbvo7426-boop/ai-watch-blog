@@ -1,14 +1,27 @@
 ---
-title: "OpenAI joins PORTS-Pike project"
-description: "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs"
+title: "OpenAI、米オハイオ州のデータセンター計画「PORTS-Pike」に参画"
+description: "OpenAIがオハイオ州パイク郡のデータセンター計画「PORTS-Pikeテクノロジーキャンパス」で約8ギガワットITの容量を借り受ける主要顧客として参画。4000万ドルの地域投資基金と、オハイオ州の大学生向け8400万ドル分のCodexクレジットを拠出する。"
 pubDate: 2026-08-17
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, データセンター, インフラ, オハイオ州, SB Energy, NVIDIA]
 source: https://openai.com/index/openai-joins-ports-pike-project
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIが、米オハイオ州パイク郡で進む大規模データセンター計画「PORTS-Pikeテクノロジーキャンパス」に参画すると発表した。開発元のSB Energyと20年契約を結び、約8ギガワットIT分の容量を借り受ける主要顧客となる。旧ポーツマス・ガス拡散工場(Portsmouth Gaseous Diffusion Plant)の跡地を含む民有地・浄化済み連邦用地に建設される同施設は、NVIDIA製AIコンピュート基盤のみで構成され、フロンティアモデルの訓練と製品開発に専用される。
 
-一次情報: https://openai.com/index/openai-joins-ports-pike-project
+## 詳細
+
+- **立地**: 民有地と、旧ポーツマス・ガス拡散工場の浄化済み連邦用地を組み合わせた敷地にキャンパスを建設し、閉ループ式の空冷冷却システムを採用する
+- **OpenAIの拠出**: 容量の借り受けに加え、OpenAIは4000万ドルの地域投資基金を設立し、オハイオ州の大学生向けに8400万ドル分のCodexクレジットを提供する。クレジットは2026-2027学年度中に配布される予定
+- **他の投資家**: SB EnergyもOpenAIと同額の4000万ドルを地域向けに拠出するほか、NVIDIAがSB Energyに15億ドルを投資。OpenAIは地域社会・インフラ関連の効果を合計すると1億6000万ドルを超えるとしている
+- **雇用**: 6年間の建設期間中に3万5000人分の建設雇用を支える見込みで、完成後は2500人分の長期運用職が生まれるとされ、州・地方税収も数億ドル規模になるという
+- **タイムライン**: 最初の800メガワット分の容量は2028年の稼働開始を見込み、全体の建設は2032年まで続く
+- **費用構造**: OpenAIは「プロジェクト自身のエネルギー・インフラコストは自ら賄う」としており、送電網の増強や送電線整備の費用はSB Energyが負担し、地元の電力料金利用者への転嫁は行わないとしている
+- **関係者**: SB Energyがキャンパスの建設・所有・運営を担い、NVIDIAがコンピュート基盤を供給する。米エネルギー省(DOE)と北米建設組合連合(North America's Building Trades Unions)もパートナーとして名を連ねている
+
+## その後
+
+今回の発表は製品発表ではなくインフラ投資に関するものであり、最初の容量稼働は2028年と先の話になるため、短期的な影響はオハイオ州の建設・エネルギー分野に限られる。地域投資基金や教育向けクレジット、労働組合の関与といった地域経済への還元策を大規模なコンピュート増強とセットで打ち出す手法は、フロンティアモデルの訓練にますます不可欠となるデータセンター建設に対して、政治的・地域的な支持を得るためのOpenAIの近年のパターンの一環といえる。

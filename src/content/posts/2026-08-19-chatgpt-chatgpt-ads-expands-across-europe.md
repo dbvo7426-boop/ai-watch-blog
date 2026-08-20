@@ -1,14 +1,27 @@
 ---
-title: "ChatGPT Ads expands across Europe"
-description: "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options"
+title: "ChatGPT Ads、欧州31市場に展開拡大"
+description: "OpenAIがChatGPT Adsをドイツ・フランス・スペイン・イタリア・北欧諸国を含む欧州31か国に展開拡大。2月の米国パイロット以来最大の拡大となり、広告はFreeプランとGoプランの利用者にのみ表示される。"
 pubDate: 2026-08-18
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, ChatGPT, 広告, ChatGPT Ads, 欧州]
 source: https://openai.com/index/chatgpt-ads-expands-across-europe
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIが、広告機能「ChatGPT Ads」を翌週から欧州31か国に展開すると発表した。2月に米国でパイロット提供を始めて以来、最大規模の拡大となる。対象市場としてはドイツ、フランス、スペイン、イタリア、スウェーデン、ノルウェー、デンマーク、オランダ、オーストリアが名指しされている。
 
-一次情報: https://openai.com/index/chatgpt-ads-expands-across-europe
+## 詳細
+
+- **対象範囲**: 欧州合計31市場が対象で、具体的にはドイツ・フランス・スペイン・イタリア・スウェーデン・ノルウェー・デンマーク・オランダ・オーストリアが挙げられている
+- **広告が表示される利用者**: 広告はFreeプランとGoプランの利用者にのみ表示され、Plus・Pro・Enterpriseの各プランでは広告なしの状態が維持される
+- **アクセス展開の順序**: 最初はOpenAI自身のAds Solutionsチームおよび代理店・テクノロジーパートナーがアクセスでき、Ads Managerを通じたセルフサービスでのアクセスは今夏後半に予定されている
+- **広告の形式・表示位置**: OpenAIは、広告は「常に明確にラベル付けされ、ChatGPTの回答とは区別される」としており、広告がChatGPTの回答内容に影響を与えることはないと説明している
+- **ターゲティングと効果測定**: 広告主にはジオターゲティングやカスタムオーディエンス機能、通常のCPM/CPCモデルにとどまらないコンバージョン最適化型の入札、OpenAI Pixel・Conversions API・サードパーティ連携による効果測定手段が提供される
+- **プライバシーへの姿勢**: OpenAIは会話内容を広告主から非公開に保ち、顧客データを販売することはないとしており、利用者は広告パーソナライゼーションの設定を自ら管理できる(代替として広告なしの有料プランも用意されている)
+- **これまでの経緯**: ChatGPT Adsは2月に米国でパイロット提供を開始し、その後6か月間でさらに8市場に拡大しており、今回の欧州展開はこれまでで最大の拡大だとされている
+
+## その後
+
+今回の欧州展開は、2月から試験提供してきた収益化施策を単純に拡大するものであり、新しい広告フォーマットや機能の追加ではない。広告の表示量やパーソナライゼーション用データの取り扱いがEUのプライバシー規制の下でどう運用されるか、そして今夏後半に開放される予定のセルフサービス型広告主アクセスがどの程度機能するかという、より大きな未解決の論点が、OpenAIがこの31市場を超えてChatGPT Adsをどこまで押し広げるかを左右することになりそうだ。

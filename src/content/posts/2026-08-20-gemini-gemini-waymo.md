@@ -1,14 +1,25 @@
 ---
-title: "Waymo is bringing Gemini into its custom Ojai vehicles."
-description: "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Ojai_vehicles_social.max-600x600.format"
+title: "Waymo、独自開発の「Ojai」車両にGeminiを搭載"
+description: "Waymoが自社開発の自律走行車「Ojai」にGoogleのGeminiアシスタントを統合。乗客は音声でキャビン機能の操作や周辺店舗の検索、一般的な質問ができ、自動運転システムとは独立して動作する。"
 pubDate: 2026-08-19
 category: gemini
 type: news
-tags: []
+tags: [Gemini, Waymo, ロボタクシー, 音声アシスタント, 自動運転]
 source: https://blog.google/innovation-and-ai/products/gemini-app/gemini-waymo/
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Waymoが、自社開発の自律走行車「Ojai」にGeminiを直接組み込んだ。車両を実際に運転するWaymo Driverの自動運転システムとは完全に独立した形で動作する、車内向けの音声アシスタントとして提供される。
 
-一次情報: https://blog.google/innovation-and-ai/products/gemini-app/gemini-waymo/
+## 詳細
+
+- **車内でのGeminiの役割**: 乗客は車内スクリーンのアイコンをタップし、音声コマンドでキャビン機能を操作できる(Google提供の例では「エアコンを65度に設定して」)。ほかにも周辺の店舗・施設の検索、近くのランドマークや観光スポットについての案内、一般的な質問への回答にも対応する
+- **運転システムとは別系統**: Geminiは車両を実際に操作するWaymo Driverとは独立して動作する。乗客が意図的に起動するまでは完全に非アクティブな状態を保ち、ナビゲーションや運転判断には一切関与しない
+- **起動は乗客の任意操作**: 常時待ち受け(パッシブリスニング)はなく、乗客が画面上のアイコンを押して初めてGeminiが会話に参加する仕組み
+- **Ojaiは自社開発車両**: 今回の統合は、フリートの一部で使われているサードパーティ車両の改造版ではなく、Waymoが独自に設計・製造した「Ojai」車両に限定して搭載される
+- **展開範囲は非公開**: Google側の発表では、対応する都市や車両台数、今後の展開スケジュールについては明らかにされていない。詳細はWaymo自身のブログ「Waypoint」を参照するよう案内されている
+
+## その後
+
+これはGeminiがスマートフォンやブラウザを超えて、現実世界の製品に組み込まれつつある具体的な事例のひとつだ。稼働中の自動運転システムの傍らで動く車載アシスタントという形での実装は珍しい。今後の焦点は展開範囲がどこまで広がるか、そしてGeminiの役割がキャビン操作や周辺検索を超えて、移動そのものに関わるタスクへと拡張されていくかどうかだ。
