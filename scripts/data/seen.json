@@ -1459,7 +1459,8 @@
     "https://blog.google/innovation-and-ai/products/gemini-app/four-new-interactive-bts-experiences/",
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-take-practice-sat/",
     "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
-    "https://blog.google/innovation-and-ai/products/gemini-app/gemini-waymo/"
+    "https://blog.google/innovation-and-ai/products/gemini-app/gemini-waymo/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1521,7 +1522,9 @@
     "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot",
     "https://github.blog/changelog/2026-08-14-grok-4-6-is-now-available-in-github-copilot",
     "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
-    "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains"
+    "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
+    "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
+    "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
