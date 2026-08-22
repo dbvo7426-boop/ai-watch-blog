@@ -1,14 +1,25 @@
 ---
-title: "Shared agentic work with GitHub Copilot in Microsoft Teams"
-description: "<p>Turn a Microsoft Teams discussion into a collaborative agent session everyone can see and help direct. Mention @GitHu"
+title: "GitHub Copilotのエージェント作業をMicrosoft Teamsでチーム共有可能に"
+description: "GitHub CopilotのクラウドエージェントがMicrosoft Teams上で@GitHubとメンションするだけで起動できるようになり、チームの議論をそのままメンバー全員で見守り・指示できる非同期のエージェントセッションに変えられるようになった。"
 pubDate: 2026-08-21
 category: copilot
 type: news
-tags: []
+tags: [GitHub Copilot, Microsoft Teams, クラウドエージェント, エージェント型コーディング, GitHub]
 source: https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubは、GitHub CopilotのクラウドエージェントをMicrosoft Teamsに統合した。チャネルやスレッド、ダイレクトメッセージで「@GitHub」とメンションするだけで、その場の議論をチーム全員が見守り・方向づけできる非同期のコーディングセッションに変えられるようになる。
 
-一次情報: https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams
+## 詳細
+
+- **仕組み**: Teams上で「@GitHub」とメンションすると、セキュアなクラウドサンドボックス上で非同期に動作するクラウドエージェントのセッションが開始する。きっかけとなった会話が終わった後も作業は続行される。スレッドの参加者は誰でも「質問したり、文脈を追加したり、計画や進め方について助言したり」できる一方、実際にコードを変更できるのは対象リポジトリへの書き込み権限を持つメンバーに限られる
+- **利用例**: GitHub自身が挙げる例は、「チームのスタンドアップで問題について議論している間に、Copilotに調査させる」というもので、チーム全員がTeams上でリアルタイムに進捗を見守れる
+- **導入手順**: まず管理者がGitHub Copilotのクラウドエージェントとクラウドサンドボックスを組織で有効化し、Microsoft Teams用のGitHubアプリをインストールする。「@GitHub」経由でGitHubアカウントを連携した後、公開チャネルにはデフォルトのリポジトリを設定でき、「@GitHub <タスク内容>」で作業を開始、「@GitHub help」で使えるコマンド一覧を確認できる
+- **管理・監督機能**: リポジトリの管理者は、Copilotが作成したプルリクエストについてのみ、マージ前に追加のレビュー承認を必須にできる設定を用意しており、エージェントによる変更に人の目を必ず通せる
+- **提供状況**: 現在パブリックプレビュー中で、有料のGitHub Copilotプランが必要。利用にはAIクレジットを消費し、クラウドサンドボックスの利用分は別途課金され、組織側で予算上限を設定できる
+
+## その後
+
+同日、GitHubはSlack向けにも同様の統合機能を公開しており（別記事参照）、Teams版とあわせてクラウドエージェントの利用範囲をIDEやGitHub.comの外、チームが普段からやり取りするチャットツールにまで広げた形となる。GitHub Copilotのエージェント作業を、一人の開発者だけが動かすものから、チーム全体で見守り・指示できるものへと近づける一歩といえる。

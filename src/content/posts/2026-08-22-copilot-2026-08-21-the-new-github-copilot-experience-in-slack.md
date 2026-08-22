@@ -1,14 +1,25 @@
 ---
-title: "The new GitHub Copilot experience in Slack"
-description: "<p>The GitHub integration in Slack now brings the agentic capabilities of GitHub Copilot CLI and the GitHub Copilot app "
+title: "GitHub Copilotの新しいSlack連携、エージェント機能をチャットから直接利用可能に"
+description: "GitHubのSlack連携がアップデートされ、GitHub Copilot CLI/アプリと同等のエージェント機能をSlack上で直接利用できるようになった。@GitHubとメンションするだけで課題の調査からプルリクエスト作成まで任せられる。"
 pubDate: 2026-08-21
 category: copilot
 type: news
-tags: []
+tags: [GitHub Copilot, Slack, クラウドエージェント, エージェント型コーディング, GitHub]
 source: https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubは、Slack向けの統合機能をアップデートし、GitHub Copilot CLIやCopilotアプリと同等のエージェント機能をSlack上で直接利用できるようにした。チャネルを離れることなく「@GitHub」とメンションするだけで、コードに関する質問からエージェントによる作業依頼まで行える。
 
-一次情報: https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack
+## 詳細
+
+- **できること**: Slackのダイレクトメッセージ、チャネル、スレッドで「@GitHub」とメンションすると、Copilotがコードやリポジトリの活動について質問に答えたり、バグ報告のトリアージやIssue管理を行ったりできる。より大きなタスクでは「セキュアなクラウドサンドボックス上で不具合の調査、変更の実装、そして作業内容の検証」まで行い、元のSlackでの会話へのリンク付きでプルリクエストを作成する。作業は非同期で進むため、依頼者がオフラインの間も継続する
+- **Slack Codeによる専用チャンネル**: エージェントはSlack Code経由で専用のコードチャンネルを作成でき、チームメンバーはそこで「計画を追い、差分を確認し、HTMLアーティファクトのような出力プレビューをレビューし、Copilotと一緒に反復作業を進める」ことができる
+- **導入手順**: 管理者が組織向けにCopilotクラウドエージェントのポリシーを有効化し、Slack用のGitHubアプリをインストール（またはアップグレード）した上で、GitHubアカウントを連携してから「@GitHub」で利用を開始する
+- **管理・監督機能**: Teams版と同様、リポジトリ管理者はCopilotが作成したプルリクエストについて、マージ前の追加承認を必須にできる
+- **提供状況**: パブリックプレビューとして提供され、対象はGitHub Copilot BusinessおよびEnterpriseプランのみ。利用は既存のCopilotの利用枠に含まれ、クラウドエージェントの予算設定で上限を管理できる。提供開始日は2026年8月21日
+
+## その後
+
+このSlack向けの機能公開は、Microsoft Teams向けの同等機能の公開と同日に行われた。どちらのチャットツールを使っている組織でも、普段から会話している場所からGitHub Copilotのクラウドエージェントを起動・監視できるようになる。一人のエンジニアがIDE上で単独でCopilotを動かす形から、チーム全体で見守り・方向づけできるエージェントセッションへという、より大きな流れの一部と位置づけられる。
