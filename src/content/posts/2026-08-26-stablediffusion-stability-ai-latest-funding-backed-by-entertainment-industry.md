@@ -1,14 +1,35 @@
 ---
-title: "The Entertainment Industry’s Biggest Names Back Stability AI in Latest Funding Round"
-description: "We've closed our Series B, bringing total funding to $232M under new leadership. This round welcomes entertainment titan"
+title: "エンタメ業界の大物たちが出資、Stability AIが新たな資金調達を発表"
+description: "Stability AIは7,600万ドルのシリーズBを完了し、累計調達額は2億3,200万ドルに到達。EA、ソニー・ミュージック、ユニバーサル・ミュージック、ワーナー・ミュージック、WPP、ジェームズ・キャメロン氏らエンタメ業界の大物が今回の資金調達に参加した。"
 pubDate: 2026-08-25
 category: stablediffusion
 type: news
-tags: []
+tags: [Stability AI, 資金調達, シリーズB, エンターテインメント, 生成AI]
 source: https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Stability AIは7,600万ドル規模のシリーズB資金調達を完了し、累計調達額は2億3,200万ドルに達した。今回のラウンドには、エンターテインメント業界を代表する企業や著名人が異例なほど厚みのある顔ぶれで参加している。
 
-一次情報: https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names
+## 詳細
+
+- **調達額**: シリーズBラウンドで7,600万ドル
+- **累計調達額**: エクイティラウンドおよび転換社債を合わせて2億3,200万ドル
+- **企業評価額**: 非公開
+- **エンタメ・メディア業界からの企業投資家**:
+  - Electronic Arts（EA）
+  - ソニー・ミュージックグループ
+  - ユニバーサル・ミュージックグループ
+  - ワーナー・ミュージックグループ
+  - WPP
+- **個人投資家**: ショーン・パーカー氏、エリック・シュミット氏、ジェームズ・キャメロン氏、ケビン・メイヤー氏、マーク・バーネット氏、パトリック・ホワイトセル氏、プレム・アッカラジュ氏、ルーベン・ブラザーズ、ロバート・ネルソン氏、ヴィヴィ・ネヴォ氏
+- **継続出資者**: Coatue、Greycroft、Kadmos Capital、ショーン・パーカー氏、エリック・シュミット氏が今回も引き続き出資
+- **新規取締役**: Coatueの共同創業者であるトーマス・ラフォン氏がStability AIの取締役会に新たに加わる
+- **経営体制**: 今回のラウンドは、2024年6月にWeta Digitalの前トップからStability AIのCEOに就任したプレム・アッカラジュ氏の下で実施された
+- **資金使途**: クリエイティブ制作向けプロダクトスイートの構築、応用研究の拡大、プロフェッショナルサービス事業の強化
+- **コメント**: 「これほど比類のない投資家陣が集まったことは、生成AIがあらゆるプロデューサー、ミュージシャン、ストーリーテラーに力を与えるという我々のビジョンを裏付けるものだ」とCEOのプレム・アッカラジュ氏は語った
+
+## その後
+
+ソニー、ユニバーサル、ワーナーといった大手音楽レーベルに加え、ジェームズ・キャメロン氏をはじめとするハリウッド関連の投資家が名を連ねたことは、エンタメ業界の既存プレイヤーたちが、生成AIを創作産業への単なる脅威としてではなく、プロ向け制作パイプラインに活用できるツールとしてStability AIに賭けていることを示している。今回の調達を受けて、Stability AIが企業向けのクリエイティブ制作ツールや、スタジオ・レーベルとの提携をさらに強化していくことが予想される。

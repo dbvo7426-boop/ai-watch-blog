@@ -1,14 +1,29 @@
 ---
-title: "GitHub Copilot app Customize tab is generally available"
-description: "<p>GitHub Copilot is more useful when it works with the tools, knowledge, and workflows your team already relies on. The"
+title: "GitHub Copilotアプリの「カスタマイズ」タブが正式版に"
+description: "GitHubは、GitHub Copilotアプリ内の「カスタマイズ」タブを正式リリースし、MCPサーバー、プラグイン、スキル、キャンバスを一箇所で発見・管理できるようにした。"
 pubDate: 2026-08-25
 category: copilot
 type: news
-tags: []
+tags: [GitHub Copilot, MCP, プラグイン, カスタマイズタブ, 開発者ツール]
 source: https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubは、GitHub Copilotアプリ内にある「カスタマイズ」タブを正式リリース（GA）したと発表した。これにより、チームがすでに使っているツールやワークフローに合わせてCopilotを調整できる場所が一つに集約された。
 
-一次情報: https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available
+## 詳細
+
+- **概要**: 「カスタマイズ」タブは、GitHub CopilotアプリのMCPサーバー、プラグイン、スキル、キャンバスを一つのインターフェースにまとめたもの
+- **発見機能**: 各カテゴリから選ばれた注目のカスタマイズ項目を閲覧できるほか、トレンドのオプションを探したりカテゴリ別に絞り込んだりすることで、MCPサーバーをより素早く見つけられる
+- **キャンバス機能**: 注目のキャンバスは、チームが計画段階から実行段階へスムーズに移れるよう設計されている。例えばAzure DevOps向けのキャンバスでは、課題のトリアージ、バックログの優先順位付け、フォローアップの割り当て、Copilotへの作業引き渡しが行える
+- **紹介されている連携例**: 発表内のスクリーンショットでは、Figma、Impeccable Design、Microsoft Foundryとの連携がカスタマイズ例として紹介されている
+- **提供状況**: プレビュー期間についての言及はなく、正式リリースとして提供。特定の料金プランに限定するといった記載も見当たらない
+- **利用方法**: GitHub Copilotアプリを開き、「カスタマイズ」タブを選択するだけ
+
+## 使ってみるには
+
+- GitHub Copilotアプリを開く（未導入の場合はインストールする）
+- **カスタマイズ**タブを選択する
+- 注目のMCPサーバー、プラグイン、スキル、キャンバスを閲覧するか、カテゴリ検索でチームの技術スタックに合った連携先を探す
+- Azure DevOps向けキャンバスなどの注目キャンバスを試し、Copilotを離れることなく計画から実行までの作業を進めてみる

@@ -1,14 +1,29 @@
 ---
-title: "Introducing the Admin plugin for ChatGPT Work and Codex"
-description: "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limit"
+title: "OpenAI、ChatGPT WorkとCodex向け「Adminプラグイン」を発表 ― 管理業務をチャット上で完結"
+description: "新しいAdminプラグインにより、ワークスペース管理者は利用状況の分析、メンバー管理、権限設定、支出管理をChatGPT WorkとCodex上で直接行えるようになる。"
 pubDate: 2026-08-25
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, OpenAI, ChatGPT Work, Codex, 管理者, エンタープライズ]
 source: https://openai.com/index/introducing-admin-plugin
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、ChatGPT WorkとCodex向けの「Adminプラグイン」を発表した。ワークスペース管理者は、利用状況の分析、メンバー・グループ管理、権限設定、支出管理といった日常的な管理業務を、別の管理コンソールを行き来したり複雑なプロンプトを書いたりすることなく、ChatGPT上で直接行えるようになる。
 
-一次情報: https://openai.com/index/introducing-admin-plugin
+## 詳細
+
+- **解決しようとしている課題**: ワークスペースが拡大するにつれ、管理者は利用状況の分析ダッシュボード、設定画面、レポートといった別々の画面を行き来してユーザーや支出を管理する必要があった。OpenAIはこれを「日常的な管理作業を遅く、一貫性を保ちにくくしている」原因だとし、このプラグインによって一つの会話型インターフェースに集約することを目指すという
+- **利用状況の分析**: 管理者はワークスペース全体の利用状況とクレジット消費量を追跡し、ユーザーの利用促進や教育が必要な箇所を把握し、個人やチームがクレジット上限に近づいているタイミングを確認できる
+- **メンバー・グループ管理**: メンバーの追加・削除、グループ所属の更新、オンボーディング・オフボーディングへの対応が可能になる。これらは従来、別のワークスペース設定画面が必要だった作業である
+- **アクセス権限**: 管理者は、あるユーザーの実効的な権限を確認したり、特定のモデルや機能にアクセスできない理由などのアクセス上の問題を診断したり、役割やグループ単位で機能・モデルへのアクセスを管理したりできる
+- **利用上限と支出管理**: プラグインを使えば、個々のメンバー・グループ・ワークスペース全体の利用上限を調整でき、支出リクエストについても関連する背景情報が自動的に表示された状態で承認・却下を検討できる
+- **業務フローとの連携**: 定期的な管理チェックや大量のリクエスト処理を自動化できるほか、SlackやMicrosoft Teamsと連携し、管理者が普段使っているツール上で承認フローを完結させることも可能
+- **権限の枠組み**: プラグインは、ワークスペースに既に設定されているロールベースの権限体系の範囲内でのみ動作し、管理者に既存以上の広い権限を新たに付与することはない。また、どのような変更が要求され、どのような結果になったかを透明性を持って追跡できる
+
+## その後
+
+- 管理者はChatGPTのワークスペース設定からAdminプラグインを有効化し、ウェブ版・デスクトップ版のプラグインディレクトリからインストールできる
+- OpenAIは、ChatGPT WorkとCodexのワークスペース向けに新たに導入されたと説明するのみで、具体的な展開スケジュールは公表していない
+- 詳細はOpenAIの公式発表(https://openai.com/index/introducing-admin-plugin)を参照

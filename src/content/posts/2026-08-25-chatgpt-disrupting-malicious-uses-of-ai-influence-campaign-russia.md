@@ -1,14 +1,30 @@
 ---
-title: "Disrupting a new covert influence campaign from Russia"
-description: "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praisi"
+title: "OpenAI、偽シンクタンクによる影響工作を摘発 ― ロシア発とみられるChatGPTアカウント群を停止"
+description: "OpenAIが、ロシア発の可能性が非常に高い秘密の影響工作を摘発。ChatGPTを使ってイスラエル拠点を装う偽シンクタンクと、親ロシア的な「主権指数」を作成していた。"
 pubDate: 2026-08-25
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, OpenAI, 安全性, 影響工作, 偽情報]
 source: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、ロシア発の可能性が非常に高い秘密の影響工作を摘発したと発表した。この工作は、ChatGPTを使ってイスラエル拠点を装う偽シンクタンク「International Burke Institute(IBI)」を構築・宣伝し、ロシアを好意的に描きつつ西側諸国を批判する架空の「主権指数」を作成していた。OpenAIは関与したアカウント群を停止している。
 
-一次情報: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia
+## 詳細
+
+- **関与の特定**: OpenAIは「ロシア発の可能性が非常に高いChatGPTアカウント群」を特定した。運営者はVPNを使って地域制限を回避し、ロシア語でChatGPTにプロンプトを入力しつつ、ロシア発であることを示す言語的な手がかりを隠すようモデルに明示的に指示していた
+- **偽シンクタンク**: この工作は2025年2月に登録された「International Burke Institute」のウェブサイトを構築し、実際にはイスラエル拠点ではないにもかかわらずそう偽称。フランシス・フクヤマやノーム・チョムスキーといった、実際には一切関与していない著名人の名前を専門家として掲載していた
+- **「主権指数」**: IBIは、ロシアを好意的に描きつつ西側諸国を批判するよう設計された独自の「主権指数(sovereignty index)」なる指標を公表。サンプル記事ではフランスについて「歴史的な首都が切り売りされている」、ドイツについて「米軍基地への依存ではなく真の軍事的主権が必要」などと主張していた
+- **記事の盗用**: 2025年9月から2026年5月の間に公開されたIBIの記事36本をサンプル調査したところ、34本がインターネット上の他の記事から複製されたものであり、しばしば虚偽の帰属表示のもとで再公開され、独自の学術的成果であるかのように見せかけていた
+- **ChatGPTの使われ方**: 関与アカウントはChatGPTを使い、X・LinkedIn・Facebook・Substack・Telegramにまたがる宣伝用の投稿やコメントを作成したほか、ウクライナ・EU・ドイツを批判するドイツ語の投稿、約12のTelegramチャンネル用のロゴ制作、IBIのチャンネルをフォローするよう実在ユーザーに促す返信文の作成などを行っていた
+- **標的地域**: IBI本体の活動に加え、このネットワークはドイツ・米国・フランス・ポーランド・トルコを対象とする独自のTelegramチャンネルを運営していた
+- **実際の影響力**: OpenAIの評価によれば、実際の影響力は限定的だった。投稿の閲覧数は概して少なく、Brookings Breakout Scaleに基づく評価では、複数プラットフォームにまたがりつつも本物の視聴者への浸透はわずかな「カテゴリー3」の下位に位置づけられた。各Telegramチャンネルのフォロワー数はおよそ1万〜2万人程度にとどまっていた
+- **OpenAIの見解**: OpenAIは、この事例が「影響工作の実行者がAIを、権威を捏造し、好都合な言説の出所を隠し、時間をかけて拡張できる資産を構築するための、より大きな取り組みの中の支援ツールとして利用している」ことを示していると指摘。AIはそれ単体で新しい脅威というより、より広範な偽情報活動ツールキットの中の増幅装置として機能している点を強調した
+
+## その後
+
+- OpenAIは、協調的な虚偽行動や影響工作に対する継続的な取り締まりの一環として、特定したChatGPTアカウントを停止した
+- OpenAIはこの調査結果を、自社モデルの悪用に関する定期的な脅威インテリジェンス報告の一環として公開した
+- 詳細はOpenAIの公式レポート(https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia)を参照

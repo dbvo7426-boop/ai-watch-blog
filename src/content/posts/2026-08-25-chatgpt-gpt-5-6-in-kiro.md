@@ -1,14 +1,28 @@
 ---
-title: "Advancing price-performance for developers with GPT‑5.6 in Kiro"
-description: "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performanc"
+title: "GPT-5.6がAWSの「Kiro」に対応 ― コーディング作業のコストを約82%削減"
+description: "OpenAIとAWSが、AWSのスペック駆動型AIコーディングエージェント「Kiro」にGPT-5.6モデル群を統合。Terminal-Bench 2.1のテストではコストを約82%削減したという。"
 pubDate: 2026-08-24
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, OpenAI, GPT-5.6, Kiro, AWS, コーディング]
 source: https://openai.com/index/gpt-5-6-in-kiro
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIのGPT-5.6モデル群(Sol・Terra・Luna)が、AWSのAIコーディングエージェント「Kiro」で利用可能になった。OpenAIとAWSが共同で最適化に取り組んだ結果によるもので、OpenAIはTerminal-Bench 2.1のコーディングタスクにおいて、従来と比べて約82%のコスト削減を実現したとしている。
 
-一次情報: https://openai.com/index/gpt-5-6-in-kiro
+## 詳細
+
+- **Kiroとは**: Kiroは、AWSが提供するソフトウェア開発エージェントである。高レベルな製品の意図を、いきなりコードに落とし込むのではなく、構造化された要件定義・技術設計・実行可能なタスクへと変換する「スペック駆動(spec-driven)」型のワークフローを特徴とする
+- **提携の内容**: OpenAIとAWSは、Kiroの実行環境と、その上で動くGPT-5.6モデルの双方を共同で最適化。ソフトウェア開発ライフサイクル全体にわたり、開発者が費用対効果とプロンプトあたりの成果をより高められるようにすることを目指した
+- **統合によって加わった機能**: GPT-5.6がKiroに搭載されたことで、開発者は製品アイデアを構造化された実装計画に変換したり、より一貫性の高い結果で複数ステップのコーディングタスクを実行したり、スペック駆動型の開発プロセスを最初から最後まで行ったりできるようになった。加えて、コードベースのコンテキストやチームのコーディング規約を取り込み、あらかじめ定めたチェックポイントでモデルの出力をレビューし、プロパティベーステストで正しさを検証することも可能になった
+- **性能に関する主張**: OpenAIによれば、Terminal-Bench 2.1において、GPT-5.6 TerraはKiro上でのタスク成功に際し、比較対象と比べて約82%のコスト削減を達成した。この効果の一部は、スペック駆動型の手法が実装ミスや手戻りを減らしたことによるものだとしている
+- **選べるモデル**: Kiro上ではGPT-5.6ファミリー全体(Sol・Terra・Luna)が利用可能で、OpenAIの他の製品ラインと同様の速度・コスト・性能のトレードオフを選択できる
+- **価格・提供時期**: OpenAIの発表にもKiro側の情報にも、この統合に関するKiro固有の価格設定は明記されていない。モデルは「現在利用可能」とされているのみで、個別の提供開始日は示されていない
+
+## 使ってみるには
+
+- 既にKiroを利用している開発者は、スペック駆動型の開発タスクの基盤モデルとしてGPT-5.6(Sol・Terra・Luna)を選択できる
+- コーディングエージェントのコストを重視するチームは、OpenAIが挙げたTerminal-Bench 2.1でのコスト削減実績を踏まえ、特にTerraを現行環境と比較検討する価値がある
+- 詳細はOpenAIの公式発表(https://openai.com/index/gpt-5-6-in-kiro)を参照
