@@ -255,7 +255,8 @@
     "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
     "https://www.anthropic.com/news/tino-cuellar",
     "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-    "https://www.anthropic.com/news/claude-text-watermark"
+    "https://www.anthropic.com/news/claude-text-watermark",
+    "https://www.anthropic.com/news/wellbeing-research-grants"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1413,7 +1414,10 @@
     "https://openai.com/index/introducing-ai-futures",
     "https://openai.com/index/stampli",
     "https://openai.com/index/gpt-5-6-in-kiro",
-    "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
+    "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+    "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+    "https://openai.com/index/jalapeno-first-results",
+    "https://openai.com/index/introducing-admin-plugin"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1462,7 +1466,8 @@
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-take-practice-sat/",
     "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
     "https://blog.google/innovation-and-ai/products/gemini-app/gemini-waymo/",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/"
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/enable-intelligent-dictation-macos/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1526,7 +1531,8 @@
     "https://github.blog/changelog/2026-08-13-github-copilot-weekly-releases-august-10",
     "https://github.blog/changelog/2026-08-18-enterprise-managed-settings-in-github-copilot-for-jetbrains",
     "https://github.blog/changelog/2026-08-21-the-new-github-copilot-experience-in-slack",
-    "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams"
+    "https://github.blog/changelog/2026-08-21-shared-agentic-work-with-github-copilot-in-microsoft-teams",
+    "https://github.blog/changelog/2026-08-25-github-copilot-app-customize-tab-is-generally-available"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
@@ -1549,6 +1555,7 @@
     "https://stability.ai/news-updates/introducing-stable-virtual-camera-multi-view-video-generation-with-3d-camera-control",
     "https://stability.ai/news-updates/introducing-our-new-svp-head-of-product-ryan-ellis",
     "https://stability.ai/news-updates/stability-ai-announces-investment-from-wpp-and-new-partnership-to-shape-the-future-of-media-and-entertainment-production",
-    "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio"
+    "https://stability.ai/news-updates/sharing-a-new-way-to-work-with-stable-audio",
+    "https://stability.ai/news-updates/stability-ai-latest-funding-backed-by-entertainment-industry-biggest-names"
   ]
 }
