@@ -256,7 +256,9 @@
     "https://www.anthropic.com/news/tino-cuellar",
     "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
     "https://www.anthropic.com/news/claude-text-watermark",
-    "https://www.anthropic.com/news/wellbeing-research-grants"
+    "https://www.anthropic.com/news/wellbeing-research-grants",
+    "https://www.anthropic.com/news/expanding-support-for-scientists",
+    "https://www.anthropic.com/news/model-hardware-standard-research-preview"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1422,7 +1424,9 @@
     "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
     "https://openai.com/index/learning-never-stops",
     "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-    "https://openai.com/index/introducing-intelligence-age"
+    "https://openai.com/index/introducing-intelligence-age",
+    "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+    "https://openai.com/index/expanding-our-presence-in-brazil"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1475,7 +1479,8 @@
     "https://blog.google/innovation-and-ai/products/gemini-app/enable-intelligent-dictation-macos/",
     "https://blog.google/products-and-platforms/products/workspace/gemini-google-workspace-back-to-school/",
     "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/"
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+    "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
