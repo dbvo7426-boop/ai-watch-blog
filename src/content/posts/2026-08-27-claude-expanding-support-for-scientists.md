@@ -1,14 +1,26 @@
 ---
-title: "Expanding our support for scientists"
-description: "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems"
+title: "Anthropic、科学者向けにClaude Teamの無償シート1万件を開放"
+description: "Anthropicが学術・非営利機関の研究者向けにClaude Teamを無償または割引価格で提供開始。AI for Scienceプログラムを生物学以外の分野にも拡大し、プロジェクトあたり最大5万ドルの計算クレジットも用意する。"
 pubDate: 2026-08-27
 category: claude
 type: news
-tags: []
+tags: [Claude, Anthropic, ClaudeScience, 研究, AIforScience]
 source: https://www.anthropic.com/news/expanding-support-for-scientists
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Anthropicは2026年8月27日、科学研究支援プログラムの拡大を発表しました。学術・非営利機関の主任研究者(PI)向けにClaude Teamの無償シートを世界で1万件開放するとともに、これまで生物学中心だったAI for Scienceプログラムを、リーマンゼータ関数の研究やタンパク質設計といった分野にも広げます。
 
-一次情報: https://www.anthropic.com/news/expanding-support-for-scientists
+## 詳細
+
+- **無償Teamシート**: 標準のClaude Teamシート1万件を世界中で1年間無償開放。使用上限が5倍になるプレミアムシートは月額15ドルで利用可能で、Anthropicは初回分を超えてシート数を追加する計画を示している
+- **AI for Scienceの対象拡大**: これまで生物科学中心だったプログラムを、計算負荷の高い他の研究分野(リーマンゼータ関数の研究やタンパク質設計など)にも拡大
+- **クレジット提供**: 対象となる研究者はプロジェクトあたり最大5万ドルの計算クレジットに応募可能
+- **対象者**: 学術機関または非営利機関の主任研究者(またはそれに準ずる立場の人)が、認証フォームを通じて登録できる
+- **Claude Scienceとの関係**: 6月にAnthropicが発表した研究向け製品「Claude Science」を土台としており、一般的な研究用ソフトウェアと統合し、監査可能な出力を生成する
+- **依然として残る制限**: 生物学・化学分野の研究者は現時点でOpusクラスのモデルのみに利用が限定されており、デュアルユース(軍民両用)への懸念からClaudeは一部の専門的な生物学・創薬関連の質問には応じない。Anthropicは米政府と連携し、ライフサイエンス専門家向けの別の利用プログラムを検討中としている
+
+## その後
+
+Anthropicは今回の拡大を、Claudeを単なる汎用ツールの追加機能ではなく、標準的な研究ツールへと押し上げる取り組みの一環と位置付けています。同日発表されたラボ自動化向け「Model Hardware Standard」のプレビューとも軌を一にする動きです。研究者は認証フォームからすぐに応募できますが、実際のインパクトは、Anthropicが当初の1万シート上限をどれだけ早く拡大し、機微な科学分野へのモデルアクセス制限をどれだけ緩和できるかにかかっています。
