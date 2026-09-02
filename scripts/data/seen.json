@@ -259,7 +259,8 @@
     "https://www.anthropic.com/news/wellbeing-research-grants",
     "https://www.anthropic.com/news/expanding-support-for-scientists",
     "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-    "https://www.anthropic.com/news/improving-alignment-security-efforts"
+    "https://www.anthropic.com/news/improving-alignment-security-efforts",
+    "https://www.anthropic.com/news/enterprise-frontier-safeguards"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1432,7 +1433,11 @@
     "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
     "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
     "https://openai.com/index/polimill",
-    "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
+    "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+    "https://openai.com/index/ai-native-company-workflows",
+    "https://openai.com/index/path-to-astra",
+    "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+    "https://openai.com/index/gilbert-tobin"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1486,7 +1491,9 @@
     "https://blog.google/products-and-platforms/products/workspace/gemini-google-workspace-back-to-school/",
     "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
-    "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
+    "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+    "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1560,7 +1567,11 @@
     "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
     "https://github.blog/changelog/2026-08-24-copilot-harness-generally-available-in-copilot-for-jetbrains",
     "https://github.blog/changelog/2026-08-31-github-copilot-in-vs-code-august-2026-releases",
-    "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans"
+    "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
+    "https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets",
+    "https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests",
+    "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
+    "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
