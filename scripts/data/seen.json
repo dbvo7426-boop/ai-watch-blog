@@ -1443,7 +1443,8 @@
     "https://openai.com/index/legora-financial-statement-review-with-astra",
     "https://openai.com/index/playco-game-prototyping-with-astra",
     "https://openai.com/index/safety-overview-gpt-6-astra",
-    "https://openai.com/index/gpt-4"
+    "https://openai.com/index/gpt-4",
+    "https://openai.com/index/gpt-6-astra"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1502,7 +1503,8 @@
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
     "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
-    "https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/"
+    "https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1585,7 +1587,9 @@
     "https://github.blog/changelog/2026-09-02-content-exclusions-generally-available-in-copilot-app-and-cli",
     "https://github.blog/changelog/2026-09-03-upcoming-deprecation-of-selected-github-copilot-models",
     "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
-    "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups"
+    "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
+    "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
+    "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
