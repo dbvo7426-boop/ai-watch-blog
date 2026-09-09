@@ -1450,7 +1450,11 @@
     "https://openai.com/index/supporting-independent-journalism-in-ukraine",
     "https://openai.com/index/the-work-now-within-reach",
     "https://openai.com/index/teen-development-research-grants",
-    "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
+    "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+    "https://openai.com/index/codex-quantum-computing-experiments",
+    "https://openai.com/index/introducing-chatgpt-images-2-5",
+    "https://openai.com/index/navier-stokes-solution",
+    "https://openai.com/index/1password"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1595,7 +1599,8 @@
     "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot",
     "https://github.blog/changelog/2026-09-03-reopening-copilot-business-and-enterprise-signups",
     "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
-    "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot"
+    "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
+    "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
