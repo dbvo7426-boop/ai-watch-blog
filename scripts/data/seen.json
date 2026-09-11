@@ -1459,7 +1459,11 @@
     "https://openai.com/index/gpt-6-astra-next-generation-work",
     "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
     "https://openai.com/index/put-data-to-work",
-    "https://openai.com/index/expanding-ai-access-us-government"
+    "https://openai.com/index/expanding-ai-access-us-government",
+    "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+    "https://openai.com/index/introducing-chatgpt-financial-services",
+    "https://openai.com/index/introducing-the-agents-api",
+    "https://openai.com/index/introducing-gpt-live-1-in-the-api"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1520,7 +1524,8 @@
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
     "https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/",
     "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
-    "https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/"
+    "https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1607,7 +1612,8 @@
     "https://github.blog/changelog/2026-09-04-github-copilot-weekly-releases-august-31",
     "https://github.blog/changelog/2026-09-04-gpt-6-astra-is-generally-available-in-github-copilot",
     "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
-    "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations"
+    "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
+    "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
