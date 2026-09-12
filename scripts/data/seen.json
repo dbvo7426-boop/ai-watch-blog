@@ -1463,7 +1463,10 @@
     "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
     "https://openai.com/index/introducing-chatgpt-financial-services",
     "https://openai.com/index/introducing-the-agents-api",
-    "https://openai.com/index/introducing-gpt-live-1-in-the-api"
+    "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+    "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+    "https://openai.com/index/cognition-devin-testing-with-astra"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1614,7 +1617,9 @@
     "https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains",
     "https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations",
     "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
-    "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7"
+    "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
+    "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
+    "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
