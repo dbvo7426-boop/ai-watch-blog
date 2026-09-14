@@ -1466,7 +1466,8 @@
     "https://openai.com/index/introducing-gpt-live-1-in-the-api",
     "https://openai.com/index/perplexity-improving-accuracy-with-astra",
     "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-    "https://openai.com/index/cognition-devin-testing-with-astra"
+    "https://openai.com/index/cognition-devin-testing-with-astra",
+    "https://openai.com/index/fyxer"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1528,7 +1529,8 @@
     "https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/",
     "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
     "https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/",
-    "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/"
+    "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+    "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1619,7 +1621,8 @@
     "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
     "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
     "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
-    "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review"
+    "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
+    "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
