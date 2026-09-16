@@ -1531,7 +1531,8 @@
     "https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy/",
     "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
     "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-    "https://blog.google/innovation-and-ai/products/gemini-app/household-chores-tips/"
+    "https://blog.google/innovation-and-ai/products/gemini-app/household-chores-tips/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1623,7 +1624,8 @@
     "https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7",
     "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
     "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
-    "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection"
+    "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
+    "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
