@@ -1469,7 +1469,10 @@
     "https://openai.com/index/cognition-devin-testing-with-astra",
     "https://openai.com/index/fyxer",
     "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-    "https://openai.com/index/reimagining-advertising-with-ai"
+    "https://openai.com/index/reimagining-advertising-with-ai",
+    "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+    "https://openai.com/index/model-misalignment-reporting-framework",
+    "https://openai.com/index/unlocking-new-ways-of-working"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1627,7 +1630,8 @@
     "https://github.blog/changelog/2026-09-11-add-vs-code-agents-to-copilot-usage-metrics",
     "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
     "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
-    "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions"
+    "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
+    "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
