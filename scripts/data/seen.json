@@ -260,7 +260,8 @@
     "https://www.anthropic.com/news/expanding-support-for-scientists",
     "https://www.anthropic.com/news/model-hardware-standard-research-preview",
     "https://www.anthropic.com/news/improving-alignment-security-efforts",
-    "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+    "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+    "https://www.anthropic.com/news/life-sciences-verification-program"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1480,7 +1481,9 @@
     "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations",
     "https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait",
     "https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness",
-    "https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook"
+    "https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook",
+    "https://openai.com/index/cooley-gopublic",
+    "https://openai.com/index/astra-for-law"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1639,7 +1642,9 @@
     "https://github.blog/changelog/2026-09-11-auto-resolution-and-analysis-updates-in-copilot-code-review",
     "https://github.blog/changelog/2026-09-14-configure-cost-and-quality-in-copilot-auto-model-selection",
     "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
-    "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available"
+    "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
+    "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
+    "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
