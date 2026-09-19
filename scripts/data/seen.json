@@ -261,7 +261,8 @@
     "https://www.anthropic.com/news/model-hardware-standard-research-preview",
     "https://www.anthropic.com/news/improving-alignment-security-efforts",
     "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-    "https://www.anthropic.com/news/life-sciences-verification-program"
+    "https://www.anthropic.com/news/life-sciences-verification-program",
+    "https://www.anthropic.com/news/accenture-embedded-evaluation"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1483,7 +1484,8 @@
     "https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness",
     "https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook",
     "https://openai.com/index/cooley-gopublic",
-    "https://openai.com/index/astra-for-law"
+    "https://openai.com/index/astra-for-law",
+    "https://openai.com/index/hex-gpt-6-astra"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1644,7 +1646,10 @@
     "https://github.blog/changelog/2026-09-15-github-copilot-suggests-custom-properties-definitions",
     "https://github.blog/changelog/2026-09-16-copilot-budget-increase-requests-are-generally-available",
     "https://github.blog/changelog/2026-09-17-copilot-impact-dashboard-now-shows-feature-engagement",
-    "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api"
+    "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
+    "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
+    "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
+    "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
