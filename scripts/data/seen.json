@@ -1486,7 +1486,11 @@
     "https://openai.com/index/cooley-gopublic",
     "https://openai.com/index/astra-for-law",
     "https://openai.com/index/hex-gpt-6-astra",
-    "https://openai.com/index/australian-youth-safety-blueprint"
+    "https://openai.com/index/australian-youth-safety-blueprint",
+    "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+    "https://openai.com/index/building-standards-next-phase-ai",
+    "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+    "https://openai.com/index/v7"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1650,7 +1654,8 @@
     "https://github.blog/changelog/2026-09-17-agentic-cli-customizations-now-in-the-usage-metrics-api",
     "https://github.blog/changelog/2026-09-18-copilot-code-review-an-improved-review-experience",
     "https://github.blog/changelog/2026-09-18-github-copilot-weekly-releases-september-14",
-    "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october"
+    "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october",
+    "https://github.blog/changelog/2026-09-21-grok-4-7-is-now-available-in-github-copilot"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
