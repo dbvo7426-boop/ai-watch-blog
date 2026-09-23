@@ -1495,7 +1495,10 @@
     "https://openai.com/index/better-prompt-caching-for-gpt-6",
     "https://openai.com/index/introducing-gpt-6-sol-and-luna",
     "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-    "https://openai.com/index/priorities-principles-third-party-assessments"
+    "https://openai.com/index/priorities-principles-third-party-assessments",
+    "https://openai.com/index/two-years-of-openai-academy",
+    "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+    "https://openai.com/index/grab-openai-ai-skills-southeast-asia"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1560,7 +1563,9 @@
     "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
     "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
     "https://blog.google/innovation-and-ai/products/gemini-app/household-chores-tips/",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1665,7 +1670,8 @@
     "https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains",
     "https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing",
     "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
-    "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available"
+    "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
+    "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
