@@ -1506,7 +1506,8 @@
     "https://openai.com/index/ringg",
     "https://openai.com/index/introducing-mentalhealthbench",
     "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-    "https://openai.com/index/airbnb-gpt-6-astra"
+    "https://openai.com/index/airbnb-gpt-6-astra",
+    "https://openai.com/index/proaction"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1681,7 +1682,9 @@
     "https://github.blog/changelog/2026-09-22-claude-opus-5-5-is-now-available-in-github-copilot",
     "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available",
     "https://github.blog/changelog/2026-09-23-local-sandboxing-in-the-github-copilot-app",
-    "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews"
+    "https://github.blog/changelog/2026-09-23-copilot-code-review-more-ways-to-request-and-configure-reviews",
+    "https://github.blog/changelog/2026-09-25-updates-to-github-copilot-for-slack-and-microsoft-teams",
+    "https://github.blog/changelog/2026-09-24-default-enablement-of-copilot-features-for-copilot-business-and-enterprise"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
