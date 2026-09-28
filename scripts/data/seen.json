@@ -1507,7 +1507,8 @@
     "https://openai.com/index/introducing-mentalhealthbench",
     "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
     "https://openai.com/index/airbnb-gpt-6-astra",
-    "https://openai.com/index/proaction"
+    "https://openai.com/index/proaction",
+    "https://openai.com/index/lenfest-ai-collaborative-expansion"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1575,7 +1576,8 @@
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
     "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+    "https://blog.google/products-and-platforms/products/gemini/edys-grocer-gemini/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1688,7 +1690,8 @@
     "https://github.blog/changelog/2026-09-25-enterprise-managed-settings-in-product-validator",
     "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
     "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
-    "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21"
+    "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
+    "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
