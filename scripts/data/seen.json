@@ -1511,7 +1511,8 @@
     "https://openai.com/index/lenfest-ai-collaborative-expansion",
     "https://openai.com/index/how-we-will-do-better-for-australia",
     "https://openai.com/form/codex-originals",
-    "https://openai.com/index/basis-tax-workbook-with-astra"
+    "https://openai.com/index/basis-tax-workbook-with-astra",
+    "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1695,7 +1696,8 @@
     "https://github.blog/changelog/2026-09-25-usage-metrics-api-adds-pull-request-review-stages",
     "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
     "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
-    "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot"
+    "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
+    "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
