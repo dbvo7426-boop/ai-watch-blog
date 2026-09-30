@@ -1515,7 +1515,9 @@
     "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
     "https://openai.com/index/introducing-gpt-6-1-sol",
     "https://openai.com/index/devday-2026-recap",
-    "https://openai.com/index/introducing-dots"
+    "https://openai.com/index/introducing-dots",
+    "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+    "https://openai.com/index/helping-small-businesses-put-ai-to-work"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1585,7 +1587,8 @@
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
     "https://blog.google/products-and-platforms/products/gemini/edys-grocer-gemini/",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/"
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/",
+    "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1700,7 +1703,8 @@
     "https://github.blog/changelog/2026-09-25-agentic-autofix-now-uses-copilot-memory",
     "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
     "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
-    "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot"
+    "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
+    "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
