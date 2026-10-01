@@ -1,14 +1,24 @@
 ---
-title: "Disrupting a coordinated model-distillation campaign"
-description: "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversa"
+title: "OpenAI、Moonshot AI関係者と関連する組織的なモデル蒸留キャンペーンの阻止を公表"
+description: "OpenAIが、保護された推論過程を新手の手法で抽出しようとする「敵対的蒸留」キャンペーンを阻止したと公表。中核的な活動をMoonshot AI(Kimi開発元)関係者とされる人物らに帰属させ、関連する抽出パターンを持つ利用者を15,000人以上特定した上で活動を停止させた。"
 pubDate: 2026-09-30
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, ChatGPT, セキュリティ, モデル蒸留, MoonshotAI]
 source: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、暗号化やデータベースへの侵入を伴わない形で行われた「敵対的蒸留」——あるモデルの出力や保護された推論過程を無断で利用し、別モデルの学習・再現・改善に用いる行為——の組織的なキャンペーンを阻止したと公表しました。
 
-一次情報: https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
+## 詳細
+
+- **帰属**: OpenAIは活動の中核的なクラスターを「Kimiの開発元であるMoonshot AIの関係者」に帰属させる一方、観測されたすべての実行者が単一の主体によるものかどうかには不確実性が残るとしている
+- **手法**: ある会話から暗号化された推論内容をコピーし、別モデルにそれを復号・書き起こしさせるという新手の抽出手法を使用。OpenAIの利用規約に違反する形で、保護された推論を可視化するようモデルとのやり取りを操作していた
+- **規模と時系列**: 7月1日に低調な活動として開始。7月24〜25日には特定の抽出パターンに関連する4,000人超の利用者による16,000件のリクエストが急増し、関連するプロンプトパターンを示す利用者は広義のクラスターで15,000人以上に及んだ。OpenAIは7月28日までに活動を完全に阻止したとしている
+- **対応**: 不正アカウントの禁止・制限、サインアップおよびインフラ面での統制強化、関連ネットワークへの監視拡大、ユーザー・組織を横断した非公開推論の保護強化、暗号化された推論の再生を可能にする経路の遮断、推論を露出させるストリーミング出力の検知強化、サードパーティサービスとの連携によるアカウント停止、Frontier Model Forumおよび政府機関を通じた情報共有
+
+## その後
+
+今回の公表は、Hugging Faceインシデントの事後報告、ミスアライメント報告の枠組み、そして「セーフティケース」学習フレームワークに続く、OpenAIのインシデント透明性を重視する姿勢の延長線上にあるものです。今回は社内の学習リスクではなく外部からの敵対的活動を対象としており、推論モデルの知的財産をめぐるOpenAIと中国のモデル開発企業との競争的な緊張関係に、具体的かつ名指しの一件を加える形となりました。

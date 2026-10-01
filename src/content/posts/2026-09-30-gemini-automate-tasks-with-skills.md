@@ -1,14 +1,24 @@
 ---
-title: "Let skills in Gemini tackle your most repetitive tasks"
-description: "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Skills_thumbnail.max-600x600.format-webp.webp\""
+title: "Gemini、繰り返しプロンプトを自動化する「Skills」を導入——Gemsを置き換え"
+description: "Googleが、Geminiにおいて再利用可能なカスタム指示をスラッシュコマンドで呼び出せる「Skills」を導入。複数のSkillsを組み合わせたり、テキスト・PDF・画像ファイルを参照させることも可能で、2027年半ばまでに既存のGemsを完全に置き換える予定。"
 pubDate: 2026-09-30
 category: gemini
 type: news
-tags: []
+tags: [Gemini, Google, Skills, 生産性]
 source: https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Googleは、同じプロンプトを何度も打ち直す代わりに一度保存して繰り返し呼び出せる、再利用可能なカスタム指示「Skills」をGeminiに導入しました。
 
-一次情報: https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/
+## 詳細
+
+- **仕組み**: 一度Skillを作成すれば、プロンプト入力欄で「/」に続けて名前を入力するだけで呼び出せる。複数のSkillsを組み合わせてより複雑なワークフローを構築でき、テキスト文書・PDF・画像などの参照ファイルにも対応
+- **活用例**: カスタムのアウトラインとトークポイントに基づくプレゼン資料の作成、複数文書にわたるユーザー自身の文体の再現、ブレインストーミング向けに一つのトピックへの複数の視点の生成、複数Skillsの組み合わせによるブランドに沿ったコンテンツ作成
+- **提供状況**: 現在、全てのGoogle AIサブスクリプション層を対象にGeminiチャットでグローバル展開中。Workspace利用者(ビジネス・エンタープライズ・非営利団体・教育機関向け)には今後数週間以内に提供予定
+- **Gemsの置き換え**: SkillsはGeminiの主要なカスタマイズ手段としてGemsに取って代わる。個人アカウント向けには11月、Workspaceのビジネス・エンタープライズ・非営利団体向けには2027年3月、教育機関向けには2027年6月にGemsを段階的に廃止し、移行期間中は既存のGemsを自動的にSkillsへ移行する
+
+## その後
+
+GemsからSkillsへの移行は、繰り返しプロンプトを自動化する構成可能でファイル対応型の仕組みへという業界全体の潮流を反映しています。OpenAIが常時稼働型エージェント「dots」で自動化をさらに推し進めたのと同じ週の発表であり、両社とも「次に取り除くべき摩擦は、モデル自体の性能ではなく繰り返しのプロンプト作業である」という考え方に収束しつつあることを示しています。
