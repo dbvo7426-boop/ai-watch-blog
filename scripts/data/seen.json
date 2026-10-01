@@ -263,7 +263,8 @@
     "https://www.anthropic.com/news/enterprise-frontier-safeguards",
     "https://www.anthropic.com/news/life-sciences-verification-program",
     "https://www.anthropic.com/news/accenture-embedded-evaluation",
-    "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+    "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "https://www.anthropic.com/news/barclays-scales-claude"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1517,7 +1518,9 @@
     "https://openai.com/index/devday-2026-recap",
     "https://openai.com/index/introducing-dots",
     "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-    "https://openai.com/index/helping-small-businesses-put-ai-to-work"
+    "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+    "https://openai.com/index/the-eternal-complement",
+    "https://openai.com/index/albertsons-reimagining-retail"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1589,7 +1592,8 @@
     "https://blog.google/products-and-platforms/products/gemini/edys-grocer-gemini/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/",
     "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
