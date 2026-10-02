@@ -1520,7 +1520,8 @@
     "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
     "https://openai.com/index/helping-small-businesses-put-ai-to-work",
     "https://openai.com/index/the-eternal-complement",
-    "https://openai.com/index/albertsons-reimagining-retail"
+    "https://openai.com/index/albertsons-reimagining-retail",
+    "https://openai.com/index/the-den-family-social"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1709,7 +1710,10 @@
     "https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21",
     "https://github.blog/changelog/2026-09-28-claude-sonnet-5-5-in-github-copilot",
     "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot",
-    "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app"
+    "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
+    "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
+    "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
+    "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
