@@ -264,7 +264,8 @@
     "https://www.anthropic.com/news/life-sciences-verification-program",
     "https://www.anthropic.com/news/accenture-embedded-evaluation",
     "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-    "https://www.anthropic.com/news/barclays-scales-claude"
+    "https://www.anthropic.com/news/barclays-scales-claude",
+    "https://www.anthropic.com/news/claude-frontier-academy"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1521,7 +1522,9 @@
     "https://openai.com/index/helping-small-businesses-put-ai-to-work",
     "https://openai.com/index/the-eternal-complement",
     "https://openai.com/index/albertsons-reimagining-retail",
-    "https://openai.com/index/the-den-family-social"
+    "https://openai.com/index/the-den-family-social",
+    "https://openai.com/index/practical-guide-building-gpt-6",
+    "https://openai.com/index/chatham-financial"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1594,7 +1597,8 @@
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/",
     "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-    "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/"
+    "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
+    "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
