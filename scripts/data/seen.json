@@ -1717,7 +1717,9 @@
     "https://github.blog/changelog/2026-09-30-hydrafusion-in-vs-code-and-the-github-copilot-app",
     "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps",
     "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
-    "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app"
+    "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
+    "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
+    "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
