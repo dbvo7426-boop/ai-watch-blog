@@ -1,14 +1,25 @@
 ---
-title: "Purpose-built model for leaked secret detection"
-description: "<p>Secret protection should keep pace with the way you build software, whether you write code yourself or work with an A"
+title: "GitHub、漏洩シークレット検出専用のモデルを導入"
+description: "GitHubが、周辺のコードを読み取って認証情報らしきものを検出する、シークレット検出専用にファインチューニングされたコンテキスト認識モデルを導入。典型的なトークン形式を持たない非構造化パスワードも検出可能で、AI検出パスワード警告・プッシュ保護・今後のCopilotセキュリティレビューに展開される。"
 pubDate: 2026-10-07
 category: copilot
 type: news
-tags: []
+tags: [GitHubCopilot, シークレット検出, セキュリティ, GHAS]
 source: https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubは、コード内の漏洩した認証情報を検出するための専用ファインチューニング済みモデルを導入し、汎用の大規模言語モデルによるシークレットスキャンから一歩進みました。
 
-一次情報: https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection
+## 詳細
+
+- **新しい点**: このモデルはコンテキスト認識型で、周辺のコードを読み取ることで「コードや文章を生成せずに」認証情報らしきものを識別できる。典型的なトークン形式を持たない非構造化パスワードも検出対象に含まれる
+- **従来との違い**: 従来の手法はパターン・トークンマッチングや汎用モデルへの依存度が高かったが、今回のモデルはシークレット検出タスク専用にファインチューニングされている
+- **展開チャネル**: AI検出パスワード警告を利用している既存顧客は自動的に新モデルへ移行。プッシュ保護チェックは、GitHub Secret Protection(GHSP)またはGitHub Advanced Security(GHAS)を利用する組織向けにプライベートプレビューで提供。Copilotセキュリティレビューとの連携も近日中にプライベートプレビューで提供予定。GitHub Enterprise Serverでの対応はGHES 3.23でのパブリックプレビューを予定
+- **課金**: AI検出パスワード警告はGHSP/GHASで引き続き無料。新たなプッシュ保護・セキュリティレビューチェックはGitHub AI Creditsを消費する
+- **公開されたベンチマークなし**: GitHubは、従来の検出手法と比較した精度や偽陽性・偽陰性率の数値を公開していない
+
+## その後
+
+今回は、ローカルサンドボックスの一般提供開始やCLIでのローカルモデル発見機能に続く、今週3件目のセキュリティ・制御重視のCopilotリリースです。エージェント型コーディングワークフローが自律的により多くのコードを生成・処理するようになる中、GitHubのAIツールを認証情報漏洩に対して強化するという、より広範な取り組みを反映しています。

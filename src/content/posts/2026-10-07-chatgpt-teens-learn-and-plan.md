@@ -1,14 +1,27 @@
 ---
-title: "Helping teens learn, plan, and shape the future of AI"
-description: "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, q"
+title: "ChatGPT for Teens、「College Planner」と強化されたフラッシュカード・クイズ機能を追加"
+description: "OpenAIが、米国の10〜12年生向けに出願要件・締め切り・奨学金手続きを管理する「College Planner」をChatGPT for Teensに導入。強化されたフラッシュカード・クイズ機能、複数ページ撮影機能も追加し、ボストン小児病院のDigital Wellness Labと協力して開発された。"
 pubDate: 2026-10-07
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, ChatGPT, 10代向け, 教育, CollegePlanner]
 source: https://openai.com/index/teens-learn-and-plan
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、高校生の大学出願管理を支援する「College Planner」をChatGPT for Teensに導入すると発表しました。強化された学習ツールも併せて追加されています。
 
-一次情報: https://openai.com/index/teens-learn-and-plan
+## 詳細
+
+- **College Planner**: 志望校ごとの出願要件・締め切り・タスク・奨学金手続きを一つのプランにまとめ、進捗を追跡したり、要件や次のステップについてChatGPTに質問したりできる
+- **初期提供範囲**: 米国の10〜12年生で4年制大学への進学を検討している学生向けに開始。今後、他の国や2年制大学・専門学校などの教育機関にも拡大予定
+- **奨学金支援**: 奨学金の要件を理解し、志望校ごとの締め切りを追跡し、奨学金や受験料免除を探すためのツールを提供
+- **フラッシュカード**: ノートをアップロードまたはトピックを選択して復習カードを生成。習得済みのカードを記録し、デッキをライブラリに保存し、スケジュールされた練習セッションにも対応
+- **クイズ**: 強化されたクイズ作成ツールにより、アップロードしたノートを対話的な小テストに変換。会話内でのクイズ作成リクエストの認識精度も向上
+- **複数ページ撮影**: iOSで提供開始(Android版は開発中)。ノートの複数ページを撮影すると自動的に1つのPDFに結合され、アップロードできる
+- **安全面の監督**: ボストン小児病院のDigital Wellness Labと協力して開発。2026〜27年に発足する独立した学生諮問委員会が、安全設定のデフォルト・保護者向け管理機能・通知・AIリテラシーについて10代からの意見を集める
+
+## その後
+
+今回のリリースは、ChatGPT for Teensを汎用アシスタントから専用の学習計画ツールへと拡張するものであり、10代向けの機能拡張を外部の安全監督と組み合わせるという、OpenAIがこれまで取ってきた一方的に機能を展開しない姿勢を踏襲しています。

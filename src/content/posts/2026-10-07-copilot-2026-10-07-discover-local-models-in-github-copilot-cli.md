@@ -1,14 +1,25 @@
 ---
-title: "Discover local models in GitHub Copilot CLI"
-description: "<p>GitHub Copilot CLI makes it easier to choose a local model without leaving your existing workflow. Starting in CLI ve"
+title: "GitHub Copilot CLI、ローカルのOllamaモデルを発見・選択できる機能を追加"
+description: "GitHub Copilot CLI 1.0.94-0で、クラウドモデルと並んで、ローカルで動作するOllamaのモデルを「/model」コマンドで閲覧・選択できるようになった。ランタイムの自動インストールやオフラインモードの有効化は行われない。"
 pubDate: 2026-10-07
 category: copilot
 type: news
-tags: []
+tags: [GitHubCopilot, ローカルモデル, Ollama, 開発者ツール]
 source: https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHub Copilot CLIに、設定済みのクラウドモデルと並んで、ローカルで動作するOllamaインスタンスのモデルを発見・選択できる機能が追加されました。
 
-一次情報: https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli
+## 詳細
+
+- **仕組み**: 「/model」コマンドを実行して利用可能なモデルを閲覧。ピッカーには各モデルのプロバイダーとエンドポイントが表示され、ローカルモデルを選択後は「このセッションで追加して使用」または「切り替えずに追加」を選べる
+- **前提条件**: この機能はランタイムやモデルを自動的にインストール・ダウンロードするものではなく、Ollamaとモデルは事前にインストールされている必要がある。また、モデルはツール呼び出しとストリーミングに対応していなければならない
+- **エラー処理**: プロバイダーへの接続に失敗した場合、ピッカーに説明付きで表示される
+- **オフライン切り替えではない**: ローカルモデルの選択はオフラインモードの有効化やGitHubのテレメトリ無効化を意味しない。オフラインモードには引き続き`COPILOT_OFFLINE=true`の明示的な設定が必要
+- **提供状況**: CLIバージョン1.0.94-0以降で利用可能。GitHubは、ローカルモデルとクラウドモデル間のインテリジェントなルーティング機能も今後提供予定とプレビューした
+
+## その後
+
+これにより、Copilot CLIの利用者はツールを切り替えることなく、自己ホスト型のモデルをより軽量にワークフローへ組み込めるようになりました。同じ週に発表されたローカルサンドボックスのGA提供や専用の漏洩シークレット検出モデルと並び、Copilotのエージェント機能をどこで・どのように動作させるかについて開発者がより多くの制御権を持てるようにする、より広い流れの一部となっています。
