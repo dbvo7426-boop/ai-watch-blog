@@ -265,7 +265,8 @@
     "https://www.anthropic.com/news/accenture-embedded-evaluation",
     "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
     "https://www.anthropic.com/news/barclays-scales-claude",
-    "https://www.anthropic.com/news/claude-frontier-academy"
+    "https://www.anthropic.com/news/claude-frontier-academy",
+    "https://www.anthropic.com/news/cyber-verification-program"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1527,7 +1528,10 @@
     "https://openai.com/index/chatham-financial",
     "https://openai.com/index/eu-text-provenance",
     "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-    "https://openai.com/index/atlassian-partnership"
+    "https://openai.com/index/atlassian-partnership",
+    "https://openai.com/index/jump-trading",
+    "https://openai.com/index/sharing-ai-progress-in-mathematics",
+    "https://openai.com/index/advancing-computer-use-with-ironclad"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1722,7 +1726,8 @@
     "https://github.blog/changelog/2026-10-01-github-copilot-in-vs-code-september-2026-releases",
     "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app",
     "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level",
-    "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated"
+    "https://github.blog/changelog/2026-10-02-selected-models-in-github-copilot-deprecated",
+    "https://github.blog/changelog/2026-10-06-update-your-ide-to-restore-agent-activity-in-copilot-usage-metrics"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
