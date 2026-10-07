@@ -1,14 +1,25 @@
 ---
-title: "Advancing computer use with Ironclad"
-description: "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer"
+title: "OpenAIとIroncladの共同研究、GPT-6 Astraが契約業務エージェントの所要時間をSol比でほぼ半減"
+description: "OpenAIとIroncladが、11種類の実際の契約業務ワークフローでコンピュータ操作エージェントを学習・評価。GPT-6 AstraはGPT-5.6 Solの41.6%に対し55.0%のスコアを記録し、所要時間も37.0分から19.2分に短縮。Ironcladのホスト環境で合成学習タスクと強化学習を用いた。"
 pubDate: 2026-10-06
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, ChatGPT, コンピュータ操作, Ironclad, GPT-6Astra]
 source: https://openai.com/index/advancing-computer-use-with-ironclad
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、法務テック企業Ironcladと共同で、複雑な契約業務ワークフロー向けのコンピュータ操作エージェントの進展に関する研究を発表しました。GPT-6 AstraがGPT-5.6 Solを上回る具体的な性能向上を記録しています。
 
-一次情報: https://openai.com/index/advancing-computer-use-with-ironclad
+## 詳細
+
+- **ベンチマーク結果**: 11種類の実際の契約業務タスクにおいて、GPT-6 Astraは平均55.0%のスコアを記録し、GPT-5.6 Solの41.6%を相対的に32%上回った。平均完了時間も48%短縮し、Solの37.0分に対し19.2分で完了
+- **タスクの種類**: 秘密保持契約の作成、調達承認プロセスの構築、再利用可能な法務条項の更新などが含まれ、これらは経験豊富な人間が行う場合通常30〜40分を要する業務
+- **学習手法**: 代表的なワークフローをモデルにした合成学習タスクと強化学習を用い、Ironcladのホスト環境内での実践とフィードバックを通じてモデルを改善
+- **評価の厳密さ**: 各タスクには複雑さに応じて8から50の評価基準が設定された
+- **主な知見**: 信頼性の高い企業向けコンピュータ操作自動化には、複数手順のワークフロー全体を通じて複数の業務ルールを同時に把握し続けるエージェントの能力が必要であり、OpenAIはこれを現在も活発に開発中の能力だとしている
+
+## その後
+
+今回は製品発表ではなく研究・ベンチマークの開示であり、前世代のSolと比較してGPT-6 Astraのコンピュータ操作能力が実際の企業業務でどれだけ進歩したかを、具体的な数値とともに示すものです。今月初めに発表されたGitHub Copilotのデスクトップアプリ向けコンピュータ操作機能と合わせ、コンピュータ操作エージェントが業界全体で測定可能かつ競争力のある能力になりつつあることを裏付けています。

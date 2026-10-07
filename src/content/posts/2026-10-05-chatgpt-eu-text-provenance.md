@@ -1,14 +1,25 @@
 ---
-title: "Our approach to EU text provenance rules"
-description: "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why a"
+title: "OpenAI、EU向けテキストの来歴証明への取り組みを公表——不可視の電子透かし「textGrain」を導入"
+description: "OpenAIが、EU AI法のテキスト来歴証明要件に対応する取り組みを公表。不可視の電子透かし技術「textGrain」をEU向けのChatGPTとCodexに導入し、APIでは全世界でオプトイン提供する一方、大幅な編集後は検出率が17%まで低下するといった技術的な限界も開示した。"
 pubDate: 2026-10-05
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, ChatGPT, EUAI法, 電子透かし, コンテンツ来歴]
 source: https://openai.com/index/eu-text-provenance
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、EU AI法のテキスト来歴証明要件への対応方針を公表しました。中心となるのは、不可視の電子透かし技術「textGrain」です。
 
-一次情報: https://openai.com/index/eu-text-provenance
+## 詳細
+
+- **段階的な展開**: APIの顧客は全世界で今すぐ一部モデル向けに電子透かしをオプトインできる。今後数週間で、ChatGPTとCodexは(全世界ではなく)EU圏のユーザー向けに対象テキストへ電子透かしを追加する
+- **検出ツールへのアクセス**: 承認を受けた研究者や専門機関は、電子透かし検出ツールへの限定的なアクセスを申請できる
+- **開示された限界**: 短いテキストでは検出精度が大幅に低下する(200トークンの文章で約80%、400トークンでは95%)。大幅な編集は電子透かしを著しく弱め、単語の25%を置き換えると検出率は約17%まで低下。数式を含む内容は、柔軟な散文よりも確実な電子透かし付与が難しい
+- **明示された注意事項**: OpenAIは、電子透かしが人間の寄与度の測定、著作権の確定、個々のユーザーの特定、事実の正確性の検証のいずれにも使えないとしており、「電子透かしが検出されないことは、人間による執筆の証明にはならない」としている
+- **位置づけ**: 完全な解決策ではなく、より広範なコンテンツ来歴戦略における一つの層として位置づけられている
+
+## その後
+
+今回の発表は、新たなコンプライアンス対応の技術的機能とその限界の率直な開示を組み合わせるという、OpenAIのセーフティケースの枠組みやインシデント事後報告と同様の姿勢を踏襲するものです。完全ではないものの、EU規制当局や研究者に対し、AI法の施行強化を控えた具体的なテキスト来歴証明ツールを提供する形となりました。

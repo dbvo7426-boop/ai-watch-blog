@@ -1,14 +1,26 @@
 ---
-title: "Sharing AI progress in mathematics"
-description: "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof forma"
+title: "OpenAI、社内フロンティアモデルによる数学分野の新成果を公表——Lean形式の証明も公開"
+description: "OpenAIが、未公開の社内フロンティアモデルが生み出した数学分野の幅広い新成果を公表。コンピュータで検証可能なプログラミング言語「Lean」による証明の形式化を、プリンストン高等研究所の数学・AI諮問グループと協力して開発したリポジトリで公開した。"
 pubDate: 2026-10-06
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, ChatGPT, 数学, Lean, 研究]
 source: https://openai.com/index/sharing-ai-progress-in-mathematics
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、社内のフロンティアモデルが生み出した幅広い数学分野の新成果を、形式的な証明検証とともに公表しました。モデル自体はまだ公開されていません。
 
-一次情報: https://openai.com/index/sharing-ai-progress-in-mathematics
+## 詳細
+
+- **モデルについて**: 結果は名称未公開の社内フロンティアモデルによるもので、OpenAIは「責任を持って公開する作業を進めている」としているが、モデル自体はまだ一般公開されていない
+- **形式検証**: 多くの証明について、コンピュータで数学的証明を検証できるプログラミング言語「Lean」による形式化を公開しており、今後もリポジトリを継続的に更新する予定
+- **透明性のための資料**: 今回の公開には、モデルの推論過程の要約10件と、取り組んだ問題に関する統計情報が含まれる
+- **計算コスト**: OpenAIによれば、平均的な結果にはChatGPT Proの「思考」時間に換算して約3時間相当の計算量が使われた
+- **監督体制**: 今回の公開や、引用・改訂に関するプロトコルは、プリンストン高等研究所(IAS)の数学・AI諮問グループと協議の上で策定された
+- **公開方法**: 結果と形式化された証明は、公開のGitHubリポジトリで公開されている
+
+## その後
+
+今回の公表は、フロンティアモデルの能力に関する主張を、自己申告のベンチマークスコアではなく機械的に検証可能な証拠——この場合はLeanによる検証可能な証明——と組み合わせるという、OpenAIのこれまでのパターンを踏襲するものです。また、今後何らかの形でOpenAIが発表するであろう、より高性能な未公開モデルが社内に既に存在していることを示唆しています。
