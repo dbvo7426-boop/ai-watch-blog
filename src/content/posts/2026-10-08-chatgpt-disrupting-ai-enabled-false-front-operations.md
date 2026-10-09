@@ -1,14 +1,26 @@
 ---
-title: "Disrupting AI-enabled “false front” operations"
-description: "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopol"
+title: "OpenAI、ChatGPTを使って偽ジャーナリストと偽シンクタンクを運営していたロシア・イラン関連の影響操作を禁止"
+description: "OpenAIが、2つの秘密裏の影響操作キャンペーンを阻止したと公表。ロシア関連の「Dark Clark」(ワグネル・グループの後継組織とされる団体との関連あり)は、南米の偽シンクタンクの運営にChatGPTを利用。イラン関連の「Bogus Bylines」は7人の偽ジャーナリストを用い、両者合わせて約200本の記事を公開していた。"
 pubDate: 2026-10-08
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, ChatGPT, 影響操作, 偽情報, セキュリティ]
 source: https://openai.com/index/disrupting-ai-enabled-false-front-operations
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、ロシア関連とイラン関連それぞれの、ChatGPTを利用した秘密裏の影響操作キャンペーンを2件禁止したと公表しました。いずれも、偽のニュースや研究者の人物像を運営する目的で利用されていました。
 
-一次情報: https://openai.com/index/disrupting-ai-enabled-false-front-operations
+## 詳細
+
+- **「Dark Clark」(ロシア関連)**: VPNを使ってロシア語でプロンプトを行っていたアカウント群で、運営者は「Politology」または「La Compania」——ワグネル・グループの後継組織と報じられ、エフゲニー・プリゴジン氏が設立したとされる団体——との関連が確認された。このキャンペーンは、南米の実在しないシンクタンク「Social Research Center(SRC)」を立ち上げ、現地採用の職員はロシアの利益のために働いていることを知らなかった
+- **「Bogus Bylines」(イラン関連)**: ペルシア語でプロンプトを行いながら英語とペルシア語両方のコンテンツを生成する運営者による、営利目的の請負型影響キャンペーンに類似した活動。社会的メディアアカウントで裏付けられた7人の偽ジャーナリストの人物像を使用していた
+- **ChatGPTの使い方**: Dark Clarkは主に活動の内部報告書の作成や、地域の実在性を高めるための言葉遣いの調整に利用。Bogus Bylinesは長文記事や論説の下書きの修正、ソーシャルメディアのコメント生成、内部報告書の修正に利用していた
+- **対象とされたナラティブ**: Dark Clarkは、南米におけるウクライナの評判やアルゼンチン・ボリビア・エクアドルの国内政治を標的とし、アルゼンチン大統領に関する捏造話や、歴史的な論争を通じた反ポーランド感情の喚起などが含まれていた。Bogus Bylinesは、米・イラン間の緊張において米国を侵略者とする反戦ナラティブを推進し、イラン国際放送(イラン政権の批判者)を批判していた
+- **規模**: ブルッキングス研究所の影響操作ブレイクアウトスケール(1〜6)で、Dark Clarkはカテゴリー5(約十数の媒体で約100本の記事を掲載し、公式の否定声明やポーランドの欧州議会議員からの言及を招いた)、Bogus Bylinesはカテゴリー4(中小規模の媒体で約100本の記事)に達していた
+- **検出手法**: アカウントのメタデータ分析、プロンプトのクラスタリング、オープンソース調査、ファクトチェックや公式の否定声明との照合
+
+## その後
+
+OpenAIは、両方の操作が「AI以前の時代」の影響力工作の手法に似ているものの、規模・効率性・言語的な流暢さを高めるためにAIを利用していたと指摘しました。また、「Alice Donovan」や「PeaceData」といった過去のキャンペーンが暴露後に活動を停止した例を挙げ、こうした偽装された活動の公開は無力化につながりやすいと主張しています。今回の公表は、以前のモデル蒸留キャンペーンの阻止に続く、OpenAIの定期的な脅威インテリジェンス報告の取り組みを継続するものです。
