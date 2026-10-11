@@ -1,14 +1,22 @@
 ---
-title: "Copilot code review: New organization billing options and controls"
-description: "<p>This release adds new billing and license controls for Copilot code review admins: Billing: Organization owners can b"
+title: "GitHub Copilotのコードレビュー、組織課金と承認済み利用者限定のリクエスト制御を追加"
+description: "GitHubが、個々のメンバーのクォータではなく組織側でCopilotコードレビューの費用を負担できる設定と、組織・エンタープライズ提供のCopilotライセンスを持つ利用者のみにレビューのリクエストを限定できる制御を追加した。"
 pubDate: 2026-10-08
 category: copilot
 type: news
-tags: []
+tags: [GitHubCopilot, コードレビュー, 課金, 管理機能]
 source: https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubは、GitHub Copilotのコードレビュー管理者向けに、新たな課金・ライセンス制御機能を追加しました。
 
-一次情報: https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls
+## 詳細
+
+- **課金方法の選択**: 「Copilotライセンスを持つメンバーの課金方法を選択」という新しい設定により、組織の所有者がレビューの費用を誰が負担するかを決定できる。デフォルトの「メンバー」オプションはメンバー自身のCopilot利用枠に課金し(枠を使い切るとレビューは失敗する)、「組織」オプションはリポジトリを所有する組織に課金してメンバーの利用枠を維持する。この機能にはAI Creditsの有料利用の有効化が必要で、予算上限も任意で設定できる。組織設定のCopilot > Policiesから利用可能
+- **承認済み利用者の限定**: 組織の所有者とリポジトリの管理者は「Copilotコードレビューを承認済み利用者のみがトリガーできるようにする」設定を有効化でき、組織・エンタープライズ提供のCopilotライセンスを持つ利用者のみにレビューのリクエストを限定し、個人ライセンスの利用を防止できる。組織の所有者がこれを有効化すると、リポジトリの管理者は無効化できない
+
+## その後
+
+これは、GitHubが今年初めから構築してきたCopilotコードレビュー機能を補強する段階的な管理者向け制御であり、AI支援によるコードレビューがより多くのリポジトリに広がる中、組織がコストとアクセスをより細かく管理できるようにするものです。

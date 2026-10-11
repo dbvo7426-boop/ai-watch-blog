@@ -1,14 +1,26 @@
 ---
-title: "New controls and chat improvements in Copilot for JetBrains"
-description: "<p>This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes dia"
+title: "GitHub Copilot for JetBrains、管理者向けモデル制御とチャット機能の改善を追加"
+description: "GitHub Copilot for JetBrainsが、デフォルトのエージェントモデル設定とMCPサーバー自動起動の無効化といったエンタープライズ向け管理機能、診断の「Fix」アクションやターン単位のメッセージ整理、アカウント切り替えの分かりやすさ向上といったチャット機能の改善を追加した。"
 pubDate: 2026-10-10
 category: copilot
 type: news
-tags: []
+tags: [GitHubCopilot, JetBrains, 開発者ツール]
 source: https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHub Copilot for JetBrainsに、新たな管理機能とチャットワークフローの改善がいくつか追加されました。
 
-一次情報: https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains
+## 詳細
+
+- **デフォルトエージェントモデルの制御**: エンタープライズ管理者は、管理設定から新しい会話向けのデフォルトエージェントモデルを設定可能(ただし利用者はピッカーから別のモデルを選択できる)
+- **MCP自動起動の切り替え**: Copilot・Claude MCPサーバーの自動起動を無効化できる新しい設定が追加され、これらのツールをいつ有効化するかを利用者が決められるようになった
+- **診断の「Fix」アクション**: 診断メニューに、インラインチャットを開いてCopilotに問題の修正を依頼する「Fix」アクションが追加され、利用可能な場合はエージェントモードを使用する
+- **アカウントの分かりやすさ向上**: サインイン済みアカウントの表示ラベルが明確化され、ステータス表示が簡素化、「アカウント切り替え」アクションも追加。新規利用者にはChatの場所に関するワンタイムの案内が表示され、サインインページのレイアウトも刷新
+- **チャットの整理**: メッセージがターン単位でグループ化され、ターン間を移動する操作も追加。ユーザーのメッセージはコピー・編集が可能に。エージェントのプレースホルダーには、質問・編集・コンテキスト・コマンドに関するガイダンスが表示される
+- **提供状況**: 最新のGitHub Copilot JetBrainsプラグインで提供。JetBrains IDE 2025.1のサポートは終了しており、2025.2以降が必要
+
+## その後
+
+今回の更新は、GitHubが今月CLI・VS Code・JetBrainsの各環境にわたって展開してきた、管理者向け制御とワークフローの改善という一連のリリース群を締めくくるものであり、エンタープライズ向けガバナンス機能とチャットの使いやすさの改善を、JetBrains利用者にも特化して提供するものです。

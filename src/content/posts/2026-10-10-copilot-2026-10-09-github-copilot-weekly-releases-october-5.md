@@ -1,14 +1,26 @@
 ---
-title: "GitHub Copilot weekly releases — October 5"
-description: "<p>This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents c"
+title: "GitHub Copilot週次リリース(10月5日週)——Claude Haiku 5.5、アカウント分離、エージェントセッションの並列表示"
+description: "GitHubの10月5日週分のCopilot週次まとめ。Claude Haiku 5.5へのアクセス追加、ローカルサンドボックスの一般提供開始、ライセンスとリポジトリアクセスでアカウントを分けられる機能、CLIでのローカルモデル発見、VS Codeでのエージェントセッション並列表示とワークツリー整理機能を含む。"
 pubDate: 2026-10-09
 category: copilot
 type: news
-tags: []
+tags: [GitHubCopilot, 週次リリース, 開発者ツール, VSCode]
 source: https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubは、10月5日週分のCopilot週次リリースまとめを公開しました。アカウント・CLI・VS Code関連の複数のアップデートがまとめられています。
 
-一次情報: https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5
+## 詳細
+
+- **Claude Haiku 5.5**: Copilot Pro、Pro+、Max、Business、Enterpriseの利用者が利用可能に
+- **ローカルサンドボックス(一般提供)**: Copilot CLI、Copilotアプリ、Agent Hostを使用するVS Codeセッションにおいて、エージェントがアクセスできるファイル・ネットワーク・認証情報を制限。追加コストなしで提供
+- **Copilotアプリでのアカウント分離**: Copilotライセンス用のGitHubアカウントと、リポジトリへのアクセス用の別アカウントを組み合わせられるようになった。例えば、エンタープライズ提供のライセンスを個人アカウントと併用する場合など
+- **Copilot CLIでのローカルモデル発見**: 「/model」コマンドで、設定済みのクラウドモデルと並んで、ローカルで動作するOllamaインスタンスのモデルを一覧表示
+- **VS Code 1.141でのエージェントセッション並列表示**: Agentsウィンドウでセッションをグリッド状に配置し、結果を比較したり複数のタスクを同時に追跡できる
+- **VS Code 1.141でのワークツリー整理**: チャット内の「ワークツリー整理を開く」オプションで、非アクティブなセッションのワークツリーが使用しているディスク容量を確認し、削除するものを選択できる
+
+## その後
+
+今回のまとめに含まれる個々の項目のうち、Claude Haiku 5.5・ローカルサンドボックスの一般提供・CLIでのローカルモデル発見については、本ブログでも単独のリリースとして既に取り上げています。真に新しい項目は、アカウント分離機能とVS Code 1.141のセッション管理機能(並列表示とワークツリー整理)であり、GitHubが複数セッションでのエージェントワークフローを段階的に改善し続けていることを示しています。
