@@ -1644,7 +1644,11 @@
     "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
     "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
-    "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
+    "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+    "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+    "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1775,7 +1779,9 @@
     "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
     "https://github.blog/changelog/2026-10-08-copilot-code-review-new-organization-billing-options-and-controls",
     "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-    "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture"
+    "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+    "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
+    "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
