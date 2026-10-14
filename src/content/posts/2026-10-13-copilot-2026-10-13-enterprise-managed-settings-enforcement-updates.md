@@ -1,14 +1,21 @@
 ---
-title: "Enterprise managed settings enforcement updates"
-description: "<p>Enterprise administrators can now require supported GitHub Copilot clients to retrieve current server-managed setting"
+title: "GitHub Copilot、エンタープライズ向けに管理設定の最新取得を必須化できる機能を追加"
+description: "GitHubが、エンタープライズ管理者がサポート対象のGitHub Copilotクライアントに対し、サーバー側で管理されている最新の設定を取得するよう必須化できる機能を追加。クライアントが古いキャッシュ済みポリシー設定のまま動作してしまう問題に対応する。"
 pubDate: 2026-10-13
 category: copilot
 type: news
-tags: []
+tags: [GitHubCopilot, 管理設定, エンタープライズ, 管理機能]
 source: https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubは、Copilotの管理設定に関する適用強化機能を追加しました。エンタープライズ管理者は、サポート対象のクライアントに対し、古いローカル設定のまま動作させるのではなく、サーバー側で管理されている最新の設定を取得するよう必須化できるようになりました。
 
-一次情報: https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates
+## 詳細
+
+- **新機能の内容**: エンタープライズ管理者は、サポート対象のGitHub Copilotクライアントに対し、古いキャッシュ済みポリシーのまま動作する可能性を排除し、サーバー側で管理されている最新の設定を取得するよう必須化できるようになった
+
+## その後
+
+今回の機能追加は、Copilotクライアント全体でのポリシー適用の一貫性におけるギャップを埋めるものです。同じ週に発表された新しいクライアントテレメトリのユーザー紐付け機能と合わせて、GitHubがCopilot導入環境向けのエンタープライズガバナンス機能を引き続き強化していることを示しています。

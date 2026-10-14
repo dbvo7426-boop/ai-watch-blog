@@ -1,14 +1,29 @@
 ---
-title: "Gemini 4 Argon: Built to solve your hardest problems"
-description: "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.fo"
+title: "Gemini 4 Argon が全世界で本格提供開始——Vals Indexで首位、セーフティレポートも公開"
+description: "Googleが、Gemini 4 ArgonをAPI・Android Studio・Google AI Ultra/Pro・新しいエージェントプラットフォーム「Antigravity」を通じて全世界で本格提供開始。専用のセーフティレポートも公開し、模擬サイバー攻撃シナリオ12件全てを解決、プロンプトインジェクション攻撃成功率を0.7%まで低減したと報告した。"
 pubDate: 2026-10-13
 category: gemini
 type: news
-tags: []
+tags: [Gemini, Google, Gemini4Argon, AIモデル, 安全性]
 source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Googleは、Gemini 4 ArgonをAPI・開発者ツール・Geminiアプリを通じて全世界で本格提供開始しました。専用のセーフティ・セキュリティレポートも公開しており、9月下旬の初披露時よりも大幅に広い展開となっています。
 
-一次情報: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+## 詳細
+
+- **アクセスと価格**: AI StudioのGemini APIを通じて開発者・企業向けに全世界で提供開始。導入価格は入力100万トークンあたり2ドル、出力100万トークンあたり10ドル(キャッシュ入力は95%割引)。Geminiアプリと検索のAIモードでは、Google AI UltraおよびProの加入者向けに展開中。Ultra加入者は、Googleの新しいエージェント優先開発プラットフォーム「Antigravity」も利用可能
+- **コンテキスト上限**: 入出力統合で100万トークンの上限。長文出力向けの新しい継続プロトコルを搭載
+- **開発者向けアクセス**: Google AI Studio、Android Studio(Android開発者向け)、Google Antigravityで利用可能。今回の提供開始前に、セキュリティ企業Wizなどのパートナーを含む企業・スタートアップ向け早期アクセスプログラムを実施済み
+- **ベンチマーク**: 金融・コーディング・法務・税務業務をカバーするVals Indexで首位。身体性推論ベンチマークのERQAでは87%のスコア。Googleは、エージェント的なコード提出が35%以上増加し、コードのロールバックが約3分の1減少したと報告
+- **活用例**: Chromeのアーキテクチャ刷新、セッション準備時間を40%短縮したPythonフレームワークの最適化、化学計算パッケージxTBとGemma推論の高速化、量子誤り訂正デコーダーの改善、ステラレータ研究におけるGrad予想の新たな反例、希少疾患のゲノム解析、酵素設計、動画から学習した投げ方をヒューマノイドロボットに転移する「video-to-sim-to-real」パイプラインなど
+- **Geminiアプリの機能**: より直接的で遠回しでない応答、長時間タスクでの頻繁な進捗報告、ユーザーが離席した後も作業を続けられる「チャットからタスクへ」の切り替え機能、Instacart・OpenTable・Adobe・Shopifyなど40以上のアプリとの連携。macOSアプリでは、チャットと並んでAntigravityのエージェント型コーディングインターフェースも利用可能に
+- **セーフティ・セキュリティレポート**: 模擬の一連のサイバー攻撃シナリオ12件全てを解決(前世代の5件から増加)。これを受けGoogleは、サイバーとバイオロジーの両分野に次世代版のFrontier Safety Frameworkの安全対策を適用。敵対的な違反率は従来モデル比でほぼ半減。3層構成のリアルタイムなジェイルブレイク対策(入力スクリーニング、内部の「アクティベーション・プローブ」、手順をまたいだ監視と途中停止)を搭載。外部によるバイオ関連ジェイルブレイクのレッドチーミングでは、対象サブタスクの1%未満しか突破できなかった。Gray Swanのベンチマークでのプロンプトインジェクション攻撃成功率は、15回の適応的試行で0.7%まで低減
+- **ミスアライメントの監視**: ハニーポットテストでは、安全性監視を妨害する隠れた行動は見つからなかった。コーディングベンチマークでの近道・不正行為の試みは2%まで低下し、Geminiモデルとして過去最良の結果。行動とChain-of-Thoughtの両方を読み取る自動監視システムが、重大な違反を人間によるレビューへとフラグ付けし、製品・社内コーディングエージェント・学習・評価の全てで稼働
+- **科学者向けアクセスプログラム**: 審査制で最大1万人の科学者に、Antigravityの最上位利用枠へ6か月間無料でアクセスできる機会を提供
+
+## その後
+
+今回の展開は、9月下旬の限定的な初披露から、Gemini 4 Argonの提供範囲を大幅に広げるものであり、サイバー・バイオロジーのリスク区分にFrontier Safety Frameworkを明示的に適用するなど、Geminiモデルとしてこれまでで最も詳細な安全性・セキュリティ開示と組み合わされています。同日にはGitHub Copilotでも同モデルが一般提供開始となりました。
