@@ -269,7 +269,8 @@
     "https://www.anthropic.com/news/cyber-verification-program",
     "https://www.anthropic.com/news/2026-usage-policy-update",
     "https://www.anthropic.com/news/genesis-mission-commitment",
-    "https://www.anthropic.com/news/anthropic-cyber-mission"
+    "https://www.anthropic.com/news/anthropic-cyber-mission",
+    "https://www.anthropic.com/news/singapore-office-opening"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1571,7 +1572,9 @@
     "https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments",
     "https://openai.com/business/fine-tuning-gpt-4o-webinar",
     "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
-    "https://openai.com/index/higgsfield-longer-videos-voice"
+    "https://openai.com/index/higgsfield-longer-videos-voice",
+    "https://openai.com/index/third-moment-research",
+    "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
