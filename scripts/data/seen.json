@@ -270,7 +270,8 @@
     "https://www.anthropic.com/news/2026-usage-policy-update",
     "https://www.anthropic.com/news/genesis-mission-commitment",
     "https://www.anthropic.com/news/anthropic-cyber-mission",
-    "https://www.anthropic.com/news/singapore-office-opening"
+    "https://www.anthropic.com/news/singapore-office-opening",
+    "https://www.anthropic.com/news/2026-us-midterms"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1574,7 +1575,10 @@
     "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
     "https://openai.com/index/higgsfield-longer-videos-voice",
     "https://openai.com/index/third-moment-research",
-    "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
+    "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+    "https://openai.com/index/amp-beyond-coding",
+    "https://openai.com/index/sentinelone",
+    "https://openai.com/index/block-ai-powered-security"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1785,7 +1789,8 @@
     "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
     "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
     "https://github.blog/changelog/2026-10-13-gemini-4-argon-in-github-copilot",
-    "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates"
+    "https://github.blog/changelog/2026-10-13-enterprise-managed-settings-enforcement-updates",
+    "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
