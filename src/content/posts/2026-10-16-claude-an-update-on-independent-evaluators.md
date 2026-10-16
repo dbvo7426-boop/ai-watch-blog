@@ -1,14 +1,26 @@
 ---
-title: "Anthropic update on independent evaluators"
-description: "Anthropic announces updates to embedding independent evaluators"
+title: "Anthropic、独立系非営利団体METRに従業員同等のアクセス権を付与しフロンティアリスクを評価"
+description: "Anthropicが、独立系非営利団体METRに自社モデルと内部システムへの従業員同等のアクセス権を付与し、フロンティアリスクを独立して評価し、Anthropicが拒否権を持たない形で結果を公表できるようにした。SecureBioによる生物兵器章のレビューやAccenture/Facultyとの提携構築も含む3段階の評価者フレームワークの一部。"
 pubDate: 2026-10-15
 category: claude
 type: news
-tags: []
+tags: [Anthropic, Claude, AI安全性, 独立評価者, METR]
 source: https://www.anthropic.com/news/an-update-on-independent-evaluators
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Anthropicは、独立系非営利団体METRに対し、自社モデルと内部システムへの従業員同等のアクセス権を付与し、フロンティアAIリスクを独立して評価できるようにしました。これは、より強力な第三者評価への以前からの取り組みと、「スーパーインテリジェンスに関するホワイトハウス協定」への署名を受けたものです。
 
-一次情報: https://www.anthropic.com/news/an-update-on-independent-evaluators
+## 詳細
+
+- **METRのアクセス権**: METRの従業員6名が、Anthropic自身のリスク評価チームとほぼ同等の社用機器・オフィス空間・社内ツールを利用できる。Anthropicの社員は、顧客データ・法務上の機密情報・モデルアーキテクチャといった定義済みの区分を除き、情報を共有するよう促される
+- **公表権**: METRは、Anthropicのリスクレベル・インシデント・運用実践に関する分析を公表する。Anthropicは公表に拒否権を持たないが、限定的な区分について編集(レダクション)を求めることができ、METRはその編集内容を明かさずに、編集が正当だったと考えるかどうかを公に述べることができる
+- **範囲の限定**: METRのチームは小規模で、強制力のある契約の下で活動し、METRの他の職員からは隔離されている。この取り決めは他の組織へのアクセス拡大を意味しない
+- **他の評価者との提携**: SecureBioは、Anthropicの2026年8月版リスクレポートの化学・生物兵器に関する章を、以前のパイロットレビューに続いてレビュー中。AccentureとFacultyは、レッドチーミング・アライメント評価・安全対策テスト・能力構築を含む、より広範な提携に向けて協議中。Hugging Faceを含む他の組織とも初期的な協議が進行中
+- **3段階のフレームワーク**: Tier 1は範囲が限定された調査で、Anthropicがアクセスを管理し公表を承認する。Tier 2は、Anthropicの承認なしでより多くの情報と公表権を付与するが、特定区分の編集対象となる。Tier 3は現時点ではMETRの取り決めのみで、Tier 2と同様の従業員同等のアクセス権と公表権を付与する。Anthropicは、複数の評価者が最終的にTier 3に到達することを望んでいるとしている
+- **理由**: Anthropicは、安全性に関わる情報の一部は悪意ある行為者を助ける可能性があったり商業的に機密であったりするため、全てを公表できないとしている。深いアクセス権を持つ独立評価者が、公共の代わりにリスクを評価・報告できるとし、大手銀行に検査官を常駐させる銀行監督のあり方にこの取り組みを例えている
+
+## その後
+
+Anthropicはこれを明確に自主的な取り組みと位置づけ、「フロンティアAI企業はすべて同様のことをすべきだ」としています。これは、以前のセーフティケースの枠組みやCyber Verification Programの背後にあった制度的監督という考え方を、公表権を伴う直接的な第三者アクセスへとさらに推し進めるものであり、これまでの多くのAI研究機関による外部レッドチーミングの取り決めよりも具体的かつ踏み込んだ一歩です。

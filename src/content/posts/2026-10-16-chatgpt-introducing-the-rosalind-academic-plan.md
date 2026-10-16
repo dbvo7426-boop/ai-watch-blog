@@ -1,14 +1,25 @@
 ---
-title: "Bringing GPT-Rosalind to academic research labs"
-description: "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to ad"
+title: "OpenAI、生命科学モデルへの無料アクセスを提供する「Rosalind Academic Plan」を開始"
+description: "OpenAIが、米国の大学の対象研究室向けに、Business Standardシート最大30席を12か月間無料提供し、専用の生命科学モデル「GPT-Rosalind」への信頼アクセス承認も付与する「Rosalind Academic Plan」を発表。提供された研究データはデフォルトでモデルの学習に使用されない。"
 pubDate: 2026-10-15
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, ChatGPT, GPT-Rosalind, 学術, 生命科学]
 source: https://openai.com/index/introducing-the-rosalind-academic-plan
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、米国の対象となる大学研究室に対し、フロンティアモデルと専用の生命科学モデル「GPT-Rosalind」への無料アクセスを提供する「Rosalind Academic Plan」を発表しました。
 
-一次情報: https://openai.com/index/introducing-the-rosalind-academic-plan
+## 詳細
+
+- **GPT-Rosalindについて**: 複雑な生物学的問題に対する深い推論のために構築された既存のOpenAIモデルで、医薬化学・ゲノミクス・ウェットラボ支援向けの専門ツールを統合する「Rosalindワークベンチ」と併用される。機密性の高い研究に対する安全対策とともに、信頼アクセスの承認が必要
+- **プランの内容**: 1ユーザーあたり0ドルでBusiness Standardシートを最大30席、最長12か月間提供。商業提供されている全てのフロンティアOpenAIモデルへのアクセス(プランの利用制限の範囲内)、信頼アクセス承認後のGPT-Rosalindへのアクセスを含む。プランを通じて共有された研究データはデフォルトでモデルの学習に使用されない。API利用は現時点では含まれない
+- **対象資格**: 現時点では米国の大学の学術研究室に限定。既存のOpenAI Enterprise契約を持たない大学のPI・研究室代表は信頼アクセスプロセスを通じて申請可能。Enterprise契約を持つ大学の研究室は、所属大学のEnterpriseアクセスプロセスを通じて申請する必要がある
+- **審査プロセス**: OpenAIは有効化の前に、所属機関の正当性、PIの身元と権限、研究活動と利用目的、研究室の所属機関との関係を確認し、機関内の安全窓口担当者の指定を求める
+- **管理**: 承認後、PIまたは研究室代表は最大30名の指定メンバーの権限を管理し、承認された用途の範囲内での利用について責任を負う。有効化後も監視と運用の執行が継続される
+
+## その後
+
+今回のプランは、以前の数学研究成果の公表といった前例と同様に、OpenAIが自社モデルの学術分野での採用を促進する取り組みを拡張するものであり、生命科学分野に特化して大学研究室のコスト障壁を下げています。一方で、GPT-Rosalind自体は広く開放されるのではなく、個別の信頼アクセス承認の下に置かれたままとなっています。
