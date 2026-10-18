@@ -22,7 +22,7 @@ export const CATEGORIES_EN: Record<string, { label: string; color: string; genre
   manus: { label: 'Manus', color: '#DC2626', genre: 'agent', domain: 'manus.im' },
   midjourney: { label: 'Midjourney', color: '#8B5CF6', genre: 'image', domain: 'midjourney.com' },
   mistral: { label: 'Mistral', color: '#FA520F', genre: 'chat', domain: 'mistral.ai' },
-  notebooklm: { label: 'NotebookLM (Gemini Notebook)', color: '#FBBF24', genre: 'agent', domain: 'notebooklm.google' },
+  notebooklm: { label: 'Gemini Notebook', color: '#FBBF24', genre: 'agent', domain: 'notebooklm.google' },
   perplexity: { label: 'Perplexity', color: '#06B6D4', genre: 'agent', domain: 'perplexity.ai' },
   qwen: { label: 'Qwen', color: '#A21CAF', genre: 'chat', domain: 'qwen.ai' },
   runway: { label: 'Runway', color: '#00C2A8', genre: 'video', domain: 'runway.com' },
