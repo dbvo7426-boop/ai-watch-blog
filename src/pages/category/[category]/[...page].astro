@@ -7,6 +7,7 @@ import ImportanceFilter from '../../../components/ImportanceFilter.astro';
 import GenreFilter from '../../../components/GenreFilter.astro';
 import SearchBox from '../../../components/SearchBox.astro';
 import { CATEGORIES, PAGE_SIZE } from '../../../consts';
+import { t } from '../../../i18n';
 
 export async function getStaticPaths({ paginate }) {
   const posts = await getCollection(
@@ -25,6 +26,7 @@ export async function getStaticPaths({ paginate }) {
 const { category } = Astro.params;
 const { page } = Astro.props;
 const cat = CATEGORIES[category];
+const ui = t('ja');
 ---
 
 <BaseLayout title={`${cat.label}の記事一覧`}>
@@ -38,6 +40,8 @@ const cat = CATEGORIES[category];
     <span class="count">{page.total} 件</span>
   </div>
 
+  {cat.archived && <p class="archived-notice">📦 {ui.archivedNotice}</p>}
+
   <ImportanceFilter />
   <GenreFilter />
   <SearchBox />
@@ -50,3 +54,14 @@ const cat = CATEGORIES[category];
 
   <Pagination page={page} />
 </BaseLayout>
+
+<style>
+  .archived-notice {
+    margin: 0 0 20px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: rgba(91, 100, 120, 0.1);
+    color: var(--muted);
+    font-size: 13.5px;
+  }
+</style>

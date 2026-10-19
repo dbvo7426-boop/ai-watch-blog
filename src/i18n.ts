@@ -39,6 +39,8 @@ export const UI = {
     searchPlaceholder: 'キーワードで検索(例: Claude 値下げ)',
     searchHint: 'キーワードを入力すると記事を検索できます。',
     noSearchResults: '該当する記事が見つかりませんでした。',
+    archive: 'アーカイブ',
+    archivedNotice: 'このサービスは提供を終了しています。過去の記事をアーカイブとして掲載しています。',
   },
   en: {
     latestArticles: 'Latest Articles',
@@ -79,6 +81,8 @@ export const UI = {
     searchPlaceholder: 'Search by keyword (e.g. Claude pricing)',
     searchHint: 'Type a keyword to search articles.',
     noSearchResults: 'No matching articles found.',
+    archive: 'Archive',
+    archivedNotice: 'This service has been discontinued. Past articles are kept here as an archive.',
   },
 };
 
