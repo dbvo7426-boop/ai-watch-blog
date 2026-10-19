@@ -1,14 +1,26 @@
 ---
-title: "Investing in the public benefit"
-description: "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure tha"
+title: "Anthropic、株式の約20%を新設の「Public Benefit Fund」に拠出へ"
+description: "Anthropicが、企業価値の成長に連動して増加する株式5%を、新設の完全子会社LLC「Anthropic Public Benefit Fund」へ本日拠出。創業者・従業員による既存の寄付誓約と合わせ、公益のために充てられる株式は合計で約20%に達する。"
 pubDate: 2026-10-18
 category: claude
 type: news
-tags: []
+tags: [Anthropic, Claude, PublicBenefitFund, ガバナンス, 株式]
 source: https://www.anthropic.com/news/public-benefit-fund
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Anthropicは、経営陣への増額型の株式報酬に充てる代わりに、成長に連動して増加する会社株式を拠出する新たな組織「Anthropic Public Benefit Fund」を発表しました。
 
-一次情報: https://www.anthropic.com/news/public-benefit-fund
+## 詳細
+
+- **当初の拠出**: 株主承認を条件に、本日Anthropicの株式5%を拠出。企業価値が非公開の基準値から50%増加するごとに、取締役会がさらに2%を追加できる
+- **全体の規模**: これまでの誓約と合わせ、公益のために充てられるAnthropicの株式は合計で約20%に達する見込みで、今後の企業価値の節目ごとにさらに追加される可能性もある
+- **組織構成**: このファンドは501(c)(3)などの伝統的な非営利団体形態ではなく、完全子会社のLLCであり、Anthropicはこれにより多様な形態の寄付に柔軟に対応できるとしている。LLCが保有する株式はロビー活動や政治献金(米国内外問わず)には一切使用されない。ガバナンスや企業価値の節目の詳細については、今後数か月以内に公表するとしている
+- **想定される用途**: 伝統的な非営利団体への大口寄付や、特定の人々への直接的な分配。優先分野として労働市場への影響が挙げられており、AIは大きな経済的価値を生む一方で多くの労働者に不安定さをもたらす可能性があるとし、この課題に対しては既に別途2億ドルを拠出済み
+- **社内に残る取り組み**: 公益性と営利性の両方を持つ取り組み——AI安全性・解釈可能性研究、応用生物医学研究、非営利団体や科学機関向けのClaude割引アクセスなど——はファンドに移行せず、引き続きAnthropicの中核事業の一部として維持される
+- **背景**: 創業者らが設立当初に株式の80%を寄付すると誓約していたことや、従業員の約半数が参加している株式寄付マッチングプログラムの延長線上にある取り組み。Anthropicは、自社の使命に対する進捗を示す「公益報告書」も今後公表するとしている
+
+## その後
+
+今回の発表は、公益法人(PBC)であるAnthropicが、中核の商業事業とは独立した形で使命主導の寄付活動を拡大していく方針を具体化するものです。従来の報酬体系に充てられていたはずの大規模かつ増加し続ける株式持分を再配分する動きであり、今後数か月でAnthropicがファンドの実際のガバナンス構造と企業価値の発動条件を公表した際に、その実効性が試されることになります。
