@@ -1586,7 +1586,8 @@
     "https://openai.com/index/sullivan-cromwell",
     "https://openai.com/index/itau-generative-ai",
     "https://openai.com/index/stack-overflow-chatgpt-plugin",
-    "https://openai.com/index/benefit-street-partners"
+    "https://openai.com/index/benefit-street-partners",
+    "https://openai.com/index/low-resource-programming-languages"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1803,7 +1804,9 @@
     "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option",
     "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
     "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-    "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november"
+    "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
+    "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
+    "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
