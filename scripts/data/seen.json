@@ -273,7 +273,21 @@
     "https://www.anthropic.com/news/singapore-office-opening",
     "https://www.anthropic.com/news/2026-us-midterms",
     "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-    "https://www.anthropic.com/news/public-benefit-fund"
+    "https://www.anthropic.com/news/public-benefit-fund",
+    "https://www.anthropic.com/news/2028-ai-leadership",
+    "https://www.anthropic.com/news/announcements",
+    "https://www.anthropic.com/news/anthropic-institute-agenda",
+    "https://www.anthropic.com/news/deprecation-commitments",
+    "https://www.anthropic.com/news/deprecation-updates-opus-3",
+    "https://www.anthropic.com/news/distillation-defenses",
+    "https://www.anthropic.com/news/features",
+    "https://www.anthropic.com/news/glasswing-initial-update",
+    "https://www.anthropic.com/news/models",
+    "https://www.anthropic.com/news/partnerships",
+    "https://www.anthropic.com/news/policy",
+    "https://www.anthropic.com/news/product",
+    "https://www.anthropic.com/news/safeguards",
+    "https://www.anthropic.com/news/security"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1587,7 +1601,10 @@
     "https://openai.com/index/itau-generative-ai",
     "https://openai.com/index/stack-overflow-chatgpt-plugin",
     "https://openai.com/index/benefit-street-partners",
-    "https://openai.com/index/low-resource-programming-languages"
+    "https://openai.com/index/low-resource-programming-languages",
+    "https://openai.com/index/ted-taylor-restaurant",
+    "https://openai.com/index/terminal-x",
+    "https://openai.com/index/openai-to-acquire-orchestra-bio"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
