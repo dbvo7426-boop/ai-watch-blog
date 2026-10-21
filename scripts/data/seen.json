@@ -287,7 +287,8 @@
     "https://www.anthropic.com/news/policy",
     "https://www.anthropic.com/news/product",
     "https://www.anthropic.com/news/safeguards",
-    "https://www.anthropic.com/news/security"
+    "https://www.anthropic.com/news/security",
+    "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1604,7 +1605,12 @@
     "https://openai.com/index/low-resource-programming-languages",
     "https://openai.com/index/ted-taylor-restaurant",
     "https://openai.com/index/terminal-x",
-    "https://openai.com/index/openai-to-acquire-orchestra-bio"
+    "https://openai.com/index/openai-to-acquire-orchestra-bio",
+    "https://openai.com/index/openai-models-google-cloud",
+    "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+    "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+    "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+    "https://openai.com/index/building-chatgpt-ad-stack"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
