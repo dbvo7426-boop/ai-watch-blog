@@ -288,7 +288,9 @@
     "https://www.anthropic.com/news/product",
     "https://www.anthropic.com/news/safeguards",
     "https://www.anthropic.com/news/security",
-    "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
+    "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+    "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+    "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1616,7 +1618,8 @@
     "https://openai.com/index/cloudflare-cyber",
     "https://openai.com/index/empowering-cyber-defenders",
     "https://openai.com/index/forward-deployed-engineering-means",
-    "https://openai.com/index/uber-chatgpt-work-rollout"
+    "https://openai.com/index/uber-chatgpt-work-rollout",
+    "https://openai.com/index/decisions-api"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1836,7 +1839,11 @@
     "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
     "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november",
     "https://github.blog/changelog/2026-10-19-copilot-model-policy-api-for-enterprise-orgs-and-teams",
-    "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026"
+    "https://github.blog/changelog/2026-10-19-github-copilot-models-deprecated-on-october-19-2026",
+    "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+    "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+    "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
+    "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
