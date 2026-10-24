@@ -1,14 +1,25 @@
 ---
-title: "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform"
-description: "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what t"
+title: "ChatGPT広告が新たに26カ国へ拡大、対象は計89カ国に"
+description: "OpenAIはChatGPT広告を新たに26カ国へ拡大し、提供地域は89カ国になりました。開始から約8カ月で10万社超の広告主が出稿したとしています。"
 pubDate: 2026-10-21
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, 広告, Ads]
 source: https://openai.com/index/chatgpt-ads-expands-26-new-countries
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIはChatGPT広告を新たに26カ国へ広げ、提供地域は89カ国になりました。広告開始から約8カ月で、10万社を超える広告主が出稿したとしています。
 
-一次情報: https://openai.com/index/chatgpt-ads-expands-26-new-countries
+## 詳細
+
+- **規模:** ChatGPTの週間利用者は12億人超と説明されています。
+- **新規地域:** アルゼンチン、チリ、コロンビア、ペルーなどラテンアメリカ14カ国に加え、ナイジェリア、南アフリカ、セルビア、ウクライナ、カンボジア、バングラデシュ、パキスタンなど欧州・中東・アフリカ・アジアの市場。先行してメキシコ、ブラジル、欧州、東南アジアと台湾で展開済みです。
+- **表示対象:** 広告はFreeとGoプランのみ。Plus、Pro、Enterpriseは広告なしのままです。
+- **出稿方法:** 技術パートナー経由、またはAds Managerでのセルフサービス。
+- **原則:** 会話内容は広告主に非公開、顧客データは販売しない、広告は明示され回答と分離され、回答に影響しないとしています。
+
+## その後
+
+OpenAIは次の段階として、広告フォーマット、目的、購入オプション、計測機能の拡充や、ChatGPT内でより自然な形で企業と消費者が関わる方法を探るとしています。時期や料金は未公開です。無料・低価格での提供を支える収益源として広告が本格化しており、プライバシーと回答の独立性という約束が守られるかが今後の注目点です。

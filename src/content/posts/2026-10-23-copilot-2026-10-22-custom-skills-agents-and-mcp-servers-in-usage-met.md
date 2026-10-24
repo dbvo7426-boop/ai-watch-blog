@@ -1,14 +1,27 @@
 ---
-title: "Custom skills, agents, and MCP servers in usage metrics API"
-description: "<p>Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash co"
+title: "Copilot利用状況メトリクスAPI、カスタムスキル・エージェント・MCPサーバーの名前表示とOpenCode等のツール集計に対応"
+description: "GitHub Copilotの利用状況メトリクスが、顧客定義のスキル・カスタムエージェント・MCPサーバーの設定名を表示するようになり、新しいtotals_by_clientでOpenCodeなどのツールのモデル利用も集計できるようになった。"
 pubDate: 2026-10-22
 category: copilot
 type: news
-tags: []
+tags: [GitHub Copilot, 利用状況メトリクス, MCP, 管理者]
 source: https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+GitHubは2026年10月22日と23日に、Copilot利用状況メトリクスAPIへ関連する2つの改善を入れた。組織が作成したカスタマイズの実名がレポートに表示されるようになり、新たなクライアント別内訳により、これまで把握できなかったOpenCodeなどのツールのモデル利用も集計される。
 
-一次情報: https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api
+## 詳細
+
+- **カスタマイズ名の表示（10/22）:** エンタープライズ／組織レポートのスキル、カスタムエージェント、MCPサーバー、スラッシュコマンド、プラグインの各リストに、これまで「other」や「custom」にまとめられていた顧客定義項目の設定名が表示される。
+- **エントリ数の拡大:** 各リストは1レコードあたり最大25件（従来は5件）。残りは末尾の「other」に集約される。インタラクション数と個別利用数の計算方法は従来どおり。
+- **対象範囲:** 名前の取得元はCopilot CLI（対話モード・プロンプトモード）、GitHub Copilotアプリ、JetBrainsなどのACP連携、Copilot SDK。プロンプトモード、アプリ、ACP連携はCopilot CLI 1.0.97以降、SDKはv1.0.21以降が必要。IDE内蔵チャットのテレメトリからは名前は報告されない。
+- **命名ルール:** 名前は設定どおりに、前後の空白を除去し128文字までで報告される。ファイルパスのような名前は引き続き「other」または「custom」に分類される。リリース後に処理されたレポート日のみ名前が反映される。
+- **新しいtotals_by_client（10/23）:** エンタープライズ、組織、エンタープライズユーザー、組織ユーザーの各レポート（1日版・28日版）に新しい配列が追加された。各エントリには`client`（opencode、claude_code、codex、vscode、jetbrainsなど。未認識のものは`other`）、`request_count`、`session_count`、`token_usage`、モデル別の`totals_by_model`（`model_selection_mode`付き）が含まれる。
+- **注意点:** リクエスト数はプロンプト数ではなくモデル呼び出し数で、1つのプロンプトが複数回の呼び出しになり得る。クライアントは各リクエストに付くインテグレーションIDで識別されるため、あくまで目安のグルーピング。データはクライアントのテレメトリ由来で、過少計上の可能性がある。変更は追加のみで、利用がなければ`totals_by_client`は空配列になる。
+- **アクセス権:** エンタープライズオーナー、請求マネージャー、組織オーナー、「View Copilot Metrics」権限を持つカスタムロールのユーザーが閲覧でき、Copilot利用状況メトリクスのポリシーを有効にする必要がある。
+
+## その後
+
+どちらの変更も同じ課題に対応している。管理者はCopilotが使われていることは分かっても、どの社内カスタマイズや外部ツールが利用を牽引しているかは見えなかった。スキル・エージェント・MCPサーバーの名前が分かれば、社内ツール展開後の定着状況の追跡や、的を絞った導入支援ができる。クライアント別内訳が重要なのは、IDE外の多くのツールがエディタのテレメトリを送らず、`totals_by_ide`から漏れていたためだ。サーバー側で数えることで、ツール間のリクエスト量やトークン量を比較できる。ただしテレメトリやクライアント識別の制約があるため、厳密な会計ではなく傾向把握向けの数字と考えるべきだろう。
