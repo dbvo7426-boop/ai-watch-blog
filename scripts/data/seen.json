@@ -1621,7 +1621,8 @@
     "https://openai.com/index/uber-chatgpt-work-rollout",
     "https://openai.com/index/decisions-api",
     "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-    "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+    "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+    "https://openai.com/index/securing-our-frontier-model-training-environment"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1702,7 +1703,8 @@
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
     "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
     "https://blog.google/products-and-platforms/products/gemini/stylist-outfit-tips-gemini/",
-    "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/"
+    "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+    "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-builders/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1845,7 +1847,9 @@
     "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
     "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
     "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available",
-    "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard"
+    "https://github.blog/changelog/2026-10-22-industry-comparisons-in-the-copilot-impact-dashboard",
+    "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+    "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
