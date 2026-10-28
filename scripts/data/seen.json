@@ -291,7 +291,8 @@
     "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
     "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
     "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
-    "https://www.anthropic.com/news/s1-sec"
+    "https://www.anthropic.com/news/s1-sec",
+    "https://www.anthropic.com/news/expanding-partnership-gsa"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1632,7 +1633,10 @@
     "https://openai.com/index/openai-cut-incident-investigation",
     "https://openai.com/index/introducing-gpt-6-1-terra",
     "https://openai.com/index/oracle-apps-in-chatgpt",
-    "https://openai.com/index/anima"
+    "https://openai.com/index/anima",
+    "https://openai.com/index/check-point-daybreak",
+    "https://openai.com/index/localiza-generative-ai",
+    "https://openai.com/index/grupo-boticario"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1863,7 +1867,8 @@
     "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
     "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
     "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available",
-    "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot"
+    "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot",
+    "https://github.blog/changelog/2026-10-27-github-copilot-supports-server-to-server-authentication"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
