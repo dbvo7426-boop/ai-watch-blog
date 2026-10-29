@@ -1641,7 +1641,10 @@
     "https://openai.com/index/the-future-of-the-firm",
     "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
     "https://openai.com/index/legora",
-    "https://openai.com/index/openai-servicenow-partnership-expansion"
+    "https://openai.com/index/openai-servicenow-partnership-expansion",
+    "https://openai.com/index/updated-model-spec",
+    "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "https://openai.com/index/ropes-gray-ai-diligence"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1729,7 +1732,9 @@
     "https://blog.google/innovation-and-ai/products/gemini-app/immersive-explorations-student-hub/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
     "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
-    "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/"
+    "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/update-resume-with-gemini/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
