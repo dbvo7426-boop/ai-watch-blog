@@ -1,14 +1,25 @@
 ---
-title: "You can now generate, preview, and edit documents, PDFs, presentations, spreadsheets, and more directly in Gemini."
-description: "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/fileGen2.0-thumbnail-resize.max-600x600.format"
+title: "Geminiアプリ、チャット内でファイルの生成・プレビュー・編集に対応"
+description: "GoogleはGeminiアプリで、ドキュメント、PDF、プレゼン、スプレッドシート、コードなどをチャット内で作成・プレビュー・編集できるようにしました。全ユーザーが対象です。"
 pubDate: 2026-10-29
 category: gemini
 type: news
-tags: []
+tags: [Gemini, Geminiアプリ, ファイル, 生産性]
 source: https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Googleは、Geminiアプリのチャット内で、ドキュメント、PDF、プレゼンテーション、スプレッドシート、コードなどのファイルを生成・プレビュー・編集できるようになったと発表しました。
 
-一次情報: https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/
+## 詳細
+
+- **編集:** ファイルを全画面に広げ、直接文字を入力して修正できます。
+- **選択して質問:** 部分を選んでGeminiに質問したり、テキストや画像を含むAIによる修正を依頼したりできます。
+- **例:** 手書きの講義ノートをアップロードしてPDFの学習ガイドを作らせ、手で編集し、AIで仕上げる流れが紹介されています。
+- **対応形式:** PDFはウェブとモバイルでプレビュー・編集が可能。Googleドキュメント、スプレッドシート、スライド、Markdown、TXT、コードはウェブのみです。
+- **提供範囲:** Geminiアプリが使える全言語の全ユーザー。サブスクリプションの区分は示されておらず、段階的な展開の記載もありません。
+
+## その後
+
+Geminiは、ファイルを作ってダウンロードさせるだけの存在から、会話の中で作業できるエディタへ近づきました。ただしモバイルはPDFのみです。プランごとの制限があるかどうかは明らかにされていません。

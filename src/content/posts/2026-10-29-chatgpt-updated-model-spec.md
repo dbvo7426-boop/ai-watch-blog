@@ -1,14 +1,28 @@
 ---
-title: "An updated Model Spec for more capable and beneficial AI"
-description: "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and "
+title: "OpenAI、Model Specを5つの中核的価値を軸に改訂"
+description: "OpenAIはModel Specを5つの価値で再構成し、意図への忠実さの節と新しいデフォルトを追加、詳細なスタイル規定の大半を廃止しました。"
 pubDate: 2026-10-29
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, Model Spec, アライメント]
 source: https://openai.com/index/updated-model-spec
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、モデルが意図する振る舞いを記したModel Specの改訂版を公開しました。Specは、なぜモデルにそう振る舞うよう求めるのかを説明する5つの中核的価値を軸に再構成されています。
 
-一次情報: https://openai.com/index/updated-model-spec
+## 詳細
+
+- **5つの価値:** 人間の意図への忠実さ、害の最小化、誠実さと透明性、人間の主体性、配慮。
+- **忠実さの節(新設):** 人々の価値を第一とし、指示はその価値を示す最も明確な手がかりとして扱います。アライメント研究の「アシスタンスゲーム」の枠組みを踏まえています。
+- **指揮系統:** どの指示が適用され、衝突時にどう解決するかの説明を更新。
+- **文脈:** 新しい小節で、会話、メモリ、その他の証拠をもとに意図や好みを理解するよう求めています。
+- **新しいデフォルト:** 人間の主体性の支援と、関連する社会的規範への準拠。副作用の制御と伝達に関する指針も拡充されました。
+- **スタイル規定の廃止:** 詳細なスタイル規則の大半を削除し、ユーザーの好みに合わせる方針に。質問に客観的に向き合う既定は維持されます。
+- **用語:** モデルは「アシスタント」ではなく「GPT」と呼ばれるようになりました。
+- **位置づけ:** Specは意図する振る舞いを記したもので、現行モデルはまだ完全には反映していないとしています。公開フィードバックを募っており、新しい学習手法の結果は今後共有するとしています。
+
+## その後
+
+Specは規則の羅列から、原則を明示する構成へ寄りました。安全上の明確な境界は維持し、それ以外の多くはユーザーや開発者が上書きできるデフォルトです。モデルがいつ新しいSpecに完全に沿うかは明らかにされておらず、学習面の取り組みが進行中とのみ述べられています。
