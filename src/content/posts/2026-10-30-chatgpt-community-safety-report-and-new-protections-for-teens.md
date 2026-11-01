@@ -1,14 +1,27 @@
 ---
-title: "Community safety report and new protections for teens"
-description: "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commit"
+title: "OpenAI、ChatGPTの暴力防止策を強化し10代向け保護を追加、Community Safety Reportも予定"
+description: "過去の大量殺傷事件の詳細を制限し、危険信号により慎重に対応。10代の武器関連情報も制限し、2027年初めから半年ごとの安全報告を公開します。"
 pubDate: 2026-10-30
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, ChatGPT, 安全性, 10代, ペアレンタルコントロール]
 source: https://openai.com/index/community-safety-report-and-new-protections-for-teens
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、ChatGPTの暴力防止策の拡充、10代向けの武器関連情報の制限強化、そして定期的な「Community Safety Report」の公開を発表しました。安全策は今後数週間で順次展開されます。
 
-一次情報: https://openai.com/index/community-safety-report-and-new-protections-for-teens
+## 詳細
+
+- **法執行機関への通報:** 2026年第3四半期に、差し迫った暴力の脅威として200件超を法執行機関に通報したとしています。判断が難しい事例では、メンタルヘルスや行動の専門家を頼っています。
+- **Community Safety Report:** 初回は2027年初めに2026年下半期分を公開し、以降は半年ごとに更新します。検知・調査・対応の学習方法、匿名化した事例、対策、方針変更、裏付けデータを載せる予定です。
+- **全ユーザー向けの制限:** 過去の大量殺傷事件や加害者について、ネット上に情報があってもChatGPTはより詳細を控えます。使用した武器や入手方法の再構成、加害者の知名度を高めかねない被害規模の比較などが対象です。事件の影響や暴力の兆候については引き続き学べます。年齢や理由にかかわらず適用されます。
+- **危険信号への対応:** 5月からの取り組みを拡張し、直近の会話に暴力の兆しがある場合はより慎重に応答します。違反アカウントはBANされます。暴力への固執が見られる会話をChatGPTが終了する自動の早期介入を開発中で、繰り返す場合はアカウントが一時停止されることがあります。
+- **10代向け:** ChatGPT for Teensでは、武器や警備システムに関する実用的な情報など、無害に見える質問でも制限を強めます。暴力の沈静化、支援先探し、信頼できる大人への相談は引き続き支援します。
+- **年齢予測:** シグナルを継続的に評価し、10代と見られるユーザーを18歳未満向けの体験へ移します。誤って移された成人は、認証パートナーのPersonaで年齢確認すれば解除できます。
+- **ペアレンタルコントロール:** 連携した保護者には、重大な自傷の懸念や摂食障害に関わる行動の通知が届きます。7月からは暴力ポリシー違反でアカウントが停止された場合も通知されます。暴力的な話題を繰り返して一時停止された場合の通知も準備中です。
+
+## 今後
+
+会話の自動終了や一時停止の保護者通知などは開発中です。具体的な展開日は「今後数週間」以外、明らかにされていません。

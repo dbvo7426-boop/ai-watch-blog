@@ -19,6 +19,7 @@ export const CATEGORIES_EN: Record<
   flux: { label: 'FLUX', color: '#B45309', genre: 'image', domain: 'bfl.ai' },
   gemini: { label: 'Gemini', color: '#4285F4', genre: 'chat', domain: 'gemini.google.com' },
   notebooklm: { label: 'Gemini Notebook', color: '#FBBF24', genre: 'agent', domain: 'notebooklm.google' },
+  veo: { label: 'Gemini Omni', color: '#EA4335', genre: 'video', domain: 'deepmind.google' },
   genspark: { label: 'Genspark', color: '#84CC16', genre: 'agent', domain: 'genspark.ai' },
   copilot: { label: 'GitHub Copilot', color: '#0078D4', genre: 'coding', domain: 'github.com' },
   glm: { label: 'GLM', color: '#2563EB', genre: 'chat', domain: 'z.ai' },
@@ -46,7 +47,6 @@ export const CATEGORIES_EN: Record<
   stablediffusion: { label: 'Stable Diffusion', color: '#EC4899', genre: 'image', domain: 'stability.ai' },
   suno: { label: 'Suno', color: '#F59E0B', genre: 'voice', domain: 'suno.com' },
   thinkingmachines: { label: 'Thinking Machines Lab', color: '#065F46', genre: 'chat', domain: 'thinkingmachines.ai' },
-  veo: { label: 'Veo', color: '#EA4335', genre: 'video', domain: 'deepmind.google' },
   other: { label: 'Other', color: '#5B6478' },
 };
 
