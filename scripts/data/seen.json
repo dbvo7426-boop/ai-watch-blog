@@ -1655,7 +1655,9 @@
     "https://openai.com/index/scaling-git-at-openai",
     "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
     "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-    "https://openai.com/index/dan-driscoll-joins-openai"
+    "https://openai.com/index/dan-driscoll-joins-openai",
+    "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "https://openai.com/index/heimstaden"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1906,7 +1908,8 @@
     "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available",
     "https://github.blog/changelog/2026-10-28-github-copilot-in-jetbrains-universe-releases",
     "https://github.blog/changelog/2026-10-28-github-copilot-in-vs-code-universe-releases",
-    "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available"
+    "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available",
+    "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
