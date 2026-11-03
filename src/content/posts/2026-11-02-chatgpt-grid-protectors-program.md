@@ -1,14 +1,26 @@
 ---
-title: "Introducing the Grid Protectors Program"
-description: "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and p"
+title: "OpenAI、データセンターを「柔軟な電力利用者」にするGrid Protectors Programを開始"
+description: "電力需給が逼迫したときに将来のコンピュート拠点が消費電力を減らせるよう、電力会社と取り決めを結ぶ取り組み。ジョージア州の拠点では最大1,000MWの需要調整を盛り込む。"
 pubDate: 2026-11-02
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, ChatGPT, エネルギー, データセンター, Georgia Power]
 source: https://openai.com/index/grid-protectors-program
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは「Grid Protectors Program」を開始しました。電力会社、規制当局、政策担当者と協力し、送電網が逼迫したときに将来のコンピュート拠点が電力需要を減らす取り決めをつくる取り組みです。
 
-一次情報: https://openai.com/index/grid-protectors-program
+## 詳細
+
+- **方針:** 必要なときに電力使用を減らせる設計にし、どれだけ、どれだけ速く、どれだけの時間需要を減らすかを電力会社ごとに合意します。取り決めは地域で異なり、確定したコミットメントは順次公表するとしています。
+- **供給面:** 地域のニーズと設備に応じて、系統運用者と協力し、敷地内の発電や蓄電から電力を供給するほか、蓄電池や電力制御で需要の変動をならします。
+- **ジョージア州での先行例:** 計画中のエフィンガム郡の拠点では、送電設備や電力サービスに必要な費用の全額を負担することを約束。Georgia Powerとの契約には、最大1,000メガワットの柔軟な需要調整が含まれます。OpenAIは約70万世帯の平均的な電力需要に相当するとしており、この拠点をプログラムのパイロットにする考えです。
+- **電力会社の試算:** Georgia Powerは、大口需要家との契約と今後の成長により、2029年から年間約9億5,000万ドルの顧客コスト削減を見込んでいます。月1,000kWhを使う標準的な家庭で少なくとも月15ドルの恩恵があると見積もっています。
+- **費用負担の考え方:** 大規模施設は自らのコストを負担すべきだとし、長期契約や財務保証は、計画が遅れたり縮小・中止されたりした場合に他の需要家を守れると説明しています。
+- **未公開:** ジョージア州以外の拠点、他の電力会社パートナー、時期は示されていません。
+
+## その後
+
+具体的な約束は現時点でジョージア州の契約のみで、プログラム全体は意欲を示した段階です。OpenAI自身も、柔軟性は新たな電源や送電への投資の代わりにはならないと述べています。
