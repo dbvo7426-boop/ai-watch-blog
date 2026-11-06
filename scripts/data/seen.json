@@ -1667,7 +1667,12 @@
     "https://openai.com/index/introducing-images-2-6",
     "https://openai.com/index/devrev-enterprise-self-service",
     "https://openai.com/index/introducing-gpt-6-cyber",
-    "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+    "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+    "https://openai.com/index/australian-universities-ai-native-graduates",
+    "https://openai.com/index/cultfit-builds-with-codex",
+    "https://openai.com/index/merge-builds-with-openai",
+    "https://openai.com/ads/customers/flipsnack",
+    "https://openai.com/index/franklin-templeton"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1923,7 +1928,9 @@
     "https://github.blog/changelog/2026-10-28-repository-plugin-defaults-and-enterprise-plugin-controls-generally-available",
     "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air",
     "https://github.blog/changelog/2026-11-03-byok-and-enterprise-custom-models-in-the-copilot-usage-api",
-    "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant"
+    "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
+    "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+    "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
