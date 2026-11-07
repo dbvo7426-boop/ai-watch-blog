@@ -1,14 +1,22 @@
 ---
-title: "Accelerating engineering for the physical world"
-description: "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across "
+title: "OpenAI、GPT-6 Astraによるデバイス設計を披露し、マツダやChip Ganassi Racingとの協力を拡大"
+description: "AstraがCodex用の音声デバイスの筐体、基板、ソフトウェアを設計。ハードウェアチームのトークン使用量は2月以降23倍になり、新しい社内モデルはBenchCAD 2.0で0.875を記録しました。"
 pubDate: 2026-11-03
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, GPT-6 Astra, Codex, エンジニアリング, CAD]
 source: https://openai.com/index/accelerating-engineering-for-the-physical-world
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、機械・電気工学や製品全体のシステム設計にモデルを活用する取り組みの進捗を公表しました。図面の作成、シミュレーションの設定、分野をまたぐ変更の調整などを支援します。
 
-一次情報: https://openai.com/index/accelerating-engineering-for-the-physical-world
+## 詳細
+
+- **Astraで作ったデバイス:** マルチモーダルとコンピュータ操作の性能を試すため、GPT-6 Astraが要件の定義から、Codexと話すためのデバイスの筐体、プリント基板、ソフトウェア連携までを、人の直接の修正なしで設計しました。外観(Work Louderとの協業を参考)、機械設計、部品選定と基板レイアウト、UI/UXとファームウェアをAstraが担当しています。チームの2人が副業的なプロジェクトとして1週間足らずで設計し、受託製造業者が1か月足らずで少量の試作品を製造しました。ただし、量産に向けた準備には複数回のレビューが必要で、Astraは製造上の制約、公差、組み立てに必要な詳細を一貫して考慮できなかったとしています。
+- **社内での利用:** OpenAIのハードウェア・インフラ部門は、ロボティクスやコンピュートインフラでCADモデル、製造図面、シミュレーション設定、設計レビューにCodexとChatGPTを使っています。トークン使用量は2月以降23倍になりました。
+- **BenchCAD 2.0:** 3D部品や組み立てを再構成し、回路基板の接続を特定する力を測るベンチマークです。新しい社内モデルは平均0.875で、最高推論設定のGPT-6 Astraは0.594でした。このモデルの名称は公表されていません。
+- **Chip Ganassi Racing:** 既存部品の3Dスキャンから編集可能なCADモデルと2D製造図面を作るワークフローを試す協力を拡大します。元の設計ファイルがない場合に役立ち、CGRのエンジニアが精度と製造可能性を確認します。
+- **マツダ:** マツダの空力・衝突安全のエンジニアとの新たな共同研究で、気流と構造のシミュレーションを使います。Astraは空気抵抗を減らすノーズ形状の検討を支援し、成果は今後数か月以内に共有される予定です。
+- **協力者の募集:** 設計、シミュレーション、製造に関わるエンジニア、エンジニアリング企業、ソフトウェアベンダーはフォームから応募できます。製品としての提供開始や提供時期の発表はありません。

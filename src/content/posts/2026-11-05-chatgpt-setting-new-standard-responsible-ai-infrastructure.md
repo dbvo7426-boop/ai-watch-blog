@@ -1,14 +1,28 @@
 ---
-title: "Setting a new standard for responsible AI infrastructure"
-description: "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create "
+title: "OpenAI、全国コミュニティ協定とコンピュートキャンパス政策ブループリントを公表"
+description: "OpenAIは、自社が所有・運営する今後のキャンパスで、電力費の全額負担、水・騒音データの公開、公職者とのNDA不使用、地元雇用の報告などを約束しました。"
 pubDate: 2026-11-05
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, データセンター, Stargate, 政策, エネルギー]
 source: https://openai.com/index/setting-new-standard-responsible-ai-infrastructure
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、自社が所有・運営する今後のコンピュートキャンパスで地域が期待できることを示した「National Community Compact(全国コミュニティ協定)」と、連邦・州・地方の政策担当者に向けたルールを提案する「Compute Campus Policy Blueprint」を公表しました。1月のStargate Communityの約束や、ジョージア州・オハイオ州での個別の約束を土台にしています。
 
-一次情報: https://openai.com/index/setting-new-standard-responsible-ai-infrastructure
+## 協定の約束
+
+今後のキャンパスごとに地域別の協定を結び、早い段階から住民の意見を聞き、地元の窓口を置き、毎年公開で報告します。共通する約束は次のとおりです。
+
+- **エネルギーとインフラ:** 使う電力と、そのために必要なインフラの費用を全額負担します。大きな支出の前に財務上の保証を行い、計画が遅れたり縮小・中止されたりしても他の顧客が守られるようにします。
+- **地域の資源:** キャンパスごとに水の計画を立て、閉ループまたは少水量の冷却を優先します。拠点ごとの水と電力の使用量を公開し、運用開始前とその後は毎年、工事計画と独立した騒音調査を公開します。公職者とはNDAを結びません(セキュリティ情報、営業秘密、競争上機微な情報に限った狭い保護を除く)。
+- **地元の機会:** 見込まれる雇用を公表し、労働組合や研修機関と連携し、採用と見習いについて毎年報告し、住民が選んだ優先事項へ継続的に投資します。例として、ジョージア州エフィンガム郡では郡内の生徒1万4,000人全員の無料給食に480万ドルの助成、オハイオ州パイク郡ではSB Energyと共同で保育に600万ドルを約束しています。
+
+## 政策ブループリント
+
+- 州の公益事業委員会は、大口顧客に送電網に加える費用を負担させ、計画が頓挫したときに他の顧客を守るべきです。電力が逼迫したときに需要を減らせるキャンパスは、接続を容易にすべきだとしています。OpenAIは、エフィンガム郡のキャンパスでジョージア電力が最大1,000MW供給を減らせる契約を例に挙げています。
+- 水、エネルギー、騒音、雇用の公開報告、公職者へのNDA要求の厳格な制限、測定可能な約束と未達時の回収手段を伴う税優遇条件の公開。
+- 地元の供給業者が競争できるよう調達計画を早めに共有し、雇用見通しを示して、雇用主、建設系労働組合、コミュニティカレッジが住民を訓練できるようにすること。
+- 連邦議会には、送電網の増強の加速と、クリーン電力の税優遇の復活・拡大を求めています。
