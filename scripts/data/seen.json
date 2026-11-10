@@ -1678,7 +1678,8 @@
     "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
     "https://openai.com/index/introducing-control-room",
     "https://openai.com/index/coderabbit-codex-daybreak",
-    "https://openai.com/index/kuken"
+    "https://openai.com/index/kuken",
+    "https://openai.com/index/control-room"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1940,7 +1941,8 @@
     "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
     "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
     "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
-    "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available"
+    "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
+    "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
