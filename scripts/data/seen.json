@@ -293,7 +293,8 @@
     "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
     "https://www.anthropic.com/news/s1-sec",
     "https://www.anthropic.com/news/expanding-partnership-gsa",
-    "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+    "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+    "https://www.anthropic.com/news/roadshow-launch"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1679,7 +1680,19 @@
     "https://openai.com/index/introducing-control-room",
     "https://openai.com/index/coderabbit-codex-daybreak",
     "https://openai.com/index/kuken",
-    "https://openai.com/index/control-room"
+    "https://openai.com/index/control-room",
+    "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "https://openai.com/index/introducing-businesses-chatgpt",
+    "https://openai.com/index/closing-ai-guidance-gap-education",
+    "https://openai.com/index/ai-effect-on-freelance-work",
+    "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "https://openai.com/business/learn/how-openai-uses-codex",
+    "https://openai.com/business/customer-stories/blue-j",
+    "https://openai.com/business/learn/new-in-chatgpt-for-business-april-updates-2025",
+    "https://openai.com/business/learn/new-in-chatgpt-for-work-march-updates-2025",
+    "https://openai.com/business/customer-stories/ada",
+    "https://openai.com/business/learn/fine-tuning-gpt-4o-webinar",
+    "https://openai.com/business/learn/enabling-a-data-driven-workforce-webinar"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1772,7 +1785,11 @@
     "https://blog.google/innovation-and-ai/products/gemini-app/update-resume-with-gemini/",
     "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
     "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-    "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/"
+    "https://blog.google/innovation-and-ai/products/gemini-app/turn-drawings-into-apps-gemini/",
+    "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+    "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1942,7 +1959,10 @@
     "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
     "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
     "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available",
-    "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot"
+    "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+    "https://github.blog/changelog/2026-11-10-c-language-server-now-auto-configures-msbuild-builds",
+    "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+    "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
