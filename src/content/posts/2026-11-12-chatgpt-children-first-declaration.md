@@ -1,14 +1,24 @@
 ---
-title: "Supporting research on AI and children’s safety"
-description: "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and o"
+title: "OpenAI、AIと子どもの安全に関する研究に200万ドルを拠出"
+description: "OpenAIは「より安全な子ども向けAIのための関与憲章」に署名し、AIが子どもに及ぼすリスクと利点を測る共通ツールの研究ネットワークに200万ドルを拠出します。"
 pubDate: 2026-11-12
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, 子どもの安全, 研究, 政策]
 source: https://openai.com/index/children-first-declaration
-draft: true
+draft: false
+importance: low
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、パリ平和フォーラムで「Charter of Engagement for Safer AI for Children(より安全な子ども向けAIのための関与憲章)」に署名したと発表しました。署名は今週前半とされ、正確な日付は示されていません。
 
-一次情報: https://openai.com/index/children-first-declaration
+## 約束の内容
+
+- **資金:** 「AI時代の子どもの権利と保護のための連合」傘下の科学研究ネットワークに200万ドル。配分や助成先は未公開です。
+- **目的:** AIが子どもに与えるリスクと利点を研究者が調べるためのツールなど、共通の測定手法づくりを支え、より安全な製品とより良い政策につなげます。
+- **憲章:** 安全で年齢に適したAIのための共通原則、研究プログラム、研究の独立性を守る仕組みを定めています。
+- **独立性:** 研究チームが結論を自ら管理し、否定的または決定的でない結果を含むすべての成果を公開します。
+
+## 政策面の立場
+
+OpenAIは、若者が学習や創作にAIを使える状態を保ちつつ、実効性のある包括的な若年層向けAI安全法を支持するとしています。法律には、年齢に応じた保護策の初期有効化、保護者向けツール、定期的なリスク評価と対策、実効的な説明責任が含まれるべきだとしています。EU Kids Actの議論が進むなか、欧州の政策担当者とも協力する予定です。製品の変更は発表されていません。
