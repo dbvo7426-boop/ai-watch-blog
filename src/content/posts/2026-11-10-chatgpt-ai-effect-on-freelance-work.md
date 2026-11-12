@@ -1,14 +1,26 @@
 ---
-title: "Work at the Frontier: AI’s effect on freelance work"
-description: "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets"
+title: "OpenAIとUpworkの調査、AI関連のフリーランス案件は担当するタスクが多様化し固定報酬の予算も大きいと報告"
+description: "OpenAIの経済調査チームがUpworkと行った調査「Work at the Frontier」は、ChatGPTでよく使われる作業がそのままフリーランス需要の減少にはつながっておらず、AI関連の募集では複数の種類のタスクが組み合わさる傾向があると報告しています。"
 pubDate: 2026-11-10
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, ChatGPT, Upwork, 調査, フリーランス]
 source: https://openai.com/index/ai-effect-on-freelance-work
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIの経済調査チームが、フリーランス向けマーケットプレイスのUpworkと共同で「Work at the Frontier: AI's effect on freelance work」を公開しました。Upworkの案件募集と、ChatGPTで人々が行っている作業を比較した調査です。
 
-一次情報: https://openai.com/index/ai-effect-on-freelance-work
+## 主な調査結果
+
+- **作業の構成の違い:** ChatGPTの利用では文章作成の割合がはるかに大きく、Upworkの案件では動画とアニメーションの割合が大きくなっています。
+- **需要の変化:** 対応づけた63の作業サブカテゴリのうち43では、ChatGPTでよく行われる作業がUpworkでシェアを下げ、あまり行われない作業がシェアを上げる傾向でした。残る20は逆の動きで、ChatGPTの利用だけではフリーランス需要の変化を説明できません。
+- **AI関連の依頼の拡大:** 2025年後半までに、チャットボット開発、動画制作、マーケティング自動化、アプリ連携など、はるかに多くの種類の案件でAIの仕事が求められるようになりました。
+- **タスクの組み合わせ:** AI関連の募集に書かれるタスクの数は他の募集と同程度ですが、これまでほとんど一緒に現れなかったタスクが組み合わされることが多くなっています。
+- **多様性の拡大:** 2023年初めから2025年後半にかけて、AI関連の募集のタスク構成は45%多様になりました。同程度に頻出するタスクが約15種類から約21種類(14.6から21.2)に増えたことに相当します。
+- **予算と時間:** 掲載された時給はAI関連とそれ以外で同程度でしたが、AI関連の案件は固定報酬の予算が大きく、作業時間も長くなっています。予算の大きさは、範囲の広さを一部反映している可能性があります。
+
+## 手法と留意点
+
+調査では、2025年1月から2026年6月のChatGPT利用を、2026年上半期のUpworkでのシェアと比較しています。著者は、ChatGPTとの比較は現在の利用状況を示すもので、AIが支援できる作業の全体ではないと述べ、この差を「capability overhang」と呼んでいます。結果は単純な代替効果を示すものではないとしています。

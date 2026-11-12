@@ -1,14 +1,25 @@
 ---
-title: "Anthropic launches roadshow for proposed initial public offering"
-description: "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock."
+title: "Anthropic、新規株式公開(IPO)のロードショーを開始、想定価格は1株70〜78ドル"
+description: "AnthropicはクラスA普通株8億2,500万株を、ナスダック・グローバル・セレクト・マーケットにティッカーANTで上場する計画です。登録届出書は米SECに提出済みですが、まだ効力は生じていません。"
 pubDate: 2026-11-10
 category: claude
 type: news
-tags: []
+tags: [Anthropic, IPO, ナスダック, ロードショー]
 source: https://www.anthropic.com/news/roadshow-launch
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Anthropic, PBCは2026年11月10日、クラスA普通株の新規株式公開(IPO)に向けたロードショーを開始しました。
 
-一次情報: https://www.anthropic.com/news/roadshow-launch
+## 募集条件
+
+- **株式総数:** 8億2,500万株で、うちAnthropicが8億135万1,354株、既存の一部株主が2,364万8,646株を売り出します。株主が売却する分の収益はAnthropicには入りません。
+- **引受会社のオプション:** 30日間、最大1億2,375万株を追加で購入できる権利があります。
+- **想定価格帯:** 1株あたり70.00〜78.00ドルです。
+- **上場先:** ナスダック・グローバル・セレクト・マーケットに、シンボル「ANT」で上場を申請しています。
+- **目論見書の入手先:** Goldman Sachs & Co. LLCとMorgan Stanley & Co. LLCです。
+
+## 現在の状況
+
+登録届出書は米SECに提出済みですが、まだ効力は生じていません。発表文は、これが有価証券の売り付けの申し込みや買い付けの勧誘ではないと明記しています。価格決定日は未公表です。
