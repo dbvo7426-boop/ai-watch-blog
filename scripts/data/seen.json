@@ -1701,7 +1701,8 @@
     "https://openai.com/index/children-first-declaration",
     "https://openai.com/business/customer-stories/amplitude",
     "https://openai.com/business/customer-stories/gondola",
-    "https://openai.com/index/introducing-chatgpt-wallet"
+    "https://openai.com/index/introducing-chatgpt-wallet",
+    "https://openai.com/business/customer-stories/shield"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1979,7 +1980,8 @@
     "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
     "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
     "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-    "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot"
+    "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
+    "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
