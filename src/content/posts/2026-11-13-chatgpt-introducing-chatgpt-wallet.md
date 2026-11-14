@@ -1,14 +1,32 @@
 ---
-title: "Introducing ChatGPT Wallet"
-description: "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user app"
+title: "OpenAI、エージェントがカード情報を見ずに支払えるChatGPT Walletを発表"
+description: "ChatGPT Walletは、ChatGPTのエージェントが購入ごとのセキュリティ確認のうえで支払いを行える仕組みです。まずdots経由で米国のChatGPT Proユーザー向けに始まります。"
 pubDate: 2026-11-13
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, ChatGPT Wallet, エージェント, 決済]
 source: https://openai.com/index/introducing-chatgpt-wallet
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、ChatGPTのエージェントがユーザーに代わって支払いを行えるウォレット「ChatGPT Wallet」を発表しました。OpenAIによると、エージェントがユーザーの実際のカード情報にアクセスせずに支払える初めてのウォレットです。American Express、Mastercard、Visaと共同で構築されました。
 
-一次情報: https://openai.com/index/introducing-chatgpt-wallet
+## 購入の流れ
+
+- ユーザーはカードを一度だけ追加します。
+- 購入のたびに、商品、合計金額、使用するカードを確認します。
+- Face IDや指紋認証などのセキュリティ確認で承認します。承認ごとに、何を許可したかの記録が作られます。
+- 決済ネットワークがカード情報の代わりとなる決済トークンを発行します。請求は選択したカードに行われ、事業者にもエージェントにも実際のカード情報は渡りません。
+- ユーザーは事業者と直接取引し、価格、配送、返品、カスタマーサービスは事業者が管理します。不良品など対象となる紛争では、カード本来の特典と保護がそのまま使えます。
+
+## 提供範囲と制限
+
+- 当初はdots経由で、18歳以上の米国のChatGPT Pro購読者に提供されます。対象は米国発行のカードです。
+- 実際の利用から学び、事業者、銀行、決済ネットワークと連携するため、提供は限定されています。
+- 一部のサイトはエージェントによる購入をブロックすることがあり、正当な購入でもリスク判定により拒否や取り消しになる場合があります。
+- OpenAIは将来的に、利用上限、購入カテゴリ、期間を設定して購入を任せられるようにする見込みで、その際は生体認証などより強い保護を使うとしています。これは見込みであり、現時点の機能ではありません。
+
+## 事業者向け
+
+OpenAIは、商品情報、エージェントのアクセス、決済・リスク事業者との連携に関する「Commerce Partner Playbook」を公開しました。ChatGPTでの事業者登録と商品フィードのアップロード、CDNやファイアウォールでWeb Bot Auth署名付きリクエストを認識させる設定、プラグインの構築やWebMCPツールの追加などを提案しています。名前が挙がっているパートナーは、Forter、Riskified、Sardine、Signifyd、Adyen、Checkout.com、Stripeです。
