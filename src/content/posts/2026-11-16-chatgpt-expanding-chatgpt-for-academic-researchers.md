@@ -1,14 +1,28 @@
 ---
-title: "Broadening access to AI for scientists"
-description: "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our f"
+title: "OpenAI、ChatGPT for Academic Researchersを拡大、新たに5万件の助成"
+description: "対象の研究者にChatGPT Plusを無料で提供するプログラムの次回募集が11月23日に始まります。1,819人の科学者を調べた研究も公開されました。"
 pubDate: 2026-11-16
 category: chatgpt
 type: news
-tags: []
+tags: [ChatGPT, ChatGPT Plus, 研究, 科学]
 source: https://openai.com/index/expanding-chatgpt-for-academic-researchers
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、7月にパイロットとして始まったChatGPT for Academic Researchersプログラムを拡大します。目標は世界で20万人の研究者に届けることで、パイロット開始時に掲げた目標の2倍です。あわせて、パイロット期間中に科学者がChatGPTをどう使ったかを調べた研究も公開しました。
 
-一次情報: https://openai.com/index/expanding-chatgpt-for-academic-researchers
+## プログラムの変更点
+
+- 次回の募集は11月23日(月)に始まります。OpenAIは、要件を満たす研究者に先着順で5万件の助成を出します。パイロットで使っていた抽選方式はやめます。
+- 助成1件につき、本人と最大2人の共同研究者がChatGPT Plusを無料で利用でき、最大15万人を対象とします。パイロットではChatGPT Proを提供していましたが、利用状況を見ると大半の参加者はPlusの上限内に収まったとOpenAIは説明しています。
+- 参加者は、OpenAIのフロンティアモデルと、研究でのChatGPT活用についてのトレーニングを利用できます。プログラムで共有されたデータは、既定ではモデルの学習に使われません。条件を満たすウェイトリストの研究者には、募集開始前にメールが届きます。
+- 7月のパイロット開始以降、33か国の2万人の研究者が参加しました。
+- OpenAIは関連する提供手段として、大学向けのChatGPT Edu、生物学向けのGPT-Rosalindを挙げています。Rosalind Academic Planは、米国の大学の対象研究室に最大30席を最長12か月、無料で提供するもので、利用には信頼できるアクセスの審査が必要です。また、AIが出した数学の成果を検討する新しいSimons Foundationの取り組みに、500万ドルを拠出したとしています。
+
+## 研究「Science at the Frontier」
+
+- OpenAIの経済研究チームは、パイロットに参加した1,819人の科学者による580,186件の科学関連メッセージを分析し、251人の参加者に調査を行いました。メッセージは自動分類器で活動別に分類され、研究チームは元のメッセージ自体は読んでいないとしています。
+- 調査に答えた参加者は、同じ品質の同じ作業をAIなしで行うと、1.9倍の時間がかかると見積もりました。発見までの期間の質問に答えた人のうち98%が、自分の分野でAIが発見を加速すると予想しています。
+- 68%の科学者が、研究アイデアの検討にChatGPTを使いました。そのメッセージでは、科学者が具体的な問いを持ち込んだのが35%、アイデアを持ち込んでChatGPTと磨いたのが36%、ChatGPTに問いの提案を求めたのが23%でした。
+- こうした期待が実際に発見の加速につながるかは、さらなる研究が必要だとOpenAIは述べています。

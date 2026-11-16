@@ -1,14 +1,32 @@
 ---
-title: "Our first phase of embedded assessments"
-description: "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate mod"
+title: "OpenAI、組み込み型評価の第1段階で独立評価者4者と契約"
+description: "Apollo Research、METR、Transluce、Goodfireが社内への深いアクセスを得て、モデルのアラインメントと安全対策を評価します。"
 pubDate: 2026-11-16
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, 安全性, アラインメント, 第三者評価]
 source: https://openai.com/index/our-first-phase-of-embedded-assessments
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、組み込み型評価(embedded assessments)の第1段階として、独立した評価者4者(Apollo Research、METR、Transluce、Goodfire)と契約しました。組み込み型評価とは、外部の専門家が研究所の社内モデルやシステムに長期間にわたって深くアクセスし、モデルのアラインメントと安全対策の有効性を評価する仕組みです。
 
-一次情報: https://openai.com/index/our-first-phase-of-embedded-assessments
+## アクセスと範囲
+
+- 評価ごとの必要に応じて、評価者はモデルのチェックポイント、ソースコード、学習・評価データ、監視システム、技術文書、担当の研究者やエンジニアとの議論にアクセスできます。
+- 最初の評価は、学習中および社内利用中のモデルのアラインメントと安全対策に焦点を当て、OpenAIのセーフティケースを補完します。OpenAIは、これがホワイトハウスの「超知能に関する合意」での約束にも沿うものだと述べています。
+
+## 4つの評価
+
+- Apollo Research: モデルが開発者の意図に反して密かに動く可能性と、安全対策がそれを検知できるかを、2段階・4つの主張(学習が裏切りを促していない、評価とレッドチームで引き出されない、社内利用で試みがない、裏切りの背後の推論は検知可能)で評価します。
+- Goodfire: 解釈可能性の研究者を組み込み、自社プラットフォームでモデル内部を分析します。主な目的は学習実行の監視、デバッグ、アラインメントで、進行に合わせて知見も公開するとしています。
+- METR: これまでで最大の強化学習の実行における不整合な挙動を調べるアラインメント評価と、モニター評価の2つです。より広範なモニター評価は暫定合意で、範囲の合意待ちです。
+- Transluce: 学習後のアラインメント評価の質とカバー範囲を初回評価します。約8週間のフォローアップ評価を2027年初頭に行う意向です。
+
+## 運用ルール
+
+- 機密性の高い情報が必要な評価者は、OpenAIのオフィスでOpenAI支給の端末を使って作業し、少なくとも従業員と同じセキュリティ基準に従います。
+- OpenAI Foundation取締役会の安全・セキュリティ委員会が評価を把握し、未編集の報告書を受け取ります。意見の相違はセーフティ・アドバイザリー・グループと経営陣に、解決しなければ委員会に引き継がれます。
+- 従業員との対話はオフレコで、別途、OpenAIが内容を確認する(attest)経路があります。評価者は公表の独立性を保ちますが、OpenAIは機密情報を伏せる権利を持ち、責任ある開示のための遅延を求めることがあります。利益相反の開示とクーリングオフの手続きは整備中です。
+- 各評価の結果や公表時期は、現時点では明らかにされていません。

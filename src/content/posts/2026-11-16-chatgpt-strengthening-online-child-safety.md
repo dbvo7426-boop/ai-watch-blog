@@ -1,14 +1,29 @@
 ---
-title: "Strengthening the fight against online child sexual abuse with new tools and support"
-description: "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitatio"
+title: "OpenAI、児童性的虐待コンテンツ(CSAM)検出の画像分類器と新たな児童安全対策を公開"
+description: "審査を受けた組織にAPI経由で無料提供する新分類器、24時間アクセスを停止するChatGPTの警告、開発者向けガイダンス、法執行機関向けツールを発表しました。"
 pubDate: 2026-11-16
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, 児童安全, API, 分類器]
 source: https://openai.com/index/strengthening-online-child-safety
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、児童性的虐待コンテンツ(CSAM)を検出する新しいツールに加え、ChatGPTでの介入、開発者向けガイダンス、児童保護にあたる法執行機関への支援を発表しました。
 
-一次情報: https://openai.com/index/strengthening-online-child-safety
+## CSAM画像分類器
+
+- AI生成のものを含む潜在的なCSAMを検出し、レビュー担当者が優先順位を付けられるようスコアを返します。OpenAIは、生成AIによる可能性を示す専用の信号を持つ、広く利用できる初のCSAM分類器だと説明しています。開発と評価にはNCMEC(全米行方不明・被搾取児童センター)の支援を受けました。
+- 審査を受けた組織は、申請フォームを通じてOpenAI API経由で無料で利用できます。共有にあたり、Tech CoalitionとROOSTと連携しました。モデルカードも公開されています。
+- ユーザーがアップロードした画像での評価では、既存のツールと比べ、虐待画像をほぼ同数見つけながら、フラグ付けする画像を48%減らせるとOpenAIは推定しています。フラグが付いた画像に虐待が含まれる割合は約2倍でした。
+- 先行利用パートナーの報告は次のとおりです。falでは高確信度のフラグの72%が新規のCSAMと確認され、invideo AIではフラグ付き案件の4件に1件がアカウント停止につながり、SafetyKitでは子どもを性的に描く絵やアニメーションの90%を検出しました。
+
+## ChatGPTの警告
+
+- 虐待コンテンツを探そうとする試みを中断し、結果を説明して支援先を案内する警告が、ChatGPTに追加されます。該当の会話は削除され、ChatGPTへのアクセスは24時間停止されます。違反を繰り返すと、より長い制限、アカウント閉鎖、当局への通報になる場合があります。
+
+## 開発者と法執行機関向け
+
+- OpenAIは、開発者向けのCSAMガイダンス(ルール、ユーザーからの通報、検出ツール、確認と報告の手順、セーフティ識別子など)を公開しました。Tech Coalition、Thorn、NCMEC、Internet Watch Foundationの意見を取り入れています。また、シグナルを共有・受信するTech CoalitionのLanternプログラムにも参加しました。
+- 児童保護にあたる法執行機関には、ツールとトレーニングを提供します。アクセスはプログラム管理者が管理します。最初のツールは、長いチャットログや法的手続きで得た資料を調べ、関連性を見つけ、出典にひもづいた時系列を作る支援をします。利用は機関の承認が条件です。
