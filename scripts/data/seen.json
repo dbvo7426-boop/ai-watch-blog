@@ -1704,7 +1704,16 @@
     "https://openai.com/index/introducing-chatgpt-wallet",
     "https://openai.com/business/customer-stories/shield",
     "https://openai.com/index/step-toward-defining-the-standard-model",
-    "https://openai.com/index/our-new-blog-for-science"
+    "https://openai.com/index/our-new-blog-for-science",
+    "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "https://openai.com/index/strengthening-online-child-safety",
+    "https://openai.com/index/science-at-the-frontier",
+    "https://openai.com/index/lvmh-media-division-partnership",
+    "https://openai.com/index/our-first-phase-of-embedded-assessments",
+    "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+    "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+    "https://openai.com/index/the-kings-trust-and-openai",
+    "https://openai.com/business/customer-stories/holiday-extras-dots"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1807,7 +1816,8 @@
     "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
     "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/",
-    "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
+    "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1983,7 +1993,8 @@
     "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
     "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
     "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot",
-    "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december"
+    "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+    "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
