@@ -1714,7 +1714,13 @@
     "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
     "https://openai.com/index/the-kings-trust-and-openai",
     "https://openai.com/business/customer-stories/holiday-extras-dots",
-    "https://openai.com/business/customer-stories/revolut"
+    "https://openai.com/business/customer-stories/revolut",
+    "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+    "https://openai.com/index/introducing-openai-for-chile",
+    "https://openai.com/index/astra-law-6-2",
+    "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+    "https://openai.com/ads/customers/vistaprint"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1818,7 +1824,8 @@
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
     "https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/",
     "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
-    "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/"
+    "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -1998,7 +2005,17 @@
     "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
     "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
     "https://github.blog/changelog/2026-11-16-control-where-github-copilot-customizations-come-from",
-    "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027"
+    "https://github.blog/changelog/2026-11-16-vs-code-retires-the-local-harness-in-february-2027",
+    "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
+    "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
+    "https://github.blog/changelog/2026-11-17-github-copilot-app-microsoft-ignite-releases",
+    "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more",
+    "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot",
+    "https://github.blog/changelog/2026-11-17-github-copilot-in-jetbrains-ignite-releases",
+    "https://github.blog/changelog/2026-11-17-monitor-github-copilot-activity-through-microsoft-agent-365",
+    "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
+    "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights",
+    "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
