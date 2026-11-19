@@ -294,7 +294,8 @@
     "https://www.anthropic.com/news/s1-sec",
     "https://www.anthropic.com/news/expanding-partnership-gsa",
     "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
-    "https://www.anthropic.com/news/roadshow-launch"
+    "https://www.anthropic.com/news/roadshow-launch",
+    "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1725,7 +1726,10 @@
     "https://openai.com/index/inside-the-codex-sandbox",
     "https://openai.com/index/the-silent-consensus",
     "https://openai.com/index/advancing-chip-design-with-our-models",
-    "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership"
+    "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+    "https://openai.com/index/research-acceleration-jagged-frontier",
+    "https://openai.com/business/customer-stories/sumitomo-life",
+    "https://openai.com/index/managing-frontier-ai-risk"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1833,7 +1837,8 @@
     "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
     "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders/",
     "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-    "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
+    "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
@@ -2024,7 +2029,9 @@
     "https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview",
     "https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights",
     "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview",
-    "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team"
+    "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team",
+    "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+    "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot"
   ],
   "stablediffusion": [
     "https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models",
