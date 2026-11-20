@@ -295,7 +295,8 @@
     "https://www.anthropic.com/news/expanding-partnership-gsa",
     "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
     "https://www.anthropic.com/news/roadshow-launch",
-    "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+    "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+    "https://www.anthropic.com/news/ipo-close"
   ],
   "chatgpt": [
     "https://openai.com/index/deutsche-telekom",
@@ -1734,7 +1735,9 @@
     "https://openai.com/business/learn/deploying-daybreak-red",
     "https://openai.com/business/learn/pr-scans-demo",
     "https://openai.com/business/learn/codex-security-plugin-demo",
-    "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
+    "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+    "https://openai.com/index/combatting-adversarial-distillation",
+    "https://openai.com/index/introducing-medchembench"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
