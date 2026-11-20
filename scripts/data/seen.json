@@ -1730,7 +1730,11 @@
     "https://openai.com/index/research-acceleration-jagged-frontier",
     "https://openai.com/business/customer-stories/sumitomo-life",
     "https://openai.com/index/managing-frontier-ai-risk",
-    "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+    "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+    "https://openai.com/business/learn/deploying-daybreak-red",
+    "https://openai.com/business/learn/pr-scans-demo",
+    "https://openai.com/business/learn/codex-security-plugin-demo",
+    "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
   ],
   "gemini": [
     "https://blog.google/innovation-and-ai/products/gemini-app/how-to-make-gemini-study-notebooks/",
@@ -1840,7 +1844,8 @@
     "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
     "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-    "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+    "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+    "https://blog.google/innovation-and-ai/products/gemini-app/switch-ai-assistants-transfer-history/"
   ],
   "copilot": [
     "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot",
