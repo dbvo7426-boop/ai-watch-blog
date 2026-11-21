@@ -1,14 +1,20 @@
 ---
-title: "How OpenAI’s Performance Factory keeps ChatGPT fast"
-description: "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance iss"
+title: "OpenAI、ChatGPTの遅延を調査するCodexシステム「Performance Factory」を解説"
+description: "OpenAIが、性能劣化の原因特定と修正案作成をCodexで自動化するクラウド型ワークフローの仕組みを公開しました。"
 pubDate: 2026-11-19
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, Codex, ChatGPT, パフォーマンス, エンジニアリング]
 source: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、ChatGPTの性能問題の調査と修正を自動化するクラウド型システム「Performance Factory」について、エンジニアリング記事を公開しました。CodexとOpenAIのモデルを使います。
 
-一次情報: https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast
+- **これまでの成果:** 最初のワークフロー(Regression Workflow)は3か月強で1,700件超の調査を追跡し、600件超で根本原因を特定しました。1日あたり約17件の自動調査です。
+- **構成要素:** 設定ファイルとMarkdownのプロンプトでワークフローを定義するタスクサービス、準備できたタスクごとにCodexのターンを起動するディスパッチループ、社内ネットワーク内でサービスIDの限定された権限で動くクラウド上のCodex、レビューコメントやCI失敗、デプロイなどのイベントでタスクを再開するサブスクリプション。
+- **ワークフローの段階:** 要調査、原因特定済み、修正案提示、解決。エージェントが原因特定と修正案作成を行い、エンジニアがレビューしてデプロイし、エージェントが回復を確認します。
+- **敵対的レビュー:** 別のCodexセッションが診断を反証しようとします。原因候補100件を手作業で確認したところ、70%が正確と評価され、残る30%は精緻化が必要か因果関係の立証が不十分でした。
+- **得られた知見:** 関連インシデントを結び付けて推定影響度で順位付けしエンジニアの注意を守る、過去のインシデントでバックテストする、毎日エージェントがツール障害を検出して修正タスクを作る。
+- **今後の予定:** アラートを待たない能動的な監視、サービスのライトサイジング、合成性能テスト、低リスクの修正を人のレビューなしで出荷できるかの検討。

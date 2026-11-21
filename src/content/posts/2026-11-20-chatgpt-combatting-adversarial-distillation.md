@@ -1,14 +1,20 @@
 ---
-title: "Combatting adversarial distillation"
-description: "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to"
+title: "OpenAI、敵対的蒸留への多層防御を解説"
+description: "GPT-6.2 Astraで推論抽出の成功率が大幅に低下したことと、アカウント群を対象にした取り締まりの内容を公開しました。"
 pubDate: 2026-11-20
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, 安全性, 蒸留, API, セキュリティ]
 source: https://openai.com/index/combatting-adversarial-distillation
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、フロンティアモデルの出力を無断で使い、安全策のないモデルを学習させる「敵対的蒸留」をどう検知・阻止しているかを公開しました。モデルの思考過程(保護された推論)の保護を重視しています。
 
-一次情報: https://openai.com/index/combatting-adversarial-distillation
+- **安全策の成果:** 社内の適応型レッドチーム評価で、以前のプロンプトから保護された推論を復元する攻撃の平均成功率は、54.0%(GPT-6 Astra、従来の安全策)から0.2%(GPT-6.2 Astra、更新後)に低下しました。6種の攻撃モデルを用いたブラックボックス評価では、現在のリクエストからの復元が22.9%から0.9%に低下。一部の改善はGPT-6 Astraにも適用中です。
+- **サイバー分野の蒸留研究:** 教師あり微調整後は、推論の要約より正確な推論トレースで学習した生徒モデルのほうが概ね高性能でした。軽い強化学習の後も、最大の推論予算ではExploitBenchとSEC-bench Proの両方でトレース学習の生徒が上回りました。
+- **リクエスト単位の防御:** 保護された推論の開示を拒否する敵対的学習と、アシスタントメッセージやツール呼び出し引数を対象にした入出力の分類器。
+- **APIの保護:** GPT-6.2 AstraとSolは、保護された推論を生成元の会話履歴に結び付けます。過去のメッセージが書き換えられると、その後の推論は破棄されます。旧モデル群はこれを読み取れません。他ユーザーの暗号化された推論が露出し得る経路も塞ぎました。
+- **キャンペーン単位の取り締まり:** 2026年に無許可の蒸留キャンペーンを複数確認し、週ごとの措置は数千から数万アカウントに及びます。9月のキャンペーンの中核はMoonshot AIに関係する個人によるものとしており、他社とも指標を共有しています。
+- 他の開発者には、やり取り全体で推論を保護すること、成功した攻撃を回帰テスト化すること、リクエスト単位と組織的対策を組み合わせること、提携先と連携することを推奨しています。

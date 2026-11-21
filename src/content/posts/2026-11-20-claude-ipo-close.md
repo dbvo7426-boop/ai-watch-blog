@@ -1,14 +1,34 @@
 ---
-title: "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement"
-description: "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its"
+title: "Anthropic、IPOを1株83ドルで価格決定し完了 約935億ドルを調達、別途260億ドルの私募も"
+description: "1株83ドルのクラスA株は2026年11月19日にナスダックでティッカーANTとして取引を開始。引受人の追加購入権の全額行使と同時のクラスN株私募を合わせ、総調達額は約1,195億ドルです。"
 pubDate: 2026-11-20
 category: claude
 type: news
-tags: []
+tags: [Anthropic, IPO, ナスダック, ANT]
 source: https://www.anthropic.com/news/ipo-close
-draft: true
+draft: false
+importance: high
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+Anthropic, PBCは2026年11月20日、新規株式公開(IPO)の完了を発表しました。11月10日のロードショーでは、8億2,500万株を1株70〜78ドルで売り出す想定でしたが、最終価格は想定レンジを上回る83.00ドルで、株数も増えました。
 
-一次情報: https://www.anthropic.com/news/ipo-close
+## 経緯
+
+- **11月18日:** SECが登録届出書の効力発生を宣言し、1株83.00ドル(価格決定時はクラスA株9億8,000万株)で価格が決まりました。
+- **11月19日:** クラスA株がナスダック・グローバル・セレクト・マーケットでティッカーANTとして取引を開始しました。
+- **11月20日:** 募集が完了しました。
+
+## 募集の内容
+
+- **株数:** クラスA株11億2,700万株を83.00ドルで売り出し。引受人によるAnthropicからの追加1億4,700万株の購入権は全額行使されました。
+- **売り手:** Anthropicが1,103,351,354株、一部の売出株主が23,648,646株を売却しました。売出株主分の収入はAnthropicには入りません。
+- **総調達額:** 引受割引・手数料・諸費用の差し引き前で約935億ドル、うちAnthropicの受取分は約916億ドルです。
+- **主幹事:** Goldman Sachs & Co. LLCとMorgan Stanley。
+
+## 同時私募
+
+- クラスN普通株313,253,007株を83.00ドルで発行し、約260億ドル。
+- 購入者はAMD、Broadcom、Google、Micron、Microsoft、NVIDIA、TSMC Partnersです。
+- クラスN株は1933年証券法に基づく登録はされていません。
+
+IPOと私募を合わせた総調達額は、引受割引・手数料・諸費用の差し引き前で約1,195億ドルです。
