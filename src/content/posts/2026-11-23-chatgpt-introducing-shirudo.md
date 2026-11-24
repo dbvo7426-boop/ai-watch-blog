@@ -1,14 +1,26 @@
 ---
-title: "OpenAI and Cisco introduce Shirudo"
-description: "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they "
+title: "OpenAIとCisco、Linux向けオープンソース実行環境「Shirudo」を公開 パッチ適用中のシステムを保護"
+description: "eBPFのシールドで稼働中のLinuxサービスへの攻撃を再起動なしで遮断。BSD 2-Clauseで公開されました。"
 pubDate: 2026-11-23
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, Cisco, Shirudo, eBPF, セキュリティ, Codex, オープンソース]
 source: https://openai.com/index/introducing-shirudo
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIとCiscoは、パッチ適用の間もLinuxシステムを守るオープンソースの実行環境「Shirudo」を公開しました。名前は日本語の「盾」に由来します。
 
-一次情報: https://openai.com/index/introducing-shirudo
+**解決したい課題:** パッチのテストと展開には数日から数週間かかることがあります。攻撃と正規のリクエストが同じLinux操作に依存する場合、その操作を丸ごと止めるとサービスが停止しかねません。Shirudoでは「シールド」と呼ぶ一時的な防御策を用意し、脆弱性につながる挙動だけを遮断し正規のリクエストは通せるかをテストできます。運用者が承認すれば、サービスを動かしたままシールドを適用できます。
+
+**仕組み:** Linuxのオペレーティングシステム内の特定の箇所で小さなプログラムを実行できる技術「eBPF」を使います。主な特長は次の4点です。
+
+- **ライブ保護:** 再起動せずに脆弱なコード経路を遮断。適用前にアプリへの影響を監視できます。
+- **マシン速度の防御:** エージェントが脆弱性の調査、シールドの作成、攻撃や実際のワークロードに対する検証を行えるようにする設計です。何を展開するかはセキュリティチームが管理します。
+- **信頼できる展開:** シールドは暗号署名され、読み込み前に検証されます。LinuxのeBPFベリファイアも安全規則を確認します。
+- **ハードウェアによる検証:** TPMにより、防御策の読み込み・解除の検証可能な記録を支えます。
+
+**テスト結果:** 管理された環境で、Codexが生成したシールドをElasticsearchの稼働中プロセスに取り付けました。このシールドはJavaのBase64デコーダーに入力チェックを加えるもので、Java4Shellの攻撃を、Elasticsearchを止めずに遮断しました。
+
+**提供形態:** コードはGitHubでBSD 2-Clauseライセンス(BPFプログラムはBSDとGPLのデュアル)で公開。VMのクイックスタート、Isovalentの自習ラボ、12月15日の技術ウェビナーが案内されています。両社は、脆弱性の公開と合わせて検証済みシールドを提供することを目指すとしています。料金や本番利用の成熟度は公表されていません。
