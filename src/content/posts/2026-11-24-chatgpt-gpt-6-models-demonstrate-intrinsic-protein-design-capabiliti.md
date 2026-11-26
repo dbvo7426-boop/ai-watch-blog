@@ -1,14 +1,40 @@
 ---
-title: "GPT-6 models demonstrate intrinsic protein-design capabilities"
-description: "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding acros"
+title: "OpenAI、GPT-6モデルが推論とコードだけでタンパク質を設計できると発表"
+description: "プレプリントとOnavaとの実験で、GPT-6.2の設計に基づくタンパク質が5つの標的で結合の証拠を示した。ただし構造予測は課題として残る。"
 pubDate: 2026-11-24
 category: chatgpt
 type: news
-tags: []
+tags: [OpenAI, GPT-6, GPT-6.2, タンパク質設計, 生物学, 研究]
 source: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
-draft: true
+draft: false
+importance: medium
 ---
 
-<!-- watch.mjs が自動検知したスタブ記事です。generate.mjs 実行後、または手動で本文を追記してください。 -->
+OpenAIは、プレプリント「GPT-6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models」を公表しました。GPT-6ファミリーが、特化した生物学モデルを呼び出すことなく、推論と汎用のコーディングツールだけで新しいタンパク質の構造と配列を設計できるとしています。
 
-一次情報: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
+**主な結果**
+
+- 社内の研究用モデルは、多くのタンパク質設計タスクで特化モデルと同等かそれ以上の成績でした。結合させたい場所や形をプロンプトで指定して設計を誘導することもできたとしています。
+- 研究パートナーのOnavaとの実験では、GPT-6.2(公開前バージョン)の設計に基づくタンパク質が、5つの標的で結合の証拠を示しました。再設計した抗体も結合を保ちました。
+- ラボでの作業では特化モデルも併用しています。SolubleMPNNがアミノ酸配列を提案し、他のモデルが試験する候補の選定を助けました。
+
+**実験1: 小型の結合タンパク質(ミニバインダー)**
+
+GPT-6.2が5つの標的向けにコードで3D設計を生成しました。試験した322個のうち35個(10.9%)が結合陽性で、内訳はPD-L1が5、IL-7Rαが3、TrkAが1、VEGF-Aが8、IL-17Aが18です。元のRFdiffusionの研究はより高いヒット率を報告していますが、率は事前の絞り込みの厳しさや結合の定義に大きく左右される、とOpenAIは述べています。計算上の品質スコアでは、GPT-6.2はRFdiffusionをわずかに下回り、最新の社内モデルは上回りました。
+
+**実験2: 配列の設計**
+
+既存ミニバインダーの立体構造を与え、元の配列を伏せて新しい配列を提案させました。初期スクリーニングでは、MDM2が88件中75件、VEGF-Aが42件中26件、PD-1が59件中8件で結合を確認しています。未公開の3つの形状では、107個中14個(13.1%)が結合しました。OpenAIは、記憶を超える能力を示す証拠だとしています。
+
+**抗体**
+
+IL-4Rαに結合する6つの小型抗体(VHH)で3つの結合ループを再設計したところ、182件中128件(70%)に結合の兆候がありました。5つの治療用抗体では、ループのアミノ酸の約半分を変えた272個の断片のうち179個(66%)が、PD-1またはPD-L1に結合しました。
+
+**計算上の評価**
+
+- モチーフスキャフォールディング(MotifBench 30課題): 最新の社内モデル43.7%、RFdiffusion 27.8%。
+- フォールドを指定した設計(200課題): 18.9%、Proteinaは17.1%。
+- 低分子ドッキング(PoseBusters): GPT-6.2は93%、最新の社内モデルは96%、DiffDock-Lは50%。
+- 抗体ドッキング(側鎖を隠した平均DockQ): GPT-5.6が約0.05、GPT-6が0.28、GPT-6.2が0.57、最新の社内モデルが0.81。
+
+**留意点:** タンパク質全体の構造予測は明確な弱点として残りました。試験に使った構造は公開データのため、学習時に類似の組を見ていた可能性があります。設計した酵素が意図した機能を果たすかは、今後のラボ実験が必要です。社内研究モデルの提供については明らかにされていません。
